@@ -1,15 +1,14 @@
 {
-	"category" : "ToDo-Core",
+	"category" : "BaselineOfCollabCodeEdit",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"todos",
-		"currentTodo" ],
-	"name" : "ToDoTool",
+		 ],
+	"name" : "BaselineOfCollabCodeEdit",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "BaselineOf",
 	"type" : "normal" }
