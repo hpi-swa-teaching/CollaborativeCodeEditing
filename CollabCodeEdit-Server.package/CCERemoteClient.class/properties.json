@@ -1,13 +1,13 @@
 {
-	"category" : "CollabCodeEdit-Core",
+	"category" : "CollabCodeEdit-Server",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ST 4/25/2019 09:35",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "FirstClass",
+		"socket" ],
+	"name" : "CCERemoteClient",
 	"pools" : [
 		 ],
 	"super" : "Object",

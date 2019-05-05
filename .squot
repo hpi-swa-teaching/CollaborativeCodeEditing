@@ -1,5 +1,7 @@
 OrderedDictionary {
 	'packages\/CollabCodeEdit-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/CollabCodeEdit-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/BaselineOfCollabCodeEdit.package' : #SquotCypressCodeSerializer
+	'packages\/BaselineOfCollabCodeEdit.package' : #SquotCypressCodeSerializer,
+	'CollabCodeEdit-Client.package' : #SquotCypressCodeSerializer,
+	'CollabCodeEdit-Server.package' : #SquotCypressCodeSerializer
 }
