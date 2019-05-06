@@ -1,3 +1,3 @@
 startup
-start
+startTestClientToLocalhost
 	self startConnectionTo: 'http://localhost:8080'.
