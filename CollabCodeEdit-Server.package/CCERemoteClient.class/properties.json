@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"socket" ],
+	"name" : "CCERemoteClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
