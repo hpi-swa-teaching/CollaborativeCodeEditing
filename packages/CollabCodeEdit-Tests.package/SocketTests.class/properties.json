@@ -1,0 +1,15 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server",
+		"client" ],
+	"name" : "SocketTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
