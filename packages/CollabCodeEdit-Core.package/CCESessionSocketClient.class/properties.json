@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ST 4/25/2019 09:35",
+	"commentStamp" : "",
 	"instvars" : [
-		"test" ],
-	"name" : "FirstClass",
+		 ],
+	"name" : "CCESessionSocketClient",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CCESessionSocket",
 	"type" : "normal" }
