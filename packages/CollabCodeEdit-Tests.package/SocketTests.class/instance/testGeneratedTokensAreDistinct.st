@@ -1,6 +1,5 @@
 test-initialize
 testGeneratedTokensAreDistinct
-
 	| sessionTokens token |
 	
 	sessionTokens := OrderedCollection new.
@@ -8,7 +7,7 @@ testGeneratedTokensAreDistinct
 		token := self server createSessionToken.
 		
 		self deny: (sessionTokens includes: token).
-		sessionTokens add: token ].
+		sessionTokens add: token ]
 	
 	
 	
