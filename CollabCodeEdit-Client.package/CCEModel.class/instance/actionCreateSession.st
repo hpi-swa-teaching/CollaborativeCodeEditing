@@ -2,7 +2,7 @@ actions
 actionCreateSession
 	
 	self createSessionModel 
-		packagesList: {'helo' . 'huhu'};
+		packagesList: CCEPackageManager new listAvailablePackages;
 		parentModel: self.
 	ToolBuilder open: self createSessionModel.
 	
