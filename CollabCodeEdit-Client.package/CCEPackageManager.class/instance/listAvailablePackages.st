@@ -1,4 +1,4 @@
 accessing
 listAvailablePackages
 
-	^ CCEPackageOrganizer default getPackages keys.
+	^ PackageOrganizer default getPackages keys.
