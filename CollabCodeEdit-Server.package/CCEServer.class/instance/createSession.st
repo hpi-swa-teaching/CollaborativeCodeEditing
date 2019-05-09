@@ -2,7 +2,6 @@ session management
 createSession
 	| session |
 
-	self sessionSeed: self sessionSeed + 1. "TODO: Use randomization"
-	session := CCERemoteSession new initializeWithSeed: sessionSeed.
+	session := CCERemoteSession new initializeWithSeed: self createSessionToken.
 	self sessions at: session token put: session.
 	^ session
