@@ -12,6 +12,11 @@ buildClassDictionaryForPackage: aString
 		
 			methodHashes := self buildMethodDictionaryForClass: aClass.
 			classHash := methodHashes at: #hashSum.
+			
+			classHash := classHash + aClass instVarNames hash + aClass comment hash + aClass classVariablesString hash + aClass sharedPoolsString hash + aClass category hash.
+			
+			methodHashes at: #hashSum put: classHash.
+			
 			packageHash := packageHash + classHash.
 			classesWithHashes add: aClass -> methodHashes].
 	
