@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEqualityOfHashesAfterHashingTheSamePackageTwice" : "MS 5/15/2019 11:27" } }
+		"testEqualityOfHashesAfterHashingTheSamePackageTwice" : "MS 5/15/2019 11:27",
+		"testHashAfterChangingCommentInClass" : "MS 5/17/2019 21:30" } }
