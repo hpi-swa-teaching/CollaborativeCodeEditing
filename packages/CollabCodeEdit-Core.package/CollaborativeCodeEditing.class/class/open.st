@@ -1,4 +1,3 @@
 as yet unclassified
 open
-
-	CCEModel open.
+	CCEModel open

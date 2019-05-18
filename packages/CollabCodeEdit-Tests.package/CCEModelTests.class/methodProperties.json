@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "ST 5/15/2019 11:20",
+		"testAfterCreateSessionWindowSessionScopeNotNil" : "ST 5/15/2019 12:17",
+		"testBuildButtonsReturnsCollectionOfButtons" : "ST 5/15/2019 12:25",
+		"testBuildButtonsReturnsCollectionOfThreeButtons" : "ST 5/15/2019 15:06",
+		"testBuildCreateSessionButtonAsEbabled" : "ST 5/15/2019 11:43",
+		"testBuildJoinSessionButtonAsEnabled" : "ST 5/15/2019 11:34",
+		"testBuildLeaveSessionButtonAsDisabled" : "ST 5/15/2019 11:40",
+		"testBuildWindow" : "ST 5/15/2019 12:23",
+		"testBuildWithReturnsWindow" : "ST 5/15/2019 12:23" } }
