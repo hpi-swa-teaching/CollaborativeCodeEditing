@@ -6,6 +6,4 @@ createSession: aMessage from: aClient
 		addClient: aClient;
 		token.
 	
-	aClient sendMsg: (CCEMessage
-		new: #ACK_CREATE_SESSION
-		with: { #token -> sessionToken })
+	aClient sendMsg: (CCEMessage ackCreateSession: sessionToken)

@@ -7,15 +7,8 @@ joinSession: aMessage from: aClient
 	sessions
 		at: sessionToken
 		ifPresent: [ :session |
-			session broadcastMsg: (CCEMessage
-				new: #NEW_USER
-				with: nil).
-			
+			session broadcastMsg: CCEMessage newUser.
 			session addClient: aClient.
-			aClient sendMsg: (CCEMessage
-				new: #ACK_JOIN_SESSION
-				with: nil) ]
+			aClient sendMsg: CCEMessage ackJoinSession ]
 		ifAbsent: [
-			aClient sendMsg: (CCEMessage
-				new: #ACK_JOIN_SESSION
-				with: { #error -> 'Session not found' }) ]
+			aClient sendMsg: CCEMessage ackJoinSessionSessionNotFound ]

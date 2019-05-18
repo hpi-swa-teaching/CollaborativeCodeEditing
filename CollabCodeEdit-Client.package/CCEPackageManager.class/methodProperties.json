@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"default" : "ST 5/18/2019 17:53",
+		"instance" : "ST 5/18/2019 17:56",
+		"instance:" : "ST 5/18/2019 17:56" },
 	"instance" : {
 		"buildClassDictionaryForPackage:" : "MS 5/15/2019 14:28",
 		"buildMethodDictionaryForClass:" : "MS 5/9/2019 16:46",

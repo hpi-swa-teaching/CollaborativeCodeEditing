@@ -1,16 +1,15 @@
 {
 	"category" : "CollabCodeEdit-Client",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"createSessionModel",
-		"sessionScope",
-		"client" ],
-	"name" : "CCEModel",
+		"scope",
+		"checksum" ],
+	"name" : "CCESession",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

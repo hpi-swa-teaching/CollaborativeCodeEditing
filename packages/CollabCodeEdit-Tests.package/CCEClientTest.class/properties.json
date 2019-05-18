@@ -1,16 +1,14 @@
 {
-	"category" : "CollabCodeEdit-Client",
+	"category" : "CollabCodeEdit-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"createSessionModel",
-		"sessionScope",
 		"client" ],
-	"name" : "CCEModel",
+	"name" : "CCEClientTest",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TestCase",
 	"type" : "normal" }

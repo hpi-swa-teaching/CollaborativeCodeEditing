@@ -1,15 +1,14 @@
 {
-	"category" : "CollabCodeEdit-Client",
+	"category" : "CollabCodeEdit-Tests",
 	"classinstvars" : [
-		"instance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"socket",
-		"owner" ],
-	"name" : "CCEClient",
+		"session" ],
+	"name" : "CCESessionTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

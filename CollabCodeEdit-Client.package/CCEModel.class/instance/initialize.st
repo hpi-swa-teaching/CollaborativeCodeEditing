@@ -1,5 +1,4 @@
 initialize
 initialize
-
 	super initialize.
-	self createSessionModel: CCECreateSessionModel new
+	self createSessionModel: CCECreateSessionModel new.
