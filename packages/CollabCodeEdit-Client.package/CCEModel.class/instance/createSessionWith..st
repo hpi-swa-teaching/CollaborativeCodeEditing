@@ -3,9 +3,8 @@ createSessionWith: anOrderedDictionary
 	| sessionHash |	 
 	
 	self sessionScope: anOrderedDictionary.	
-	CCEPackageManager default sessionPackages: anOrderedDictionary asArray.
 	
-	sessionHash := CCEPackageManager default sessionHash.
+	sessionHash := CCEPackageManager default hashPackages: anOrderedDictionary asArray.
 	
 	^ CCESession default
 		scope: anOrderedDictionary asArray;
