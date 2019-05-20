@@ -1,4 +1,0 @@
-defaults
-defaultLabel
-
-	^ 'Create session'
