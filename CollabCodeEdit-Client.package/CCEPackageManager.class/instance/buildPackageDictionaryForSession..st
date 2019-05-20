@@ -1,12 +1,11 @@
 hashing
-buildPackageDictionaryForSession
-	
+buildPackageDictionaryForSession: anArray	
 	| packagesWithHashes sessionHash |
 	
 	packagesWithHashes := OrderedDictionary new.
 	sessionHash := 0.
 	
-	self sessionPackages keys do:
+	anArray do:
 		[ :aPackageName | 
 			| packageDictionary |
 		

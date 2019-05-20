@@ -6,11 +6,9 @@
 	"instance" : {
 		"buildClassDictionaryForPackage:" : "MS 5/15/2019 14:28",
 		"buildMethodDictionaryForClass:" : "MS 5/9/2019 16:46",
-		"buildPackageDictionaryForSession" : "MS 5/9/2019 17:19",
+		"buildPackageDictionaryForSession:" : "MS 5/19/2019 12:00",
 		"calculateHashOfMethodSourceCode:" : "MS 5/9/2019 16:39",
+		"hashPackages:" : "MS 5/19/2019 12:01",
 		"listAvailablePackages" : "MS 5/9/2019 18:06",
-		"listClassesOfPackage:" : "MS 5/9/2019 17:19",
-		"listMethodsOfClass:" : "MS 5/9/2019 13:16",
-		"sessionHash" : "MS 5/15/2019 11:20",
-		"sessionPackages" : "MS 5/9/2019 16:37",
-		"sessionPackages:" : "MS 5/9/2019 16:39" } }
+		"listClassesOfPackage:" : "MS 5/19/2019 12:34",
+		"listMethodsOfClass:" : "MS 5/9/2019 13:16" } }
