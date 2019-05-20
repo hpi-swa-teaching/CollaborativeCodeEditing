@@ -1,5 +1,5 @@
 building
 buildButtonsWith: aBuilder
-	^ { self buildCreateSessionButtonWith: aBuilder .
+	^ OrderedCollection newFrom: { self buildCreateSessionButtonWith: aBuilder .
 		 self buildJoinSessionButtonWith: aBuilder .
 		 self buildLeaveSessionButtonWith: aBuilder}

@@ -1,3 +1,4 @@
 running
 setUp
-	^ session := CCESession default.
+	session := CCESession default.
+	server := CCEServer new start.

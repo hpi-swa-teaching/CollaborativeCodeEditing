@@ -1,16 +1,14 @@
 {
 	"category" : "CollabCodeEdit-Client",
 	"classinstvars" : [
-		"instance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scope",
-		"checksum",
-		"token" ],
-	"name" : "CCESession",
+		"sessionToken" ],
+	"name" : "CCEJoinSessionModel",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "CCEChildModel",
 	"type" : "normal" }

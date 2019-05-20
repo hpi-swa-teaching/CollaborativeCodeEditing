@@ -1,6 +1,6 @@
 accessing
 client
 	^ client ifNil: [ 
-		client := CCEClient new 
+		client := CCEClient default
 			owner: self;
-			start. ]
+			start]

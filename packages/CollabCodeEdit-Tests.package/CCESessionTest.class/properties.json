@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"session" ],
+		"session",
+		"server" ],
 	"name" : "CCESessionTest",
 	"pools" : [
 		 ],

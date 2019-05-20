@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"packagesList",
-		"parentModel",
 		"selectedPackagesList" ],
 	"name" : "CCECreateSessionModel",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "CCEChildModel",
 	"type" : "normal" }

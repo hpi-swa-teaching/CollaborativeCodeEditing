@@ -1,3 +1,3 @@
 as yet unclassified
 recieve: aString
-	Transcript show: aString; cr.
+	Transcript show: 'client response-----------', aString; cr.

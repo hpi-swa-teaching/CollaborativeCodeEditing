@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ST 5/18/2019 20:13",
-		"tearDown" : "ST 5/18/2019 21:01",
+		"setUp" : "ST 5/20/2019 11:54",
+		"tearDown" : "ST 5/20/2019 11:54",
 		"testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload" : "ST 5/18/2019 21:47",
 		"testDefaultShouldAlwaysReturnTheSameInstance" : "ST 5/18/2019 20:14",
 		"testPublishSessionShouldCreateASessionObjectInCCEServer" : "ST 5/18/2019 21:41",

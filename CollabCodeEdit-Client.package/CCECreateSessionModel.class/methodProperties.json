@@ -1,8 +1,7 @@
 {
 	"class" : {
 		"defaultExtent" : "ST 5/9/2019 14:35",
-		"defaultLabel" : "ST 5/9/2019 14:21",
-		"open" : "ST 5/9/2019 14:11" },
+		"defaultLabel" : "ST 5/9/2019 14:21" },
 	"instance" : {
 		"actionNextButton" : "ST 5/9/2019 15:57",
 		"buildNextButton:" : "ST 5/9/2019 14:37",
@@ -15,7 +14,5 @@
 		"packagesList:" : "ST 5/9/2019 14:18",
 		"packagesSelected" : "ST 5/9/2019 15:23",
 		"packagesSelected:" : "ST 5/9/2019 15:31",
-		"parentModel" : "ST 5/9/2019 14:34",
-		"parentModel:" : "ST 5/9/2019 14:34",
 		"selectedPackagesList" : "ST 5/9/2019 15:32",
 		"selectedPackagesList:" : "ST 5/9/2019 15:32" } }

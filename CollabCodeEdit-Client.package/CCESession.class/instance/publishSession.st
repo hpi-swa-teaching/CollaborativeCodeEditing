@@ -4,4 +4,3 @@ publishSession
 	
 	message := CCEMessage createSessionWith: self createSessionPayload.	
 	CCEClient default sendMsg: message.
-	

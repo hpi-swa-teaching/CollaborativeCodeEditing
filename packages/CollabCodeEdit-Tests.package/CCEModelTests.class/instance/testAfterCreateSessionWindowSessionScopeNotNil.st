@@ -10,3 +10,4 @@ testAfterCreateSessionWindowSessionScopeNotNil
 	self assert: (model sessionScope notNil).
 	
 	
+	

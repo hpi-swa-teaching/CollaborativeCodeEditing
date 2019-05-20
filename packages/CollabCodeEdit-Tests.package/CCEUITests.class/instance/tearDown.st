@@ -1,5 +1,5 @@
-tests
+running
 tearDown
-
+	CCESession reset.
 	model changed: #close.
-	self newMorphs do: [:each | each delete]
+	model createSessionModel changed: #close.

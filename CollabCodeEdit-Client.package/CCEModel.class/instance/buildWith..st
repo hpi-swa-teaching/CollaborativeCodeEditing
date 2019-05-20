@@ -5,5 +5,5 @@ buildWith: aBuilder
 		model: self;
 		label: CCEModel defaultApplicationLabel;
 		extent: CCEModel defaultApplicationExtent;
-		children: (self buildButtonsWith: aBuilder);
+		children: (self buildChildrenWith: aBuilder);
 		yourself)
