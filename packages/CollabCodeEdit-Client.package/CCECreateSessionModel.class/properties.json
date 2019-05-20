@@ -1,0 +1,15 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packagesList",
+		"selectedPackagesList" ],
+	"name" : "CCECreateSessionModel",
+	"pools" : [
+		 ],
+	"super" : "CCEChildModel",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"defaultExtent" : "ST 5/9/2019 14:35",
+		"defaultLabel" : "ST 5/9/2019 14:21" },
+	"instance" : {
+		"actionNextButton" : "ST 5/9/2019 15:57",
+		"buildNextButton:" : "ST 5/9/2019 14:37",
+		"buildPackagesList:" : "ST 5/9/2019 15:36",
+		"buildWith:" : "ST 5/9/2019 15:44",
+		"initialize" : "ST 5/9/2019 15:09",
+		"packagesAt:" : "ST 5/9/2019 15:32",
+		"packagesAt:put:" : "ST 5/9/2019 15:39",
+		"packagesList" : "ST 5/9/2019 14:18",
+		"packagesList:" : "ST 5/9/2019 14:18",
+		"packagesSelected" : "ST 5/9/2019 15:23",
+		"packagesSelected:" : "ST 5/9/2019 15:31",
+		"selectedPackagesList" : "ST 5/9/2019 15:32",
+		"selectedPackagesList:" : "ST 5/9/2019 15:32" } }
