@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDefaultShouldAlwaysReturnSameInstance" : "ST 5/18/2019 17:58",
-		"testEqualityOfHashesAfterHashingTheSamePackageTwice" : "MS 5/15/2019 11:27",
-		"testHashAfterChangingCommentInClass" : "MS 5/17/2019 21:30" } }
+		"setUp" : " 5/22/2019 14:33:46",
+		"tearDown" : " 5/22/2019 14:33:46",
+		"testCCEPackageManagerIsSingelton" : " 5/22/2019 14:33:46",
+		"testHashchangesAfterMetaClassInformationChange" : "ST 5/22/2019 14:31" } }

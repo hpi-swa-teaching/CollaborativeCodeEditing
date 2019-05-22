@@ -7,6 +7,6 @@ testCreateSessionWithShouldFillCCESessionWithSessionScopeAndSessionHash
 	self assert: cceSession scope == expectedSessionScope.
 	
 	CCEPackageManager default sessionPackages: expectedSessionScope.	
-	self assert: cceSession checksum == CCEPackageManager default sessionHash.
+	self assert: cceSession checksum == (CCEPackageManager default hashPackages: #('Signals'))
 	
 	

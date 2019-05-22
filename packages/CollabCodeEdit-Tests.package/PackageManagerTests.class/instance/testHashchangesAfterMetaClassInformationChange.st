@@ -7,7 +7,7 @@ testHashchangesAfterMetaClassInformationChange
 	testClass := (PackageInfo named: 'Signals') classes first.
 	
 	originalComment := testClass comment.
-	
+ 
 	hashBeforeChange := packageManager hashPackages: #( 'Signals' ).
 	
 	testClass comment: 'This comment was changed by packageManagerTest'.
