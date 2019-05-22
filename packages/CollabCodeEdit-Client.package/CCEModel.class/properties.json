@@ -1,0 +1,17 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"createSessionModel",
+		"sessionScope",
+		"client",
+		"joinSessionModel" ],
+	"name" : "CCEModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

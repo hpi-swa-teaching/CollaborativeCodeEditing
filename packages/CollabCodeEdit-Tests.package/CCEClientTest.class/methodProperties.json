@@ -1,0 +1,6 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "ST 5/18/2019 19:51",
+		"testDefaultShouldAlwaysReturnTheSameInstance" : "ST 5/18/2019 19:52" } }

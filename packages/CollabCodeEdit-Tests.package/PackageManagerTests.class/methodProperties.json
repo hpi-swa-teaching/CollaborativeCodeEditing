@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : " 5/22/2019 14:33:46",
+		"tearDown" : " 5/22/2019 14:33:46",
+		"testCCEPackageManagerIsSingelton" : " 5/22/2019 14:33:46",
+		"testHashchangesAfterMetaClassInformationChange" : "ST 5/22/2019 14:31" } }

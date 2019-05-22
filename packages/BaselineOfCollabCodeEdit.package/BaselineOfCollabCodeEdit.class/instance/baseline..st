@@ -9,8 +9,8 @@ baseline: spec
 				package: 'CollabCodeEdit-Server';
 				package: 'CollabCodeEdit-Client';
 				package: 'CollabCodeEdit-Tests' with: 
-					[spec requires: #('CollabCodeEdit-Core',
-						'CollabCodeEdit-Server',
+					[spec requires: #('CollabCodeEdit-Core' 
+						'CollabCodeEdit-Server' 
 						'CollabCodeEdit-Client')];
 				yourself.
 			spec

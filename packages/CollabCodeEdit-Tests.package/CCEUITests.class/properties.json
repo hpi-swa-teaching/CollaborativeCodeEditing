@@ -1,0 +1,15 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"preTestWindows" ],
+	"name" : "CCEUITests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
