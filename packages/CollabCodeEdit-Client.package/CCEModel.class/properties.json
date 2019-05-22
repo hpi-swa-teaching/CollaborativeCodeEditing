@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"createSessionModel",
-		"sessionScope",
 		"client",
 		"joinSessionModel" ],
 	"name" : "CCEModel",

@@ -4,6 +4,10 @@
 		"defaultApplicationLabel" : "ST 5/9/2019 12:50",
 		"open" : "ST 5/9/2019 12:58" },
 	"instance" : {
+		"ackCreateSession:" : "ST 5/22/2019 16:56",
+		"ackCreateSessionWithError:" : "ST 5/22/2019 16:52",
+		"ackJoinSession:" : "ST 5/22/2019 16:24",
+		"ackJoinSessionWithError:" : "ST 5/22/2019 16:27",
 		"actionCreateSession" : "ST 5/18/2019 18:10",
 		"actionJoinSession" : "ST 5/20/2019 12:07",
 		"buildButtonsWith:" : "ST 5/19/2019 12:16",
@@ -20,11 +24,10 @@
 		"client:" : "ST 5/18/2019 18:06",
 		"createSessionModel" : "ST 5/9/2019 14:29",
 		"createSessionModel:" : "ST 5/9/2019 14:29",
-		"createSessionWith:" : "ST 5/20/2019 12:09",
+		"createSessionWith:" : "ST 5/22/2019 15:14",
 		"initialize" : "ST 5/20/2019 12:18",
 		"joinSessionModel" : "ST 5/20/2019 12:06",
 		"joinSessionModel:" : "ST 5/20/2019 12:06",
 		"joinSessionWith:" : "ST 5/20/2019 12:18",
-		"recieve:" : "ST 5/20/2019 11:36",
-		"sessionScope" : "ST 5/9/2019 15:56",
-		"sessionScope:" : "ST 5/9/2019 15:56" } }
+		"newUser" : "ST 5/22/2019 16:26",
+		"recieve:" : "ST 5/22/2019 16:45" } }

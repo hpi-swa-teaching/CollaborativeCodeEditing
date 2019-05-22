@@ -1,0 +1,2 @@
+request-handling
+ackJoinSession: anOrderedDictionary

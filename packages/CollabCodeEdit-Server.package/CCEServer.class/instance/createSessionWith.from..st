@@ -1,5 +1,5 @@
 request handling
-createSession: aMessage from: aClient
+createSessionWith: aMessage from: aClient
 	| sessionToken |
 
 	sessionToken := self createSession

@@ -1,3 +1,3 @@
 client-Message creation
 joinSession: aSessionToken
-	^ self new: #JOIN_SESSION with: { #token -> aSessionToken }
+	^ self new: #joinSession:from: with: { #token -> aSessionToken }

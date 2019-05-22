@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"ackCreateSession:" : "AW 5/10/2019 12:20",
-		"ackCreateSession:withError:" : "AW 5/10/2019 12:21",
-		"ackJoinSession" : "AW 5/10/2019 12:31",
-		"ackJoinSessionSessionNotFound" : "AW 5/10/2019 12:36",
-		"createSession" : "AW 5/10/2019 12:10",
-		"createSessionWith:" : "ST 5/18/2019 19:14",
+		"ackCreateSession:" : "ST 5/22/2019 16:19",
+		"ackCreateSession:withError:" : "ST 5/22/2019 16:02",
+		"ackJoinSession" : "ST 5/22/2019 16:26",
+		"ackJoinSessionSessionNotFound" : "ST 5/22/2019 16:03",
+		"createSession" : "ST 5/22/2019 16:04",
+		"createSessionWith:" : "ST 5/22/2019 16:17",
 		"deserialize:" : "PB 5/5/2019 21:45",
-		"joinSession:" : "AW 5/10/2019 12:11",
+		"joinSession:" : "ST 5/22/2019 16:17",
 		"new:with:" : "PB 5/5/2019 22:57",
-		"newUser" : "AW 5/10/2019 12:32" },
+		"newUser" : "ST 5/22/2019 16:03" },
 	"instance" : {
 		"payload" : "PB 5/5/2019 21:34",
 		"payload:" : "PB 5/5/2019 21:34",

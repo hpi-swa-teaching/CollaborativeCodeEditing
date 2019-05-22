@@ -1,3 +1,3 @@
 client-Message creation
 createSession
-	^ self new: #CREATE_SESSION with: nil
+	^ self new: #createSession with: nil

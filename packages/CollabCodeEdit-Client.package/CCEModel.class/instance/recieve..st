@@ -1,3 +1,10 @@
 as yet unclassified
-recieve: aString
-	Transcript show: 'client response-----------', aString; cr.
+recieve: someData
+	| message | 
+	
+	message := [ (CCEMessage deserialize: someData) ] ifError: [
+		Transcript cr; show: 'Invalid message: ', someData.
+		^ self ].
+	
+	[ self perform: (message type) with: (message payload)] ifError: [
+		]

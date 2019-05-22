@@ -1,0 +1,2 @@
+request-handling
+ackJoinSessionWithError: aString
