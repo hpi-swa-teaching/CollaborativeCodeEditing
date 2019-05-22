@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ST 5/19/2019 10:25",
+		"setUp" : "ST 5/22/2019 20:43",
 		"tearDown" : "ST 5/19/2019 10:25",
-		"testSimultaniouslyRunningSessionsHaveDisctinctSessionTokens" : "ST 5/19/2019 11:04" } }
+		"testCreateSessionAddsNewSessionToSessions" : "ST 5/22/2019 20:44",
+		"testCreateSessionWithShouldReturnCorrectlyFilledCCERemoteSession" : "ST 5/22/2019 20:44",
+		"testSimultaniouslyRunningSessionsHaveDisctinctSessionTokens" : "ST 5/22/2019 20:44" } }

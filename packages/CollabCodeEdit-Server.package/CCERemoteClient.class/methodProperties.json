@@ -2,6 +2,8 @@
 	"class" : {
 		"newFromSocket:" : "PB 5/5/2019 22:25" },
 	"instance" : {
+		"identifier" : "ST 5/22/2019 20:26",
+		"identifier:" : "ST 5/22/2019 20:26",
 		"onClose:" : "PB 5/5/2019 22:29",
 		"onError:" : "PB 5/5/2019 22:29",
 		"onMessage:" : "PB 5/5/2019 22:29",
@@ -9,6 +11,8 @@
 		"run" : "PB 5/5/2019 22:38",
 		"send:" : "PB 5/5/2019 22:26",
 		"sendMsg:" : "PB 5/5/2019 22:36",
+		"session" : "ST 5/22/2019 19:47",
+		"session:" : "ST 5/22/2019 19:47",
 		"socket" : "PB 5/5/2019 22:24",
 		"socket:" : "PB 5/5/2019 22:24",
 		"timeout:" : "PB 5/5/2019 22:30" } }

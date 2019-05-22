@@ -2,12 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCCEModelUnderstandsAckCreateSessionActionType" : "ST 5/22/2019 16:23",
-		"testCCEModelUnderstandsAckCreateSessionWithErrorActionType" : "ST 5/22/2019 16:23",
+		"testCCEModelUnderstandsAckCreateSessionType" : "ST 5/22/2019 20:20",
+		"testCCEModelUnderstandsAckCreateSessionWithErrorType" : "ST 5/22/2019 20:20",
 		"testCCEModelUnderstandsAckJoinSessionNotFoundType" : "ST 5/22/2019 16:23",
 		"testCCEModelUnderstandsAckJoinSessionType" : "ST 5/22/2019 16:22",
-		"testCCEModelUnderstandsNewUserType" : "ST 5/22/2019 16:23",
-		"testCCEServerUnderstandsCreateSessionActionType" : "ST 5/22/2019 15:39",
+		"testCCEModelUnderstandsNewUserType" : "ST 5/22/2019 20:20",
+		"testCCEModelUnderstandsSetOtherUserConsistentType" : "ST 5/22/2019 20:21",
 		"testCCEServerUnderstandsCreateSessionWithActionType" : "ST 5/22/2019 15:44",
 		"testCCEServerUnderstandsJoinSessionActionType" : "ST 5/22/2019 16:06",
+		"testCCEServerUnderstandsSetConsistentActionType" : "ST 5/22/2019 19:40",
 		"testNewWithCreatesMessageObjectWithTypeAndPayload" : "ST 5/22/2019 15:38" } }

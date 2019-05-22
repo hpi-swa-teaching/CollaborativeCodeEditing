@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"socket",
-		"owner" ],
+		"owner",
+		"connected" ],
 	"name" : "CCEClient",
 	"pools" : [
 		 ],

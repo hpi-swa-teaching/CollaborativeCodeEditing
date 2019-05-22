@@ -2,7 +2,7 @@ tests
 testSimultaniouslyRunningSessionsHaveDisctinctSessionTokens
 	| sessionKeys | 
 	sessionKeys := OrderedCollection new.
-	4 timesRepeat: [server createSession].
+	4 timesRepeat: [server createSessionWith: testPayload].
 	
 	server sessions keys do: [:key |
 		 (sessionKeys includes: key asString) ifTrue: [self fail].

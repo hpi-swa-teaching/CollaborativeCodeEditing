@@ -1,8 +1,8 @@
 request handling
-createSessionWith: aMessage from: aClient
+createSessionWith: anOrderedDictionary from: aClient
 	| sessionToken |
 
-	sessionToken := self createSession
+	sessionToken := (self createSessionWith: anOrderedDictionary)
 		addClient: aClient;
 		token.
     

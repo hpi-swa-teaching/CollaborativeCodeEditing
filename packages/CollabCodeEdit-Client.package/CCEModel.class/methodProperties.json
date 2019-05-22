@@ -2,11 +2,12 @@
 	"class" : {
 		"defaultApplicationExtent" : "ST 5/15/2019 11:40",
 		"defaultApplicationLabel" : "ST 5/9/2019 12:50",
+		"initialize" : "ST 5/22/2019 17:43",
 		"open" : "ST 5/9/2019 12:58" },
 	"instance" : {
 		"ackCreateSession:" : "ST 5/22/2019 16:56",
 		"ackCreateSessionWithError:" : "ST 5/22/2019 16:52",
-		"ackJoinSession:" : "ST 5/22/2019 16:24",
+		"ackJoinSession:" : "ST 5/22/2019 19:27",
 		"ackJoinSessionWithError:" : "ST 5/22/2019 16:27",
 		"actionCreateSession" : "ST 5/18/2019 18:10",
 		"actionJoinSession" : "ST 5/20/2019 12:07",
@@ -20,14 +21,13 @@
 		"buildSessionTokenDisplayWith:" : "ST 5/19/2019 12:34",
 		"buildSessionWith:" : "ST 5/19/2019 11:41",
 		"buildWith:" : "ST 5/19/2019 11:22",
-		"client" : "ST 5/20/2019 11:58",
-		"client:" : "ST 5/18/2019 18:06",
 		"createSessionModel" : "ST 5/9/2019 14:29",
 		"createSessionModel:" : "ST 5/9/2019 14:29",
-		"createSessionWith:" : "ST 5/22/2019 15:14",
-		"initialize" : "ST 5/20/2019 12:18",
+		"createSessionWith:" : "ST 5/22/2019 18:56",
+		"initialize" : "ST 5/22/2019 18:08",
 		"joinSessionModel" : "ST 5/20/2019 12:06",
 		"joinSessionModel:" : "ST 5/20/2019 12:06",
-		"joinSessionWith:" : "ST 5/20/2019 12:18",
+		"joinSessionWith:" : "ST 5/22/2019 19:22",
 		"newUser" : "ST 5/22/2019 16:26",
-		"recieve:" : "ST 5/22/2019 16:45" } }
+		"recieve:" : "ST 5/22/2019 16:45",
+		"setOtherUserConsistent:" : "ST 5/22/2019 20:25" } }

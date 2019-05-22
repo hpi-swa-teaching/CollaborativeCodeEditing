@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"token" ],
+		"token",
+		"scope",
+		"initialChecksum" ],
 	"name" : "CCERemoteSession",
 	"pools" : [
 		 ],

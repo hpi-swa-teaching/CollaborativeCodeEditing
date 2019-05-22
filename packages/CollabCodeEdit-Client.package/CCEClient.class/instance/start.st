@@ -1,3 +1,3 @@
 startup
 start
-	self startConnectionTo: 'http://172.16.74.45:8080'.
+	self startConnectionTo: 'http://0.tcp.ngrok.io:10113'.
