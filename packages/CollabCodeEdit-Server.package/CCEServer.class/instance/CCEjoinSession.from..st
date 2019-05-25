@@ -1,5 +1,5 @@
 request handling
-joinSession: aMessage from: aClient
+CCEjoinSession: aMessage from: aClient
 	| sessionToken |
 
 	sessionToken := aMessage payload at: #token.

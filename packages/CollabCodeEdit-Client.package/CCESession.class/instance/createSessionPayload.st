@@ -1,4 +1,4 @@
-messaging
+request-sending
 createSessionPayload
 	^ OrderedDictionary newFrom: {
 		#scope -> self scope.

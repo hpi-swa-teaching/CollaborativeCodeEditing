@@ -1,3 +1,3 @@
 server-Message creation
 newUser
-	^ self new: #newUser with: nil
+	^ self new: (CCEMessage serverMsgTypes at: #newUser) with: nil

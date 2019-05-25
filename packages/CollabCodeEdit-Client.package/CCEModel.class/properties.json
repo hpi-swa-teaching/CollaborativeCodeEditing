@@ -8,7 +8,8 @@
 	"instvars" : [
 		"createSessionModel",
 		"joinSessionModel",
-		"session" ],
+		"session",
+		"client" ],
 	"name" : "CCEModel",
 	"pools" : [
 		 ],

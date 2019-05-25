@@ -1,6 +1,6 @@
-connection-managment
+request-sending
 requestJoinSessionWith: aTokenString
 	| message | 
 	
 	message := CCEMessage joinSession: aTokenString.	
-	CCEClient default sendMsg: message.
+	self client sendMsg: message.

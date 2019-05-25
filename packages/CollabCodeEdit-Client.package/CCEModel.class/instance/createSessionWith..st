@@ -1,9 +1,9 @@
-as yet unclassified
+ui calls
 createSessionWith: anOrderedDictionary	
 	| sessionHash |	 
 			
 	sessionHash := CCEPackageManager default hashPackages: anOrderedDictionary asArray.
 	
-	^ CCESession default
+	^ self session
 		scope: anOrderedDictionary asArray;
 		checksum: sessionHash.

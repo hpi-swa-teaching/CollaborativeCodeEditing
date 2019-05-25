@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNewWithCreatesMessageObjectWithTypeAndPayload
 	| expectedCCEMessage generatedCCEMessage  | 
 	

@@ -1,3 +1,0 @@
-request-handling
-ackJoinSession: anOrderedDictionary
-	CCESession default checkCleanStateWith: anOrderedDictionary.

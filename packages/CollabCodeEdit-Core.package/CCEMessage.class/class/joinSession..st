@@ -1,3 +1,3 @@
 client-Message creation
 joinSession: aSessionToken
-	^ self new: #joinSession:from: with: { #token -> aSessionToken }
+	^ self new: (CCEMessage clientMsgTypes at:#joinSession:from:) with: { #token -> aSessionToken }

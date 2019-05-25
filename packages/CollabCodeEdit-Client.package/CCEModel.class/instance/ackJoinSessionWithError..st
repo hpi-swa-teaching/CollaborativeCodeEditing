@@ -1,2 +1,0 @@
-request-handling
-ackJoinSessionWithError: aString

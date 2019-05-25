@@ -1,3 +1,0 @@
-request-handling
-ackCreateSession: anOrderedDictionary
-	CCESession default ackCreateSession: anOrderedDictionary.

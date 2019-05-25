@@ -6,6 +6,6 @@ onMessage: someData from: aClient
 		Transcript cr; show: 'Invalid message: ', someData.
 		^ self ].
 	
-	[self perform: (message type) with: (message payload) with: aClient]
+	[self perform: ((CCEMessage prefix , message type) asSymbol) with: (message payload) with: aClient]
 			ifError: [ :ex :rcvr |
 					Transcript cr; show: 'Error handling message: ', ex.]

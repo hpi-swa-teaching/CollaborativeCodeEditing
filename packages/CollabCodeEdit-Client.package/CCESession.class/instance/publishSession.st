@@ -1,6 +1,6 @@
-connection-managment
+request-sending
 publishSession
 	| message | 
 	
 	message := CCEMessage createSessionWith: self createSessionPayload.	
-	CCEClient default sendMsg: message.
+	self client sendMsg: message.

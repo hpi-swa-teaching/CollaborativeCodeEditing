@@ -1,3 +1,3 @@
-as yet unclassified
+ui calls
 joinSessionWith: aTokenString
-	CCESession default requestJoinSession: aTokenString
+	self session requestJoinSession: aTokenString

@@ -1,4 +1,4 @@
-as yet unclassified
+backend calls
 recieve: someData
 	| message | 
 	
@@ -6,5 +6,5 @@ recieve: someData
 		Transcript cr; show: 'Invalid message: ', someData.
 		^ self ].
 	
-	[ self perform: (message type) with: (message payload)] ifError: [
+	[ self perform: ((CCEMessage prefix, message type) asSymbol) with: (message payload)] ifError: [
 		]

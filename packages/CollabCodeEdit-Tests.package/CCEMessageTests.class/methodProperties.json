@@ -2,13 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCCEModelUnderstandsAckCreateSessionType" : "ST 5/22/2019 20:20",
-		"testCCEModelUnderstandsAckCreateSessionWithErrorType" : "ST 5/22/2019 20:20",
-		"testCCEModelUnderstandsAckJoinSessionNotFoundType" : "ST 5/22/2019 16:23",
-		"testCCEModelUnderstandsAckJoinSessionType" : "ST 5/22/2019 16:22",
-		"testCCEModelUnderstandsNewUserType" : "ST 5/22/2019 20:20",
-		"testCCEModelUnderstandsSetOtherUserConsistentType" : "ST 5/22/2019 20:21",
-		"testCCEServerUnderstandsCreateSessionWithActionType" : "ST 5/22/2019 15:44",
-		"testCCEServerUnderstandsJoinSessionActionType" : "ST 5/22/2019 16:06",
-		"testCCEServerUnderstandsSetConsistentActionType" : "ST 5/22/2019 19:40",
+		"testCCEModelUnderstandsAllCCEMessageActionTypesForClient" : "ST 5/25/2019 13:36",
+		"testCCEServerUnderstandsAllCCEMessageActionTypesForServer" : "ST 5/25/2019 13:35",
 		"testNewWithCreatesMessageObjectWithTypeAndPayload" : "ST 5/22/2019 15:38" } }

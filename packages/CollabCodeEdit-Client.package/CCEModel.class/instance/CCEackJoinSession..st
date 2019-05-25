@@ -1,0 +1,3 @@
+request-handling
+CCEackJoinSession: anOrderedDictionary
+	self session checkCleanStateWith: anOrderedDictionary.

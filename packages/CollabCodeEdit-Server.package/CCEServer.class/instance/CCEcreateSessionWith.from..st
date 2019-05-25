@@ -1,5 +1,5 @@
 request handling
-createSessionWith: anOrderedDictionary from: aClient
+CCEcreateSessionWith: anOrderedDictionary from: aClient
 	| sessionToken |
 
 	sessionToken := (self createSessionWith: anOrderedDictionary)

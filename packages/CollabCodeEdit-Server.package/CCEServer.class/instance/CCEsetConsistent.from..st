@@ -1,3 +1,3 @@
 consistency managment
-setConsistent: aBoolean from: aClient
+CCEsetConsistent: aBoolean from: aClient
 	aClient session broadcastMsg: (CCEMessage setOtherUser: (aClient identifier) consistent: aBoolean )

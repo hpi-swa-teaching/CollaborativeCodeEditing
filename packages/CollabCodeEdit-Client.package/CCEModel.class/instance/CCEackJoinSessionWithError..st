@@ -1,0 +1,2 @@
+request-handling
+CCEackJoinSessionWithError: aString
