@@ -1,0 +1,3 @@
+constants
+createButtonLabel
+	^ 'Create Session'

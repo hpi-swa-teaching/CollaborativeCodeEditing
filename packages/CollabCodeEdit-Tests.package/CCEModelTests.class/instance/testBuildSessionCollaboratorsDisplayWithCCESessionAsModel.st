@@ -1,5 +1,5 @@
 tests-building
-testBuildSessionScopeDisplayWithCCESessionAsModel
+testBuildSessionCollaboratorsDisplayWithCCESessionAsModel
 	| spec |
 	spec := model buildSessionScopeDisplayWith: toolbuilder.
 	self assert: (spec isKindOf: ToolBuilderSpec).

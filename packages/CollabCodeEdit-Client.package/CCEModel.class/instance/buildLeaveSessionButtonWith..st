@@ -3,7 +3,7 @@ buildLeaveSessionButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new 
 		model: self;
 		enabled: false;
-		label: 'Leave Session';
+		label: CCEModel leaveButtonLabel;
 		action: #actionLeaveSession;
 		frame:  (LayoutFrame new
 				topFraction: 0;

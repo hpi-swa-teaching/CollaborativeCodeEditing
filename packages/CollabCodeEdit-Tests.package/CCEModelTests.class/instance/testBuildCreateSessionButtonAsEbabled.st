@@ -4,4 +4,3 @@ testBuildCreateSessionButtonAsEbabled
 	spec := model buildCreateSessionButtonWith: toolbuilder.
 	self assert: (spec isKindOf: ToolBuilderSpec).
 	self assert: (spec enabled)
-	

@@ -9,7 +9,8 @@
 		"scope",
 		"checksum",
 		"token",
-		"client" ],
+		"client",
+		"collaborators" ],
 	"name" : "CCESession",
 	"pools" : [
 		 ],

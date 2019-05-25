@@ -1,11 +1,11 @@
 building
-buildSessionScopeDisplayWith: aBuilder
+buildSessionCollaboratorsDisplayWith: aBuilder
 	^ aBuilder pluggableListSpec new 
 		model: CCESession default;
-		list: #scope;
+		list: #collaborators;
 		frame:  (LayoutFrame new
-				topFraction: 0.2;
-				bottomFraction: 0.4;
+				topFraction: 0.4;
+				bottomFraction: 0.6;
 				leftFraction: 0;
 				rightFraction: 1;
 				yourself)

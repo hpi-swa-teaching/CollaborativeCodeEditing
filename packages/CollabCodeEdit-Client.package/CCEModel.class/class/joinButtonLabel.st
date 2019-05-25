@@ -1,0 +1,3 @@
+constants
+joinButtonLabel
+	^ 'Join Session'

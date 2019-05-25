@@ -9,7 +9,8 @@
 		"createSessionModel",
 		"joinSessionModel",
 		"session",
-		"client" ],
+		"client",
+		"sessionCtrlButtons" ],
 	"name" : "CCEModel",
 	"pools" : [
 		 ],
