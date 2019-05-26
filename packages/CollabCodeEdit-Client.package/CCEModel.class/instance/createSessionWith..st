@@ -1,4 +1,4 @@
-ui calls
+requests ui
 createSessionWith: anOrderedDictionary	
 	| sessionHash |	 
 			
@@ -6,4 +6,5 @@ createSessionWith: anOrderedDictionary
 	
 	^ self session
 		scope: anOrderedDictionary asArray;
-		checksum: sessionHash.
+		checksum: sessionHash;
+		publishSession.

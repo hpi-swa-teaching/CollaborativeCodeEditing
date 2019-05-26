@@ -4,9 +4,11 @@
 	"instance" : {
 		"addClient:" : "ST 5/22/2019 19:50",
 		"breakdown" : "PB 5/5/2019 21:16",
+		"createSessionPayload" : "SS 5/26/2019 10:27",
+		"handleNewUser:" : "SS 5/26/2019 10:28",
 		"initialChecksum" : "ST 5/22/2019 20:34",
 		"initialChecksum:" : "ST 5/22/2019 20:34",
-		"initialize" : "PB 5/5/2019 22:16",
+		"initialize" : "SS 5/26/2019 10:27",
 		"initializeWithSeed:" : "5/22/2019 14:43:44",
 		"scope" : "ST 5/22/2019 20:30",
 		"scope:" : "ST 5/22/2019 20:30",

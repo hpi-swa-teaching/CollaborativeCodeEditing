@@ -6,9 +6,7 @@ CCEjoinSession: aMessage from: aClient
 	
 	sessions
 		at: sessionToken
-		ifPresent: [ :session |
-			session broadcastMsg: CCEMessage newUser.
-			session addClient: aClient.
-			aClient sendMsg: CCEMessage ackJoinSession ]
+		ifPresent: [ 
+			:session | session handleNewUser: aClient]
 		ifAbsent: [
 			aClient sendMsg: CCEMessage ackJoinSessionSessionNotFound ]

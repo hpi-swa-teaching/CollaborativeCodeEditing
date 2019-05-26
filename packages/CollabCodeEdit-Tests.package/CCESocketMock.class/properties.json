@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"session1",
-		"session2",
-		"session3",
-		"server",
-		"client1",
-		"client2",
-		"client3" ],
-	"name" : "CCESessionIntegrationTest",
+		"messages" ],
+	"name" : "CCESocketMock",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }

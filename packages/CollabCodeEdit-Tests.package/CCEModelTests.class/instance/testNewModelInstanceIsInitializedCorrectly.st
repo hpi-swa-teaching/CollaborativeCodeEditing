@@ -1,4 +1,4 @@
-tests-session
+tests
 testNewModelInstanceIsInitializedCorrectly
 	| model | 
 	model := CCEModel new.

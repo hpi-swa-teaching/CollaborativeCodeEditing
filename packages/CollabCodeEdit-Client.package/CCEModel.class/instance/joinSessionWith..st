@@ -1,3 +1,3 @@
-ui calls
+requests ui
 joinSessionWith: aTokenString
-	self session requestJoinSession: aTokenString
+	self session requestJoinSessionWith: aTokenString

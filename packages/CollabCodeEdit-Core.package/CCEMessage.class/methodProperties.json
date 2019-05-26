@@ -4,6 +4,7 @@
 		"ackCreateSession:withError:" : "ST 5/25/2019 14:02",
 		"ackJoinSession" : "ST 5/25/2019 14:03",
 		"ackJoinSessionSessionNotFound" : "ST 5/25/2019 14:03",
+		"ackJoinSessionWith:" : "SS 5/26/2019 10:22",
 		"clientMsgTypes" : "ST 5/25/2019 13:19",
 		"createSessionWith:" : "ST 5/25/2019 14:01",
 		"deserialize:" : "PB 5/5/2019 21:45",
