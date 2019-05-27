@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"humanReadableName" ],
+	"name" : "CCEAccount",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
