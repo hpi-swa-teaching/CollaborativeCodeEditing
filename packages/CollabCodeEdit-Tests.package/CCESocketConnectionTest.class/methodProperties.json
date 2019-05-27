@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "SS 5/27/2019 18:03",
+		"tearDown" : "SS 5/27/2019 18:02",
+		"testClientServerStartUp" : "SS 5/27/2019 18:03",
+		"testNetMessageTransmissionViaExampleMessage" : "SS 5/27/2019 18:12" } }

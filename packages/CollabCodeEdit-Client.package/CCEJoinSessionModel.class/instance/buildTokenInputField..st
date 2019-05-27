@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildTokenInputField: aBuilder
 
 	^ aBuilder pluggableTextSpec new

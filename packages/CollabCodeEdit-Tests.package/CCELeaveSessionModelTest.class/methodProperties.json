@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"modelUnderTestClass" : "SS 5/27/2019 16:49",
+		"testActionCancelButtonClosesModel" : "SS 5/27/2019 16:54",
+		"testActionLeaveButtonClosesModel" : "SS 5/27/2019 16:56",
+		"testBuildProceedButtonAndCancelButtonWithReturnButtons" : "SS 5/27/2019 16:22",
+		"testModelUnderstandsActionsOfProceedAndCancelButton" : "SS 5/27/2019 16:22" } }

@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"createSessionModel",
-		"joinSessionModel",
-		"session",
-		"client",
-		"sessionCtrlButtons",
-		"leaveSessionModel" ],
-	"name" : "CCEModel",
+		 ],
+	"name" : "CCELeaveSessionModel",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "CCEChildModel",
 	"type" : "normal" }

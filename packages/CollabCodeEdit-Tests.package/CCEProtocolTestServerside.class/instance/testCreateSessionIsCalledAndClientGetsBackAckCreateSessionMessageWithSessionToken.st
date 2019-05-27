@@ -6,4 +6,4 @@ testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToke
 	
 	server onMessage: createSessionMessage serialize from: client1.
 	
-	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackCreateSession:)).
+	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackCreateSession:))

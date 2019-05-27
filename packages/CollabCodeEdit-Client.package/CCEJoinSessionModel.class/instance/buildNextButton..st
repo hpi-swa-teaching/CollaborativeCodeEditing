@@ -1,6 +1,5 @@
-as yet unclassified
+building
 buildNextButton: aBuilder
-
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Next';

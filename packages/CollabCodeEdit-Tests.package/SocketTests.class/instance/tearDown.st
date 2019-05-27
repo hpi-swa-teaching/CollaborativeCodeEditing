@@ -1,3 +1,0 @@
-running
-tearDown
-	server breakdown

@@ -5,6 +5,6 @@ buildWith: aBuilder
 		model: self;
 		label: self class defaultLabel;
 		extent: self class defaultExtent;
-		children: { self buildTokenInputField: aBuilder . self buildNextButton: aBuilder};
+		children: { self buildLeaveButtonWith: aBuilder . self buildCancelButtonWith: aBuilder};
 		yourself).
 		
