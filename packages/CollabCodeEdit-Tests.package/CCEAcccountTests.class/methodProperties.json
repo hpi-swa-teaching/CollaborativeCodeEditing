@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AD 5/27/2019 20:36",
+		"testChangeHumanReadableName" : "AD 5/27/2019 20:44",
+		"testHumanReadableNameDefaultsToAuthorInitials" : "AD 5/27/2019 20:46" } }
