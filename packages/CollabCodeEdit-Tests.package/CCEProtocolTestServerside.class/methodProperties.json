@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "SS 5/26/2019 21:35",
+		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "SS 5/26/2019 21:43",
+		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 5/26/2019 21:36" } }

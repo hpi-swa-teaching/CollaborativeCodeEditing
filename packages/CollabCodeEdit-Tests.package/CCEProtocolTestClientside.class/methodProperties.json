@@ -5,7 +5,7 @@
 		"setUp" : "SS 5/26/2019 10:38",
 		"testAckCreateSessionIsCalledAndFillsSessionWithServersideGeneratedToken" : "SS 5/26/2019 10:51",
 		"testAckJoinSessionCleanStateFillsSessionWithCorrectInfomationAndSendsSetConsistentTrueToServer" : "SS 5/26/2019 11:20",
-		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServer" : "SS 5/26/2019 11:20",
+		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServer" : "SS 5/26/2019 20:59",
 		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum" : "SS 5/26/2019 09:56",
 		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 5/26/2019 09:44",
 		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 5/26/2019 09:49" } }

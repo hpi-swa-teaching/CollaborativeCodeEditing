@@ -1,7 +1,6 @@
 requests backend
 testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServer
-	| ackJoinSessionMessage |
-	
+	| ackJoinSessionMessage |	
 	testSessionPayload at: #checksum put:  ((testSessionPayload at: #checksum) + 1).
 	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testSessionPayload.
 	

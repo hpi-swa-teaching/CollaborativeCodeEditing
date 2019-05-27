@@ -6,4 +6,5 @@
 		"tearDown" : "ST 5/25/2019 17:53",
 		"testHasMessage" : "SS 5/26/2019 09:31",
 		"testHasMessageOfType" : "SS 5/26/2019 10:32",
-		"testSendShouldAddMessageToDictionaryWithStringAsKeyAndCCEMessageAsValue" : "ST 5/25/2019 18:07" } }
+		"testSendShouldAddMessageToDictionaryWithStringAsKeyAndCCEMessageAsValue" : "ST 5/25/2019 18:07",
+		"testSingleMessage" : "SS 5/26/2019 21:47" } }
