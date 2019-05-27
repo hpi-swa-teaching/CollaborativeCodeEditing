@@ -1,3 +1,3 @@
 accessing
-sessionScope: anObject
-	sessionScope := anObject
+sessionScope: anOrderedDictionary
+	sessionScope := anOrderedDictionary

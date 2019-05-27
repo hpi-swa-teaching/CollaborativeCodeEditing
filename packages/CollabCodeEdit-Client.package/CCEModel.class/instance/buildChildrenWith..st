@@ -4,4 +4,4 @@ buildChildrenWith: aBuilder
 	allChildren := self buildButtonsWith: aBuilder.
 	allChildren addAll: (self buildSessionDisplayWith: aBuilder).
 	
-	^ allChildren.
+	^ allChildren

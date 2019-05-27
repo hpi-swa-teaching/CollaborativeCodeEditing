@@ -1,3 +1,3 @@
 accessing
-createSessionModel: anObject
-	createSessionModel := anObject
+createSessionModel: aCCECreateSessionModel
+	createSessionModel := aCCECreateSessionModel
