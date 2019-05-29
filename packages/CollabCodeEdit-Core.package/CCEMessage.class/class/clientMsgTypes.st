@@ -1,6 +1,7 @@
 constants
 clientMsgTypes
-	^ clientMsgTypes ifNil: [clientMsgTypes := OrderedDictionary newFrom: {
+	^ OrderedDictionary newFrom: {
 			#createSessionWith:from: -> #createSessionWith:from: .
 			#joinSession:from: -> #joinSession:from: .
-			#setConsistent:from: -> #setConsistent:from: }]
+			#setConsistent:from: -> #setConsistent:from: .
+			#leaveSessionWith:from: -> #leaveSessionWith:from: }

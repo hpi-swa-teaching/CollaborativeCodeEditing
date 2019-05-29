@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "SS 5/26/2019 21:35",
-		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "SS 5/26/2019 21:43",
-		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 5/26/2019 21:36" } }
+		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "MS 5/28/2019 22:28",
+		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 5/26/2019 21:36",
+		"testLeaveSessionIsCalledAndClientGetsBackAckLeaveSessionMessage" : "MS 5/29/2019 21:22",
+		"testLeaveSessionShouldDeleteClientInRemoteSession" : "MS 5/29/2019 21:17" } }
