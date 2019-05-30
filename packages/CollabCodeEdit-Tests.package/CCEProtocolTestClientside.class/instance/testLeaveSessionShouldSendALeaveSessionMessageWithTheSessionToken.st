@@ -1,13 +1,10 @@
 requests ui
 testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionToken
-	| expectedPayload expectedMessage | 	
+	| expectedMessage | 	
 	
-	expectedPayload := OrderedDictionary newFrom: {
-		#token -> #testToken}.
-		
-	expectedMessage := CCEMessage leaveSessionWith: #testToken.
-	model session token: #testToken.
+	expectedMessage := CCEMessage leaveSessionWith: testToken.
+	model session token: testToken.
 	
-	model leaveSession.	
+	model leaveSession.
 	
 	self assert: (networkInterface hasMessage: expectedMessage serialize)

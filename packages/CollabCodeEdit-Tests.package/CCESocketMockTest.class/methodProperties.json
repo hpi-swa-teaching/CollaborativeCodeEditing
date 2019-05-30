@@ -4,7 +4,7 @@
 	"instance" : {
 		"setUp" : "ST 5/25/2019 17:54",
 		"tearDown" : "ST 5/25/2019 17:53",
-		"testClear" : "SS 5/30/2019 15:48",
+		"testClear" : "SS 5/30/2019 21:06",
 		"testHasMessage" : "SS 5/26/2019 09:31",
 		"testHasMessageOfType" : "SS 5/26/2019 10:32",
 		"testSendShouldAddMessageToDictionaryWithStringAsKeyAndCCEMessageAsValue" : "ST 5/25/2019 18:07",

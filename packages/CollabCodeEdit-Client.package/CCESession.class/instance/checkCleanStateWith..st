@@ -7,7 +7,8 @@ checkCleanStateWith: anOrderedDictionary
 	
 	((CCEPackageManager default hashPackages: remoteSessionScope) = remoteSessionHash)
 		ifTrue: [ 
-			self fillSessionWithScope: remoteSessionScope andChecksum: remoteSessionHash.
+			self setCleanSessionWith: remoteSessionScope and: remoteSessionHash.
 			self client sendMsg: (CCEMessage setConsistent: true)]
 		ifFalse: [
+			self setDirtySessionWith: remoteSessionHash and: remoteSessionHash.
 			self client sendMsg: (CCEMessage setConsistent: false)]

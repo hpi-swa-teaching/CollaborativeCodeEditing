@@ -5,5 +5,5 @@
 		"setUp" : "SS 5/26/2019 21:35",
 		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "SS 5/27/2019 15:56",
 		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 5/26/2019 21:36",
-		"testLeaveSessionIsCalledAndClientGetsBackAckLeaveSessionMessage" : "MS 5/29/2019 21:22",
+		"testLeaveSessionIsCalledAndClientGetsBackAckLeaveSessionMessage" : "SS 5/30/2019 21:12",
 		"testLeaveSessionShouldDeleteClientInRemoteSession" : "MS 5/29/2019 21:17" } }

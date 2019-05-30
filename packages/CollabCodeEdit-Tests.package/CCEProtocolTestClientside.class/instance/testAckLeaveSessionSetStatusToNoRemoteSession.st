@@ -2,7 +2,7 @@ requests backend
 testAckLeaveSessionSetStatusToNoRemoteSession
 	| ackMessage |
 	
-	ackMessage := CCEMessage ackLeaveSession.
+	ackMessage := CCEMessage ackLeaveSessionWith: testAckSessionPayload.
 	
 	model recieve: ackMessage serialize.
 	

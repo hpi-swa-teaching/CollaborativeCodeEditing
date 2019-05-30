@@ -10,10 +10,11 @@
 		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "SS 5/30/2019 15:52",
 		"testAckJoinSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 5/30/2019 15:57",
 		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirtyRemoteSession" : "SS 5/30/2019 15:52",
-		"testAckLeaveSessionClearsSessionInformation" : "SS 5/30/2019 15:42",
-		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 5/30/2019 15:39",
-		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 5/30/2019 15:59",
+		"testAckLeaveSessionClearsSessionInformation" : "SS 5/30/2019 21:01",
+		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 5/30/2019 21:01",
+		"testAckLeaveSessionResetSession" : "SS 5/30/2019 21:01",
+		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 5/30/2019 21:01",
 		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum" : "SS 5/26/2019 09:56",
 		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 5/26/2019 09:44",
 		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 5/26/2019 09:49",
-		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionToken" : "SS 5/30/2019 15:37" } }
+		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionToken" : "SS 5/30/2019 21:18" } }

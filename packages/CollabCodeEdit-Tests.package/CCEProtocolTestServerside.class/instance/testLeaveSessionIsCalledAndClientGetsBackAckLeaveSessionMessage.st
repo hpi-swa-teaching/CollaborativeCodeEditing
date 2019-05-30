@@ -7,8 +7,8 @@ testLeaveSessionIsCalledAndClientGetsBackAckLeaveSessionMessage
 	
 	token := (networkInterface1 messageOfType: #ackCreateSession: ) first payload at: #token.
 
-	leaveSessionMessage := CCEMessage leaveSessionWith: token. 
+	leaveSessionMessage := CCEMessage leaveSessionWith: token.
 	
 	server onMessage: leaveSessionMessage serialize from: client1.
 	
-	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackLeaveSession)).
+	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackLeaveSessionWith:)).

@@ -6,5 +6,5 @@ serverMsgTypes
 			#ackJoinSession: -> #ackJoinSession: . 
 			#newUser->  #newUser .
 			#setOtherUserConsistent: -> #setOtherUserConsistent: .
-			#ackLeaveSession -> #ackLeaveSession .
+			#ackLeaveSessionWith: -> #ackLeaveSessionWith: .
 			#ackLeaveSessionWithError: -> #ackLeaveSessionWithError: }

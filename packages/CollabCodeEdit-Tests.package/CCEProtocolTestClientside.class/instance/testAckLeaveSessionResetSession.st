@@ -1,5 +1,5 @@
 requests backend
-testAckLeaveSessionClearsSessionInformation
+testAckLeaveSessionResetSession
 	| ackMessage |
 	
 	ackMessage := CCEMessage ackLeaveSessionWith: testAckSessionPayload.

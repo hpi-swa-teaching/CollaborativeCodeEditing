@@ -4,7 +4,7 @@ testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessi
 	
 	model buildButtonsWith: ToolBuilder new.
 	
-	ackMessage := CCEMessage ackLeaveSession.
+	ackMessage := CCEMessage ackLeaveSessionWith: testAckSessionPayload.
 	
 	model recieve: ackMessage serialize.
 	

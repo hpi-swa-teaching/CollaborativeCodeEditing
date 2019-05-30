@@ -1,3 +1,3 @@
-initialize
+sending
 close
-	^ self
+	^ self.

@@ -1,3 +1,3 @@
 setting
 reset
-	self name: CCESessionStatus noRemoteSession
+	self setToNoRemoteSession
