@@ -1,4 +1,4 @@
 accessing
 token: anObject
 	token := anObject.
-	self changed: #token.
+	self changed: #token

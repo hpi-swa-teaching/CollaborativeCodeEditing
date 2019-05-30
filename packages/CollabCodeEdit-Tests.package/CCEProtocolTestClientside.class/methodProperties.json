@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "SS 5/26/2019 10:38",
-		"testAckCreateSessionIsCalledAndFillsSessionWithServersideGeneratedToken" : "SS 5/26/2019 10:51",
+		"setUp" : "SS 5/30/2019 12:49",
+		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 5/30/2019 12:44",
+		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "SS 5/30/2019 12:42",
 		"testAckJoinSessionCleanStateFillsSessionWithCorrectInfomationAndSendsSetConsistentTrueToServer" : "SS 5/26/2019 11:20",
 		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServer" : "SS 5/26/2019 20:59",
 		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum" : "SS 5/26/2019 09:56",

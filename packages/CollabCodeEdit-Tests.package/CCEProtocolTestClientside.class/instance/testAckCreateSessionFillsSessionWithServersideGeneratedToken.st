@@ -1,5 +1,5 @@
 requests backend
-testAckCreateSessionIsCalledAndFillsSessionWithServersideGeneratedToken
+testAckCreateSessionFillsSessionWithServersideGeneratedToken
 	| ackCreateSessionMessage |
 	ackCreateSessionMessage := CCEMessage ackCreateSession: #testToken.
 	

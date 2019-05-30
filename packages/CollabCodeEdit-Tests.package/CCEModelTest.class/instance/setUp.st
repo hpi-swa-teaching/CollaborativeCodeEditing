@@ -4,3 +4,4 @@ setUp
 	preTestWindows := World submorphs.
 	model := self modelUnderTestClass new.
 	ToolBuilder open: model.
+	self modelSetUp

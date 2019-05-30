@@ -1,5 +1,5 @@
-tests
-testResetShouldNotGenerateNewInstance
+test singleton
+testClassSideResetShouldNotGenerateNewInstance
 	
 	| cceSessionBevoreReset | 
 	

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"modelSetUp" : "SS 5/30/2019 12:26",
 		"modelUnderTestClass" : "SS 5/27/2019 16:50",
 		"testBuildButtonsReturnsCollectionOfThreeButtons" : "ST 5/15/2019 15:06",
 		"testBuildChildrenShouldBuildMoreThan3Buttons" : "ST 5/19/2019 12:15",
@@ -16,9 +17,11 @@
 		"testButtonWithLabelShouldReturnAPluggableButtonSpec" : "ST 5/25/2019 17:15",
 		"testClientDependencyInjectionWithModelInitialization" : "ST 5/25/2019 14:34",
 		"testCreateSessionOpensNewWindowWithCCECreateSessionAsModel" : "SS 5/27/2019 17:10",
-		"testEnablingAndDisablingButtons" : "ST 5/25/2019 17:25",
+		"testEnablingAndDisablingButtons" : "SS 5/30/2019 12:10",
 		"testJoinSessionOpensNewWindowWithCCEJoinSessionAsModel" : "SS 5/27/2019 17:09",
 		"testLeaveSessionOpensNewWindowWithCCELeaveSessionAsModel" : "SS 5/27/2019 17:11",
-		"testModelUnderstandsButtonsActions" : "SS 5/27/2019 17:47",
+		"testModelUnderstandsButtonsActions" : "SS 5/30/2019 12:24",
 		"testNewModelInstanceIsInitializedCorrectly" : "SS 5/27/2019 18:36",
-		"testSessionCtrlButtonsAreSetWhenAfterBuildingButtons" : "ST 5/25/2019 17:28" } }
+		"testSessionCtrlButtonsAreSetAfterBuildingButtons" : "SS 5/30/2019 12:30",
+		"testUpdateWithStatusAsCleanRemoteSessionShouldEnableLeaveButtonAndDisableJoinAndCreateButton" : "SS 5/30/2019 12:15",
+		"testUpdateWithStatusAsNoRemoteSessionShouldEnableLeaveButtonAndDisableJoinAndCreateButton" : "SS 5/30/2019 12:18" } }

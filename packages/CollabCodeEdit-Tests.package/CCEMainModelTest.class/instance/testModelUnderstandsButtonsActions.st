@@ -1,6 +1,4 @@
 tests backend
-testModelUnderstandsButtonsActions
-	model buildButtonsWith: toolbuilder.
-	
+testModelUnderstandsButtonsActions	
 	model sessionCtrlButtons do: [ :button | 
 		self assert: (CCEModel canUnderstand: button action)]

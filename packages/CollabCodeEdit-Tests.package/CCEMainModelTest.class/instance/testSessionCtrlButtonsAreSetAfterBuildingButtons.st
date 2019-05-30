@@ -1,5 +1,5 @@
 tests backend
-testSessionCtrlButtonsAreSetWhenAfterBuildingButtons
+testSessionCtrlButtonsAreSetAfterBuildingButtons
 	| testModel | 
 	
 	testModel := CCEModel new.

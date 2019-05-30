@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ST 5/20/2019 11:54",
-		"tearDown" : "ST 5/20/2019 11:54",
+		"setUp" : "SS 5/29/2019 23:08",
+		"tearDown" : "SS 5/29/2019 23:08",
+		"testAckCreateSessionFillsSessionTokenAndSetsStatusToCleanRemoteSession" : "SS 5/30/2019 12:40",
+		"testAddStatusSubscriber" : "SS 5/29/2019 23:39",
+		"testClassSideResetShouldNotGenerateNewInstance" : "SS 5/29/2019 22:36",
 		"testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload" : "ST 5/18/2019 21:47",
-		"testDefaultShouldAlwaysReturnTheSameInstance" : "ST 5/18/2019 20:14",
+		"testDefaultShouldAlwaysReturnTheSameInstance" : "SS 5/29/2019 22:35",
 		"testFillSessionWithShouldFillSessionWithScopeAndChecksum" : "ST 5/25/2019 14:44",
-		"testPublishSessionShouldCreateASessionObjectInCCEServer" : "ST 5/22/2019 15:24",
-		"testResetShouldNilInstanceVariables" : "ST 5/18/2019 20:33",
-		"testResetShouldNotGenerateNewInstance" : "ST 5/18/2019 20:55" } }
+		"testResetShouldNilSessionInformationAndResetStatusToInitial" : "SS 5/29/2019 23:09",
+		"testStatusIsOfTypeCCESessionStatus" : "SS 5/29/2019 23:04" } }

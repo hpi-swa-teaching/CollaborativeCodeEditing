@@ -10,7 +10,8 @@
 		"checksum",
 		"token",
 		"client",
-		"collaborators" ],
+		"collaborators",
+		"status" ],
 	"name" : "CCESession",
 	"pools" : [
 		 ],

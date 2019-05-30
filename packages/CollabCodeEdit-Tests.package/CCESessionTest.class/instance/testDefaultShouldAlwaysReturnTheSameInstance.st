@@ -1,3 +1,3 @@
-tests
+test singleton
 testDefaultShouldAlwaysReturnTheSameInstance
-	self assert: session == CCESession default.
+	self assert: CCESession default  == CCESession default.

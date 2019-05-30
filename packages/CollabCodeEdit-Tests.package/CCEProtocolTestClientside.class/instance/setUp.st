@@ -10,6 +10,7 @@ setUp
 	
 	model client: client.
 	model session: session. 
+	model session addStatusSubscriber: model.
 	session client: model client.
 	
 	testPackages := #('Signals').

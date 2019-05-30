@@ -1,4 +1,4 @@
-session-managment
+services
 checkCleanStateWith: anOrderedDictionary
 	| remoteSessionScope remoteSessionHash |
 	

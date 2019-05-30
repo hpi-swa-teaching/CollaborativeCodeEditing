@@ -1,9 +1,10 @@
 {
 	"class" : {
 		"default" : "ST 5/22/2019 17:59",
-		"reset" : "ST 5/18/2019 20:54" },
+		"reset" : "SS 5/29/2019 22:26" },
 	"instance" : {
-		"ackCreateSession:" : "ST 5/22/2019 16:55",
+		"ackCreateSession:" : "SS 5/30/2019 12:41",
+		"addStatusSubscriber:" : "SS 5/29/2019 23:15",
 		"checkCleanStateWith:" : "SS 5/26/2019 11:10",
 		"checksum" : "ST 5/18/2019 19:39",
 		"checksum:" : "ST 5/18/2019 19:39",
@@ -15,7 +16,10 @@
 		"fillSessionWithScope:andChecksum:" : "ST 5/25/2019 14:39",
 		"publishSession" : "SS 5/27/2019 18:44",
 		"requestJoinSessionWith:" : "ST 5/25/2019 14:35",
+		"reset" : "SS 5/29/2019 22:56",
 		"scope" : "ST 5/18/2019 19:39",
 		"scope:" : "ST 5/19/2019 12:37",
+		"status" : "SS 5/29/2019 23:11",
+		"status:" : "SS 5/29/2019 22:35",
 		"token" : "ST 5/19/2019 12:00",
-		"token:" : "ST 5/19/2019 12:36" } }
+		"token:" : "SS 5/29/2019 21:13" } }
