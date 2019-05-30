@@ -20,5 +20,5 @@
 		"testJoinSessionOpensNewWindowWithCCEJoinSessionAsModel" : "SS 5/27/2019 17:09",
 		"testLeaveSessionOpensNewWindowWithCCELeaveSessionAsModel" : "SS 5/27/2019 17:11",
 		"testModelUnderstandsButtonsActions" : "SS 5/27/2019 17:47",
-		"testNewModelInstanceIsInitializedCorrectly" : "SS 5/27/2019 17:44",
+		"testNewModelInstanceIsInitializedCorrectly" : "SS 5/27/2019 18:36",
 		"testSessionCtrlButtonsAreSetWhenAfterBuildingButtons" : "ST 5/25/2019 17:28" } }
