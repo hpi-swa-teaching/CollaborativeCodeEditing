@@ -10,5 +10,6 @@
 		"testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload" : "ST 5/18/2019 21:47",
 		"testDefaultShouldAlwaysReturnTheSameInstance" : "SS 5/29/2019 22:35",
 		"testFillSessionWithShouldFillSessionWithScopeAndChecksum" : "ST 5/25/2019 14:44",
+		"testGetStatus" : "SS 5/30/2019 15:02",
 		"testResetShouldNilSessionInformationAndResetStatusToInitial" : "SS 5/29/2019 23:09",
 		"testStatusIsOfTypeCCESessionStatus" : "SS 5/29/2019 23:04" } }

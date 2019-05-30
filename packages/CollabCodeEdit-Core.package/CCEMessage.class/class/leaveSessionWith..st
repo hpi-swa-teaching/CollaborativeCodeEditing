@@ -1,3 +1,3 @@
 client-Message creation
-leaveSessionWith: aSessionToken
-	^ self new: (CCEMessage clientMsgTypes at:#leaveSessionWith:from:) with: { #token -> aSessionToken }
+leaveSessionWith: aSessionTokenString
+	^ self new: (CCEMessage clientMsgTypes at:#leaveSessionWith:from:) with: { #token -> aSessionTokenString }

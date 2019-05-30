@@ -4,6 +4,7 @@ buildCreateSessionButtonWith: aBuilder
 		model: self;
 		label: CCEModel createButtonLabel;
 		action: #actionCreateSession;
+		enabled: #noSessionIsLoaded;
 		frame:  (LayoutFrame new
 				topFraction: 0;
 				bottomFraction: 0.1;

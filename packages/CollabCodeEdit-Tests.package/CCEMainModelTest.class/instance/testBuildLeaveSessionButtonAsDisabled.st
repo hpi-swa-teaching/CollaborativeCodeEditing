@@ -3,5 +3,5 @@ testBuildLeaveSessionButtonAsDisabled
 	| spec |
 	spec := model buildLeaveSessionButtonWith: toolbuilder.
 	self assert: (spec isKindOf: ToolBuilderSpec).
-	self deny: (spec enabled)
+	self deny: (model perform: spec enabled)
 	

@@ -2,11 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "SS 5/30/2019 12:49",
-		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 5/30/2019 12:44",
+		"setUp" : "SS 5/30/2019 15:56",
+		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 5/30/2019 15:30",
 		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "SS 5/30/2019 12:42",
-		"testAckJoinSessionCleanStateFillsSessionWithCorrectInfomationAndSendsSetConsistentTrueToServer" : "SS 5/26/2019 11:20",
-		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServer" : "SS 5/26/2019 20:59",
+		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "SS 5/30/2019 15:43",
+		"testAckJoinSessionCleanStateFillsSessionWithCorrectInfomation" : "SS 5/30/2019 15:50",
+		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "SS 5/30/2019 15:52",
+		"testAckJoinSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 5/30/2019 15:57",
+		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirtyRemoteSession" : "SS 5/30/2019 15:52",
+		"testAckLeaveSessionClearsSessionInformation" : "SS 5/30/2019 15:42",
+		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 5/30/2019 15:39",
+		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 5/30/2019 15:59",
 		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum" : "SS 5/26/2019 09:56",
 		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 5/26/2019 09:44",
-		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 5/26/2019 09:49" } }
+		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 5/26/2019 09:49",
+		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionToken" : "SS 5/30/2019 15:37" } }

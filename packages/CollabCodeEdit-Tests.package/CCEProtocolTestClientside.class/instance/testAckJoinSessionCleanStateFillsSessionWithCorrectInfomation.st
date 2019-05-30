@@ -1,5 +1,5 @@
 requests backend
-testAckJoinSessionCleanStateFillsSessionWithCorrectInfomationAndSendsSetConsistentTrueToServer
+testAckJoinSessionCleanStateFillsSessionWithCorrectInfomation
 	| ackJoinSessionMessage |
 	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testSessionPayload.
 	
@@ -7,4 +7,5 @@ testAckJoinSessionCleanStateFillsSessionWithCorrectInfomationAndSendsSetConsiste
 	
 	self assert: testPackages equals: session scope.
 	self assert: (CCEPackageManager default hashPackages: testPackages) equals: session checksum. 	
-	self assert: (networkInterface hasMessage: (CCEMessage setConsistent: true) serialize)
+	
+	networkInterface clear

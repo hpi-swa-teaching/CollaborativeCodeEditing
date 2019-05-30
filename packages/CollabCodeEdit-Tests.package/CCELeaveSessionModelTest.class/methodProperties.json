@@ -5,6 +5,6 @@
 		"modelSetUp" : "SS 5/30/2019 12:23",
 		"modelUnderTestClass" : "SS 5/27/2019 16:49",
 		"testActionCancelButtonClosesModel" : "SS 5/27/2019 16:54",
-		"testActionLeaveButtonClosesModel" : "SS 5/30/2019 12:22",
+		"testActionLeaveButtonClosesModel" : "SS 5/30/2019 14:22",
 		"testBuildProceedButtonAndCancelButtonWithReturnButtons" : "SS 5/27/2019 16:22",
 		"testModelUnderstandsActionsOfProceedAndCancelButton" : "SS 5/27/2019 16:22" } }

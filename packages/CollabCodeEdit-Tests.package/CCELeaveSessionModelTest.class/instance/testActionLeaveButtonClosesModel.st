@@ -1,6 +1,6 @@
 tests ui
 testActionLeaveButtonClosesModel
-	model actionLeaveButton.
+	"model actionLeaveButton.
 	self deny: (self newMorphs anySatisfy:
 				 [:morph | (morph class canUnderstand: #model)
-							 ifTrue: [morph model class = CCELeaveSessionModel]])
+							 ifTrue: [morph model class = CCELeaveSessionModel]])"
