@@ -2,8 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "SS 5/26/2019 21:35",
-		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "SS 5/27/2019 15:56",
-		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 5/26/2019 21:36",
-		"testLeaveSessionIsCalledAndClientGetsBackAckLeaveSessionMessage" : "SS 5/30/2019 21:12",
-		"testLeaveSessionShouldDeleteClientInRemoteSession" : "MS 5/29/2019 21:17" } }
+		"setUp" : "SS 5/31/2019 06:52",
+		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "SS 5/31/2019 07:12",
+		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 5/31/2019 07:12",
+		"testJoinSessionAddsClientToSessionClients" : "SS 5/31/2019 07:12",
+		"testJoinSessionNotAddsClientToSessionClientsWithWrongSessionToken" : "SS 5/31/2019 07:12",
+		"testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPayload" : "SS 5/31/2019 07:58",
+		"testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession" : "SS 5/31/2019 07:44",
+		"testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage" : "SS 5/31/2019 07:11",
+		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "SS 5/31/2019 07:22",
+		"testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession" : "SS 5/31/2019 07:11",
+		"testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError" : "SS 5/31/2019 07:24",
+		"testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession" : "SS 5/31/2019 07:25",
+		"testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession" : "SS 5/31/2019 07:42" } }

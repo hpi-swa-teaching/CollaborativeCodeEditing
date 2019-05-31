@@ -3,4 +3,5 @@ publishSession
 	| message | 
 	
 	message := CCEMessage createSessionWith: self createSessionPayload.	
-	self client sendMsg: message
+	self client sendMsg: message.
+	self status setToNoRemoteSession.

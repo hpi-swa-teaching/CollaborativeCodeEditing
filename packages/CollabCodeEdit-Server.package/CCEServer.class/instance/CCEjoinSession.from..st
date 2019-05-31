@@ -1,8 +1,8 @@
 request handling
-CCEjoinSession: aMessage from: aClient
+CCEjoinSession: anOrderedDictionary from: aClient
 	| sessionToken |
 
-	sessionToken := aMessage payload at: #token.
+	sessionToken := anOrderedDictionary at: #token.
 
 	sessions
 		at: sessionToken

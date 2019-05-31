@@ -6,4 +6,4 @@ testAckLeaveSessionSetStatusToNoRemoteSession
 	
 	model recieve: ackMessage serialize.
 	
-	self assert: (CCESessionStatus noRemoteSession = session status name)
+	self assert: (CCESessionStatus noRemoteSession = session getStatus)

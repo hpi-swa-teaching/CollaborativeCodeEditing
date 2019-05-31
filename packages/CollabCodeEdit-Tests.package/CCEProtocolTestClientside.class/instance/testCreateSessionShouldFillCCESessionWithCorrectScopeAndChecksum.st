@@ -9,3 +9,5 @@ testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum
 		
 	self assert: expectedScope equals: session scope.
 	self assert: expectedChecksum equals: session checksum.
+	
+	networkInterface clear

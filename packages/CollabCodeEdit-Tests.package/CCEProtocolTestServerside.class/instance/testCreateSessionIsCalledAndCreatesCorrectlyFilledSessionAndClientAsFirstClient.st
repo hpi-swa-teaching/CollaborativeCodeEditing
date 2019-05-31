@@ -11,3 +11,7 @@ testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient
 	self assert: testPackages equals: createdSession scope.
 	self assert: (CCEPackageManager default hashPackages: testPackages) = createdSession initialChecksum.
 	self assert: client1 equals: createdSession clients first.
+	
+	networkInterface1 clear.
+	networkInterface2 clear.
+	networkInterface3 clear.

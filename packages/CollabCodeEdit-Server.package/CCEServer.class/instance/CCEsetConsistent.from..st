@@ -1,3 +1,3 @@
 request handling
-CCEsetConsistent: aBoolean from: aClient
-	aClient session broadcastMsg: (CCEMessage setOtherUser: (aClient identifier) consistent: aBoolean )
+CCEsetConsistent: anOrderedDictionary from: aClient
+	aClient session broadcastMsg: (CCEMessage setOtherUser: (aClient identifier) consistent: (anOrderedDictionary at: #isConsistent))

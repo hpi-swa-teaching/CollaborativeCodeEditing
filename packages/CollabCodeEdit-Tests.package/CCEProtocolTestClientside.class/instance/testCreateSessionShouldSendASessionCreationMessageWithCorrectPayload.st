@@ -10,4 +10,6 @@ testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload
 	
 	model createSessionWith: testPackages.	
 	
-	self assert: (networkInterface hasMessage: expectedMessage serialize)
+	self assert: (networkInterface hasMessage: expectedMessage serialize).
+	
+	networkInterface clear.

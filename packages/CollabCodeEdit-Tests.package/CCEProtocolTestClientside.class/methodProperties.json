@@ -13,8 +13,10 @@
 		"testAckLeaveSessionClearsSessionInformation" : "SS 5/30/2019 21:01",
 		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 5/30/2019 21:01",
 		"testAckLeaveSessionResetSession" : "SS 5/30/2019 21:01",
-		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 5/30/2019 21:01",
-		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum" : "SS 5/26/2019 09:56",
-		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 5/26/2019 09:44",
+		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 5/31/2019 06:29",
+		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 5/31/2019 06:34",
+		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum" : "SS 5/31/2019 06:26",
+		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 5/31/2019 06:25",
+		"testJoinSessionSetsStatusToNoRemoteSession" : "SS 5/31/2019 06:35",
 		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 5/26/2019 09:49",
-		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionToken" : "SS 5/30/2019 21:18" } }
+		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "SS 5/31/2019 06:37" } }

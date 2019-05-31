@@ -1,3 +1,0 @@
-requests backend
-CCEackLeaveSession
-	self session ackLeaveSession

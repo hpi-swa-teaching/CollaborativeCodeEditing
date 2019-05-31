@@ -3,9 +3,9 @@
 		"start" : "PB 5/5/2019 22:33" },
 	"instance" : {
 		"CCEcreateSessionWith:from:" : "ST 5/25/2019 13:37",
-		"CCEjoinSession:from:" : "MS 5/29/2019 21:55",
-		"CCEleaveSessionWith:from:" : "SS 5/30/2019 21:25",
-		"CCEsetConsistent:from:" : "ST 5/25/2019 13:38",
+		"CCEjoinSession:from:" : "SS 5/31/2019 06:58",
+		"CCEleaveSessionWith:from:" : "SS 5/31/2019 07:26",
+		"CCEsetConsistent:from:" : "SS 5/31/2019 07:31",
 		"breakdown" : "PB 5/5/2019 19:54",
 		"createSessionToken" : "AW 5/9/2019 16:59",
 		"createSessionWith:" : "ST 5/22/2019 20:34",

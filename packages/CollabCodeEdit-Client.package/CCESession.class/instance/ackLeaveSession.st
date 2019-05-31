@@ -1,3 +1,0 @@
-services
-ackLeaveSession
-	self reset
