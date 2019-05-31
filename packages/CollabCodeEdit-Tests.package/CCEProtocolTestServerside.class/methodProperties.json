@@ -7,7 +7,7 @@
 		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 5/31/2019 07:12",
 		"testJoinSessionAddsClientToSessionClients" : "SS 5/31/2019 07:12",
 		"testJoinSessionNotAddsClientToSessionClientsWithWrongSessionToken" : "SS 5/31/2019 07:12",
-		"testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPayload" : "SS 5/31/2019 07:58",
+		"testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPayload" : "MS 5/31/2019 15:24",
 		"testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession" : "SS 5/31/2019 07:44",
 		"testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage" : "SS 5/31/2019 07:11",
 		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "SS 5/31/2019 07:22",

@@ -6,4 +6,4 @@ testSingleMessage
 	
 	socketMock send: testMessage serialize.
 	
-	self assert: (testMessage =  socketMock singleMessage).
+	self assert: testMessage serialize equals: socketMock singleMessage serialize.

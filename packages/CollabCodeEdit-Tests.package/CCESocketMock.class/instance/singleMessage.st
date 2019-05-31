@@ -1,3 +1,3 @@
 message
 singleMessage
-	self messages valuesDo: [:value | ^ value].
+	^ self messages values at: 1 ifAbsent: [nil].
