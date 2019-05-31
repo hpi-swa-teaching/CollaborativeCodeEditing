@@ -19,6 +19,7 @@
 		"setConsistent:" : "ST 5/25/2019 14:02",
 		"setOtherUser:consistent:" : "ST 5/25/2019 14:03" },
 	"instance" : {
+		"=" : "MS 5/31/2019 17:02",
 		"payload" : "PB 5/5/2019 21:34",
 		"payload:" : "PB 5/5/2019 21:34",
 		"serialize" : "PB 5/5/2019 21:44",
