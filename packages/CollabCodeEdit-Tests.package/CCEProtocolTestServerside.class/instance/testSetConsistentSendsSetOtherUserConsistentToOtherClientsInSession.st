@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession	
 	| joinPayload token setConsistentMessage|
 	
@@ -22,12 +22,4 @@ testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession
 	server onMessage: setConsistentMessage serialize from: client3.
 	
 	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #setOtherUserConsistent:)).
-	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMsgTypes at: #setOtherUserConsistent:)).
-	
-	networkInterface1 clear.
-	networkInterface2 clear.
-	networkInterface3 clear.
-	
-	
-	
-	
+	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMsgTypes at: #setOtherUserConsistent:))

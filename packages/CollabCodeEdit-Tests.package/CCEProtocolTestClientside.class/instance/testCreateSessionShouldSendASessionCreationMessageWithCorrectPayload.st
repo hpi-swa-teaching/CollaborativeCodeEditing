@@ -12,4 +12,4 @@ testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload
 	
 	self assert: (networkInterface hasMessage: expectedMessage serialize).
 	
-	networkInterface clear.
+	networkInterface clear

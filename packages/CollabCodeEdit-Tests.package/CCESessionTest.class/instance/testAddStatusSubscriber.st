@@ -6,4 +6,4 @@ testAddStatusSubscriber
 	
 	session addStatusSubscriber: testSubscriber.
 	
-	self assert: (session status dependents  includes: testSubscriber).
+	self assert: (session status dependents  includes: testSubscriber)

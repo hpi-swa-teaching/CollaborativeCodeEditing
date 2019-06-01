@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession
 	| leaveSessionMessage token | 
 	
@@ -9,8 +9,4 @@ testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession
 	
 	server onMessage: leaveSessionMessage serialize from: client1.
 	
-	self deny: 0 equals: (server sessions at: token) clients size.
-	
-	networkInterface1 clear.
-	networkInterface2 clear.
-	networkInterface3 clear.
+	self deny: 0 equals: (server sessions at: token) clients size

@@ -1,5 +1,5 @@
-as yet unclassified
+instance creation
 reset
-	instance reset.
+	instance reset
 	
 	

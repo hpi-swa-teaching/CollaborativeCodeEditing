@@ -1,3 +1,3 @@
 running
 setUp
-	packageManager := CCEPackageManager default.
+	packageManager := CCEPackageManager default

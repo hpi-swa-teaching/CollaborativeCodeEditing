@@ -1,6 +1,5 @@
 hashing
 buildClassDictionaryForPackage: aString
-	
 	| classesWithHashes packageHash |
 	
 	packageHash := 0.

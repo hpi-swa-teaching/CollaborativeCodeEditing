@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"clear" : "SS 5/30/2019 15:48",
-		"close" : "SS 5/30/2019 20:42",
-		"hasMessage:" : "ST 5/25/2019 18:10",
-		"hasMessageOfType:" : "SS 5/26/2019 10:33",
-		"initialize" : "ST 5/25/2019 17:49",
-		"messageOfType:" : "MS 5/28/2019 22:35",
+		"clear" : "AW 6/1/2019 23:31",
+		"close" : "AW 6/1/2019 23:31",
+		"hasMessage:" : "AW 6/1/2019 23:32",
+		"hasMessageOfType:" : "AW 6/1/2019 23:32",
+		"initialize" : "AW 6/1/2019 23:32",
+		"messageOfType:" : "AW 6/1/2019 23:33",
 		"messages" : "ST 5/25/2019 17:40",
-		"messages:" : "ST 5/25/2019 17:40",
+		"messages:" : "AW 6/1/2019 23:33",
 		"send:" : "SS 5/27/2019 15:29",
-		"singleMessage" : "MS 5/31/2019 16:17" } }
+		"singleMessage" : "AW 6/1/2019 23:34" } }

@@ -3,6 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "SS 5/27/2019 18:03",
-		"tearDown" : "SS 5/27/2019 18:02",
-		"testClientServerStartUp" : "SS 5/27/2019 18:03",
+		"tearDown" : "AW 6/1/2019 23:31",
+		"testClientServerStartUp" : "AW 6/1/2019 23:31",
 		"testNetMessageTransmissionViaExampleMessage" : "SS 5/27/2019 18:12" } }

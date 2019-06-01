@@ -4,4 +4,4 @@ startConnectionTo: aURIString
   	self socket
 		onMessage: [ :data | self owner recieve: data ];
 		fork.
-	self connected: true.
+	self connected: true

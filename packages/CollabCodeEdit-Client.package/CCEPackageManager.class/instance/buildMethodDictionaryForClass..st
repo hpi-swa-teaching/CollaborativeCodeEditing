@@ -1,6 +1,5 @@
 hashing
 buildMethodDictionaryForClass: aClass
-	
 	| methodsWithHashes classHash |
 	
 	classHash := 0.

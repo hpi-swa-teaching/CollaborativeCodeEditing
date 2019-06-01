@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession
 	| leaveSessionMessage token | 
 	
@@ -10,8 +10,4 @@ testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession
 	
 	server onMessage: leaveSessionMessage serialize from: client1.
 	
-	self assert: 0 equals: (server sessions at: token) clients size.
-	
-	networkInterface1 clear.
-	networkInterface2 clear.
-	networkInterface3 clear.
+	self assert: 0 equals: (server sessions at: token) clients size

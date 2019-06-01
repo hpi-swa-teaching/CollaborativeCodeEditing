@@ -1,4 +1,3 @@
 accessing
-scope: anObject
-
-	scope := anObject.
+scope: aStringArray
+	scope := aStringArray

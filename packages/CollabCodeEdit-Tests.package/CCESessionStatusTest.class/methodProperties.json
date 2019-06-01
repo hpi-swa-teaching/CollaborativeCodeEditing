@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "SS 5/29/2019 22:39",
-		"testResetSetsStatusToNoRemoteSession" : "SS 5/29/2019 23:01",
-		"testSetToCleanRemoteSessionSetsStatusToCleanRemoteSession" : "SS 5/29/2019 23:00",
-		"testSetToDirtyRemoteSessionSetsStatusToDirtyRemoteSession" : "SS 5/29/2019 23:01",
-		"testSetToNoRemoteSessionSetsStatusToNoRemoteSession" : "SS 5/29/2019 23:00" } }
+		"setUp" : "AW 6/1/2019 23:30",
+		"testResetSetsStatusToNoRemoteSession" : "AW 6/1/2019 23:07",
+		"testSetToCleanRemoteSessionSetsStatusToCleanRemoteSession" : "AW 6/1/2019 23:30",
+		"testSetToDirtyRemoteSessionSetsStatusToDirtyRemoteSession" : "AW 6/1/2019 23:30",
+		"testSetToNoRemoteSessionSetsStatusToNoRemoteSession" : "AW 6/1/2019 23:30" } }

@@ -1,3 +1,3 @@
 accessing
-clients: anObject
-	clients := anObject
+clients: anOrderedDictionary
+	clients := anOrderedDictionary

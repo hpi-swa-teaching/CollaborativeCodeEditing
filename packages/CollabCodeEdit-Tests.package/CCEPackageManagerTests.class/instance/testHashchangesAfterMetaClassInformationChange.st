@@ -16,4 +16,4 @@ testHashchangesAfterMetaClassInformationChange
 	
 	self deny: hashBeforeChange equals: hashAfterChange.
 	
-	testClass comment: originalComment.
+	testClass comment: originalComment

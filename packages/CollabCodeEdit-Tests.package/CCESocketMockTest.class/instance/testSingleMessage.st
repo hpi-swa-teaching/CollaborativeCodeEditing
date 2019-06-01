@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSingleMessage
 	| testMessage | 
 	
@@ -6,4 +6,4 @@ testSingleMessage
 	
 	socketMock send: testMessage serialize.
 	
-	self assert: testMessage serialize equals: socketMock singleMessage serialize.
+	self assert: testMessage serialize equals: socketMock singleMessage serialize

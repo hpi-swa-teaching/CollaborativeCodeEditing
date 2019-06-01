@@ -7,4 +7,4 @@ createSessionWith: anOrderedDictionary
 	^ self session
 		scope: anOrderedDictionary asArray;
 		checksum: sessionHash;
-		publishSession.
+		publishSession

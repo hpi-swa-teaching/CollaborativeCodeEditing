@@ -11,4 +11,4 @@ testSetDirtySessionShouldFillSessionAndSetStatusToDirtyRemoteSession
 	
 	self assert: expectedScope equals: session scope.
 	self assert: expectedChecksum equals: session checksum.
-	self assert: (session status name) equals: CCESessionStatus dirtyRemoteSession.
+	self assert: (session status name) equals: CCESessionStatus dirtyRemoteSession

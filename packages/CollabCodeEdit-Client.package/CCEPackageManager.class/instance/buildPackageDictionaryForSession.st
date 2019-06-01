@@ -1,6 +1,5 @@
 hashing
 buildPackageDictionaryForSession
-	
 	| packagesWithHashes sessionHash |
 	
 	packagesWithHashes := OrderedDictionary new.

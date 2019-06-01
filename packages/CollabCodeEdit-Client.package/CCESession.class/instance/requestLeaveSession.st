@@ -3,4 +3,4 @@ requestLeaveSession
 	| message | 
 	
 	message := CCEMessage leaveSessionWith: self token.
-	self client sendMsg: message.
+	self client sendMsg: message

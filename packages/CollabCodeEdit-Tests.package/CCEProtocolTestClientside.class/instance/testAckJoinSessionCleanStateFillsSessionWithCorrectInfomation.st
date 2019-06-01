@@ -1,6 +1,7 @@
 requests backend
 testAckJoinSessionCleanStateFillsSessionWithCorrectInfomation
 	| ackJoinSessionMessage |
+	
 	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testSessionPayload.
 	
 	model recieve: ackJoinSessionMessage serialize.

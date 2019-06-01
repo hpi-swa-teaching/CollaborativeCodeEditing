@@ -1,3 +1,3 @@
 accessing
-parentModel: anObject
-	parentModel := anObject
+parentModel: aModel
+	parentModel := aModel

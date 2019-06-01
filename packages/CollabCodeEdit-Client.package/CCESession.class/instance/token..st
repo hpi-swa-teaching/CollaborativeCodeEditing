@@ -1,4 +1,4 @@
 accessing
-token: anObject
-	token := anObject.
+token: aSymbol
+	token := aSymbol.
 	self changed: #token

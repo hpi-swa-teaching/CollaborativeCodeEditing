@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testClear
 	self assert: 0 equals: socketMock messages size.
 	

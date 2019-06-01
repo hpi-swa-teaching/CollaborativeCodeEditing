@@ -1,6 +1,5 @@
 building
 buildNextButton: aBuilder
-
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Next';
@@ -10,4 +9,4 @@ buildNextButton: aBuilder
 				bottomFraction: 1;
 				leftFraction: 0;
 				rightFraction: 1);
-		yourself.
+		yourself

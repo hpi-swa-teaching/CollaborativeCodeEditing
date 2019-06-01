@@ -1,3 +1,3 @@
 running
 modelSetUp
-	model parentModel: CCEModel new.
+	model parentModel: CCEModel new

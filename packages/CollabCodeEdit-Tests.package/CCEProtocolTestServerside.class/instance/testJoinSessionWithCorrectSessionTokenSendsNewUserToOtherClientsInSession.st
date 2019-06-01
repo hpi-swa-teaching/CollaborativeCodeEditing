@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession
 	| sessionToken joinSessionMessage | 
 	
@@ -10,8 +10,4 @@ testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession
 	
 	server onMessage: joinSessionMessage serialize from: client2.
 	
-	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #newUser)).
-	
-	networkInterface1 clear.
-	networkInterface2 clear.
-	networkInterface3 clear.
+	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #newUser))

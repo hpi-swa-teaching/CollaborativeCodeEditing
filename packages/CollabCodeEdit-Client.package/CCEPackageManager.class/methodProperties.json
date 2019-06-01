@@ -2,16 +2,16 @@
 	"class" : {
 		"default" : "ST 5/18/2019 17:53",
 		"instance" : "ST 5/18/2019 17:56",
-		"instance:" : "ST 5/18/2019 17:56" },
+		"instance:" : "AW 6/1/2019 22:51" },
 	"instance" : {
-		"buildClassDictionaryForPackage:" : "MS 5/15/2019 14:28",
-		"buildMethodDictionaryForClass:" : "MS 5/9/2019 16:46",
-		"buildPackageDictionaryForSession" : "MS 5/9/2019 17:19",
+		"buildClassDictionaryForPackage:" : "AW 6/1/2019 22:52",
+		"buildMethodDictionaryForClass:" : "AW 6/1/2019 22:52",
+		"buildPackageDictionaryForSession" : "AW 6/1/2019 22:52",
 		"buildPackageDictionaryForSession:" : "5/22/2019 14:33:46",
-		"calculateHashOfMethodSourceCode:" : "MS 5/9/2019 16:39",
+		"calculateHashOfMethodSourceCode:" : "AW 6/1/2019 22:53",
 		"hashPackages:" : "5/22/2019 14:33:46",
-		"listAvailablePackages" : "MS 5/9/2019 18:06",
-		"listClassesOfPackage:" : "MS 5/9/2019 17:19",
-		"listMethodsOfClass:" : "MS 5/9/2019 13:16",
-		"sessionPackages" : "MS 5/9/2019 16:37",
-		"sessionPackages:" : "MS 5/9/2019 16:39" } }
+		"listAvailablePackages" : "AW 6/1/2019 22:51",
+		"listClassesOfPackage:" : "AW 6/1/2019 22:51",
+		"listMethodsOfClass:" : "AW 6/1/2019 22:52",
+		"sessionPackages" : "AW 6/1/2019 22:52",
+		"sessionPackages:" : "AW 6/1/2019 22:52" } }

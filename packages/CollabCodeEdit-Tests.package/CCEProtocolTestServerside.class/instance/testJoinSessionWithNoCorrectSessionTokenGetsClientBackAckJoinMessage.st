@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage
 	| sessionToken joinSessionMessage | 
 	
@@ -10,8 +10,4 @@ testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage
 	
 	server onMessage: joinSessionMessage serialize from: client2.
 	
-	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackJoinSessionWithError:)).
-	
-	networkInterface1 clear.
-	networkInterface2 clear.
-	networkInterface3 clear.
+	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackJoinSessionWithError:))

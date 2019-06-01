@@ -2,10 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ST 5/25/2019 17:54",
-		"tearDown" : "ST 5/25/2019 17:53",
+		"setUp" : "AW 6/1/2019 23:34",
 		"testClear" : "SS 5/30/2019 21:06",
 		"testHasMessage" : "SS 5/26/2019 09:31",
 		"testHasMessageOfType" : "SS 5/26/2019 10:32",
-		"testSendShouldAddMessageToDictionaryWithStringAsKeyAndCCEMessageAsValue" : "ST 5/25/2019 18:07",
-		"testSingleMessage" : "MS 5/31/2019 16:15" } }
+		"testSendShouldAddMessageToDictionaryWithStringAsKeyAndCCEMessageAsValue" : "AW 6/1/2019 23:35",
+		"testSingleMessage" : "AW 6/1/2019 23:35" } }

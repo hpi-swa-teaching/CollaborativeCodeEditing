@@ -1,3 +1,3 @@
 message
 clear
-	self messages removeAll.
+	self messages removeAll

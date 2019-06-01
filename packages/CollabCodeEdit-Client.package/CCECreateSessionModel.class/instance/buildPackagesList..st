@@ -1,6 +1,5 @@
 building
 buildPackagesList: aBuilder
-
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
 		list: #packagesList;
@@ -13,4 +12,4 @@ buildPackagesList: aBuilder
 				bottomFraction: 0.9;
 				leftFraction: 0;
 				rightFraction: 1);
-		yourself.
+		yourself

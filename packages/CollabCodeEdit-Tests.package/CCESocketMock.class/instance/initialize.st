@@ -1,3 +1,3 @@
 initialize
 initialize
-	self messages: OrderedDictionary new.
+	self messages: OrderedDictionary new

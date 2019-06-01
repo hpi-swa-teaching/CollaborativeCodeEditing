@@ -7,4 +7,4 @@ testSessionCtrlButtonsAreSetAfterBuildingButtons
 	
 	testModel buildButtonsWith: toolbuilder.
 	
-	self deny: testModel sessionCtrlButtons isNil.
+	self deny: testModel sessionCtrlButtons isNil

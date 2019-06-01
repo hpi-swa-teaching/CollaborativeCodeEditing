@@ -1,6 +1,7 @@
 tests backend
 testNewModelInstanceIsInitializedCorrectly
 	| model | 
+	
 	model := CCEModel new.
 	
 	self assert: (model createSessionModel isKindOf: CCECreateSessionModel).
@@ -9,6 +10,6 @@ testNewModelInstanceIsInitializedCorrectly
 	self assert: (CCEClient default) equals: model client.
 	self assert: (CCESession default) equals: model session. 
 	self assert: CCEClient default owner equals: model.
-	self assert: (CCESession default status dependents includes: model).
+	self assert: (CCESession default status dependents includes: model)
 	
 	

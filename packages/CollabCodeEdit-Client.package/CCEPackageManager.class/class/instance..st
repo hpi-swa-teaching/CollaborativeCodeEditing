@@ -1,3 +1,3 @@
 accessing
-instance: anObject
-	^ instance := anObject
+instance: aPackageManager
+	^ instance := aPackageManager

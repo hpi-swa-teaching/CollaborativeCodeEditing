@@ -8,4 +8,4 @@ testFillSessionWithShouldFillSessionWithScopeAndChecksum
 	session fillSessionWithScope: expectedScope andChecksum: expectedChecksum.
 	
 	self assert: expectedChecksum equals: session checksum.
-	self assert: expectedScope equals: session scope.
+	self assert: expectedScope equals: session scope

@@ -7,4 +7,4 @@ messageOfType: aSymbol
 	self messages keysAndValuesDo:
 		[:aString :aCCEMessage | (aCCEMessage type = aSymbol) ifTrue: [matchingMessages add: aCCEMessage]].
 	
-	^matchingMessages
+	^ matchingMessages

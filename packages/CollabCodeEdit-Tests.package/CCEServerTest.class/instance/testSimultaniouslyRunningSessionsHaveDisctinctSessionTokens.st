@@ -6,4 +6,4 @@ testSimultaniouslyRunningSessionsHaveDisctinctSessionTokens
 	
 	server sessions keys do: [:key |
 		 (sessionKeys includes: key asString) ifTrue: [self fail].
-		 sessionKeys add: key asString].
+		 sessionKeys add: key asString]

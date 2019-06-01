@@ -1,3 +1,3 @@
 accessing
-socket: anObject
-	socket := anObject
+socket: aSocket
+	socket := aSocket

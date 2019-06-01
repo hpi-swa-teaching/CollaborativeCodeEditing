@@ -1,3 +1,3 @@
 accessing
-clientsMutex: anObject
-	clientsMutex := anObject
+clientsMutex: aMutex
+	clientsMutex := aMutex

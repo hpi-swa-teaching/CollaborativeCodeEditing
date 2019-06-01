@@ -4,4 +4,4 @@ testSetToNoRemoteSessionSetsStatusToNoRemoteSession
 	
 	sessionStatus setToNoRemoteSession.
 	
-	self assert: CCESessionStatus noRemoteSession equals: sessionStatus name.
+	self assert: CCESessionStatus noRemoteSession equals: sessionStatus name

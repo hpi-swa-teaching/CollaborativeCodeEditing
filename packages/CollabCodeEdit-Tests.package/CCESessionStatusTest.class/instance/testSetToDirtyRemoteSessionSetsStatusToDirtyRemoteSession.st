@@ -4,4 +4,4 @@ testSetToDirtyRemoteSessionSetsStatusToDirtyRemoteSession
 	
 	sessionStatus setToDirtyRemoteSession.
 	
-	self assert: CCESessionStatus dirtyRemoteSession equals: sessionStatus name.
+	self assert: CCESessionStatus dirtyRemoteSession equals: sessionStatus name

@@ -6,5 +6,5 @@ buildWith: aBuilder
 		label: self class defaultLabel;
 		extent: self class defaultExtent;
 		children: { self buildTokenInputField: aBuilder . self buildNextButton: aBuilder};
-		yourself).
+		yourself)
 		

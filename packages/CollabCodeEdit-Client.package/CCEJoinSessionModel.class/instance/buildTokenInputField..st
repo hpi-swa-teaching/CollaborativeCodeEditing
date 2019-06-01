@@ -1,6 +1,5 @@
 building
 buildTokenInputField: aBuilder
-
 	^ aBuilder pluggableTextSpec new
 		model: self;
 		editText: #sessionToken:;
@@ -9,4 +8,4 @@ buildTokenInputField: aBuilder
 				bottomFraction: 0.5;
 				leftFraction: 0;
 				rightFraction: 1);
-		yourself.
+		yourself

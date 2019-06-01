@@ -4,4 +4,4 @@ testSetToCleanRemoteSessionSetsStatusToCleanRemoteSession
 	
 	sessionStatus setToCleanRemoteSession.
 	
-	self assert: CCESessionStatus cleanRemoteSession equals: sessionStatus name.
+	self assert: CCESessionStatus cleanRemoteSession equals: sessionStatus name

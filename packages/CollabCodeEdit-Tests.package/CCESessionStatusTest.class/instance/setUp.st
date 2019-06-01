@@ -1,3 +1,3 @@
 running
 setUp
-	sessionStatus := CCESessionStatus new.
+	sessionStatus := CCESessionStatus new

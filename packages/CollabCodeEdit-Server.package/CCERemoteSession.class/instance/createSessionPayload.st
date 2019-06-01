@@ -1,4 +1,4 @@
-as yet unclassified
+messaging
 createSessionPayload
 	^ OrderedDictionary newFrom: {
 		#scope -> self scope.

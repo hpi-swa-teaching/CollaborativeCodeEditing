@@ -1,5 +1,4 @@
 accessing
-scope: anObject
-
-	scope := anObject.
-	self changed: #scope.
+scope: aStringArray
+	scope := aStringArray.
+	self changed: #scope

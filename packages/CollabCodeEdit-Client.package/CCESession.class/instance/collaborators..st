@@ -1,3 +1,3 @@
 accessing
-collaborators: anObject
-	collaborators := anObject
+collaborators: aCollection
+	collaborators := aCollection

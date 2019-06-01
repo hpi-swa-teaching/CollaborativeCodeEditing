@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPayload
 	| sessionToken joinSessionMessage expectedPayload expectedMessage | 
 	
@@ -13,9 +13,4 @@ testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPay
 	
 	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackJoinSession:)).
 	
-	self assert: (IdentityDictionary newFrom: expectedPayload) equals: (networkInterface2 messages at: expectedMessage serialize) payload.
-
-	
-	networkInterface1 clear.
-	networkInterface2 clear.
-	networkInterface3 clear.
+	self assert: (IdentityDictionary newFrom: expectedPayload) equals: (networkInterface2 messages at: expectedMessage serialize) payload

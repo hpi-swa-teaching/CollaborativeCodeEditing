@@ -1,3 +1,3 @@
 accessing
-messages: anObject
-	messages := anObject
+messages: anOrderedDictionary
+	messages := anOrderedDictionary

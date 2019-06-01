@@ -1,4 +1,4 @@
 running
 setUp
-	socketMock := CCESocketMock new.
+	socketMock := CCESocketMock new
 	

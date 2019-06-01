@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"newWithToken:" : "AW 5/9/2019 18:03" },
+		"newWithToken:" : "AW 6/1/2019 23:36" },
 	"instance" : {
-		"addClient:" : "ST 5/22/2019 19:50",
-		"breakdown" : "PB 5/5/2019 21:16",
+		"addClient:" : "AW 6/1/2019 23:38",
+		"breakdown" : "AW 6/1/2019 23:38",
 		"createSessionPayload" : "SS 5/26/2019 10:27",
 		"handleNewUser:" : "SS 5/26/2019 10:28",
 		"initialChecksum" : "ST 5/22/2019 20:34",
 		"initialChecksum:" : "ST 5/22/2019 20:34",
 		"initialize" : "SS 5/26/2019 10:27",
 		"initializeWithSeed:" : "5/22/2019 14:43:44",
-		"scope" : "ST 5/22/2019 20:30",
-		"scope:" : "ST 5/22/2019 20:30",
+		"scope" : "AW 6/1/2019 23:38",
+		"scope:" : "AW 6/1/2019 23:40",
 		"token" : "PB 5/5/2019 21:00",
-		"token:" : "PB 5/5/2019 21:00" } }
+		"token:" : "AW 6/1/2019 23:41" } }

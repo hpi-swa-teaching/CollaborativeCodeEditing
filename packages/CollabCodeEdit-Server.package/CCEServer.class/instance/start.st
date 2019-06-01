@@ -1,3 +1,3 @@
 startup
 start
-	self server listenOn: 8080
+	self server listenOn: CCEServer defaultPort

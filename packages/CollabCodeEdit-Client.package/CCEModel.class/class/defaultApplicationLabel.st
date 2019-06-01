@@ -1,4 +1,3 @@
 default
 defaultApplicationLabel
-	
 	^ 'Collaborative Coding'

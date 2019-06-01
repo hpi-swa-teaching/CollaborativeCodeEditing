@@ -5,5 +5,5 @@ testClassSideResetShouldNotGenerateNewInstance
 	
 	cceSessionBevoreReset := CCESession default.
 	CCESession reset.
-	self assert: cceSessionBevoreReset equals:  CCESession default.
+	self assert: cceSessionBevoreReset equals:  CCESession default
 		

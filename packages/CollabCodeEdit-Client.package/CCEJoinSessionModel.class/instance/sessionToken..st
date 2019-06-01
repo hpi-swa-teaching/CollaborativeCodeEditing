@@ -1,4 +1,4 @@
 accessing
 sessionToken: anObject
-	sessionToken := anObject.
+	sessionToken := anObject
 	
