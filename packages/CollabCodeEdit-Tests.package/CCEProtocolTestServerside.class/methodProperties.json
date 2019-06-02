@@ -9,10 +9,11 @@
 		"testJoinSessionAddsClientToSessionClients" : "AW 6/1/2019 23:28",
 		"testJoinSessionNotAddsClientToSessionClientsWithWrongSessionToken" : "AW 6/1/2019 23:28",
 		"testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPayload" : "AW 6/1/2019 23:28",
-		"testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession" : "AW 6/1/2019 23:29",
+		"testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession" : "MS 6/2/2019 15:52",
 		"testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage" : "AW 6/1/2019 23:29",
 		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "AW 6/1/2019 23:29",
 		"testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession" : "AW 6/1/2019 23:29",
 		"testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError" : "AW 6/1/2019 23:29",
 		"testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession" : "AW 6/1/2019 23:29",
-		"testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession" : "AW 6/1/2019 23:29" } }
+		"testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession" : "AW 6/1/2019 23:29",
+		"testSetNameSetsNameForremoteClient" : "MS 6/2/2019 15:23" } }

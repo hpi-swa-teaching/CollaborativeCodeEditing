@@ -10,4 +10,4 @@ testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession
 	
 	server onMessage: joinSessionMessage serialize from: client2.
 	
-	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #newUser))
+	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #newUser:))

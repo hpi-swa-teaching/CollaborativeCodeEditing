@@ -19,4 +19,5 @@
 		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "AW 6/1/2019 23:23",
 		"testJoinSessionSetsStatusToNoRemoteSession" : "AW 6/1/2019 23:23",
 		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 5/26/2019 09:49",
-		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "SS 5/31/2019 06:37" } }
+		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "SS 5/31/2019 06:37",
+		"testSetClientNameSendsCCEMessageToServer" : "MS 6/2/2019 15:41" } }
