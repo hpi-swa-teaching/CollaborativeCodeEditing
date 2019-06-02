@@ -3,9 +3,10 @@
 		"newWithToken:" : "AW 6/1/2019 23:36" },
 	"instance" : {
 		"addClient:" : "AW 6/1/2019 23:38",
+		"addCreator:" : "SS 6/2/2019 21:59",
 		"breakdown" : "AW 6/1/2019 23:38",
 		"createSessionPayload" : "SS 5/26/2019 10:27",
-		"handleNewUser:" : "MS 6/2/2019 15:52",
+		"handleNewUser:" : "SS 6/2/2019 21:56",
 		"initialChecksum" : "ST 5/22/2019 20:34",
 		"initialChecksum:" : "ST 5/22/2019 20:34",
 		"initialize" : "SS 5/26/2019 10:27",

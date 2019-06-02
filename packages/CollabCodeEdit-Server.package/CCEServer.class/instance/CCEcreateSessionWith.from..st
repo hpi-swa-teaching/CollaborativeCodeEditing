@@ -3,7 +3,7 @@ CCEcreateSessionWith: anOrderedDictionary from: aClient
 	| sessionToken |
 
 	sessionToken := (self createSessionWith: anOrderedDictionary)
-		addClient: aClient;
+		addCreator: aClient;
 		token.
     
 	aClient sendMsg: (CCEMessage ackCreateSession: sessionToken)
