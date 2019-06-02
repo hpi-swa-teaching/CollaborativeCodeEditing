@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"session",
-		"server",
-		"testIdentifier",
-		"account",
-		"testCollaborator" ],
-	"name" : "CCESessionTest",
+		"collaborator",
+		"account" ],
+	"name" : "CCECollaboratorTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

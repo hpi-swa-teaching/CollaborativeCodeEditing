@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"default" : "SS 6/2/2019 15:14",
-		"isConsistentString" : "SS 6/2/2019 15:52",
-		"isNotConsistentString" : "SS 6/2/2019 15:52",
-		"isUndefinedString" : "SS 6/2/2019 15:53" },
+		"default" : "SS 6/2/2019 15:14" },
 	"instance" : {
-		 } }
+		"humanReadableName" : "SS 6/2/2019 20:13",
+		"humanReadableName:" : "SS 6/2/2019 20:13" } }

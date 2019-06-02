@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "SS 6/2/2019 20:10",
+		"testNewFillsConsistencyStateWithUndefinied" : "SS 6/2/2019 21:15",
+		"testNewFromAccountFillsNewInstanceWithAccountsIdentifier" : "SS 6/2/2019 20:13" } }
