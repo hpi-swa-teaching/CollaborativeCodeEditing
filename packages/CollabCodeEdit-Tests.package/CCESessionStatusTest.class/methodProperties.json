@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AW 6/1/2019 23:30",
+		"testResetSetsStatusToNoRemoteSession" : "AW 6/1/2019 23:07",
+		"testSetToCleanRemoteSessionSetsStatusToCleanRemoteSession" : "AW 6/1/2019 23:30",
+		"testSetToDirtyRemoteSessionSetsStatusToDirtyRemoteSession" : "AW 6/1/2019 23:30",
+		"testSetToNoRemoteSessionSetsStatusToNoRemoteSession" : "AW 6/1/2019 23:30" } }

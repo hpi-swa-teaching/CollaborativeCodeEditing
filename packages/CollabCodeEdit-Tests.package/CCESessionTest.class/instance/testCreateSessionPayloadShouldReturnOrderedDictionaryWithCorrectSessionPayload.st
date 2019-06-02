@@ -9,4 +9,4 @@ testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload
 	session scope: #('Signals').
 	session checksum: 12345.
 	
-	self assert: expectedPayload equals: session createSessionPayload.
+	self assert: expectedPayload equals: session createSessionPayload

@@ -1,3 +1,3 @@
 accessing
-selectedPackagesList: anObject
-	selectedPackagesList := anObject
+selectedPackagesList: aOrderedCollection
+	selectedPackagesList := aOrderedCollection

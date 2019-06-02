@@ -1,0 +1,3 @@
+constants
+leaveButtonLabel
+	^ 'leave Session'

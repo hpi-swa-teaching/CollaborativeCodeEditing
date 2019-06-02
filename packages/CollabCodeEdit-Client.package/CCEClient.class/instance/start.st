@@ -1,3 +1,3 @@
 startup
 start
-	self startConnectionTo: 'http://localhost:8080'.
+	self startConnectionTo: CCEClient defaultServerURI

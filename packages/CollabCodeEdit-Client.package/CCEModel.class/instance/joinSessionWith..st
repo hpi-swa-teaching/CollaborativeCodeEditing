@@ -1,3 +1,3 @@
-as yet unclassified
+requests ui
 joinSessionWith: aTokenString
-	Transcript show: aTokenString; cr.
+	self session requestJoinSessionWith: aTokenString

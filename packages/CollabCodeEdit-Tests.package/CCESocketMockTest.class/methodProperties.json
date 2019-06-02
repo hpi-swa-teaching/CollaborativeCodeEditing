@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AW 6/1/2019 23:34",
+		"testClear" : "SS 5/30/2019 21:06",
+		"testHasMessage" : "SS 5/26/2019 09:31",
+		"testHasMessageOfType" : "SS 5/26/2019 10:32",
+		"testSendShouldAddMessageToDictionaryWithStringAsKeyAndCCEMessageAsValue" : "AW 6/1/2019 23:35",
+		"testSingleMessage" : "AW 6/1/2019 23:35" } }

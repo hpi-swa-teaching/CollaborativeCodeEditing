@@ -1,4 +1,3 @@
 accessing
 listAvailablePackages
-
-	^ PackageOrganizer default getPackages keys.
+	^ PackageOrganizer default getPackages keys

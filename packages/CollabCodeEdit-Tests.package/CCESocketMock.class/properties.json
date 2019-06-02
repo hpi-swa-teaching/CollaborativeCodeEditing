@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messages" ],
+	"name" : "CCESocketMock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,11 +1,10 @@
-as yet unclassified
+requests ui
 createSessionWith: anOrderedDictionary	
 	| sessionHash |	 
-	
-	self sessionScope: anOrderedDictionary.	
-	
+			
 	sessionHash := CCEPackageManager default hashPackages: anOrderedDictionary asArray.
 	
-	^ CCESession default
+	^ self session
 		scope: anOrderedDictionary asArray;
-		checksum: sessionHash.
+		checksum: sessionHash;
+		publishSession

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AW 6/1/2019 23:22",
+		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 5/30/2019 15:30",
+		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "SS 5/30/2019 12:42",
+		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "AW 6/1/2019 23:22",
+		"testAckJoinSessionCleanStateFillsSessionWithCorrectInfomation" : "AW 6/1/2019 23:22",
+		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "AW 6/1/2019 23:22",
+		"testAckJoinSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 5/30/2019 15:57",
+		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirtyRemoteSession" : "SS 5/30/2019 15:52",
+		"testAckLeaveSessionClearsSessionInformation" : "AW 6/1/2019 23:23",
+		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 5/30/2019 21:01",
+		"testAckLeaveSessionResetSession" : "AW 6/1/2019 23:23",
+		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 5/31/2019 06:29",
+		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 5/31/2019 06:34",
+		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum" : "SS 5/31/2019 06:26",
+		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "AW 6/1/2019 23:23",
+		"testJoinSessionSetsStatusToNoRemoteSession" : "AW 6/1/2019 23:23",
+		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 5/26/2019 09:49",
+		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "SS 5/31/2019 06:37" } }

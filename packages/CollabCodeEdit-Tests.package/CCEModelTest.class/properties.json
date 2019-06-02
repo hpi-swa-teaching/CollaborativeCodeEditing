@@ -1,0 +1,16 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"toolbuilder",
+		"preTestWindows" ],
+	"name" : "CCEModelTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

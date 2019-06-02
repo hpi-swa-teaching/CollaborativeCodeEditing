@@ -1,3 +1,3 @@
 accessing
-owner: anObject
-	owner := anObject
+owner: aCCEModel
+	owner := aCCEModel

@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "CCESessionStatus",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,4 +1,5 @@
-as yet unclassified
+instance creation
 reset
-	self allInstVarNames do: [ :variableName | instance instVarNamed: variableName put: nil]
+	instance reset
+	
 	

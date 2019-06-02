@@ -1,3 +1,3 @@
 accessing-packages
-packagesList: anObject
-	packagesList := anObject
+packagesList: aOrderedCollection
+	packagesList := aOrderedCollection

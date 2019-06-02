@@ -1,3 +1,3 @@
 accessing
-payload: anObject
-	payload := anObject
+payload: aDictionary
+	payload := aDictionary

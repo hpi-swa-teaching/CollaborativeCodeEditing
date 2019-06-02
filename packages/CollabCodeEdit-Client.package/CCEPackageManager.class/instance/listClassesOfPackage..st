@@ -1,5 +1,4 @@
 accessing
 listClassesOfPackage: aString
-
-	^ (PackageInfo named: aString) classes.
+	^ (PackageInfo named: aString) classes
 	

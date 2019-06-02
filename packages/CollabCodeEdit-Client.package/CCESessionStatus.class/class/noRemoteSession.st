@@ -1,0 +1,3 @@
+constants
+noRemoteSession
+	^ #noRemoteSession

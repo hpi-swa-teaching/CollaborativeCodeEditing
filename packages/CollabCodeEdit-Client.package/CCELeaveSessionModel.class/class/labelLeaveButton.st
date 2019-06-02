@@ -1,0 +1,3 @@
+constants
+labelLeaveButton	
+	^ 'Leave'

@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CCEJoinSessionModelTest",
+	"pools" : [
+		 ],
+	"super" : "CCEModelTest",
+	"type" : "normal" }

@@ -8,7 +8,10 @@
 	"instvars" : [
 		"scope",
 		"checksum",
-		"token" ],
+		"token",
+		"client",
+		"collaborators",
+		"status" ],
 	"name" : "CCESession",
 	"pools" : [
 		 ],

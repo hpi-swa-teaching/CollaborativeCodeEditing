@@ -1,0 +1,3 @@
+requests backend
+CCEackJoinSession: anOrderedDictionary
+	self session checkCleanStateWith: anOrderedDictionary

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"modelSetUp" : "AW 6/1/2019 23:18",
+		"modelUnderTestClass" : "SS 5/27/2019 16:51",
+		"testBuildNextButtonReturnsButton" : "SS 5/27/2019 17:26",
+		"testBuildPackagesListReturnsList" : "SS 5/27/2019 17:26" } }

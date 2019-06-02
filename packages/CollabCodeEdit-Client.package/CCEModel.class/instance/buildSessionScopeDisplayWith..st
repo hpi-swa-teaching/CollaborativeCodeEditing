@@ -4,8 +4,8 @@ buildSessionScopeDisplayWith: aBuilder
 		model: CCESession default;
 		list: #scope;
 		frame:  (LayoutFrame new
-				topFraction: 0.1;
-				bottomFraction: 0.2;
+				topFraction: 0.15;
+				bottomFraction: 0.4;
 				leftFraction: 0;
 				rightFraction: 1;
 				yourself)

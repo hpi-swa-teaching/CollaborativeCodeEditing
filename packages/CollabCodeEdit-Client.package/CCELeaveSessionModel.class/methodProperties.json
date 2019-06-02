@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"defaultExtent" : "SS 5/27/2019 15:59",
+		"defaultLabel" : "SS 5/27/2019 16:00",
+		"labelCancelButton" : "SS 5/27/2019 16:26",
+		"labelLeaveButton" : "SS 5/27/2019 16:24" },
+	"instance" : {
+		"actionCancelButton" : "SS 5/27/2019 16:55",
+		"actionLeaveButton" : "SS 5/30/2019 12:21",
+		"buildCancelButtonWith:" : "SS 5/27/2019 16:27",
+		"buildLeaveButtonWith:" : "SS 5/27/2019 16:27",
+		"buildWith:" : "SS 5/27/2019 16:20" } }

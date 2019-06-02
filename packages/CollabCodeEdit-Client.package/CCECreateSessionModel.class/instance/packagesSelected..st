@@ -1,4 +1,3 @@
 accessing-packages
 packagesSelected: anInteger
-
-	self changed: #selectedPackagesList.
+	self changed: #selectedPackagesList

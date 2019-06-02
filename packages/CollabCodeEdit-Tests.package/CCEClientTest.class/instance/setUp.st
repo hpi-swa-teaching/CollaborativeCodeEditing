@@ -1,3 +1,3 @@
 running
 setUp
-	^ client := CCEClient default.
+	^ client := CCEClient default

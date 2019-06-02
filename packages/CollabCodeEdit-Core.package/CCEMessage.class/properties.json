@@ -1,7 +1,8 @@
 {
 	"category" : "CollabCodeEdit-Core",
 	"classinstvars" : [
-		 ],
+		"clientMsgTypes",
+		"serverMsgTypes" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

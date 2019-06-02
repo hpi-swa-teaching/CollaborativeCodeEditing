@@ -1,0 +1,3 @@
+running
+open
+	CCEModel open

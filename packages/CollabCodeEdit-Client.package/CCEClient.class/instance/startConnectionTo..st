@@ -1,6 +1,7 @@
 startup
 startConnectionTo: aURIString
 	self socket: (WebClient webSocketTo: aURIString).
-  self socket
+  	self socket
 		onMessage: [ :data | self owner recieve: data ];
-		fork
+		fork.
+	self connected: true

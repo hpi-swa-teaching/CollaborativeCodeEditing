@@ -1,4 +1,3 @@
 defaults
 defaultLabel
-
 	^ 'Create session'

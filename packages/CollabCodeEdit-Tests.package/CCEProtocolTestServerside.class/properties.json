@@ -1,0 +1,22 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server",
+		"testPackages",
+		"testSessionPayload",
+		"client1",
+		"client2",
+		"client3",
+		"networkInterface1",
+		"networkInterface2",
+		"networkInterface3" ],
+	"name" : "CCEProtocolTestServerside",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

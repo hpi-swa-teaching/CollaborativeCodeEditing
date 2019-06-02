@@ -6,7 +6,6 @@ onMessage: someData from: aClient
 		Transcript cr; show: 'Invalid message: ', someData.
 		^ self ].
 	
-	[
-		message type = #CREATE_SESSION ifTrue: [ self createSession: message from: aClient ].
-		message type = #JOIN_SESSION ifTrue: [ self joinSession: message from: aClient ] ] ifError: [ :ex :rcvr |
-		Transcript cr; show: 'Error handling message: ', ex. ]
+	[self perform: ((CCEMessage prefix , message type) asSymbol) with: (message payload) with: aClient]
+			ifError: [ :ex :rcvr |
+					Transcript cr; show: 'Error handling message: ', ex.]

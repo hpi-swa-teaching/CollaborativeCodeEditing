@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"modelSetUp" : "SS 5/30/2019 12:23",
+		"modelUnderTestClass" : "SS 5/27/2019 16:51",
+		"testBuildNextButtonReturnsButton" : "SS 5/27/2019 17:20",
+		"testBuildTokenInputReturnsText" : "SS 5/27/2019 17:28",
+		"testJoinSessionUnderstandsNextButtonAction" : "SS 5/27/2019 17:41" } }

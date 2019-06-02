@@ -1,0 +1,3 @@
+setting
+reset
+	self setToNoRemoteSession

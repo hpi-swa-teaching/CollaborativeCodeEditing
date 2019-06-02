@@ -1,3 +1,3 @@
 tests
 testDefaultShouldAlwaysReturnTheSameInstance
-	self assert: client == CCEClient default.
+	self assert: client == CCEClient default

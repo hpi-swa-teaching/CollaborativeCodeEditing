@@ -1,3 +1,0 @@
-accessing
-sessionSeed
-	^ sessionSeed

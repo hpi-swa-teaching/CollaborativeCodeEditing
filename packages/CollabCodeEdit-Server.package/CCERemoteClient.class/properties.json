@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"socket" ],
+		"socket",
+		"session",
+		"identifier" ],
 	"name" : "CCERemoteClient",
 	"pools" : [
 		 ],

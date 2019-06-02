@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"server" ],
+		"server",
+		"testPayload" ],
 	"name" : "CCEServerTest",
 	"pools" : [
 		 ],

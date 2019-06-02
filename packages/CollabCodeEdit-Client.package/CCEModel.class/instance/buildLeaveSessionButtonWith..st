@@ -2,9 +2,9 @@ building
 buildLeaveSessionButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new 
 		model: self;
-		enabled: false;
-		label: 'Leave Session';
+		label: CCEModel leaveButtonLabel;
 		action: #actionLeaveSession;
+		enabled: #sessionIsLoaded;
 		frame:  (LayoutFrame new
 				topFraction: 0;
 				bottomFraction: 0.1;
