@@ -3,5 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "AD 5/27/2019 20:36",
-		"testChangeHumanReadableName" : "AD 5/27/2019 20:44",
+		"testChangeHumanReadableName" : "AD 6/2/2019 17:21",
 		"testHumanReadableNameDefaultsToAuthorInitials" : "AD 5/27/2019 20:46" } }

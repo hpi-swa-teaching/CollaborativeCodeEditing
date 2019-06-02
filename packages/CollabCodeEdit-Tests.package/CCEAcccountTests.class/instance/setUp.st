@@ -1,3 +1,3 @@
-as yet unclassified
+running
 setUp
 	account := CCEAccount new

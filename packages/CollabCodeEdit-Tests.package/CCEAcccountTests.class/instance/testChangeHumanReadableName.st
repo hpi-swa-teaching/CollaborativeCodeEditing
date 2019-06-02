@@ -1,6 +1,7 @@
-as yet unclassified
+tests
 testChangeHumanReadableName
 	| everChangingName |
+
 	everChangingName := TimeStamp current asString.
 	account humanReadableName: everChangingName.
 	
