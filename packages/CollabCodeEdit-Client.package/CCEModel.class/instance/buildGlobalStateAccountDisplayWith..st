@@ -1,7 +1,7 @@
 building
 buildGlobalStateAccountDisplayWith: aBuilder
 	^ aBuilder pluggableTextSpec new 
-		model: CCEAccount default;
+		model: self account;
 		editText: #humanReadableName:;
 		getText: #humanReadableName;
 		frame:  (LayoutFrame new
