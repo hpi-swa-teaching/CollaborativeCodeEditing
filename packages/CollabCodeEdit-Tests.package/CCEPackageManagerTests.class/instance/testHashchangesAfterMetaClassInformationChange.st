@@ -2,18 +2,18 @@ tests
 testHashchangesAfterMetaClassInformationChange
 	| originalComment  testClass hashBeforeChange hashAfterChange |
 
-	CCESession default scope: #( 'Signals' ).
+	CCESession default scope: testPackagesArray.
 	
-	testClass := (PackageInfo named: 'Signals') classes first.
+	testClass := (PackageInfo named: testPackage) classes first.
 	
 	originalComment := testClass comment.
  
-	hashBeforeChange := packageManager hashPackages: #( 'Signals' ).
+	hashBeforeChange := packageManager hashPackages: testPackagesArray.
 	
 	testClass comment: 'This comment was changed by packageManagerTest'.
 	
- 	hashAfterChange := packageManager hashPackages: #( 'Signals' ).
+ 	hashAfterChange := packageManager hashPackages: testPackagesArray.
 	
-	self deny: hashBeforeChange equals: hashAfterChange.
+	self deny: (hashBeforeChange == hashAfterChange).
 	
 	testClass comment: originalComment

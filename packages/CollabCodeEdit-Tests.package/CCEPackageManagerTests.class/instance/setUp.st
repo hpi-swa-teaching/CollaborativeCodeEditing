@@ -1,3 +1,5 @@
 running
 setUp
-	packageManager := CCEPackageManager default
+	packageManager := CCEPackageManager new.
+	testPackage := 'MorphicTests'.
+	testPackagesArray := #('MorphicTests').

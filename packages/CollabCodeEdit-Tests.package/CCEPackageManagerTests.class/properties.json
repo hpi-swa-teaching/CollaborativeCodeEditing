@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"packageManager" ],
+		"packageManager",
+		"testPackage",
+		"testPackagesArray" ],
 	"name" : "CCEPackageManagerTests",
 	"pools" : [
 		 ],

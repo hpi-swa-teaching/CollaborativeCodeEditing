@@ -1,5 +1,5 @@
 tests building
-testBuildCreateSessionButtonAsEbabled
+testBuildCreateSessionButtonAsEnabled
 	| spec |
 	
 	spec := model buildCreateSessionButtonWith: toolbuilder.
