@@ -1,7 +1,7 @@
 building
 buildSessionCollaboratorsDisplayWith: aBuilder
 	^ aBuilder pluggableListSpec new 
-		model: CCESession default;
+		model: self session;
 		list: #collaborators;
 		frame:  (LayoutFrame new
 				topFraction: 0.4;

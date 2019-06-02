@@ -1,0 +1,15 @@
+{
+	"category" : "CollabCodeEdit-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"consistencyState",
+		"identifier" ],
+	"name" : "CCECollaborator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

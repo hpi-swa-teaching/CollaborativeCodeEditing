@@ -9,6 +9,7 @@
 		"createSessionModel",
 		"joinSessionModel",
 		"session",
+		"imageAccount",
 		"client",
 		"sessionCtrlButtons",
 		"leaveSessionModel" ],

@@ -14,7 +14,8 @@
 		"testPackages",
 		"testSessionPayload",
 		"testAckSessionPayload",
-		"testToken" ],
+		"testToken",
+		"imageAccount" ],
 	"name" : "CCEProtocolTestClientside",
 	"pools" : [
 		 ],

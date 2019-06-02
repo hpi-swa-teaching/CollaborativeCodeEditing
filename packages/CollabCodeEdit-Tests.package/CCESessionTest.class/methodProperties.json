@@ -10,7 +10,7 @@
 		"testDefaultShouldAlwaysReturnTheSameInstance" : "AW 6/1/2019 23:30",
 		"testFillSessionWithShouldFillSessionWithScopeAndChecksum" : "AW 6/1/2019 23:31",
 		"testGetStatus" : "SS 5/30/2019 15:02",
-		"testResetShouldNilSessionInformationAndResetStatusToInitial" : "SS 5/29/2019 23:09",
+		"testResetShouldNilSessionInformationAndResetStatusToInitial" : "SS 6/2/2019 15:39",
 		"testSetClearSessionShouldFillSessionAndSetStatusToCleanRemoteSession" : "AW 6/1/2019 23:08",
 		"testSetDirtySessionShouldFillSessionAndSetStatusToDirtyRemoteSession" : "AW 6/1/2019 23:07",
 		"testStatusIsOfTypeCCESessionStatus" : "SS 5/29/2019 23:04" } }

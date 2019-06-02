@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scope",
-		"checksum",
-		"token",
-		"client",
-		"collaborators",
-		"status",
-		"imageAccount" ],
-	"name" : "CCESession",
+		"consistencyState" ],
+	"name" : "CCEAccount",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

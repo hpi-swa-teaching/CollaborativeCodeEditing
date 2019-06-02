@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 6/1/2019 23:22",
+		"setUp" : "SS 6/2/2019 15:44",
 		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 5/30/2019 15:30",
-		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "SS 5/30/2019 12:42",
+		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "SS 6/2/2019 16:15",
 		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "AW 6/1/2019 23:22",
 		"testAckJoinSessionCleanStateFillsSessionWithCorrectInfomation" : "AW 6/1/2019 23:22",
 		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "AW 6/1/2019 23:22",
@@ -15,7 +15,7 @@
 		"testAckLeaveSessionResetSession" : "AW 6/1/2019 23:23",
 		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 5/31/2019 06:29",
 		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 5/31/2019 06:34",
-		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum" : "SS 5/31/2019 06:26",
+		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "SS 6/2/2019 15:49",
 		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "AW 6/1/2019 23:23",
 		"testJoinSessionSetsStatusToNoRemoteSession" : "AW 6/1/2019 23:23",
 		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 5/26/2019 09:49",

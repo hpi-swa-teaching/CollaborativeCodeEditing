@@ -1,7 +1,8 @@
 requests ui
-testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum
-	| expectedScope expectedChecksum | 	
+testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator
+	| expectedScope expectedChecksum expectedCollaboratorList | 	
 	
+	expectedCollaboratorList := OrderedCollection newFrom: {imageAccount}.
 	expectedScope := testPackages.
 	expectedChecksum := CCEPackageManager default hashPackages: testPackages. 
 		
@@ -9,5 +10,6 @@ testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksum
 		
 	self assert: expectedScope equals: session scope.
 	self assert: expectedChecksum equals: session checksum.
+	self assert: (expectedCollaboratorList = session collaborators).
 	
 	networkInterface clear
