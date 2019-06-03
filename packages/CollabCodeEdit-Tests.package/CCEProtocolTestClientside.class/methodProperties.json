@@ -19,7 +19,7 @@
 		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 5/31/2019 06:34",
 		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "SS 6/2/2019 20:14",
 		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "AW 6/1/2019 23:23",
-		"testDeleteUserInModelRemovesCollaboratorInSession" : "MS 6/3/2019 09:01",
+		"testDeleteUserInModelRemovesCollaboratorInSession" : "MS 6/3/2019 12:42",
 		"testJoinSessionSetsStatusToNoRemoteSession" : "AW 6/1/2019 23:23",
 		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "MS 6/3/2019 08:54",
 		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "SS 5/31/2019 06:37",
