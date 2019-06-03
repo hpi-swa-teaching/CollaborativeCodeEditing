@@ -4,4 +4,4 @@
 	"instance" : {
 		"setUp" : "AW 6/1/2019 23:21",
 		"testCCEPackageManagerIsSingelton" : "5/22/2019 14:33:46",
-		"testHashchangesAfterMetaClassInformationChange" : "AW 6/1/2019 23:22" } }
+		"testHashchangesAfterMetaClassInformationChange" : "AW 6/3/2019 16:53" } }
