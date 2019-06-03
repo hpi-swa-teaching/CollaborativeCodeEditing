@@ -19,7 +19,9 @@
 		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 5/31/2019 06:34",
 		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "SS 6/2/2019 20:14",
 		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "AW 6/1/2019 23:23",
+		"testDeleteUserInModelRemovesCollaboratorInSession" : "MS 6/3/2019 09:01",
 		"testJoinSessionSetsStatusToNoRemoteSession" : "AW 6/1/2019 23:23",
-		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 5/26/2019 09:49",
+		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "MS 6/3/2019 08:54",
 		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "SS 5/31/2019 06:37",
+		"testSetClientNameSendsCCEMessage" : "MS 6/2/2019 23:10",
 		"testSetClientNameSendsCCEMessageToServer" : "MS 6/2/2019 15:41" } }

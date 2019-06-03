@@ -2,7 +2,6 @@ requests ui
 testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken
 	| expectedMessage | 		
 
-		
 	expectedMessage := CCEMessage joinSession: #testToken.	
 	model joinSessionWith: #testToken.	
 	
