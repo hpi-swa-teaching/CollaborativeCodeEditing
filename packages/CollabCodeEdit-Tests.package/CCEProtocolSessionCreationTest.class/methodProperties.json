@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"subClassSpecificSetUp" : "SS 6/3/2019 11:54",
+		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 6/3/2019 11:45",
+		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount" : "SS 6/3/2019 11:45",
+		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "SS 6/3/2019 11:45",
+		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "SS 6/3/2019 11:45",
+		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "SS 6/3/2019 11:46",
+		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 6/3/2019 11:46",
+		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "SS 6/3/2019 11:46",
+		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 6/3/2019 11:46" } }

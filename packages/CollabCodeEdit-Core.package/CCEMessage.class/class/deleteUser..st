@@ -1,3 +1,3 @@
 server-Message creation
 deleteUser: aString
-	^ CCEMessage new: (CCEMessage serverMsgTypes at: #newUser:) with: { #id -> aString }
+	^ CCEMessage new: (CCEMessage serverMsgTypes at: #deleteUser:) with: { #id -> aString }

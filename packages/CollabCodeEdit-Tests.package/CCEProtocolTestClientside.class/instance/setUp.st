@@ -24,4 +24,6 @@ setUp
 		#checksum -> (CCEPackageManager default hashPackages: testPackages)}.
 		
 	testAckSessionPayload := OrderedDictionary newFrom: {
-		#token -> #testToken}
+		#token -> #testToken}.
+	
+	self subClassSpecificSetUp

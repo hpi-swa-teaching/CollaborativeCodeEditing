@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"subClassSpecificSetUp" : "SS 6/3/2019 11:54",
+		"testAckJoinSessionCleanStateFillsSessionWithCorrectInfomation" : "SS 6/3/2019 11:48",
+		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "SS 6/3/2019 11:48",
+		"testAckJoinSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 6/3/2019 11:48",
+		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirtyRemoteSession" : "SS 6/3/2019 11:48",
+		"testJoinSessionSetsStatusToNoRemoteSession" : "SS 6/3/2019 11:48",
+		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 6/3/2019 11:48" } }

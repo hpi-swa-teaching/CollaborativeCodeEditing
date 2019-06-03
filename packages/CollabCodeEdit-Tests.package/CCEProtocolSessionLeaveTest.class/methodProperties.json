@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"subClassSpecificSetUp" : "SS 6/3/2019 11:54",
+		"testAckLeaveSessionClearsSessionInformation" : "SS 6/3/2019 11:49",
+		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 6/3/2019 11:49",
+		"testAckLeaveSessionResetSession" : "SS 6/3/2019 11:50",
+		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 6/3/2019 11:50",
+		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "SS 6/3/2019 11:50" } }

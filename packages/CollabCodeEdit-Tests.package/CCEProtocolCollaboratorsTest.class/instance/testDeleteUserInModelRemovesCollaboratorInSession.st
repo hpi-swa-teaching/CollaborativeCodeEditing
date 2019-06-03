@@ -1,4 +1,4 @@
-requests ui
+requests backend
 testDeleteUserInModelRemovesCollaboratorInSession
 
 	session addCollaboratorFromPayload: (CCEMessage newUser: 'testName') payload.
