@@ -2,7 +2,7 @@ testing
 testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient
 	| createSessionMessage createdSession | 
 	
-	createSessionMessage := CCEMessage createSessionWith: testSessionPayload.
+	createSessionMessage := CCEMessage createSessionWith: testSessionCreationPayload.
 	server onMessage: createSessionMessage serialize from: client1.
 	
 	server sessions values do: [:session | createdSession := session].

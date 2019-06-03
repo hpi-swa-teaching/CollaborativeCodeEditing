@@ -1,14 +1,14 @@
 {
-	"category" : "CollabCodeEdit-Client",
+	"category" : "CollabCodeEdit-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CCEDummyAccount",
+		"remoteClient" ],
+	"name" : "CCERemoteClientTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

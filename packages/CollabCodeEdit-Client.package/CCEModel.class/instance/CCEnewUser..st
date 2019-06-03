@@ -1,3 +1,3 @@
 requests backend
 CCEnewUser: anOrderedDictionary
-	self session addNewCollaboratorWith: anOrderedDictionary.
+	self session addCollaboratorFromPayload: anOrderedDictionary.

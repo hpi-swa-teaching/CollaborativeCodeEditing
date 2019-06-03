@@ -2,7 +2,7 @@ testing
 testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession	
 	| joinPayload token setConsistentMessage|
 	
-	server CCEcreateSessionWith: testSessionPayload from: client1.
+	server CCEcreateSessionWith: testSessionCreationPayload from: client1.
 	token := client1 session token.
 	joinPayload := OrderedDictionary newFrom: {#token -> token}.
 	setConsistentMessage := CCEMessage setConsistent: {#isConsistent -> true}.

@@ -8,13 +8,15 @@
 	"instvars" : [
 		"server",
 		"testPackages",
-		"testSessionPayload",
 		"client1",
 		"client2",
 		"client3",
 		"networkInterface1",
 		"networkInterface2",
-		"networkInterface3" ],
+		"networkInterface3",
+		"testCollaboratorsList",
+		"testSessionCreationPayload",
+		"testSessionJoinPayload" ],
 	"name" : "CCEProtocolTestServerside",
 	"pools" : [
 		 ],

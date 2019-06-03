@@ -1,4 +1,3 @@
 accessing
 identifier: anObject
-
-	identifier := anObject.
+	identifier := anObject

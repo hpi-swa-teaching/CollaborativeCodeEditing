@@ -2,7 +2,7 @@ testing
 testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError
 	| leaveSessionMessage token | 
 	
-	server CCEcreateSessionWith: testSessionPayload from: client1.
+	server CCEcreateSessionWith: testSessionCreationPayload from: client1.
 	
 	token := client1 session token.
 	leaveSessionMessage := CCEMessage leaveSessionWith: (token, 'maliciousTokenEnding') asSymbol.

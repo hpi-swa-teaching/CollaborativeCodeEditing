@@ -2,7 +2,7 @@ testing
 testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage
 	| sessionToken joinSessionMessage | 
 	
-	server CCEcreateSessionWith: testSessionPayload from: client1.
+	server CCEcreateSessionWith: testSessionCreationPayload from: client1.
 	
 	sessionToken := client1 session token.
 	

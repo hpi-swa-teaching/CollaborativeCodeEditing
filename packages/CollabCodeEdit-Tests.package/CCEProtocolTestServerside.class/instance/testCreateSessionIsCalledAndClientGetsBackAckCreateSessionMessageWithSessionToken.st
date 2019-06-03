@@ -2,7 +2,7 @@ testing
 testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken
 	| createSessionMessage | 
 	
-	createSessionMessage := CCEMessage createSessionWith: testSessionPayload.
+	createSessionMessage := CCEMessage createSessionWith: testSessionCreationPayload.
 	
 	server onMessage: createSessionMessage serialize from: client1.
 	
