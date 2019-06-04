@@ -8,6 +8,6 @@ testNetMessageTransmissionViaExampleMessage
 	
 	client send: testMessage serialize.
 	
-	(Duration milliSeconds: 100) wait.	
+	(Delay forMilliseconds: 100) wait.	
 	
 	self assert: 1 equals: server sessions size
