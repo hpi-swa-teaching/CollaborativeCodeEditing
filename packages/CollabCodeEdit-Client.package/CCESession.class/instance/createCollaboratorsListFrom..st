@@ -1,0 +1,2 @@
+collaborator managment
+createCollaboratorsListFrom: anOrderedCollection

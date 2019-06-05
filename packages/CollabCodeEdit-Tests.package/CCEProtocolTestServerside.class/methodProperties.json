@@ -12,7 +12,7 @@
 		"testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession" : "SS 6/3/2019 11:04",
 		"testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage" : "SS 6/3/2019 10:39",
 		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "SS 6/3/2019 10:39",
-		"testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser" : "MS 6/3/2019 11:02",
+		"testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser" : "MS 6/3/2019 12:48",
 		"testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession" : "SS 6/3/2019 10:39",
 		"testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError" : "SS 6/3/2019 10:39",
 		"testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession" : "SS 6/3/2019 10:39",

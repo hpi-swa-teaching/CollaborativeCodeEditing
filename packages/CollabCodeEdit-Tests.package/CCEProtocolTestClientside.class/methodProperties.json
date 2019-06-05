@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "SS 6/3/2019 11:55",
-		"subClassSpecificSetUp" : "SS 6/3/2019 11:53" } }
+		"setUp" : "SS 6/3/2019 12:12",
+		"subClassSpecificSetUp" : "SS 6/3/2019 11:53",
+		"testDeleteUserInModelRemovesCollaboratorInSession" : "MS 6/3/2019 12:42" } }

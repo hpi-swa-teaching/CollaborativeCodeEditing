@@ -11,6 +11,7 @@
 		"testClassSideResetShouldNotGenerateNewInstance" : "AW 6/1/2019 23:07",
 		"testCollaboratorsLazyInitialisation" : "SS 6/2/2019 20:32",
 		"testCollaboratorsListReturnsAnArrayOfCCECollaborators" : "SS 6/2/2019 21:37",
+		"testCreateCollaboratorsListFrom" : "SS 6/3/2019 12:26",
 		"testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload" : "AW 6/1/2019 23:30",
 		"testDefaultShouldAlwaysReturnTheSameInstance" : "AW 6/1/2019 23:30",
 		"testFillSessionWithShouldFillSessionWithScopeAndChecksum" : "AW 6/1/2019 23:31",

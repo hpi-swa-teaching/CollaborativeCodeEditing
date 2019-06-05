@@ -1,6 +1,6 @@
 services
 checkCleanStateWith: anOrderedDictionary
-	| remoteSessionScope remoteSessionHash |
+	| remoteSessionScope remoteSessionHash remoteCollaborators |
 	
 	remoteSessionScope := (anOrderedDictionary at: #scope) asArray.
 	remoteSessionHash := anOrderedDictionary at: #checksum.
@@ -8,6 +8,7 @@ checkCleanStateWith: anOrderedDictionary
 	((CCEPackageManager default hashPackages: remoteSessionScope) = remoteSessionHash)
 		ifTrue: [ 
 			self setCleanSessionWith: remoteSessionScope and: remoteSessionHash.
+			self createCollaboratorsListFrom: remoteCollaborators.
 			self client sendMsg: (CCEMessage setConsistent: true)]
 		ifFalse: [
 			self setDirtySessionWith: remoteSessionHash and: remoteSessionHash.

@@ -1,8 +1,8 @@
 requests backend
 testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirtyRemoteSession
 	| ackJoinSessionMessage |	
-	testSessionPayload at: #checksum put:  ((testSessionPayload at: #checksum) + 1).
-	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testSessionPayload.
+	testAckJoinSessionPayload at: #checksum put:  ((testAckJoinSessionPayload at: #checksum) + 1).
+	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testAckJoinSessionPayload.
 	
 	model recieve: ackJoinSessionMessage serialize.
 	

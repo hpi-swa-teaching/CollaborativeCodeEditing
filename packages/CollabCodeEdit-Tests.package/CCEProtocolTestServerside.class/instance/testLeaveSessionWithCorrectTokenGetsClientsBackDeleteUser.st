@@ -12,4 +12,4 @@ testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser
 	server onMessage: leaveSessionMessage serialize from: client2.
 	
 	self deny: (client1 session clients includes: client2).
-	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMsgTypes at: #deleteUser: )).
+	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #deleteUser: )).

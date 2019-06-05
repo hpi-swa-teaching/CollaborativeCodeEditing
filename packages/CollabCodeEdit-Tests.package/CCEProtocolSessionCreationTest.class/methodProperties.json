@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"subClassSpecificSetUp" : "SS 6/3/2019 11:54",
+		"subClassSpecificSetUp" : "SS 6/3/2019 12:03",
 		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 6/3/2019 11:45",
 		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount" : "SS 6/3/2019 11:45",
 		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "SS 6/3/2019 11:45",

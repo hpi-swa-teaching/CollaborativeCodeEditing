@@ -2,7 +2,7 @@ requests backend
 testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession
 	| ackJoinSessionMessage |
 	
-	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testSessionPayload.
+	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testAckJoinSessionPayload.
 	
 	model recieve: ackJoinSessionMessage serialize.
 	

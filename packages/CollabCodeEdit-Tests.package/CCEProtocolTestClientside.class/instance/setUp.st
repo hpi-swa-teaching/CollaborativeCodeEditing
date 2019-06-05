@@ -19,11 +19,6 @@ setUp
 	
 	testPackages := #('Signals').
 	testToken := #testToken.
-	testSessionPayload := OrderedDictionary newFrom: {
-		#scope -> testPackages . 
-		#checksum -> (CCEPackageManager default hashPackages: testPackages)}.
+	testChecksum := CCEPackageManager default hashPackages: testPackages.
 		
-	testAckSessionPayload := OrderedDictionary newFrom: {
-		#token -> #testToken}.
-	
 	self subClassSpecificSetUp
