@@ -1,3 +1,3 @@
 accessing
-joinSessionModel: anObject
-	joinSessionModel := anObject
+joinSessionModel: aCCEJoinSessionModel
+	joinSessionModel := aCCEJoinSessionModel

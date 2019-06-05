@@ -11,7 +11,8 @@
 		"session",
 		"client",
 		"sessionCtrlButtons",
-		"leaveSessionModel" ],
+		"leaveSessionModel",
+		"account" ],
 	"name" : "CCEModel",
 	"pools" : [
 		 ],

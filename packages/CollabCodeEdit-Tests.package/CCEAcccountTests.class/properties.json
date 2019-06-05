@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"account" ],
+	"name" : "CCEAcccountTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
