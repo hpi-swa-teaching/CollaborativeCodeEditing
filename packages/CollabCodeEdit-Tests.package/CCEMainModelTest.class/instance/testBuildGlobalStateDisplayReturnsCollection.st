@@ -1,4 +1,4 @@
-tests-building
+tests ui
 testBuildGlobalStateDisplayReturnsCollection
 	| spec |
 	spec := model buildGlobalStateDisplayWith: toolbuilder.

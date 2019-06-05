@@ -1,4 +1,4 @@
-tests-building
+tests ui
 testBuildGlobalStateAccountDisplayWithCCEAccountAsModel
 	| spec |
 	spec := model buildGlobalStateAccountDisplayWith: toolbuilder.
