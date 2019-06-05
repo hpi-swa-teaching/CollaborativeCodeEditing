@@ -10,5 +10,5 @@ testHashchangesAfterMetaClassInformationChange
 	testClass comment: 'This comment was changed by packageManagerTest'.
 	hashAfterChange := packageManager hashPackages: #( 'CollabCodeEdit-Tests' ).
 	
-	self deny: hashBeforeChange = hashAfterChange. ]
+	self deny: hashBeforeChange = hashAfterChange ]
 	ensure: [ testClass comment: originalComment ]
