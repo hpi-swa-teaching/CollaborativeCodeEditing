@@ -1,5 +1,5 @@
 hashing
 calculateHashOfMethodSourceCode: aCompiledMethod
-	^ aCompiledMethod sourceCode asString hash
+	^ aCompiledMethod getSource asString hash
 
 	
