@@ -11,4 +11,4 @@ testHashchangesAfterMetaClassInformationChange
 	hashAfterChange := packageManager hashPackages: #( 'CollabCodeEdit-Tests' ).
 	
 	self deny: hashBeforeChange = hashAfterChange. ]
-	ensure: [testClass comment: originalComment]
+	ensure: [ testClass comment: originalComment ]
