@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"testAckJoinSessionPayload",
-		"testPayloadCollaboratorsList",
-		"testCollaboratorsList" ],
-	"name" : "CCEProtocolSessionJoinTest",
+		 ],
+	"name" : "CCEProtocolSessionLeaveCSTest",
 	"pools" : [
 		 ],
 	"super" : "CCEProtocolTestClientside",

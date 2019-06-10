@@ -7,4 +7,5 @@
 		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 6/3/2019 11:49",
 		"testAckLeaveSessionResetSession" : "SS 6/3/2019 11:50",
 		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 6/3/2019 11:50",
+		"testDeleteUserInModelRemovesCollaboratorInSession" : "SS 6/5/2019 20:34",
 		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "SS 6/3/2019 11:50" } }

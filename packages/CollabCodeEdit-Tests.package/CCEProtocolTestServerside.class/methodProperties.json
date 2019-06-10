@@ -3,18 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "SS 6/3/2019 10:57",
-		"tearDown" : "AW 6/1/2019 23:28",
-		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "SS 6/3/2019 10:38",
-		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 6/3/2019 10:38",
-		"testJoinSessionAddsClientToSessionClients" : "SS 6/3/2019 10:38",
-		"testJoinSessionNotAddsClientToSessionClientsWithWrongSessionToken" : "SS 6/3/2019 10:38",
-		"testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPayload" : "SS 6/3/2019 10:56",
-		"testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession" : "SS 6/3/2019 11:04",
-		"testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage" : "SS 6/3/2019 10:39",
-		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "SS 6/3/2019 10:39",
-		"testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser" : "MS 6/3/2019 12:48",
-		"testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession" : "SS 6/3/2019 10:39",
-		"testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError" : "SS 6/3/2019 10:39",
-		"testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession" : "SS 6/3/2019 10:39",
-		"testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession" : "SS 6/3/2019 10:39",
-		"testSetNameSetsNameForremoteClient" : "MS 6/2/2019 15:23" } }
+		"subClassSpecificSetUp" : "SS 6/10/2019 19:12",
+		"tearDown" : "AW 6/1/2019 23:28" } }

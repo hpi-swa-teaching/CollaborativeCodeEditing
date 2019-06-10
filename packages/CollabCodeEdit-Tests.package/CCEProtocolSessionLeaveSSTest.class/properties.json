@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "CCEProtocolCollaboratorsTest",
+	"name" : "CCEProtocolSessionLeaveSSTest",
 	"pools" : [
 		 ],
-	"super" : "CCEProtocolTestClientside",
+	"super" : "CCEProtocolTestServerside",
 	"type" : "normal" }

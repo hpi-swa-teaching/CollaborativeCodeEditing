@@ -1,7 +1,7 @@
 testing
 testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser
 	| sessionToken joinSessionMessage leaveSessionMessage |
-	server CCEcreateSessionWith: testSessionPayload from: client1.
+	server CCEcreateSessionWith: testSessionCreationPayload from: client1.
 	
 	sessionToken := client1 session token.
 	

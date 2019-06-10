@@ -1,0 +1,6 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession" : "SS 6/10/2019 19:15",
+		"testSetNameSetsNameForremoteClient" : "SS 6/10/2019 19:15" } }

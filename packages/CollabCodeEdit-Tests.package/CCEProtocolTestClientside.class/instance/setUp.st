@@ -4,7 +4,8 @@ setUp
 	model := CCEModel new.
 	session := CCESession new.
 	client := CCEClient new.
-	imageAccount := CCEAccount new.
+	testIdentifier := 'istMee'.
+	imageAccount := CCEAccount new humanReadableName: testIdentifier.
 	
 	networkInterface := CCESocketMock new.
 	

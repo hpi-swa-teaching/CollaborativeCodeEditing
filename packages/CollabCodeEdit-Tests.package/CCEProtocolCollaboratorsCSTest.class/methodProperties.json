@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"subClassSpecificSetUp" : "SS 6/3/2019 11:53",
-		"testDeleteUserInModelRemovesCollaboratorInSession" : "SS 6/3/2019 11:52",
 		"testNewUserAddsCollaboratorToListWithCorrectIdentifier" : "SS 6/3/2019 11:51",
 		"testSetClientNameSendsCCEMessageToServer" : "SS 6/3/2019 11:52",
 		"testSetOtherUserConsistentUpdatesTheConsistencyStateOfTheCollaborator" : "SS 6/3/2019 11:52" } }

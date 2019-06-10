@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"testSessionPayload",
-		"testAckSessionPayload" ],
-	"name" : "CCEProtocolSessionCreationTest",
+		 ],
+	"name" : "CCEProtocolCollaboratorsSSTest",
 	"pools" : [
 		 ],
-	"super" : "CCEProtocolTestClientside",
+	"super" : "CCEProtocolTestServerside",
 	"type" : "normal" }
