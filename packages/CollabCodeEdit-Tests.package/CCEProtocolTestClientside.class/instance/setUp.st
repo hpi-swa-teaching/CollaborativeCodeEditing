@@ -4,7 +4,7 @@ setUp
 	model := CCEModel new.
 	session := CCESession new.
 	client := CCEClient new.
-	testIdentifier := 'istMee'.
+	testIdentifier := 'SS'.
 	imageAccount := CCEAccount new humanReadableName: testIdentifier.
 	
 	networkInterface := CCESocketMock new.
@@ -13,10 +13,10 @@ setUp
 	
 	model client: client.
 	model session: session. 
-	model imageAccount: imageAccount.
+	model account: imageAccount.
 	model session addStatusSubscriber: model.
 	session client: model client.
-	session imageAccount: model imageAccount.
+	session imageAccount: model account.
 	
 	testPackages := #('Signals').
 	testToken := #testToken.

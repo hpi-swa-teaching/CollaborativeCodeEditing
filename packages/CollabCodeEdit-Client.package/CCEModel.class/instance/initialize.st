@@ -8,4 +8,5 @@ initialize
 	self client: (CCEClient default owner: self).
 	self session: (CCESession default client: self client).
 	self session addStatusSubscriber: self.
+	self session imageAccount: self account
 	"CCEClient default connected ifFalse: [CCEClient default start]."

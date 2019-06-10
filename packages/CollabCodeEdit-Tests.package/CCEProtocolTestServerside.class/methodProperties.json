@@ -4,5 +4,4 @@
 	"instance" : {
 		"setUp" : "SS 6/3/2019 10:57",
 		"subClassSpecificSetUp" : "SS 6/10/2019 19:12",
-		"tearDown" : "AW 6/1/2019 23:28",
-		"testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession" : "AW 6/3/2019 16:52" } }
+		"tearDown" : "AW 6/1/2019 23:28" } }
