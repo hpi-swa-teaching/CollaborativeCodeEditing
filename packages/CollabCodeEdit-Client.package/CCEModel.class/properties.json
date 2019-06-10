@@ -9,10 +9,10 @@
 		"createSessionModel",
 		"joinSessionModel",
 		"session",
-		"imageAccount",
 		"client",
 		"sessionCtrlButtons",
-		"leaveSessionModel" ],
+		"leaveSessionModel",
+		"account" ],
 	"name" : "CCEModel",
 	"pools" : [
 		 ],

@@ -2,18 +2,13 @@ tests
 testHashchangesAfterMetaClassInformationChange
 	| originalComment  testClass hashBeforeChange hashAfterChange |
 
-	CCESession default scope: testPackagesArray.
-	
-	testClass := (PackageInfo named: testPackage) classes first.
-	
+	CCESession default scope: #( 'CollabCodeEdit-Tests' ).
+	testClass := Environment default classNamed: 'CCETestDummy'.
 	originalComment := testClass comment.
- 
-	hashBeforeChange := packageManager hashPackages: testPackagesArray.
+	[ hashBeforeChange := packageManager hashPackages: #( 'CollabCodeEdit-Tests' ).
 	
-	testClass comment: 'This comment was changed by packageManagerTest'.
+		testClass comment: 'This comment was changed by packageManagerTest'.
+		hashAfterChange := packageManager hashPackages: #( 'CollabCodeEdit-Tests' ).
 	
- 	hashAfterChange := packageManager hashPackages: testPackagesArray.
-	
-	self deny: (hashBeforeChange == hashAfterChange).
-	
-	testClass comment: originalComment
+		self deny: hashBeforeChange = hashAfterChange ]
+			ensure: [ testClass comment: originalComment ]

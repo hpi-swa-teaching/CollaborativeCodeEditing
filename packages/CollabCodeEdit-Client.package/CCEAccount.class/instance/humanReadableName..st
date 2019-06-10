@@ -1,3 +1,3 @@
 accessing
-humanReadableName: anObject
-	humanReadableName := anObject
+humanReadableName: aString
+	humanReadableName := aString

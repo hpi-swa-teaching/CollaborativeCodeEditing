@@ -1,3 +1,3 @@
+accessing
 default
-default
-	^ instance ifNil: [instance :=CCEAccount new]
+	^ instance ifNil: [ instance := self new]
