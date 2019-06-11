@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"client" ],
-	"name" : "CCEClientTest",
+		"changesDict" ],
+	"name" : "CCESessionMock",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "CCESession",
 	"type" : "normal" }

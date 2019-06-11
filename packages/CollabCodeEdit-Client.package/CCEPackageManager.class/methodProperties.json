@@ -11,4 +11,12 @@
 		"hashPackages:" : "5/22/2019 14:33:46",
 		"listAvailablePackages" : "AW 6/1/2019 22:51",
 		"listClassesOfPackage:" : "AW 6/1/2019 22:51",
-		"listMethodsOfClass:" : "AW 6/1/2019 22:52" } }
+		"listMethodsOfClass:" : "AW 6/1/2019 22:52",
+		"listenForChanges" : "AW 6/11/2019 18:29",
+		"listenForChangesOnScope:" : "AW 6/11/2019 18:30",
+		"listenForChangesOnScope:for:" : "AW 6/11/2019 18:34",
+		"methodAdded:" : "AW 6/11/2019 18:37",
+		"scope" : "AW 6/11/2019 18:30",
+		"scope:" : "AW 6/11/2019 18:31",
+		"session" : "AW 6/11/2019 18:31",
+		"session:" : "AW 6/11/2019 18:31" } }

@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 6/1/2019 23:21",
+		"sessionScope" : "AW 6/11/2019 18:28",
+		"setUp" : "AW 6/11/2019 18:50",
+		"testCCEPackageGetsNotfifiedOnNewMessage" : "AW 6/11/2019 18:49",
 		"testCCEPackageManagerIsSingelton" : "5/22/2019 14:33:46",
-		"testHashchangesAfterMetaClassInformationChange" : "AW 6/5/2019 11:16" } }
+		"testHashchangesAfterMetaClassInformationChange" : "AW 6/11/2019 18:27" } }
