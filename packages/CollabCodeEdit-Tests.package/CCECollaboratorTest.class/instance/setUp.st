@@ -3,4 +3,4 @@ setUp
 	collaborator := CCECollaborator new.
 	account := CCEAccount new.
 	
-	account humanReadableName: 'testName'
+	account humanReadableName: 'testName'.
