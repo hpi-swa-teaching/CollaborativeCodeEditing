@@ -7,7 +7,7 @@ testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession
 	
 	sessionToken := client1 session token.
 	
-	joinSessionMessage := CCEMessage joinSession: sessionToken.
+	joinSessionMessage := CCEMessage joinSession: sessionToken withIdentifier: client2 identifier.
 	
 	server onMessage: joinSessionMessage serialize from: client2.
 	

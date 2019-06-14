@@ -4,7 +4,7 @@ testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPay
 	
 	server CCEcreateSessionWith: testSessionCreationPayload from: client1.	
 	sessionToken := client1 session token.	
-	joinSessionMessage := CCEMessage joinSession: sessionToken.
+	joinSessionMessage := CCEMessage joinSession: sessionToken withIdentifier: #testName.
 	
 	testSessionCreationPayload at: #collaborators put: (
 		OrderedCollection newFrom: {OrderedDictionary newFrom: {#id->client1 identifier . #isConsistent-> client1 isConsistent}}).

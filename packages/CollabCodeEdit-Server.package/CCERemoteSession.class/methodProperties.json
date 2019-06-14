@@ -8,7 +8,7 @@
 		"createCollaboratorsListWithConsistencys" : "SS 6/3/2019 10:18",
 		"createSessionPayload" : "SS 6/3/2019 10:28",
 		"handleDeleteUser:" : "MS 6/3/2019 12:44",
-		"handleNewUser:" : "SS 6/10/2019 19:23",
+		"handleNewUser:withIdentifier:" : "MS 6/14/2019 10:07",
 		"initialChecksum" : "ST 5/22/2019 20:34",
 		"initialChecksum:" : "ST 5/22/2019 20:34",
 		"initialize" : "SS 5/26/2019 10:27",

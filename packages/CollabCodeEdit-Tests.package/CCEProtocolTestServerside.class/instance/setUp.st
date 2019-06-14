@@ -2,9 +2,9 @@ running
 setUp
 	server := CCEServer new.
 	
-	client1 := CCERemoteClient new identifier: 'aKey'; isConsistent: false.
-	client2 := CCERemoteClient new identifier: 'anotherKey'; isConsistent: true.
-	client3 := CCERemoteClient new identifier: 'anotherKey'; isConsistent: true.
+	client1 := CCERemoteClient new identifier: 'client1Identifier'; isConsistent: false.
+	client2 := CCERemoteClient new identifier: 'client2Identifier'; isConsistent: true.
+	client3 := CCERemoteClient new identifier: 'client3Identifier'; isConsistent: true.
 	
 	networkInterface1 := CCESocketMock new.
 	networkInterface2 := CCESocketMock new.

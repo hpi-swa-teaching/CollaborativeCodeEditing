@@ -5,7 +5,7 @@ testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser
 	
 	sessionToken := client1 session token.
 	
-	joinSessionMessage := CCEMessage joinSession: sessionToken.
+	joinSessionMessage := CCEMessage joinSession: sessionToken withIdentifier: #testName.
 	leaveSessionMessage := CCEMessage leaveSessionWith: sessionToken.
 	
 	server onMessage: joinSessionMessage serialize from: client2.

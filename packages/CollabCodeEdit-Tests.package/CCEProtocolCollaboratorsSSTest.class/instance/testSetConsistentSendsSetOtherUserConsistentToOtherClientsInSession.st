@@ -1,13 +1,14 @@
 testing
 testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession	
-	| joinPayload token setConsistentMessage|
+	| token setConsistentMessage joinPayloadForClient2 joinPayloadForClient3 |
 	
 	server CCEcreateSessionWith: testSessionCreationPayload from: client1.
 	token := client1 session token.
-	joinPayload := OrderedDictionary newFrom: {#token -> token}.
+	joinPayloadForClient2 := OrderedDictionary newFrom: {#token -> token. #id -> client2 identifier}.
+	joinPayloadForClient3 := OrderedDictionary newFrom: {#token -> token. #id -> client3 identifier}.
 	setConsistentMessage := CCEMessage setConsistent: {#isConsistent -> true}.
 	
-	server CCEjoinSession: joinPayload from: client2.
+	server CCEjoinSession: joinPayloadForClient2 from: client2.
 	
 	server onMessage: setConsistentMessage serialize from: client2.
 	
@@ -16,8 +17,7 @@ testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession
 	networkInterface1 clear.
 	networkInterface2 clear.
 	
-	
-	server CCEjoinSession: joinPayload from: client3.
+	server CCEjoinSession: joinPayloadForClient3 from: client3.
 	
 	server onMessage: setConsistentMessage serialize from: client3.
 	

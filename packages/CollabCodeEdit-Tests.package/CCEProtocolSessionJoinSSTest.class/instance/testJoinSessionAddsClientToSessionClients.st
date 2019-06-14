@@ -5,7 +5,7 @@ testJoinSessionAddsClientToSessionClients
 	
 	sessionToken := client1 session token.
 	
-	joinSessionMessage := CCEMessage joinSession: sessionToken.
+	joinSessionMessage := CCEMessage joinSession: sessionToken withIdentifier: #testName.
 	
 	server onMessage: joinSessionMessage serialize from: client2.
 	
