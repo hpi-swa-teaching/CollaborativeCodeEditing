@@ -6,7 +6,7 @@ testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessi
 	
 	ackMessage := CCEMessage ackLeaveSessionWith: testAckSessionPayload.
 	
-	model recieve: ackMessage serialize.
+	model receive: ackMessage serialize.
 	
 	self assert: (model perform: (model buttonWithLabel: CCEModel createButtonLabel) enabled).
 	self assert: (model perform: (model buttonWithLabel: CCEModel joinButtonLabel) enabled).

@@ -4,6 +4,7 @@
 	"instance" : {
 		"identifier" : "ST 5/22/2019 20:26",
 		"identifier:" : "AW 6/2/2019 00:01",
+		"inSameSessionAs:" : "AD 6/15/2019 14:43",
 		"onClose:" : "PB 5/5/2019 22:29",
 		"onError:" : "PB 5/5/2019 22:29",
 		"onMessage:" : "PB 5/5/2019 22:29",
@@ -11,6 +12,7 @@
 		"run" : "PB 5/5/2019 22:38",
 		"send:" : "PB 5/5/2019 22:26",
 		"sendMsg:" : "PB 5/5/2019 22:36",
+		"sendMsgToSession:" : "AD 6/15/2019 16:02",
 		"session" : "ST 5/22/2019 19:47",
 		"session:" : "AW 6/2/2019 00:01",
 		"socket" : "PB 5/5/2019 22:24",
