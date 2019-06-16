@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 clear
 	self messages removeAll

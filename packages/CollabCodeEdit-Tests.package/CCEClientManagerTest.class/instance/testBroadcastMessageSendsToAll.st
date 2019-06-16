@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBroadcastMessageSendsToAll
 	| aCCEMessage |
 	aCCEMessage := CCEMessage new.

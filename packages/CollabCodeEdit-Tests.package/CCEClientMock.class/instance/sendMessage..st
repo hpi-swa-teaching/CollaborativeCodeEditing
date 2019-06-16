@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 sendMessage: aCCEMessage
 	self messages add: aCCEMessage

@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 hasMessage: aMessage
 	^ self messages includes: aMessage

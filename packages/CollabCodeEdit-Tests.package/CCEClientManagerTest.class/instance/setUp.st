@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 	clients := (OrderedCollection newFrom: { CCEClientMock new . CCEClientMock new. CCEClientMock new. }).
 	clientManager :=  CCEClientManager new.
