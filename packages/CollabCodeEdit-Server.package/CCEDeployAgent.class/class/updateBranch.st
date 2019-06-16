@@ -1,0 +1,3 @@
+constants
+updateBranch
+	^ 'master'

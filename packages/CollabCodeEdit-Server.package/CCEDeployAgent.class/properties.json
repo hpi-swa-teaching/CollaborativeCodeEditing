@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server" ],
+	"name" : "CCEDeployAgent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
