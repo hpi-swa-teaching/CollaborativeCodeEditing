@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AD 6/16/2019 15:48",
+		"testBroadcastMessageSendsToAll" : "AD 6/16/2019 15:51",
+		"testBroadcastMessageWithoutSendsToAllExceptOne" : "AD 6/16/2019 15:52" } }

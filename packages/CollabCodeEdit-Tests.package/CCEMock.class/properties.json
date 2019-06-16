@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "AD 6/16/2019 14:50",
 	"instvars" : [
 		"messages" ],
-	"name" : "CCESocketMock",
+	"name" : "CCEMock",
 	"pools" : [
 		 ],
-	"super" : "CCEMock",
+	"super" : "Object",
 	"type" : "normal" }

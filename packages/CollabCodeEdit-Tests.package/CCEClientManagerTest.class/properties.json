@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"messages" ],
-	"name" : "CCESocketMock",
+		"clientManager",
+		"clients" ],
+	"name" : "CCEClientManagerTest",
 	"pools" : [
 		 ],
-	"super" : "CCEMock",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 message
-hasMessage: aString
-	self messages keysDo: [:key | key = aString ifTrue: [^ true]].
+hasMessage: aMessage
+	self messages keysDo: [:key | key = aMessage ifTrue: [^ true]].
 	^ false

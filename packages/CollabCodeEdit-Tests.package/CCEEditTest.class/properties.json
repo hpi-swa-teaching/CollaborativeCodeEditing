@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"messages" ],
-	"name" : "CCESocketMock",
+		"account" ],
+	"name" : "CCEEditTest",
 	"pools" : [
 		 ],
-	"super" : "CCEMock",
+	"super" : "TestCase",
 	"type" : "normal" }

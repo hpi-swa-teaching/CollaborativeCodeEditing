@@ -10,5 +10,5 @@
 	"name" : "CCESessionMock",
 	"pools" : [
 		 ],
-	"super" : "CCESession",
+	"super" : "CCEMock",
 	"type" : "normal" }
