@@ -7,5 +7,4 @@ start
 
 		newInstance := self new start.
 		self currentInstance: newInstance.
-		^ newInstance
-	]
+		^ newInstance ]

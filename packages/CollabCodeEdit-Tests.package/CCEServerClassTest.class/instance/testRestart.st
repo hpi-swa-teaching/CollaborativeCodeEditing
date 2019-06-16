@@ -10,7 +10,7 @@ testRestart
 		server := CCEServer restart.
 		server ifNil: [ self fail ].
 		self assert: CCEServer equals: server class.
-		self deny: previousServer equals: server.
+		self deny: previousServer = server.
 
 		previousServer := server ]
 	
