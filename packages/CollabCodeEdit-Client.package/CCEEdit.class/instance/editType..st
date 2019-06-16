@@ -1,3 +1,3 @@
 accessing
-editType: anObject
-	editType := anObject
+editType: aSymbol
+	editType := aSymbol

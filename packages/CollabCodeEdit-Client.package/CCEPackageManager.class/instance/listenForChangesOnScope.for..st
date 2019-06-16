@@ -3,4 +3,3 @@ listenForChangesOnScope: aStringArray for: aCCESession
 	self scope: aStringArray;
 			 session: aCCESession;
 			 listenForChanges
-			
