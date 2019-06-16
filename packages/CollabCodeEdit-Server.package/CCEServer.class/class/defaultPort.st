@@ -1,3 +1,3 @@
-defaults
+constants
 defaultPort
 	^ 8080
