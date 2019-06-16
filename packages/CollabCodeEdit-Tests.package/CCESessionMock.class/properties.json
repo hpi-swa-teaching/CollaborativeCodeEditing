@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"changesDict" ],
+	"name" : "CCESessionMock",
+	"pools" : [
+		 ],
+	"super" : "CCESession",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+change-capturing
+listenForChanges
+	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self.
+	self listenForMethodChanges
