@@ -1,3 +1,4 @@
 breakdown
 breakdown
-	self server stopListener
+	self server destroy.
+	self server: nil
