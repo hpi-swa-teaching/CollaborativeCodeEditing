@@ -1,3 +1,3 @@
 startup
 restart
-	^ self breakdown
+	^ self breakdown start
