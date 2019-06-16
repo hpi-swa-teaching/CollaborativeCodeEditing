@@ -13,4 +13,3 @@ testRestart
 		self deny: previousServer = server.
 
 		previousServer := server ]
-	

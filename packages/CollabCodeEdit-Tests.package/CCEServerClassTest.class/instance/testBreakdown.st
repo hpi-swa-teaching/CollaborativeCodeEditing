@@ -7,4 +7,3 @@ testBreakdown
 	
 	CCEServer breakdown.
 	CCEServer currentInstance ifNotNil: [ self fail ]
-	
