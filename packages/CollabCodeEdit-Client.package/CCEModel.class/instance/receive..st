@@ -1,5 +1,5 @@
 requests backend
-recieve: someData
+receive: someData
 	| message | 
 	
 	message := [ (CCEMessage deserialize: someData) ] ifError: [

@@ -1,0 +1,17 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"editType",
+		"methodOrClassIdentifier",
+		"editContent",
+		"timestamp" ],
+	"name" : "CCEEdit",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

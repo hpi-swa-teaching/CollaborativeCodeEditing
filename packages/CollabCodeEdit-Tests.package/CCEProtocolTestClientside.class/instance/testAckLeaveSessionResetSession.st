@@ -4,7 +4,7 @@ testAckLeaveSessionResetSession
 	
 	ackMessage := CCEMessage ackLeaveSessionWith: testAckSessionPayload.
 	
-	model recieve: ackMessage serialize.
+	model receive: ackMessage serialize.
 	
 	self assert: nil equals: session scope.
 	self assert: nil equals: session checksum.

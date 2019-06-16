@@ -4,7 +4,7 @@ testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirt
 	testSessionPayload at: #checksum put:  ((testSessionPayload at: #checksum) + 1).
 	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testSessionPayload.
 	
-	model recieve: ackJoinSessionMessage serialize.
+	model receive: ackJoinSessionMessage serialize.
 	
 	self assert: (networkInterface hasMessage: (CCEMessage setConsistent: false) serialize).
 	self assert: (CCESessionStatus dirtyRemoteSession = session status name).
