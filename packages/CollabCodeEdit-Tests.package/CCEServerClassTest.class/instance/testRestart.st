@@ -1,6 +1,7 @@
 tests
 testRestart
 	| server previousServer |
+
 	server := nil.
 	previousServer := nil.
 

@@ -1,6 +1,7 @@
 tests
 testStart
 	| server |
+
 	server := nil.
 
 	3 timesRepeat: [
