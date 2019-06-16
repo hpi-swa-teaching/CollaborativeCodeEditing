@@ -6,5 +6,5 @@ CCEcreateSessionWith: anOrderedDictionary from: aClient
 		addClient: aClient;
 		token.
     
-	aClient sendMsg: (CCEMessage ackCreateSession: sessionToken)
+	aClient sendMessage: (CCEMessage ackCreateSession: sessionToken)
 

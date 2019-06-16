@@ -9,4 +9,4 @@ CCEjoinSession: anOrderedDictionary from: aClient
 		ifPresent: [ 
 			:session | session handleNewUser: aClient]
 		ifAbsent: [
-			aClient sendMsg: CCEMessage ackJoinSessionSessionNotFound ]
+			aClient sendMessage: CCEMessage ackJoinSessionSessionNotFound ]

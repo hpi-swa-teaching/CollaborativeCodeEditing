@@ -3,6 +3,6 @@ requestJoinSessionWith: aTokenString
 	| message | 
 	
 	message := CCEMessage joinSession: aTokenString.	
-	self client sendMsg: message.
+	self client sendMessage: message.
 	
 	self status setToNoRemoteSession

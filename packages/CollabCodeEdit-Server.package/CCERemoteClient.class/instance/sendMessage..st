@@ -1,3 +1,3 @@
 sending
-sendMsg: aCCEMessage
+sendMessage: aCCEMessage
 	self send: aCCEMessage serialize

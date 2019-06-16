@@ -1,6 +1,6 @@
 client management
 handleNewUser: aClient
-	self broadcastMsg: CCEMessage newUser.
+	self broadcastMessage: CCEMessage newUser.
 	self  addClient: aClient.
-	aClient sendMsg: (CCEMessage ackJoinSessionWith: self createSessionPayload)
+	aClient sendMessage: (CCEMessage ackJoinSessionWith: self createSessionPayload)
 	
