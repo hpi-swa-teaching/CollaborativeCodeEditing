@@ -10,7 +10,8 @@ testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPay
 	
 	expectedPayload at: #collaborators put: (
 		OrderedCollection newFrom: {OrderedDictionary newFrom: {#id->client1 identifier . #isConsistent-> client1 isConsistent}});
-		at: #token put: sessionToken.
+		at: #token put: sessionToken;
+		removeKey: #id ifAbsent: [].
 		
 	expectedMessage := CCEMessage ackJoinSessionWith: expectedPayload.	
 		
