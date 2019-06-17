@@ -18,7 +18,7 @@ setUp
 	session client: model client.
 	session imageAccount: model account.
 	
-	testPackages := #('Signals').
+	testPackages := #('Traits').
 	testToken := #testToken.
 	testChecksum := CCEPackageManager default hashPackages: testPackages.
 		
