@@ -5,10 +5,10 @@ testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload
 	expectedPayload := OrderedDictionary newFrom: {
 								#scope -> #('Signals') .
 								#checksum -> 12345 .
-								#id -> 'testName'}.
+								#id -> 'SS'}.
 	
 	session scope: #('Signals').
 	session checksum: 12345.
-	session imageAccount humanReadableName: 'testName'.
+	session imageAccount humanReadableName: 'SS'.
 	
 	self assert: expectedPayload equals: session createSessionPayload
