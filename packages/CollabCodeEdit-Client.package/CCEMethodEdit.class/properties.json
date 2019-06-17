@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"editType",
-		"editContent" ],
-	"name" : "CCEEdit",
+		"methodIdentifier",
+		"classIdentifier" ],
+	"name" : "CCEMethodEdit",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CCEEdit",
 	"type" : "normal" }
