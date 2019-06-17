@@ -1,12 +1,14 @@
 services
 ackJoinSession: anOrderedDictionary
-	| remoteSessionScope remoteSessionHash remoteCollaborators |
+	| remoteSessionScope remoteSessionHash remoteCollaborators remoteSessionToken |
 	
 	remoteSessionScope := (anOrderedDictionary at: #scope) asArray.
 	remoteSessionHash := anOrderedDictionary at: #checksum.
 	remoteCollaborators := anOrderedDictionary at: #collaborators.
+	remoteSessionToken := anOrderedDictionary at: #token.
 	
 	self createCollaboratorsListFrom: remoteCollaborators.
+	self token: remoteSessionToken.
 	
 	((CCEPackageManager default hashPackages: remoteSessionScope) = remoteSessionHash)
 		ifTrue: [ 
