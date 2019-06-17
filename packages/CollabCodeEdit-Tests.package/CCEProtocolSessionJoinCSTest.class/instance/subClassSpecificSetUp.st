@@ -9,7 +9,8 @@ subClassSpecificSetUp
 	testAckJoinSessionPayload := OrderedDictionary newFrom: {
 			#scope->testPackages .
 			#checksum-> testChecksum .
-			#collaborators -> testPayloadCollaboratorsList}.
+			#collaborators -> testPayloadCollaboratorsList .
+			#token -> testToken}.
 	
 	testCollaboratorsList := OrderedDictionary newFrom: {
 		'aKey' -> (CCECollaborator new identifier: 'aKey'; consistencyState: CCECollaborator isConsistentString) .
