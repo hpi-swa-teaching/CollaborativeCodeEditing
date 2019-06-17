@@ -12,7 +12,7 @@
 		"testCollaboratorsLazyInitialisation" : "SS 6/2/2019 20:32",
 		"testCollaboratorsListReturnsAnArrayOfCCECollaborators" : "SS 6/2/2019 21:37",
 		"testCreateCollaboratorsListFrom" : "SS 6/3/2019 12:26",
-		"testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload" : "AW 6/1/2019 23:30",
+		"testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload" : "SS 6/17/2019 17:40",
 		"testDefaultShouldAlwaysReturnTheSameInstance" : "AW 6/1/2019 23:30",
 		"testFillSessionWithShouldFillSessionWithScopeAndChecksum" : "AW 6/1/2019 23:31",
 		"testGetStatus" : "SS 5/30/2019 15:02",
