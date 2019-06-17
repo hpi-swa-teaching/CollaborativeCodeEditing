@@ -10,4 +10,4 @@
 		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "SS 6/3/2019 11:46",
 		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 6/3/2019 11:46",
 		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "SS 6/3/2019 11:46",
-		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 6/3/2019 11:46" } }
+		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 6/17/2019 17:24" } }

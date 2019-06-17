@@ -4,7 +4,8 @@ testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload
 	
 	expectedPayload := OrderedDictionary newFrom: {
 		#scope -> testPackages .
-		#checksum -> (CCEPackageManager default hashPackages: testPackages)}.
+		#checksum -> (CCEPackageManager default hashPackages: testPackages) .
+		#id -> imageAccount humanReadableName}.
 		
 	expectedMessage := CCEMessage createSessionWith: expectedPayload.
 	
