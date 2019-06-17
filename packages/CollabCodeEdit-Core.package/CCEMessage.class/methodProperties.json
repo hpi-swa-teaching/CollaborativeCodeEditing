@@ -3,6 +3,7 @@
 		"ackCreateSession:" : "AW 6/2/2019 00:06",
 		"ackCreateSession:withError:" : "AW 6/2/2019 00:06",
 		"ackJoinSession" : "ST 5/25/2019 14:03",
+		"ackJoinSession:" : "MS 6/17/2019 17:24",
 		"ackJoinSessionIdentifierAlreadyInUse" : "MS 6/14/2019 09:40",
 		"ackJoinSessionTokenNotFound" : "MS 6/14/2019 09:34",
 		"ackJoinSessionWith:" : "SS 5/26/2019 10:22",

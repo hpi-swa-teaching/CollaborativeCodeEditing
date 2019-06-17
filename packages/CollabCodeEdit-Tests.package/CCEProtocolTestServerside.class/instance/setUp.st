@@ -27,6 +27,6 @@ setUp
 	testSessionCreationPayload := OrderedDictionary newFrom: {
 		#scope -> testPackages .
 		#checksum -> (CCEPackageManager default hashPackages: testPackages)}.
-		
+	
 "	testSessionJoinPayload := testSessionCreationPayload at: #colalborators put: testCollaboratorsList"
 		
