@@ -1,3 +1,0 @@
-accessing
-methodIdentifier
-	^ methodIdentifier

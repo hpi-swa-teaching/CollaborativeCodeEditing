@@ -1,14 +1,13 @@
 {
-	"category" : "CollabCodeEdit-Client",
+	"category" : "CollabCodeEdit-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"methodIdentifier",
 		"classIdentifier" ],
-	"name" : "CCEMethodEdit",
+	"name" : "CCEMethodAddedOrChangedEdit",
 	"pools" : [
 		 ],
 	"super" : "CCEEdit",

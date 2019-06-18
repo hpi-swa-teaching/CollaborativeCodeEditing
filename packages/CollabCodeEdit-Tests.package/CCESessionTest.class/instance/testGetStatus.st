@@ -10,4 +10,3 @@ testGetStatus
 	
 	session status setToCleanRemoteSession.
 	self assert: (session getStatus = CCESessionStatus cleanRemoteSession)
-	

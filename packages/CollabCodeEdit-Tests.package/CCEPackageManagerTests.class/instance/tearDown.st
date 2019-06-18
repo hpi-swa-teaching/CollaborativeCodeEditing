@@ -1,3 +1,3 @@
 running
 tearDown
-	session changesDict: OrderedDictionary new.
+	session clear

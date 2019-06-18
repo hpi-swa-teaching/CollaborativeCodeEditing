@@ -1,3 +1,3 @@
 request-sending
 broadcastRemovedMethod: aMethodSelector in: aClass
-	self changesDict at: aClass put: (aMethodSelector, #Removed)
+	self messages at: aClass put: (aMethodSelector, #Removed)

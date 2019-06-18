@@ -1,4 +1,4 @@
 server-Message creation
-forwardEditMessage: aSerializeddCCEEdit
+forwardEditMessage: aCCEEdit
 	^ self new: (CCEMessage serverMsgTypes at: #receiveEdit:) 
-			with: (STON fromString: aSerializeddCCEEdit)
+			with: aCCEEdit

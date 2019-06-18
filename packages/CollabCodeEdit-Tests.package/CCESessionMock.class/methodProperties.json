@@ -2,9 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"broadcastChangedMethod:in:" : "AW 6/16/2019 15:46",
-		"broadcastMovedMethod:in:into:" : "AW 6/16/2019 14:15",
-		"broadcastRemovedMethod:in:" : "AW 6/16/2019 15:43",
-		"changesDict" : "AW 6/11/2019 18:43",
-		"changesDict:" : "AW 6/11/2019 18:45",
-		"initialize" : "AD 6/16/2019 15:06" } }
+		"broadcastAddedOrChangedMethod:in:" : "AW 6/18/2019 10:38",
+		"broadcastMovedMethod:in:into:" : "AW 6/18/2019 10:38",
+		"broadcastRemovedMethod:in:" : "AW 6/18/2019 10:38",
+		"initialize" : "AW 6/18/2019 10:39" } }
