@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"subClassSpecificSetUp" : "SS 6/3/2019 11:54",
-		"testAckLeaveSessionClearsSessionInformation" : "SS 6/3/2019 11:49",
-		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 6/3/2019 11:49",
-		"testAckLeaveSessionResetSession" : "SS 6/3/2019 11:50",
-		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 6/3/2019 11:50",
-		"testDeleteUserInModelRemovesCollaboratorInSession" : "SS 6/5/2019 20:34",
+		"testAckLeaveSessionClearsSessionInformation" : "SS 6/19/2019 12:02",
+		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 6/19/2019 12:03",
+		"testAckLeaveSessionResetSession" : "SS 6/19/2019 12:03",
+		"testAckLeaveSessionSetStatusToNoRemoteSession" : "SS 6/19/2019 12:03",
+		"testDeleteUserInModelRemovesCollaboratorInSession" : "SS 6/19/2019 12:03",
 		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "SS 6/3/2019 11:50" } }

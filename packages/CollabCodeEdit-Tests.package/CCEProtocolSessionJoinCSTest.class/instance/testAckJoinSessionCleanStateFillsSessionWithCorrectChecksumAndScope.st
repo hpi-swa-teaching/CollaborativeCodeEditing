@@ -4,7 +4,7 @@ testAckJoinSessionCleanStateFillsSessionWithCorrectChecksumAndScope
 	
 	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testAckJoinSessionPayload.
 	
-	model recieve: ackJoinSessionMessage serialize.
+	model receive: ackJoinSessionMessage serialize.
 	
 	self assert: testPackages equals: session scope.
 	self assert: (CCEPackageManager default hashPackages: testPackages) equals: session checksum. 	

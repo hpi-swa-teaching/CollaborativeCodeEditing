@@ -3,6 +3,6 @@ testDeleteUserInModelRemovesCollaboratorInSession
 
 	session addCollaboratorFromPayload: (CCEMessage newUser: 'testName') payload.
 	
-	model recieve: (CCEMessage deleteUser: 'testName') serialize.
+	model receive: (CCEMessage deleteUser: 'testName') serialize.
 	
 	self assert: 0 = session collaborators size.

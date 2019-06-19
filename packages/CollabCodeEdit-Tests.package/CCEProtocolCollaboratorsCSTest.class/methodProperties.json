@@ -3,6 +3,5 @@
 		 },
 	"instance" : {
 		"subClassSpecificSetUp" : "SS 6/3/2019 11:53",
-		"testNewUserAddsCollaboratorToListWithCorrectIdentifier" : "SS 6/3/2019 11:51",
-		"testSetClientNameSendsCCEMessageToServer" : "SS 6/3/2019 11:52",
-		"testSetOtherUserConsistentUpdatesTheConsistencyStateOfTheCollaborator" : "SS 6/3/2019 11:52" } }
+		"testNewUserAddsCollaboratorToListWithCorrectIdentifier" : "SS 6/19/2019 11:59",
+		"testSetOtherUserConsistentUpdatesTheConsistencyStateOfTheCollaborator" : "SS 6/19/2019 12:00" } }

@@ -4,7 +4,7 @@ testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRe
 	
 	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testAckJoinSessionPayload.
 	
-	model recieve: ackJoinSessionMessage serialize.
+	model receive: ackJoinSessionMessage serialize.
 	
 	self assert: (networkInterface hasMessage: (CCEMessage setConsistent: true) serialize).
 	self assert: (CCESessionStatus cleanRemoteSession = session status name).

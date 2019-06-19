@@ -6,7 +6,7 @@ testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButt
 	
 	ackMessage := CCEMessage ackCreateSession: #testToken.
 	
-	model recieve: ackMessage serialize.
+	model receive: ackMessage serialize.
 	
 	self deny: (model perform: (model buttonWithLabel: CCEModel createButtonLabel) enabled).
 	self deny: (model perform: (model buttonWithLabel: CCEModel joinButtonLabel) enabled).

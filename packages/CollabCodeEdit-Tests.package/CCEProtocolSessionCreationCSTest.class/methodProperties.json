@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"subClassSpecificSetUp" : "SS 6/3/2019 12:03",
-		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 6/3/2019 11:45",
-		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount" : "SS 6/3/2019 11:45",
-		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "SS 6/3/2019 11:45",
-		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "SS 6/3/2019 11:45",
-		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "SS 6/3/2019 11:46",
+		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 6/19/2019 12:00",
+		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount" : "SS 6/19/2019 12:00",
+		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "SS 6/19/2019 12:00",
+		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "SS 6/19/2019 12:00",
+		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "SS 6/19/2019 12:00",
 		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 6/3/2019 11:46",
 		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "SS 6/3/2019 11:46",
 		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 6/17/2019 17:24" } }

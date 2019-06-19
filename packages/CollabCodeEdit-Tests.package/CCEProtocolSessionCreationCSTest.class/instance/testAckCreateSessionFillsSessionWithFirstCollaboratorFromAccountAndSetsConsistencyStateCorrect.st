@@ -3,7 +3,7 @@ testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsisten
 	| ackCreateSessionMessage createdCollaborator |
 	ackCreateSessionMessage := CCEMessage ackCreateSession: #testToken.
 	
-	model recieve: ackCreateSessionMessage serialize.
+	model receive: ackCreateSessionMessage serialize.
 	
 	createdCollaborator := session collaborators at: testIdentifier.
 	

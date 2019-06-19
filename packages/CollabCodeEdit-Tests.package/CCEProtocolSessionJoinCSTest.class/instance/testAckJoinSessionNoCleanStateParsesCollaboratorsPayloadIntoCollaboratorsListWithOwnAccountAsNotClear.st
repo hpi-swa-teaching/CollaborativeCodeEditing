@@ -8,7 +8,7 @@ testAckJoinSessionNoCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWit
 	expectedCollaboratorsList := testCollaboratorsList.
 	expectedCollaboratorsList at: imageAccount humanReadableName put: (CCECollaborator newFromAccount: imageAccount).
 		
-	model recieve: ackJoinSessionMessage serialize.
+	model receive: ackJoinSessionMessage serialize.
 	
 	createdCollaboratorsList := session collaborators.
 	expectedCollaboratorsList keys do: [:key | self assert: ((createdCollaboratorsList at: key) isKindOf: CCECollaborator)].
