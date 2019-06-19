@@ -16,6 +16,7 @@
 		"CCEackLeaveSessionWithError:" : "MS 5/27/2019 16:28",
 		"CCEdeleteUser:" : "MS 6/3/2019 12:46",
 		"CCEnewUser:" : "SS 6/3/2019 09:58",
+		"CCEreceiveEdit:" : "AD 6/15/2019 16:15",
 		"CCEsetOtherUserConsistent:" : "SS 6/3/2019 10:05",
 		"account" : "AD 6/2/2019 17:38",
 		"account:" : "AD 6/2/2019 17:38",
@@ -49,12 +50,12 @@
 		"leaveSessionModel" : "SS 5/27/2019 17:43",
 		"leaveSessionModel:" : "SS 5/27/2019 17:43",
 		"noSessionIsLoaded" : "SS 5/30/2019 14:59",
-		"recieve:" : "MS 6/12/2019 15:39",
+		"receive:" : "AD 6/15/2019 16:13",
 		"session" : "ST 5/25/2019 14:25",
 		"session:" : "ST 5/25/2019 14:25",
 		"sessionCtrlButtons" : "ST 5/25/2019 17:16",
 		"sessionCtrlButtons:" : "ST 5/25/2019 17:16",
-		"sessionIsLoaded" : "SS 5/30/2019 14:59",
+		"sessionIsLoaded" : "AW 6/15/2019 16:17",
 		"sessionScope:" : "AD 5/27/2019 19:16",
 		"setClientName:" : "MS 6/2/2019 15:31",
-		"update:" : "SS 6/2/2019 15:22" } }
+		"update:" : "AW 6/15/2019 16:18" } }

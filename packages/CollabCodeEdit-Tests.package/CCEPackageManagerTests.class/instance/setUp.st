@@ -1,5 +1,5 @@
 running
 setUp
-	packageManager := CCEPackageManager new.
-	testPackage := 'MorphicTests'.
-	testPackagesArray := #('MorphicTests').
+	packageManager := CCEPackageManager default.
+	testClass := Environment default classNamed: 'CCETestDummy'.
+	session := CCESessionMock new

@@ -2,6 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "SS 6/2/2019 22:35",
+		"executeWithTemporaryTestMethod:" : "AW 6/16/2019 15:13",
+		"sessionScope" : "AW 6/11/2019 18:28",
+		"setUp" : "AW 6/11/2019 18:50",
+		"tearDown" : "AW 6/11/2019 19:07",
+		"testCCEPackageGetsNotfifiedOnNewMessage" : "AW 6/16/2019 15:47",
+		"testCCEPackageGetsNotfifiedOnRecategorization" : "AW 6/16/2019 15:17",
+		"testCCEPackageGetsNotfifiedOnRemovedMessage" : "AW 6/16/2019 15:39",
+		"testCCEPackageIgnoresChangesOutOfScope" : "AW 6/16/2019 16:30",
 		"testCCEPackageManagerIsSingelton" : "SS 6/2/2019 22:27",
-		"testHashchangesAfterMetaClassInformationChange" : "AW 6/5/2019 11:16" } }
+		"testHashchangesAfterMetaClassInformationChange" : "AW 6/11/2019 18:27",
+		"testMethod" : "AW 6/16/2019 14:28" } }

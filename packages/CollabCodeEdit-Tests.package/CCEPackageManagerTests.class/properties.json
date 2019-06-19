@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"packageManager",
-		"testPackage",
-		"testPackagesArray" ],
+		"testClass",
+		"session" ],
 	"name" : "CCEPackageManagerTests",
 	"pools" : [
 		 ],

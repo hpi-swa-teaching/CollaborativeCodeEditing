@@ -1,3 +1,6 @@
 startup
 start
-	self server listenOn: CCEServer defaultPort
+	self server: WebServer new.
+
+	self server listenOn: self class defaultPort.
+	self registerServices
