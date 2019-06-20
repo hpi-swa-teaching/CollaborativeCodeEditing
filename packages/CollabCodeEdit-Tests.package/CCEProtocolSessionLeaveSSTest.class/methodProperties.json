@@ -4,7 +4,7 @@
 	"instance" : {
 		"subClassSpecificSetUp" : "SS 6/10/2019 19:13",
 		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "SS 6/10/2019 19:14",
-		"testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser" : "MS 6/14/2019 09:10",
+		"testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser" : "SS 6/20/2019 14:14",
 		"testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession" : "SS 6/10/2019 19:14",
 		"testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError" : "SS 6/10/2019 19:14",
 		"testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession" : "SS 6/10/2019 19:14" } }

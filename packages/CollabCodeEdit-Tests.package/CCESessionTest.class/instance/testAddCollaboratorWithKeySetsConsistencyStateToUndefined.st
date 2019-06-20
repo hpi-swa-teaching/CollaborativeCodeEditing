@@ -8,10 +8,9 @@ testAddCollaboratorWithKeySetsConsistencyStateToUndefined
 	
 	session addCollaborator: exptedCollaborator withKey: testIdentifier.
 	
-	createdCollaborator := session collaborators at: testIdentifier ifAbsent: [self fail].
+	createdCollaborator := session collaborators at: testIdentifier ifAbsent: [ self fail ].
 	
 	self assert: 1 equals: session collaborators size.
 	self assert: (createdCollaborator isKindOf: CCECollaborator).
 	self assert: (createdCollaborator identifier = testIdentifier).
-	self assert: (createdCollaborator consistencyState = CCECollaborator isUndefinedString).
-	
+	self assert: (createdCollaborator consistencyState = CCECollaborator isUndefinedString)

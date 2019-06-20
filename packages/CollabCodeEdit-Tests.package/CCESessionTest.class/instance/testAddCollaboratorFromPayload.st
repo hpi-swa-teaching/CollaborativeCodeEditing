@@ -6,6 +6,6 @@ testAddCollaboratorFromPayload
 	
 	exptedCollaborator := CCECollaborator new identifier: testIdentifier.
 	
-	session addCollaboratorFromPayload: (OrderedDictionary newFrom: {#id -> testIdentifier}).
+	session addCollaboratorFromPayload: (OrderedDictionary newFrom: { #id -> testIdentifier }).
 	
-	self assert: ((session collaborators at: testIdentifier) identifier = testIdentifier).
+	self assert: ((session collaborators at: testIdentifier) identifier = testIdentifier)

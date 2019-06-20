@@ -1,4 +1,4 @@
 as yet unclassified
 createCollaboratorInformation
-	^ OrderedDictionary newFrom: {#id -> self identifier . #isConsistent -> self isConsistent}
+	^ OrderedDictionary newFrom: { #id -> self identifier . #isConsistent -> self isConsistent }
 	

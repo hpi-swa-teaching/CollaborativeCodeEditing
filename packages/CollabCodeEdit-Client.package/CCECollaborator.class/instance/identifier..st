@@ -1,3 +1,3 @@
 accessing
-identifier: anObject
-	identifier := anObject
+identifier: aString
+	identifier := aString

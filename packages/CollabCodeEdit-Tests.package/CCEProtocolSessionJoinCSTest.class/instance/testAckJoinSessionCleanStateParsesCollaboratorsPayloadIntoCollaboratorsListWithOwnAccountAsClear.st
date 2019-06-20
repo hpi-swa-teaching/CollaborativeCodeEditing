@@ -9,10 +9,11 @@ testAckJoinSessionCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithO
 	model receive: ackJoinSessionMessage serialize.
 	
 	createdCollaboratorsList := session collaborators.
-	expectedCollaboratorsList keys do: [:key | self assert: ((createdCollaboratorsList at: key) isKindOf: CCECollaborator)].
+	expectedCollaboratorsList keys do: [ :key |
+		 self assert: ((createdCollaboratorsList at: key) isKindOf: CCECollaborator) ].
 	self assert: (createdCollaboratorsList anySatisfy: [ :collaborator | 
 		(collaborator identifier = imageAccount humanReadableName) and:
-		 collaborator consistencyState  = CCECollaborator isConsistentString]).
+		 collaborator consistencyState  = CCECollaborator isConsistentString ]).
 	
 	session removeAllCollaborators.
 	

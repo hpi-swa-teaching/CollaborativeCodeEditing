@@ -2,13 +2,13 @@
 	"class" : {
 		"newWithToken:" : "AW 6/1/2019 23:36" },
 	"instance" : {
-		"ackJoinSessionPayload" : "MS 6/17/2019 17:30",
+		"ackJoinSessionPayload" : "SS 6/20/2019 14:01",
 		"addClient:" : "AW 6/1/2019 23:38",
-		"addCreator:" : "SS 6/2/2019 21:59",
+		"addCreator:" : "SS 6/20/2019 14:01",
 		"breakdown" : "AW 6/1/2019 23:38",
-		"createCollaboratorsListWithConsistencys" : "SS 6/3/2019 10:18",
+		"createCollaboratorsListWithConsistencys" : "SS 6/20/2019 14:01",
 		"createSessionPayload" : "SS 6/3/2019 10:28",
-		"handleDeleteUser:" : "MS 6/3/2019 12:44",
+		"handleDeleteUser:" : "SS 6/20/2019 14:02",
 		"handleNewUser:withIdentifier:" : "MS 6/17/2019 17:45",
 		"initialChecksum" : "ST 5/22/2019 20:34",
 		"initialChecksum:" : "ST 5/22/2019 20:34",

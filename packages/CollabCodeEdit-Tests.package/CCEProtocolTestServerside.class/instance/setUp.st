@@ -19,15 +19,15 @@ setUp
 	server addClient: client3.
 	
 	testCollaboratorsList := OrderedCollection newFrom: {
-		OrderedDictionary newFrom: {#id->client1 identifier . #isConsistent -> client1 isConsistent}.
-		OrderedDictionary newFrom: {#id->client2 identifier . #isConsistent -> client2 isConsistent}.
-		OrderedDictionary newFrom: {#id->client3 identifier . #isConsistent -> client3 isConsistent}}.
+		OrderedDictionary newFrom: { #id->client1 identifier . #isConsistent -> client1 isConsistent }.
+		OrderedDictionary newFrom: { #id->client2 identifier . #isConsistent -> client2 isConsistent }.
+		OrderedDictionary newFrom: { #id->client3 identifier . #isConsistent -> client3 isConsistent } }.
 	
 	testPackages := #('Traits').
 	testSessionCreationPayload := OrderedDictionary newFrom: {
 		#scope -> testPackages .
 		#checksum -> (CCEPackageManager default hashPackages: testPackages).
-		#id -> client1 identifier}.
+		#id -> client1 identifier }.
 		
 "	testSessionJoinPayload := testSessionCreationPayload at: #colalborators put: testCollaboratorsList"
 		

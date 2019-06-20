@@ -1,3 +1,3 @@
 messaging
 createCollaboratorsListWithConsistencys
-	^ self clients collect: [:aClient | aClient createCollaboratorInformation]
+	^ self clients collect: [ :aClient | aClient createCollaboratorInformation ]

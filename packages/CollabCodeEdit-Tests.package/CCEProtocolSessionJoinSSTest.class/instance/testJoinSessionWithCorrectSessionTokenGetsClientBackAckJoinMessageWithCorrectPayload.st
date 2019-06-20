@@ -9,7 +9,7 @@ testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPay
 	expectedPayload := testSessionCreationPayload.
 	
 	expectedPayload at: #collaborators put: (
-		OrderedCollection newFrom: {OrderedDictionary newFrom: {#id->client1 identifier . #isConsistent-> client1 isConsistent}});
+		OrderedCollection newFrom: {OrderedDictionary newFrom: { #id->client1 identifier . #isConsistent-> client1 isConsistent } });
 		at: #token put: sessionToken;
 		removeKey: #id ifAbsent: [].
 		
@@ -19,4 +19,5 @@ testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPay
 	
 	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackJoinSession:)).
 	
-	self assert: (IdentityDictionary newFrom: expectedPayload) equals: (networkInterface2 messages at: expectedMessage serialize) payload
+	self assert: (IdentityDictionary newFrom: expectedPayload)
+		 equals: (networkInterface2 messages at: expectedMessage serialize) payload

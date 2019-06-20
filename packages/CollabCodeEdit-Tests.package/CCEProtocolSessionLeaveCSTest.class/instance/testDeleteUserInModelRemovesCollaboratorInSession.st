@@ -5,4 +5,4 @@ testDeleteUserInModelRemovesCollaboratorInSession
 	
 	model receive: (CCEMessage deleteUser: 'testName') serialize.
 	
-	self assert: 0 = session collaborators size.
+	self assert: 0 = session collaborators size

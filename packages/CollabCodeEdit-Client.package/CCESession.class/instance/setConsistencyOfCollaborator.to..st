@@ -4,7 +4,7 @@ setConsistencyOfCollaborator: aString to: aBoolean
 	collaborator := self collaborators at: aString.
 	
 	aBoolean
-		ifTrue: [collaborator consistencyState: CCECollaborator isConsistentString]
-		ifFalse: [collaborator consistencyState: CCECollaborator isNotConsistentString].
+		ifTrue: [ collaborator consistencyState: CCECollaborator isConsistentString ]
+		ifFalse: [ collaborator consistencyState: CCECollaborator isNotConsistentString ].
 	
 	self updateCollaboratorsInUI

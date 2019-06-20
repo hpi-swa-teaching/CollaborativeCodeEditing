@@ -4,4 +4,4 @@ ackJoinSessionPayload
 		#scope -> self scope.
 		#checksum -> self initialChecksum.
 		#collaborators -> self createCollaboratorsListWithConsistencys.
-		#token -> self token}
+		#token -> self token }

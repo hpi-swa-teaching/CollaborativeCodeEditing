@@ -4,9 +4,9 @@ testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession
 	
 	server CCEcreateSessionWith: testSessionCreationPayload from: client1.
 	token := client1 session token.
-	joinPayloadForClient2 := OrderedDictionary newFrom: {#token -> token. #id -> client2 identifier}.
-	joinPayloadForClient3 := OrderedDictionary newFrom: {#token -> token. #id -> client3 identifier}.
-	setConsistentMessage := CCEMessage setConsistent: {#isConsistent -> true}.
+	joinPayloadForClient2 := OrderedDictionary newFrom: { #token -> token. #id -> client2 identifier }.
+	joinPayloadForClient3 := OrderedDictionary newFrom: { #token -> token. #id -> client3 identifier }.
+	setConsistentMessage := CCEMessage setConsistent: { #isConsistent -> true }.
 	
 	server CCEjoinSession: joinPayloadForClient2 from: client2.
 	

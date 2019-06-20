@@ -8,4 +8,4 @@ testAddCollaboratorFromAccount
 	
 	session addCollaboratorFromAccount: account.
 	
-	self assert: ((session collaborators at: testIdentifier) identifier = testIdentifier).
+	self assert: ((session collaborators at: testIdentifier) identifier = testIdentifier)

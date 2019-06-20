@@ -3,9 +3,9 @@ testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload
 
 	| expectedPayload | 
 	expectedPayload := OrderedDictionary newFrom: {
-								#scope -> #('Signals') .
-								#checksum -> 12345 .
-								#id -> 'SS'}.
+		#scope -> #('Signals') .
+		#checksum -> 12345 .
+		#id -> 'SS' }.
 	
 	session scope: #('Signals').
 	session checksum: 12345.

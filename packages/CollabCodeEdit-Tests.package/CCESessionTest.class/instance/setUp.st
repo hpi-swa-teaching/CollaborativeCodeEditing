@@ -5,4 +5,4 @@ setUp
 	account := CCEAccount new humanReadableName: testIdentifier.	
 	session imageAccount: account.
 	
-	testCollaborator := CCECollaborator new identifier: testIdentifier.
+	testCollaborator := CCECollaborator new identifier: testIdentifier

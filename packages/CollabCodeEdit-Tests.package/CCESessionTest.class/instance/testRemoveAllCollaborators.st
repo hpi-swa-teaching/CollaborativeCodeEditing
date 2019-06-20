@@ -5,4 +5,4 @@ testRemoveAllCollaborators
 	
 	session removeAllCollaborators.
 	
-	self assert: session collaborators isEmpty.
+	self assert: session collaborators isEmpty

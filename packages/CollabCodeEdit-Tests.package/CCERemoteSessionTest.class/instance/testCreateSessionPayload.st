@@ -6,10 +6,8 @@ testCreateSessionPayload
 	remoteSession addClient: (CCERemoteClient new identifier: 'anotherKey'; isConsistent: false).
 	
 	expectedPayload := OrderedDictionary newFrom: {
-							#scope -> remoteSession scope.
-							#checksum -> remoteSession initialChecksum.
-							#collaborators -> remoteSession createCollaboratorsListWithConsistencys}.
-	
-	
+		#scope -> remoteSession scope.
+		#checksum -> remoteSession initialChecksum.
+		#collaborators -> remoteSession createCollaboratorsListWithConsistencys }.	
 	
 	self assert: (expectedPayload = remoteSession createSessionPayload)

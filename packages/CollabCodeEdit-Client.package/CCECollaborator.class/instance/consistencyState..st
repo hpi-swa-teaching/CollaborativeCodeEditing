@@ -1,3 +1,3 @@
 accessing
-consistencyState: anObject
-	consistencyState := anObject
+consistencyState: aString
+	consistencyState := aString
