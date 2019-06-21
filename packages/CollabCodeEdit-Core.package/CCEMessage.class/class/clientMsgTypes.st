@@ -5,4 +5,5 @@ clientMsgTypes
 			#joinSession:from: -> #joinSession:from: .
 			#setConsistent:from: -> #setConsistent:from: .
 			#leaveSessionWith:from: -> #leaveSessionWith:from: .
-			#sendMulticastToSession:from: -> #sendMulticastToSession:from:}
+			#sendMulticastToSession:from: -> #sendMulticastToSession:from: .
+			#changeSelection:from: -> #changeSelection:from:}
