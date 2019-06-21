@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentSelection" ],
-	"name" : "CCESelectionListener",
+		"categorySelection",
+		"classSelection",
+		"methodSelection",
+		"imageAccount",
+		"client" ],
+	"name" : "CCESelection",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

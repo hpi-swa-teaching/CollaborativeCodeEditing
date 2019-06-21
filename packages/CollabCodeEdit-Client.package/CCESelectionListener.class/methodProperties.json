@@ -2,6 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "SS 6/19/2019 11:48",
-		"step" : "SS 6/19/2019 11:43",
-		"stepTime" : "SS 6/19/2019 11:42" } }
+		"browserModels" : "MS 6/20/2019 13:51",
+		"currentSelection" : "MS 6/20/2019 14:02",
+		"currentSelection:" : "MS 6/20/2019 15:03",
+		"initialize" : "MS 6/20/2019 14:33",
+		"start" : "MS 6/20/2019 15:58",
+		"step" : "MS 6/20/2019 14:40",
+		"stepTime" : "SS 6/19/2019 11:42",
+		"stop" : "MS 6/20/2019 16:04",
+		"update:" : "MS 6/20/2019 15:09" } }

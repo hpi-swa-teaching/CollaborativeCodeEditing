@@ -11,4 +11,6 @@ checkCleanStateWith: anOrderedDictionary
 			self client sendMsg: (CCEMessage setConsistent: true)]
 		ifFalse: [
 			self setDirtySessionWith: remoteSessionHash and: remoteSessionHash.
-			self client sendMsg: (CCEMessage setConsistent: false)]
+			self client sendMsg: (CCEMessage setConsistent: false)].
+		
+	self activateSelectionListener.

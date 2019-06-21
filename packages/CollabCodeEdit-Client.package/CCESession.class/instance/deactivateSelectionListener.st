@@ -1,0 +1,3 @@
+services
+deactivateSelectionListener
+	self selectionListener stop

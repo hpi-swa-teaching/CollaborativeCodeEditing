@@ -1,4 +1,4 @@
 as yet unclassified
 step
-	Transcript show: 'hallo'; cr.
+	self browserModels do: [:model | model addDependent: self].
 	
