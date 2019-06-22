@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AW 6/22/2019 22:51",
+	"commentStamp" : "AW 6/22/2019 23:02",
 	"instvars" : [
-		"editType",
-		"editContent" ],
-	"name" : "CCEEdit",
+		 ],
+	"name" : "CCEMethodAddedOrModifiedEdit",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CCEEdit",
 	"type" : "normal" }

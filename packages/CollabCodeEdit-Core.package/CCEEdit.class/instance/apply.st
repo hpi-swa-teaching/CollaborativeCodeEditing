@@ -1,0 +1,3 @@
+applying
+apply
+	^ SubclassResponsibility
