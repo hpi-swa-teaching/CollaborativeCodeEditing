@@ -18,10 +18,10 @@
 		"testFillSessionWithShouldFillSessionWithScopeAndChecksum" : "AW 6/1/2019 23:31",
 		"testGetStatus" : "SS 5/30/2019 15:02",
 		"testRemoveAllCollaborators" : "SS 6/20/2019 14:20",
-		"testRemoveCollaboratorAt" : "SS 6/2/2019 21:27",
+		"testRemoveCollaboratorAt" : "SS 6/22/2019 15:08",
 		"testResetShouldEmptyCollaboratorsList" : "SS 6/2/2019 20:45",
 		"testResetShouldNilSessionInformationAndResetStatusToInitial" : "SS 6/2/2019 20:34",
 		"testSetClearSessionShouldFillSessionAndSetStatusToCleanRemoteSession" : "AW 6/1/2019 23:08",
-		"testSetConsistencyStateOfCollaborator" : "SS 6/2/2019 21:28",
+		"testSetConsistencyStateOfCollaborator" : "SS 6/22/2019 15:09",
 		"testSetDirtySessionShouldFillSessionAndSetStatusToDirtyRemoteSession" : "AW 6/1/2019 23:07",
 		"testStatusIsOfTypeCCESessionStatus" : "SS 5/29/2019 23:04" } }

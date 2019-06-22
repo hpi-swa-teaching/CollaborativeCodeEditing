@@ -7,4 +7,4 @@ testRemoveCollaboratorAt
 	
 	self deny: (session collaborators keys includes: 'aKey').
 	self assert: (session collaborators keys includes: 'anotherKey').
-	self assert: 1 equals: session collaborators size.
+	self assert: 1 equals: session collaborators size

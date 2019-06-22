@@ -1,6 +1,7 @@
 collaborator managment
 setConsistencyOfCollaborator: aString to: aBoolean
 	| collaborator |
+	
 	collaborator := self collaborators at: aString.
 	
 	aBoolean

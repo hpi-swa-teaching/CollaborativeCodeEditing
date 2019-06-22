@@ -1,3 +1,3 @@
 accessing
-isConsistent: anObject
-	isConsistent := anObject
+isConsistent: aBoolean
+	isConsistent := aBoolean
