@@ -2,4 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddedMethodWillBeApplied" : "AW 6/18/2019 10:34" } }
+		"setUp" : "AW 6/22/2019 23:41",
+		"tearDown" : "AW 6/22/2019 23:41",
+		"testAddedMethodWillBeApplied" : "AW 6/22/2019 23:43",
+		"testApplyIsSubclassResponsibility" : "AW 6/22/2019 23:48",
+		"testClass" : "AW 6/22/2019 23:38",
+		"testClassToEditIsClassNamedClassIdentifier" : "AW 6/22/2019 23:46",
+		"testEditOutOfScopeWontBeApplied" : "AW 6/22/2019 23:43",
+		"testMethod" : "AW 6/22/2019 23:38" } }

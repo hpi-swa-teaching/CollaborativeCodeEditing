@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"broadcastAddedOrChangedMethod:in:" : "AW 6/18/2019 10:38",
+		"broadcastAddedOrModifiedMethod:in:" : "AW 6/22/2019 23:27",
 		"broadcastMovedMethod:in:into:" : "AW 6/18/2019 10:38",
 		"broadcastRemovedMethod:in:" : "AW 6/18/2019 10:38",
 		"initialize" : "AW 6/18/2019 10:39" } }

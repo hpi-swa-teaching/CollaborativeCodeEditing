@@ -1,0 +1,3 @@
+constants
+testMethod
+	^ #testSelector

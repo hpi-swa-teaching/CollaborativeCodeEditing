@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWith: aMethodSource in: aClass
 	^ self new
 			editContent: aMethodSource;

@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"editTypes" : "AW 6/17/2019 14:09" },
+		 },
 	"instance" : {
-		"apply" : "AW 6/22/2019 23:13",
+		"apply" : "AW 6/22/2019 23:57",
+		"classIdentifier" : "AW 6/22/2019 23:29",
+		"classIdentifier:" : "AW 6/22/2019 23:30",
+		"classToEdit" : "AW 6/22/2019 23:31",
 		"editContent" : "AD 6/15/2019 15:20",
 		"editContent:" : "AD 6/15/2019 15:20",
-		"editType" : "AD 6/15/2019 15:20",
-		"editType:" : "AW 6/16/2019 15:57",
 		"mayBeApplied" : "AW 6/22/2019 23:12",
 		"securelyApply" : "AW 6/22/2019 23:14" } }

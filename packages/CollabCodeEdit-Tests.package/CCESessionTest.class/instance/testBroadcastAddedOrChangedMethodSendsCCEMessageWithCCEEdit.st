@@ -4,6 +4,6 @@ testBroadcastAddedOrChangedMethodSendsCCEMessageWithCCEEdit
 	
 	clientMock:= CCEClientMock new.
 	session client: clientMock.
-	session broadcastAddedOrChangedMethod: #test in: CCETestDummy.
+	session broadcastAddedOrModifiedMethod: #test in: CCETestDummy.
 	self assert: (clientMock messages 
 		anySatisfy: [ :message | message payload class = CCEMethodAddedOrChangedEdit ])
