@@ -1,5 +1,6 @@
 running
 setUp
+	session := CCESessionMock new.
 	packageManager := CCEPackageManager default.
-	testClass := Environment default classNamed: 'CCETestDummy'.
-	session := CCESessionMock new
+	packageManager listenForChangesOnScope: self sessionScope for: session.
+	testClass := CCETestDummy

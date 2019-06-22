@@ -1,6 +1,5 @@
 tests
 testCCEPackageGetsNotfifiedOnRemovedMessage.
-	CCEPackageManager default listenForChangesOnScope: self sessionScope for: session.
-	self executeWithTemporaryTestMethod: 
-		[ testClass removeSelector: self testMethod.
-			self assert: (session messages at: testClass) = (self testMethod, #Removed) ]
+	self compileTestMethod.
+	testClass removeSelector: self testMethod.
+	self assert: (session messages at: testClass) = (self testMethod, #Removed)
