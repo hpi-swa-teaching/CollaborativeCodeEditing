@@ -1,15 +1,18 @@
 {
 	"class" : {
+		"agentPort" : "PB 6/23/2019 10:27",
+		"authPassword" : "PB 6/23/2019 10:28",
 		"authRealm" : "PB 6/16/2019 17:08",
+		"authUser" : "PB 6/23/2019 10:28",
 		"breakdown" : "PB 6/16/2019 21:31",
 		"currentInstance" : "PB 6/16/2019 21:29",
 		"currentInstance:" : "PB 6/16/2019 21:29",
 		"defaultGitEmail" : "PB 6/16/2019 17:11",
 		"defaultGitName" : "PB 6/16/2019 17:11",
-		"defaultPort" : "PB 6/16/2019 14:54",
+		"envVar:" : "PB 6/23/2019 10:26",
 		"start" : "PB 6/16/2019 21:31",
-		"updateBranch" : "PB 6/16/2019 16:15",
-		"updateRepository" : "PB 6/16/2019 15:45" },
+		"updateBranch" : "PB 6/23/2019 10:32",
+		"updateRepository" : "PB 6/23/2019 10:32" },
 	"instance" : {
 		"authenticate:action:" : "PB 6/16/2019 17:09",
 		"breakdown" : "PB 6/16/2019 14:26",
@@ -19,6 +22,6 @@
 		"restartCCE" : "PB 6/16/2019 21:22",
 		"server" : "PB 6/16/2019 13:52",
 		"server:" : "PB 6/16/2019 14:22",
-		"start" : "PB 6/16/2019 17:09",
+		"start" : "PB 6/23/2019 10:38",
 		"stopCCE" : "PB 6/16/2019 21:39",
-		"updateCCE" : "PB 6/16/2019 21:22" } }
+		"updateCCE" : "PB 6/23/2019 10:32" } }

@@ -5,8 +5,8 @@ updateCCE
 	"Upon initial checkout these may not be specified and thus may block deployment"
 	((Smalltalk class canUnderstand: #isHeadless) and: [ Smalltalk isHeadless ])
 		ifTrue: [
-			GitStamp defaultName: ''.
-			GitStamp defaultEmail: '' ].
+			GitStamp defaultName: self class defaultGitName.
+			GitStamp defaultEmail: self class defaultGitEmail ].
 	
 	workingCopy := SquotWorkingCopy new.
 	workingCopy store: SquotImageStore new.
