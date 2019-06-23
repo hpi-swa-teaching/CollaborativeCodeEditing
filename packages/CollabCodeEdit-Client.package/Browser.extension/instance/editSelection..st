@@ -5,4 +5,4 @@ editSelection: aSelection
 	editSelection := aSelection.
 	self changed: #editSelection.
 	
-	self changed: self.
+	self changed: self
