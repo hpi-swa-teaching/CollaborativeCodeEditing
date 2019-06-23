@@ -9,6 +9,9 @@
 		"buildPackageDictionaryForSession:" : "5/22/2019 14:33:46",
 		"calculateHashOfMethodSourceCode:" : "AW 6/1/2019 22:53",
 		"hashPackages:" : "5/22/2019 14:33:46",
+		"ignorableEdits" : "AW 6/23/2019 18:30",
+		"ignorableEdits:" : "AW 6/23/2019 18:30",
+		"ignoreEdit:" : "AW 6/23/2019 18:32",
 		"isInScope:" : "AW 6/16/2019 16:28",
 		"listAvailablePackages" : "AW 6/1/2019 22:51",
 		"listClassesOfPackage:" : "AW 6/1/2019 22:51",
@@ -20,7 +23,7 @@
 		"methodAddedOrModified:" : "AW 6/22/2019 23:21",
 		"methodMoved:" : "AW 6/23/2019 11:25",
 		"methodRemoved:" : "AW 6/16/2019 15:43",
-		"scope" : "AW 6/11/2019 18:30",
-		"scope:" : "AW 6/11/2019 18:31",
+		"noMoreIgnoreEdit:" : "AW 6/23/2019 18:35",
 		"session" : "AW 6/11/2019 18:31",
-		"session:" : "AW 6/11/2019 18:31" } }
+		"session:" : "AW 6/11/2019 18:31",
+		"shouldBeIgnored:" : "AW 6/23/2019 18:35" } }
