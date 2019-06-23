@@ -9,4 +9,6 @@
 		"testCCEPackageGetsNotfifiedOnRemovedMessage" : "AW 6/23/2019 12:21",
 		"testCCEPackageIgnoresChangesOutOfScope" : "AW 6/23/2019 18:10",
 		"testCCEPackageManagerIsSingelton" : "5/22/2019 14:33:46",
-		"testHashchangesAfterMetaClassInformationChange" : "AW 6/11/2019 18:27" } }
+		"testHashchangesAfterMetaClassInformationChange" : "AW 6/11/2019 18:27",
+		"testIgnoredEditsAreIgnored" : "AW 6/23/2019 20:40",
+		"testNoMoreIgnoreEdit" : "AW 6/23/2019 20:44" } }
