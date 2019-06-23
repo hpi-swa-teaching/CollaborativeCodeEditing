@@ -1,4 +1,4 @@
 running
 tearDown
-	testClass removeSelector: self testMethod.
+	super tearDown.
 	session clear
