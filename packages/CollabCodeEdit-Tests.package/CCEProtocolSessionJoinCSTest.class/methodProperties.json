@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"subClassSpecificSetUp" : "SS 6/17/2019 19:29",
+		"testAckJoinSessionCleanStateFillsSessionWithCorrectChecksumAndScope" : "SS 6/19/2019 12:01",
+		"testAckJoinSessionCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsClear" : "SS 6/20/2019 14:10",
+		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "SS 6/19/2019 12:01",
+		"testAckJoinSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 6/19/2019 12:01",
+		"testAckJoinSessionNoCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsClear" : "SS 6/20/2019 14:11",
+		"testAckJoinSessionNoCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsNotClear" : "SS 6/20/2019 14:11",
+		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirtyRemoteSession" : "SS 6/19/2019 12:01",
+		"testJoinSessionSetsStatusToNoRemoteSession" : "SS 6/3/2019 11:48",
+		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "MS 6/14/2019 09:13" } }

@@ -3,7 +3,7 @@ onRequest: aRequest
 	| socket |
 
 	socket := CCERemoteClient newFromSocket: aRequest asWebSocket.
-	socket timeout: 300.
+	socket timeout: CCEServer defaultTimeOut.
 
 	Transcript cr; show: 'New ', socket.
 

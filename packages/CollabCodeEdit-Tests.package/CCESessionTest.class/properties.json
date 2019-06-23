@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"session",
-		"server" ],
+		"server",
+		"testIdentifier",
+		"account",
+		"testCollaborator" ],
 	"name" : "CCESessionTest",
 	"pools" : [
 		 ],

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"socket",
 		"session",
-		"identifier" ],
+		"identifier",
+		"isConsistent" ],
 	"name" : "CCERemoteClient",
 	"pools" : [
 		 ],

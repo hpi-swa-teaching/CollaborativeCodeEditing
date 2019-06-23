@@ -5,9 +5,8 @@ serverMsgTypes
 			#ackCreateSessionWithError: -> #ackCreateSessionWithError: .
 			#ackJoinSession: -> #ackJoinSession: . 
 			#ackJoinSessionWithError: -> #ackJoinSessionWithError: .
-			#newUser->  #newUser .
+			#newUser:->  #newUser: .
 			#setOtherUserConsistent: -> #setOtherUserConsistent: .
 			#ackLeaveSessionWith: -> #ackLeaveSessionWith: .
 			#ackLeaveSessionWithError: -> #ackLeaveSessionWithError: .
-			#receiveEdit: -> #receiveEdit: .
-			#changeSelection: -> #changeSelection: }
+			#deleteUser: -> #deleteUser: }
