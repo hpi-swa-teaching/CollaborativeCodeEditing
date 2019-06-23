@@ -6,3 +6,5 @@ setUp
 	session imageAccount: account.
 	
 	testCollaborator := CCECollaborator new identifier: testIdentifier
+	
+	
