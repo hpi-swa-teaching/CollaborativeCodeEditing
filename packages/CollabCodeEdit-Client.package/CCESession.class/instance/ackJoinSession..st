@@ -18,5 +18,6 @@ ackJoinSession: anOrderedDictionary
 		ifFalse: [			
 			self setDirtySessionWith: remoteSessionScope and: remoteSessionHash.
 			self setConsistencyOfCollaborator: (self imageAccount humanReadableName) to: false.
-			self client sendMsg: (CCEMessage setConsistent: false) ]
+			self client sendMsg: (CCEMessage setConsistent: false) ].
 	
+	self activateSelectionListener

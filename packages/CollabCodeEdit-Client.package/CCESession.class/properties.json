@@ -12,7 +12,8 @@
 		"client",
 		"collaborators",
 		"status",
-		"imageAccount" ],
+		"imageAccount",
+		"selectionListener" ],
 	"name" : "CCESession",
 	"pools" : [
 		 ],

@@ -4,7 +4,7 @@
 		"reset" : "AW 6/1/2019 23:06" },
 	"instance" : {
 		"ackCreateSession:" : "SS 6/20/2019 13:49",
-		"ackJoinSession:" : "SS 6/20/2019 13:50",
+		"ackJoinSession:" : "SS 6/23/2019 14:51",
 		"ackLeaveSession:" : "SS 5/30/2019 20:36",
 		"activateSelectionListener" : "MS 6/20/2019 15:57",
 		"addCollaborator:withKey:" : "SS 6/2/2019 21:33",
