@@ -2,8 +2,8 @@ tests
 testEditOutOfScopeWontBeApplied
 	| edit |
 	
-	edit:= CCEMethodAddedOrModifiedEdit newWith: self testMethod in: self testClass.
-	CCEPackageManager default scope: #().
+	edit:= CCEMethodAddedOrModifiedEdit newWith: testMethod in: testClass.
+	packageManager scope: #().
 	self should: [ edit securelyApply ] 
-		raise: Error.
-	self deny: (CCETestDummy canUnderstand: self testMethod) 
+				raise: Error.
+	self deny: (testClass canUnderstand: testMethod) 

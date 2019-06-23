@@ -1,4 +1,4 @@
 tests
 testAddedMethodWillBeApplied
-	(CCEMethodAddedOrModifiedEdit newWith: self testMethod in: self testClass) apply.
-	self assert: (CCETestDummy canUnderstand: self testMethod)
+	(CCEMethodAddedOrModifiedEdit newWith: testMethod in: testClass) apply.
+	self assert: (testClass canUnderstand: testMethod)

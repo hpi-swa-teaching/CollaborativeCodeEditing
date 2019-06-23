@@ -1,4 +1,3 @@
 testing
 hasMessageOfType: aString
-	self messages valuesDo: [:value | value type = aString ifTrue: [^ true]].
-	^ false
+	^ self messages anySatisfy:  [ :aCCEMessage | aCCEMessage value type = aString ]

@@ -4,5 +4,5 @@ methodMoved: anEvent
 	
 	class := anEvent itemClass.
 	(self isInScope: class)
-		ifTrue: [ self session broadcastMovedMethod: anEvent itemSelector 
+		ifTrue: [ self session broadcastRecategorizedMethod: anEvent itemSelector 
 			in: class into: anEvent itemProtocol ]

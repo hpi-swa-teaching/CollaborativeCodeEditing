@@ -2,11 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 6/22/2019 23:41",
-		"tearDown" : "AW 6/22/2019 23:41",
-		"testAddedMethodWillBeApplied" : "AW 6/23/2019 00:17",
+		"testAddedMethodWillBeApplied" : "AW 6/23/2019 11:01",
 		"testApplyIsSubclassResponsibility" : "AW 6/22/2019 23:48",
-		"testClass" : "AW 6/22/2019 23:38",
-		"testClassToEditIsClassNamedClassIdentifier" : "AW 6/22/2019 23:46",
-		"testEditOutOfScopeWontBeApplied" : "AW 6/22/2019 23:43",
-		"testMethod" : "AW 6/22/2019 23:38" } }
+		"testClassToEditIsClassNamedClassIdentifier" : "AW 6/23/2019 11:02",
+		"testEditOutOfScopeWontBeApplied" : "AW 6/23/2019 11:03",
+		"testRecategorizedEditWillBeApplied" : "AW 6/23/2019 11:22" } }

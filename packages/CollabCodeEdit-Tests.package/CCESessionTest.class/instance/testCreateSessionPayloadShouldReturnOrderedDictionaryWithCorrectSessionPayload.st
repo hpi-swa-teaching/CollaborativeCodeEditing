@@ -1,7 +1,7 @@
 tests
 testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload
-
 	| expectedPayload | 
+	
 	expectedPayload := OrderedDictionary newFrom: {
 								#scope -> #('Signals').
 								#checksum -> 12345}.

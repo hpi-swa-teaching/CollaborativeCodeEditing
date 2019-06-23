@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CCEEditTest",
+		"packageManager",
+		"testClass",
+		"testMethod" ],
+	"name" : "CCESystemChangeTests",
 	"pools" : [
 		 ],
-	"super" : "CCESystemChangeTests",
+	"super" : "TestCase",
 	"type" : "normal" }

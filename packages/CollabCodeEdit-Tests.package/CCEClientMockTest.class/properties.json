@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CCEEditTest",
+		"clientMock" ],
+	"name" : "CCEClientMockTest",
 	"pools" : [
 		 ],
-	"super" : "CCESystemChangeTests",
+	"super" : "TestCase",
 	"type" : "normal" }
