@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"subClassSpecificSetUp" : "SS 6/20/2019 14:08",
+		"subClassSpecificTearDown" : "SS 6/23/2019 15:39",
 		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 6/19/2019 12:00",
 		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount" : "SS 6/19/2019 12:00",
 		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "SS 6/20/2019 14:09",

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"subClassSpecificSetUp" : "SS 6/23/2019 15:17",
+		"subClassSpecificTearDown" : "SS 6/23/2019 15:39",
+		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "SS 6/23/2019 16:04",
+		"testUpdateSelectionTriggersChangeSelectionMessage" : "SS 6/23/2019 15:44" } }

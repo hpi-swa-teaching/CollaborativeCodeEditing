@@ -1,8 +1,8 @@
-services
+selection managment
 activateSelectionListener
 	| cceSelection |
 	
-	cceSelection := CCESelection new;
+	cceSelection := CCESelection new
 		imageAccount: self imageAccount;
 		client: self client.
 

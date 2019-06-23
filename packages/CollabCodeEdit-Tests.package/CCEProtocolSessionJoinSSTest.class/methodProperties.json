@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"subClassSpecificSetUp" : "SS 6/10/2019 19:13",
+		"subClassSpecificTearDown" : "SS 6/23/2019 15:55",
 		"testJoinSessionAddsClientToSessionClients" : "MS 6/14/2019 09:08",
 		"testJoinSessionFromClientWithIdentifierAlreadyInUseGetsErrorMessageBack" : "MS 6/14/2019 10:19",
 		"testJoinSessionNotAddsClientToSessionClientsWithWrongSessionToken" : "SS 6/20/2019 14:12",

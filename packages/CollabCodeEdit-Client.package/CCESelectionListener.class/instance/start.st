@@ -1,3 +1,4 @@
 as yet unclassified
 start
-	self openInWorld.
+	self visible: false.
+	self openInWorld
