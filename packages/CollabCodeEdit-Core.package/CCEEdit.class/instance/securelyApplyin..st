@@ -1,5 +1,8 @@
 applying
 securelyApplyin: aCCESession
 	(self mayBeAppliedIn: aCCESession)
-		ifTrue: [ self apply ]
-		ifFalse: [ self error: 'CCEEdit to be applied is not in Scope']
+		ifTrue: [ 
+			aCCESession packageManager ignoreEdit: self.
+			self apply 
+			aCCESession packageManager noMoreIgnoreEdit: self ]
+		ifFalse: [ self error: 'CCEEdit to be applied is not in Scope' ]
