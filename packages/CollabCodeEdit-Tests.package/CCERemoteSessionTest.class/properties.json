@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"remoteSession" ],
+		"remoteSession",
+		"testScope",
+		"testChecksum" ],
 	"name" : "CCERemoteSessionTest",
 	"pools" : [
 		 ],

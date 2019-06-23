@@ -12,9 +12,10 @@
 		"client",
 		"networkInterface",
 		"testPackages",
-		"testSessionPayload",
-		"testAckSessionPayload",
-		"testToken" ],
+		"testToken",
+		"imageAccount",
+		"testIdentifier",
+		"testChecksum" ],
 	"name" : "CCEProtocolTestClientside",
 	"pools" : [
 		 ],

@@ -1,0 +1,3 @@
+constants
+isUndefinedString
+	^ 'is undefined'

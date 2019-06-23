@@ -1,7 +1,7 @@
 building
 buildSessionTokenDisplayWith: aBuilder
 	^ aBuilder pluggableTextSpec new 
-		model: CCESession default;
+		model: self session;
 		getText: #token;
 		readOnly: true;
 		frame:  (LayoutFrame new
