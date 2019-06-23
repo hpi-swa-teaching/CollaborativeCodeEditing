@@ -1,3 +1,5 @@
 running
 setUp
-	session := CCESession new
+	session := CCESession new.
+	clientMock := CCEClientMock new.
+	session client: clientMock
