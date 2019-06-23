@@ -1,6 +1,6 @@
 tests
 testCCEPackageIgnoresChangesOutOfScope
-	packageManager listenForChangesOnScope: #() for: session.
+	session scope: #().
 	self 
 		compileTestMethod;
 		assert: session hasNoMessage

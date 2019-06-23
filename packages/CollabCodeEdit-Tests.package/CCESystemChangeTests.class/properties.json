@@ -8,7 +8,8 @@
 	"instvars" : [
 		"packageManager",
 		"testClass",
-		"testMethod" ],
+		"testMethod",
+		"session" ],
 	"name" : "CCESystemChangeTests",
 	"pools" : [
 		 ],

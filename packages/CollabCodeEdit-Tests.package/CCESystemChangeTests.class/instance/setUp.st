@@ -1,6 +1,8 @@
 running
 setUp
 	packageManager := CCEPackageManager default.
-	packageManager scope: self sessionScope.
+	session := CCESession default.
+	session scope: self sessionScope.
+	packageManager session: session.
 	testClass :=  CCETestDummy.
 	testMethod := #testMethod

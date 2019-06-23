@@ -1,4 +1,4 @@
-as yet unclassified
+change-capturing
 methodAddedOrModified: anEvent	
 	| class |
 	

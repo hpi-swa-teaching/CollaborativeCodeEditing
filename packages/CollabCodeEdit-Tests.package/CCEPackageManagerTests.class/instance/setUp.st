@@ -2,4 +2,5 @@ running
 setUp
 	super setUp.
 	session := CCESessionMock new.
-	packageManager listenForChangesOnScope: self sessionScope for: session
+	session scope: self sessionScope.
+	packageManager listenForChangesFor: session
