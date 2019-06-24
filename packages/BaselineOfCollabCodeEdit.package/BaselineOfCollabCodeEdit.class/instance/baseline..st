@@ -8,10 +8,11 @@ baseline: spec
 				project: 'OSProcess' with: [
 					spec
 						className: 'ConfigurationOfOSProcess';
-						repository: 'http://www.squeaksource.com/MetacelloRepository';
+						repository: 'http://www.squeaksource.com/OSProcess';
 						versionString: #'stable' ];
 				package: 'CollabCodeEdit-Core';
-				package: 'CollabCodeEdit-Server';
+				package: 'CollabCodeEdit-Server' with: [
+					spec requires: #('OSProcess') ];
 				package: 'CollabCodeEdit-Client';
 				package: 'CollabCodeEdit-Tests' with: [
 					spec requires: #('CollabCodeEdit-Core' 
