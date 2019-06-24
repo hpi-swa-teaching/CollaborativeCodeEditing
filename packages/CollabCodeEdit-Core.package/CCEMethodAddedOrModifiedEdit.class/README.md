@@ -4,6 +4,6 @@ Instance Variables
 	editContent: Text
 	
 editContent
-	- The editContent is the sourcecode of the changed method
+	- The source code of the changed method
 	
 	

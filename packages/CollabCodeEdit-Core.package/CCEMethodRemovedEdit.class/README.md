@@ -4,6 +4,6 @@ Instance Variables
 	editContent: Symbol
 	
 editContent
-	- The editContent is the selector of the method removed.
+	- The selector of the method removed.
 	
 	
