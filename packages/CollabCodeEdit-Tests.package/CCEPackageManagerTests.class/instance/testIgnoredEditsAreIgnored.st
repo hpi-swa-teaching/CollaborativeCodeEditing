@@ -9,4 +9,4 @@ testIgnoredEditsAreIgnored
 	self 
 		assert: (packageManager shouldBeIgnored: edit1);	
 		deny: (packageManager shouldBeIgnored: edit2).
-	packageManager noMoreIgnoreEdit: edit1
+	packageManager stopIgnoringEdit: edit1

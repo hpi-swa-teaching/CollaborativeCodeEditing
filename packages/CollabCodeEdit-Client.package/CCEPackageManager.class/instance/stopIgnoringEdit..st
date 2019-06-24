@@ -1,3 +1,3 @@
 accessing
-noMoreIgnoreEdit: aCCEEdit
+stopIgnoringEdit: aCCEEdit
 	self ignorableEdits remove: aCCEEdit

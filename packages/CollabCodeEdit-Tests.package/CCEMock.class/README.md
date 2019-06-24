@@ -1,9 +1,9 @@
-A CCEMock is a superclass for all mocks.
+I am a superclass for all mocks.
 
-It collects messages. A message does not correspond to a CCEMessage, it is anytthing that might be sent to the mock, and might be tested for.
+I collects messages. A message does not correspond to a CCEMessage, it is anything that might be sent to the mock, and might be tested for.
 
 Instance Variables
-	messages:		<Object>
+	messages:		<Collection>
 
 messages
-	- xxxxx
+	- a Collection of all messages sent to me

@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AD 6/16/2019 14:39",
+	"commentStamp" : "AD 6/24/2019 11:18",
 	"instvars" : [
-		"changesDict" ],
+		 ],
 	"name" : "CCEClientMock",
 	"pools" : [
 		 ],

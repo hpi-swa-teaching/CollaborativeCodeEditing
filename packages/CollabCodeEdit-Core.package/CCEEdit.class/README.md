@@ -5,7 +5,7 @@ Instance Variables
 	editContent:		Object
 
 classIdentifier
-	- The classIdentifier is the name of the class edited.
+	- The name of the edited class.
 
 editContent
-	- The editcontent is an abstract variable holding the Information necessary for applying myself. It is specified by the subclasses.
+	- An abstract variable holding the Information necessary for applying myself. It is specified by the subclasses.

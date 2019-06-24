@@ -1,3 +1,3 @@
 requests backend
 CCEreceiveEdit: aCCEEdit
-	aCCEEdit securelyApplyin: self session
+	aCCEEdit securelyApplyIn: self session
