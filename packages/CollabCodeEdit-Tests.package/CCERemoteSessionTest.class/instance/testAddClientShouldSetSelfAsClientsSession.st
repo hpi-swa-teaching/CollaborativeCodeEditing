@@ -5,4 +5,6 @@ testAddClientShouldSetSelfAsClientsSession
 	addedClient := CCERemoteClient new.
 	remoteSession addClient: addedClient.
 	
-	self assert: remoteSession equals: addedClient session
+	self assert: remoteSession equals: addedClient session.
+	
+	remoteSession clients removeAll

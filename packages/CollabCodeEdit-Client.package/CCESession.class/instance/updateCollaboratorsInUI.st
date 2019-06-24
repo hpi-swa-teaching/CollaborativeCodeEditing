@@ -1,0 +1,3 @@
+collaborator managment
+updateCollaboratorsInUI
+	self changed: #collaboratorsList

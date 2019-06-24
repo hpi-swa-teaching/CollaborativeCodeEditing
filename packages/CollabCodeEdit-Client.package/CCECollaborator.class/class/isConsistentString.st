@@ -1,0 +1,3 @@
+constants
+isConsistentString
+	^ 'is consistent'

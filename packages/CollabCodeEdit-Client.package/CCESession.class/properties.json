@@ -11,7 +11,8 @@
 		"token",
 		"client",
 		"collaborators",
-		"status" ],
+		"status",
+		"imageAccount" ],
 	"name" : "CCESession",
 	"pools" : [
 		 ],
