@@ -9,4 +9,5 @@ serverMsgTypes
 			#setOtherUserConsistent: -> #setOtherUserConsistent: .
 			#ackLeaveSessionWith: -> #ackLeaveSessionWith: .
 			#ackLeaveSessionWithError: -> #ackLeaveSessionWithError: .
-			#deleteUser: -> #deleteUser: }
+			#deleteUser: -> #deleteUser: .
+			#receiveEdit: -> #receiveEdit:}

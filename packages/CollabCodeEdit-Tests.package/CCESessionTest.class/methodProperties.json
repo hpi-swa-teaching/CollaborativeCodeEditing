@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "SS 6/20/2019 14:18",
+		"setUp" : "AW 6/24/2019 14:45",
 		"testAckCreateSessionFillsSessionTokenAndSetsStatusToCleanRemoteSession" : "SS 5/30/2019 12:40",
 		"testAddCollaboratorFromAccount" : "SS 6/20/2019 14:18",
 		"testAddCollaboratorFromPayload" : "SS 6/20/2019 14:18",

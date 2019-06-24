@@ -12,7 +12,8 @@
 		"client",
 		"collaborators",
 		"status",
-		"imageAccount" ],
+		"imageAccount",
+		"packageManager" ],
 	"name" : "CCESession",
 	"pools" : [
 		 ],
