@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CCEProtocolSessionCreationSSTest",
+	"pools" : [
+		 ],
+	"super" : "CCEProtocolTestServerside",
+	"type" : "normal" }

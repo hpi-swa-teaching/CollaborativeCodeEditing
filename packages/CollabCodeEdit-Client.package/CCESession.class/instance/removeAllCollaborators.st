@@ -1,0 +1,4 @@
+collaborator managment
+removeAllCollaborators
+	self collaborators removeAll.
+	self updateCollaboratorsInUI

@@ -1,3 +1,3 @@
 tests
 testCCEPackageManagerIsSingelton
-	self assert: CCEPackageManager default == packageManager
+	self assert: CCEPackageManager default == CCEPackageManager default

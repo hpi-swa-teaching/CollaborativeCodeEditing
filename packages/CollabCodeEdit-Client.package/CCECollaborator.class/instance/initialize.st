@@ -1,0 +1,3 @@
+initialize
+initialize
+	self consistencyState: CCECollaborator isUndefinedString

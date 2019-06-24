@@ -12,7 +12,7 @@
 		"client",
 		"collaborators",
 		"status",
-		"packageManager" ],
+		"imageAccount" ],
 	"name" : "CCESession",
 	"pools" : [
 		 ],

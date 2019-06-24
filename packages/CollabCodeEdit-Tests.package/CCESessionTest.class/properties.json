@@ -8,7 +8,9 @@
 	"instvars" : [
 		"session",
 		"server",
-		"clientMock" ],
+		"testIdentifier",
+		"account",
+		"testCollaborator" ],
 	"name" : "CCESessionTest",
 	"pools" : [
 		 ],

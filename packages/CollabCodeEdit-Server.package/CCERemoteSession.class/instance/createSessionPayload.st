@@ -2,4 +2,5 @@ messaging
 createSessionPayload
 	^ OrderedDictionary newFrom: {
 		#scope -> self scope.
-		#checksum -> self initialChecksum}
+		#checksum -> self initialChecksum.
+		#collaborators -> self createCollaboratorsListWithConsistencys}

@@ -1,2 +1,3 @@
 requests backend
 CCEsetOtherUserConsistent: anOrderedDictionary
+	self session setOtherUserConsistent: anOrderedDictionary

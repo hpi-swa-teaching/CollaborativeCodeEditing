@@ -1,6 +1,7 @@
 services
 reset
-	self checksum: nil.
-	self scope: nil.
-	self token: nil.
+	self checksum: nil;
+		scope: nil;
+		token: nil;
+		removeAllCollaborators.
 	self status reset

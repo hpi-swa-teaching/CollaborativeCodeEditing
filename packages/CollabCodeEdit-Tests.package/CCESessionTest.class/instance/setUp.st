@@ -1,5 +1,8 @@
 running
 setUp
 	session := CCESession new.
-	clientMock := CCEClientMock new.
-	session client: clientMock
+	testIdentifier := 'testName'.
+	account := CCEAccount new humanReadableName: testIdentifier.	
+	session imageAccount: account.
+	
+	testCollaborator := CCECollaborator new identifier: testIdentifier

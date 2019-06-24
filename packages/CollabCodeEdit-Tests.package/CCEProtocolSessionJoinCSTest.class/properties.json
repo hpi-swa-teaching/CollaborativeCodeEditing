@@ -1,0 +1,16 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testAckJoinSessionPayload",
+		"testPayloadCollaboratorsList",
+		"testCollaboratorsList" ],
+	"name" : "CCEProtocolSessionJoinCSTest",
+	"pools" : [
+		 ],
+	"super" : "CCEProtocolTestClientside",
+	"type" : "normal" }
