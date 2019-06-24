@@ -8,5 +8,5 @@ testStart
 		self assert: server equals: CCEDeployAgent currentInstance.
 
 		server := CCEDeployAgent start.
-		server ifNil: [ self fail ].
+		self deny: server isNil.
 		self assert: CCEDeployAgent equals: server class ]

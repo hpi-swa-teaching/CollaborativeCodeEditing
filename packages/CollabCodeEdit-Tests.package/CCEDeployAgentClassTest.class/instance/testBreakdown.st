@@ -3,7 +3,7 @@ testBreakdown
 	CCEDeployAgent
 		breakdown;
 		start.
-	CCEDeployAgent currentInstance ifNil: [ self fail ].
+	self deny: CCEDeployAgent currentInstance isNil.
 	
 	CCEDeployAgent breakdown.
-	CCEDeployAgent currentInstance ifNotNil: [ self fail ]
+	self assert: CCEDeployAgent currentInstance isNil
