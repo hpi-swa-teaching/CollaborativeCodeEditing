@@ -10,13 +10,10 @@ baseline: spec
 						className: 'ConfigurationOfOSProcess';
 						repository: 'http://www.squeaksource.com/OSProcess';
 						versionString: #'stable' ];
-				baseline: 'Squot' with: [
-					spec repository: 'github://hpi-swa/Squot:master/src' ];
 				package: 'CollabCodeEdit-Core';
 				package: 'CollabCodeEdit-Server' with: [
 					spec requires: #(
 						'OSProcess'
-						'Squot'
 						'CollabCodeEdit-Core') ];
 				package: 'CollabCodeEdit-Client' with: [
 					spec requires: #('CollabCodeEdit-Core') ];
