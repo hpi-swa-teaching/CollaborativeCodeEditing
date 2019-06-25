@@ -1,4 +1,4 @@
 initialize-release
 initialize
 	super initialize.
-	self clients: WeakOrderedCollection new
+	self clients: OrderedCollection new
