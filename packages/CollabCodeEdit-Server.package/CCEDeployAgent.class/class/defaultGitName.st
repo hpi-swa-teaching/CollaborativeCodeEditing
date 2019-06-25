@@ -1,3 +1,0 @@
-constants
-defaultGitName
-	^ 'Firstname Lastname'
