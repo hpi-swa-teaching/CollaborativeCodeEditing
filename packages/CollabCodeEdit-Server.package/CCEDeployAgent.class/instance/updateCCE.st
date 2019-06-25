@@ -2,8 +2,6 @@ request handling
 updateCCE
 	| workingCopy |
 	
-	self ensureGitStamp.
-	
 	workingCopy := SquotWorkingCopy new.
 	workingCopy
 		store: SquotImageStore new;
