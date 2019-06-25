@@ -14,7 +14,10 @@ baseline: spec
 					spec repository: 'github://hpi-swa/Squot:master/src' ];
 				package: 'CollabCodeEdit-Core';
 				package: 'CollabCodeEdit-Server' with: [
-					spec requires: #('OSProcess' 'CollabCodeEdit-Core') ];
+					spec requires: #(
+						'OSProcess'
+						'Squot'
+						'CollabCodeEdit-Core') ];
 				package: 'CollabCodeEdit-Client' with: [
 					spec requires: #('CollabCodeEdit-Core') ];
 				package: 'CollabCodeEdit-Tests' with: [
