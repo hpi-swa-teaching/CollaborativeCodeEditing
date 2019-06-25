@@ -12,14 +12,20 @@ baseline: spec
 						versionString: #'stable' ];
 				package: 'CollabCodeEdit-Core';
 				package: 'CollabCodeEdit-Server' with: [
-					spec requires: #('OSProcess') ];
-				package: 'CollabCodeEdit-Client';
+					spec requires: #('OSProcess' 'CollabCodeEdit-Core') ];
+				package: 'CollabCodeEdit-Client' with: [
+					spec requires: #('CollabCodeEdit-Core') ];
 				package: 'CollabCodeEdit-Tests' with: [
-					spec requires: #('CollabCodeEdit-Core' 
-						'CollabCodeEdit-Server' 
+					spec requires: #(
+						'CollabCodeEdit-Core'
+						'CollabCodeEdit-Server'
 						'CollabCodeEdit-Client') ];
 				yourself.
+
 			spec
-				group: 'default' with: #('CollabCodeEdit-Core');
+				group: 'default' with: #(
+					'CollabCodeEdit-Core'
+					'CollabCodeEdit-Server'
+					'CollabCodeEdit-Client');
 				group: 'tests' with: #('CollabCodeEdit-Tests');
 				yourself ]
