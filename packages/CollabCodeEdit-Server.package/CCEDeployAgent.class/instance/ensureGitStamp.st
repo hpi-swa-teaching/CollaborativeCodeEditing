@@ -4,5 +4,6 @@ ensureGitStamp
 
 	((Smalltalk class canUnderstand: #isHeadless) and: [ Smalltalk isHeadless ])
 		ifTrue: [
-			GitStamp defaultName: self class defaultGitName.
-			GitStamp defaultEmail: self class defaultGitEmail ]
+			GitStamp
+				defaultName: self class defaultGitName;
+				defaultEmail: self class defaultGitEmail ]
