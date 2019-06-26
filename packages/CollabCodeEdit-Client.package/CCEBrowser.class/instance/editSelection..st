@@ -1,4 +1,4 @@
-*CollabCodeEdit-Client
+overwrite
 editSelection: aSelection
 	"Set the editSelection as requested."
 

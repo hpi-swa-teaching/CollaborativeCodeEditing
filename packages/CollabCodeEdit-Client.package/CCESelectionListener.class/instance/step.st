@@ -1,4 +1,4 @@
 as yet unclassified
 step
-	self browserModels do: [:model | model addDependent: self].
+	CCEBrowser allInstances do: [:model | model addDependent: self].
 	
