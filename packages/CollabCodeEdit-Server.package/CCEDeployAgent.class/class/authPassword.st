@@ -1,3 +1,3 @@
 constants
 authPassword
-	^ (self envVar: 'CCE_AGENT_PASSWORD') ifNil: [ 'squeak' ]
+	^ (self environmentVariable: 'CCE_AGENT_PASSWORD') ifNil: [ 'squeak' ]
