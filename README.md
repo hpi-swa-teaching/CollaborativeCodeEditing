@@ -22,6 +22,8 @@ docker-compose build
 docker-compose up -d
 ```
 
+*Note: The Squeak version used in the build is specified in `server/lib.sh`. If necessary, it should be updated there.*
+
 You can view the ip adress of the host you just deployed to using:
 ```sh
 docker-machine ip swt-cce
