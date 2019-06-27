@@ -124,7 +124,10 @@ prepare_vm() {
 
   printf "Preparing VM...\n"
 
-  is_spur_image "${PATH_IMAGE}" && require_spur=1
+  if is_spur_image "${PATH_IMAGE}"; then
+    require_spur=1
+  fi
+
   vm_details=$(get_vm_details "${require_spur}")
   set_vars vm_filename vm_path "${vm_details}"
   download_url="${BASE_DOWNLOAD_VM}/${vm_filename}"
