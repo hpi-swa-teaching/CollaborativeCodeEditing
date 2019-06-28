@@ -5,4 +5,8 @@ printOn: aStream
 		nextPutAll: ' -- ';
 		print: self consistencyState;
 		nextPutAll: ' ';
-		print: self currentSelection.
+		print: (self currentSelection at: #categorySelection);
+		nextPutAll: '>>';
+		print: (self currentSelection at: #classSelection);
+		nextPutAll: '>>';
+		nextPutAll: (self currentSelection at: #methodSelection)

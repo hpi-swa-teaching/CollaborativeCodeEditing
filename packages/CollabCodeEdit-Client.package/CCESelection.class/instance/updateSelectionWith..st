@@ -6,5 +6,4 @@ updateSelectionWith: aBrowser
 		methodSelection: aBrowser selectedMessageName.
 		
 	Transcript show: self methodSelection.
-	
 	self client sendMsg: (CCEMessage changeSelectionWith: self createSelectionPayload)
