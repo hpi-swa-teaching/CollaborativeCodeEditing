@@ -1,0 +1,3 @@
+accessing
+currentSelectionAsDictionary: anObject
+	currentSelectionAsDictionary := anObject

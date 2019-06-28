@@ -4,9 +4,9 @@ printOn: aStream
 		print: self identifier;
 		nextPutAll: ' -- ';
 		print: self consistencyState;
-		nextPutAll: ' ';
-		print: (self currentSelection at: #categorySelection);
+		nextPutAll: ' -- ';
+		print: (self currentSelectionAsDictionary at: #categorySelection) asString;
 		nextPutAll: '>>';
-		print: (self currentSelection at: #classSelection);
+		print: (self currentSelectionAsDictionary at: #classSelection) asString;
 		nextPutAll: '>>';
-		nextPutAll: (self currentSelection at: #methodSelection)
+		nextPutAll: (self currentSelectionAsDictionary at: #methodSelection) asString.

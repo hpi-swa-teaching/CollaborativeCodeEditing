@@ -1,4 +1,4 @@
 collaborator managment
-setSelectionOfCollaborator: aString to: aCCESelection
-	( self collaborators at: aString ) currentSelection: aCCESelection.	
+setSelectionOfCollaborator: aString to: anOrderedDictionary
+	( self collaborators at: aString ) currentSelectionAsDictionary: anOrderedDictionary.	
 	self updateCollaboratorsInUI
