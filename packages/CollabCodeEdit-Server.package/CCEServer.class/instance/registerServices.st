@@ -1,4 +1,4 @@
 startup
 registerServices
-	WebServer default addService: '/' action: [ :aRequest |
+	self server addService: '/' action: [ :aRequest |
 		self onRequest: aRequest ]
