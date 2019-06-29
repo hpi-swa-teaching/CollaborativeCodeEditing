@@ -1,3 +1,3 @@
 testing
 noSessionIsLoaded
-	^ self session getStatus = CCESessionStatus noRemoteSession.
+	^ self session getStatus = CCESessionStatus noRemoteSession

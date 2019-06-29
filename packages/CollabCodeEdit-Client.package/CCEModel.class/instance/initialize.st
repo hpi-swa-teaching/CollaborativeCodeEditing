@@ -8,5 +8,5 @@ initialize
 		client: (CCEClient default owner: self);
 		session: (CCESession default client: self client).
 	self session 
-				addStatusSubscriber: self;
-				imageAccount: self account
+		addStatusSubscriber: self;
+		imageAccount: self account
