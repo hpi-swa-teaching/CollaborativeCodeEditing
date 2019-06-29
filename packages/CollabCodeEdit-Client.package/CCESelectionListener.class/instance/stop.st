@@ -1,4 +1,6 @@
 as yet unclassified
 stop
-	Browser allInstances do: [ :browser | browser removeDependent: self ].
+	self halt.
+	self currentDefaultBrowserClass allInstances do: [ :browser | 
+		browser removeDependent: self ].
 	self delete
