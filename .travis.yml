@@ -9,14 +9,20 @@ smalltalk:
   - Squeak-5.2
   - Squeak-5.1
 
-deploy:
-  # deploy develop to the staging environment
-  - provider: script
-    script: bash scripts/deploy.sh staging
-    on:
-      branch: develop
-  # deploy master to production
-  - provider: script
-    script: bash scripts/deploy.sh production
-    on:
-      branch: master
+jobs:
+  include:
+    - stage: deploy
+      smalltalk:
+        - Squeak-5.2
+      script: skip
+      deploy:
+        # deploy develop to the staging environment
+        - provider: script
+          script: bash scripts/deploy.sh staging
+          on:
+            branch: develop
+        # deploy master to production
+        - provider: script
+          script: bash scripts/deploy.sh production
+          on:
+            branch: master
