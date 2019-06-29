@@ -1,4 +1,4 @@
-services
+selection managment
 changeSelectionWith: anOrderedDictionary
 	| identifier selection | 
 	

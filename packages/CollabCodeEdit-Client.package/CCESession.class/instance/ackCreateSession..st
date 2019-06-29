@@ -1,4 +1,4 @@
-services
+session-managment
 ackCreateSession: anOrderedDictionary
 	self token: (anOrderedDictionary at: #token).
 	self addCollaboratorFromAccount: self imageAccount.

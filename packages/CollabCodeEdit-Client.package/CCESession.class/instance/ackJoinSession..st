@@ -1,4 +1,4 @@
-services
+session-managment
 ackJoinSession: anOrderedDictionary
 	| remoteSessionScope remoteSessionHash remoteCollaborators remoteSessionToken |
 	
