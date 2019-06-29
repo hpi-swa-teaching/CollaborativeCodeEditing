@@ -8,4 +8,3 @@ CCEcreateSessionWith: anOrderedDictionary from: aClient
 		token.  
 
 	aClient sendMessage: (CCEMessage ackCreateSession: sessionToken)
-

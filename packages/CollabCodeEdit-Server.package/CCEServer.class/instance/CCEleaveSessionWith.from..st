@@ -7,4 +7,3 @@ CCEleaveSessionWith: anOrderedDictionary from: aClient
 			aClient sendMessage: (CCEMessage ackLeaveSessionWith: anOrderedDictionary) ]
 		ifFalse: [
 			aClient sendMessage: (CCEMessage ackLeaveSessionWithError: {#error -> 'Invalid session token'}) ]
-	

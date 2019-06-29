@@ -1,4 +1,4 @@
 server-Message creation
 ackLeaveSessionWithError: anOrderedDictionary
-	^ self new: (CCEMessage serverMsgTypes at: #ackLeaveSessionWithError:) 
+	^ self new: (CCEMessage serverMessageTypes at: #ackLeaveSessionWithError:) 
 			with: anOrderedDictionary

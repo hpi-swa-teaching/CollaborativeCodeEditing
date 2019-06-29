@@ -1,5 +1,5 @@
 constants
-serverMsgTypes
+serverMessageTypes
 	^  OrderedDictionary newFrom: {
 			#ackCreateSession: -> #ackCreateSession: . 
 			#ackCreateSessionWithError: -> #ackCreateSessionWithError: .
