@@ -2,5 +2,4 @@ tests
 testCCEPackageGetsNotfifiedOnNewMessage
 	self 
 		compileTestMethod;
-		assert: (session messages at: (testClass name, #AddedOrModified))  
-				equals: testMethod
+		assert:  (client hasEditOfType: CCEMethodAddedOrModifiedEdit)

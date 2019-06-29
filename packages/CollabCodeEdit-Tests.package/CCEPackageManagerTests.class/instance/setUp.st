@@ -1,6 +1,5 @@
 running
 setUp
 	super setUp.
-	session := CCESessionMock new.
-	session scope: self sessionScope.
-	packageManager listenForChangesFor: session
+	client := CCEClientMock new
+	packageManager listenForChangesInScope: self sessionScope for: client

@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "AW 6/24/2019 14:45",
+		"tearDown" : "AW 6/29/2019 15:54",
 		"testAckCreateSessionFillsSessionTokenAndSetsStatusToCleanRemoteSession" : "SS 5/30/2019 12:40",
 		"testAddCollaboratorFromAccount" : "SS 6/20/2019 14:18",
 		"testAddCollaboratorFromPayload" : "SS 6/20/2019 14:18",
@@ -10,9 +11,6 @@
 		"testAddCollaboratorFromPayloadAtSelfJoinedSession" : "SS 6/17/2019 18:53",
 		"testAddCollaboratorWithKeySetsConsistencyStateToUndefined" : "SS 6/20/2019 14:19",
 		"testAddStatusSubscriber" : "AW 6/1/2019 23:30",
-		"testBroadcastAddedOrChangedMethodSendsCCEMessageWithCCEEdit" : "AW 6/23/2019 15:57",
-		"testBroadcastRecategorizedMethodSendsCCEMessageWithCCEEdit" : "AW 6/23/2019 15:57",
-		"testBroadcastRemovedMethodSendsCCEMessageWithCCEEdit" : "AW 6/23/2019 15:59",
 		"testClassSideResetShouldNotGenerateNewInstance" : "AW 6/23/2019 11:57",
 		"testCollaboratorsLazyInitialisation" : "SS 6/2/2019 20:32",
 		"testCollaboratorsListReturnsAnArrayOfCCECollaborators" : "SS 6/2/2019 21:37",

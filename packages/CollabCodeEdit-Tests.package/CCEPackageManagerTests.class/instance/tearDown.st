@@ -1,4 +1,4 @@
 running
 tearDown
 	super tearDown.
-	session clear
+	client clear

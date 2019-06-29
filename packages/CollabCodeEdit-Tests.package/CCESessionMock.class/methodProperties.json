@@ -2,9 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"broadcastAddedOrModifiedMethod:in:" : "AW 6/23/2019 00:16",
-		"broadcastRecategorizedMethod:in:into:" : "AW 6/23/2019 11:25",
-		"broadcastRemovedMethod:in:" : "AW 6/18/2019 10:38",
 		"initialize" : "AW 6/18/2019 10:39",
 		"scope" : "AW 6/23/2019 18:03",
 		"scope:" : "AW 6/23/2019 18:03" } }

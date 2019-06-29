@@ -4,4 +4,5 @@ reset
 		scope: nil;
 		token: nil;
 		removeAllCollaborators.
-	self status reset
+	self status reset.
+	self packageManager stopListeningForChanges
