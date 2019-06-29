@@ -3,7 +3,7 @@ testEditOutOfScopeWontBeApplied
 	| edit |
 	
 	edit:= CCEMethodAddedOrModifiedEdit newWith: testMethod in: testClass.
-	session scope: #().
+	packageManager scope: #().
 	self should: [ edit securelyApplyIn: session ] 
 				raise: Error.
 	self deny: (testClass canUnderstand: testMethod) 
