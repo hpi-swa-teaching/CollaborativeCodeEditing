@@ -4,7 +4,8 @@ messageOfType: aSymbol
 	
 	matchingMessages := OrderedCollection new. 
 	
-	self messages keysAndValuesDo:
-		[:aString :aCCEMessage | (aCCEMessage type = aSymbol) ifTrue: [matchingMessages add: aCCEMessage]].
+	self messages valuesDo:
+		[ :aCCEMessage | (aCCEMessage type = aSymbol) 
+			ifTrue: [ matchingMessages add: aCCEMessage ] ].
 	
 	^ matchingMessages

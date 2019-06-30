@@ -1,3 +1,4 @@
 running
 tearDown
-	session changesDict: OrderedDictionary new.
+	super tearDown.
+	client clear

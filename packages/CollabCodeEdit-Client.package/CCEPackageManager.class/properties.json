@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scope",
-		"session" ],
+		"client",
+		"ignorableEdits",
+		"scope" ],
 	"name" : "CCEPackageManager",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 request sending
 createSession
-	self sendMsg: CCEMessage createSession
+	self sendMessage: CCEMessage createSession
 

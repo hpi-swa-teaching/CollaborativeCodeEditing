@@ -1,0 +1,3 @@
+change-capturing
+stopListeningForChanges
+	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self

@@ -16,6 +16,6 @@ testJoinSessionFromClientWithIdentifierAlreadyInUseGetsErrorMessageBack
 	
 	server CCEjoinSession: joinPayloadForClient3 from: client3.
 	
-	self assert: (networkInterface3 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackJoinSessionWithError:)).
+	self assert: (networkInterface3 hasMessageOfType: (CCEMessage serverMessageTypes at: #ackJoinSessionWithError:)).
 	
 	client3 identifier: 'client3Identifier'

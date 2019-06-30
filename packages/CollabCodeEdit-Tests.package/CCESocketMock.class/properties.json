@@ -10,5 +10,5 @@
 	"name" : "CCESocketMock",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CCEMock",
 	"type" : "normal" }
