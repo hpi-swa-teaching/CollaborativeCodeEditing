@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 6/1/2019 23:17",
-		"testDefaultShouldAlwaysReturnTheSameInstance" : "AW 6/1/2019 23:18" } }
+		"setUp" : "SS 6/30/2019 20:21",
+		"testClientHasHeartBeatAndHimselfRegistered" : "SS 6/30/2019 20:24",
+		"testDefaultShouldAlwaysReturnTheSameInstance" : "SS 6/30/2019 20:20" } }

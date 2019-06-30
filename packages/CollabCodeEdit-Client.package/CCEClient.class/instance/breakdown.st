@@ -1,5 +1,5 @@
 breakdown
 breakdown
-	self socket close.
 	self stopHeartbeat.
+	self socket close.
 	self connected: false

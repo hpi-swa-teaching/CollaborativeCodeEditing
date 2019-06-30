@@ -1,3 +1,3 @@
 as yet unclassified
 stop
-	self delete
+	self stopStepping

@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"client" ],
+		"client",
+		"clientSingleton" ],
 	"name" : "CCEClientTest",
 	"pools" : [
 		 ],

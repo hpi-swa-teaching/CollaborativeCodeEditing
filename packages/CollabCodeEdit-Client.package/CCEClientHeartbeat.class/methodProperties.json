@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"heartbeatPeriod" : "SS 6/30/2019 19:55" },
+		"heartbeatPeriod" : "SS 6/30/2019 20:41" },
 	"instance" : {
 		"client" : "SS 6/30/2019 20:06",
 		"client:" : "SS 6/30/2019 20:06",
-		"start" : "SS 6/30/2019 20:15",
+		"setUp" : "SS 6/30/2019 20:29",
+		"start" : "SS 6/30/2019 20:30",
 		"step" : "SS 6/30/2019 20:06",
 		"stepTime" : "SS 6/30/2019 20:16",
-		"stop" : "SS 6/30/2019 20:16" } }
+		"stop" : "SS 6/30/2019 20:30" } }

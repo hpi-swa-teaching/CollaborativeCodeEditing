@@ -3,5 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "SS 6/30/2019 20:14",
-		"testHeartbeatIsFasterThanTimeout" : "SS 6/30/2019 20:05",
+		"testHeartbeatIsFasterThanTimeout" : "SS 6/30/2019 20:43",
 		"testStepSendsHeartBeatToServer" : "SS 6/30/2019 20:15" } }

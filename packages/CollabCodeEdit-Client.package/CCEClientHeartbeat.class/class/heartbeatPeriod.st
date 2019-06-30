@@ -1,3 +1,3 @@
 defaults
 heartbeatPeriod
-	 ^ 42
+	 ^ 42000
