@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"subClassSpecificSetUp" : "SS 6/23/2019 16:36",
+		"subClassSpecificSetUp" : "MS 6/30/2019 14:04",
 		"subClassSpecificTearDown" : "SS 6/23/2019 15:39",
-		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "SS 6/23/2019 16:41",
-		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "SS 6/23/2019 16:04",
+		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "MS 6/30/2019 14:03",
+		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "MS 6/30/2019 14:22",
 		"testUpdateSelectionTriggersChangeSelectionMessage" : "SS 6/23/2019 15:44" } }

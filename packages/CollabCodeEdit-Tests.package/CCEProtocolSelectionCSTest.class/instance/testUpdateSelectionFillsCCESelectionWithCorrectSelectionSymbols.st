@@ -6,10 +6,13 @@ testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols
 	
 	expectedMessage := CCEMessage changeSelectionWith: ( OrderedDictionary newFrom: {
 		#id -> imageAccount humanReadableName .
-		#selection -> cceSelection } ).
+		#selection -> ( OrderedDictionary newFrom: {
+			#categorySelection -> cceSelection categorySelection .
+			#classSelection -> cceSelection classSelection .
+			#methodSelection -> cceSelection methodSelection}) } ).
 	
 	
-	self assert: ( ( networkInterface singleMessage payload at: #selection ) = cceSelection ).
+	self assert: (  (networkInterface singleMessage payload at: #selection) = (expectedMessage payload at: #selection) ).
 	
 	networkInterface clear.
 	

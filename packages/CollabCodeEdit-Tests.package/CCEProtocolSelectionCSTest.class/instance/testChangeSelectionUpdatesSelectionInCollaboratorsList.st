@@ -6,4 +6,7 @@ testChangeSelectionUpdatesSelectionInCollaboratorsList
 	
 	model receive: selectionMessage serialize.
 	
-	self assert: ( session collaborators at: remoteId ) currentSelection = remoteSelection.
+	self assert: ( session collaborators at: remoteId ) currentSelectionAsDictionary =  (OrderedDictionary newFrom: {
+		#categorySelection -> remoteSelection categorySelection .
+		#classSelection -> remoteSelection classSelection .
+		#methodSelection -> remoteSelection methodSelection })
