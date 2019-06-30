@@ -18,6 +18,10 @@ FileStream stdout nextPutAll: 'Setting up...'; cr; flush.
     onConflict: [ :ex | ex pass ];
     load ] on: Warning do: [:w | w resume ].
 
+GitStamp
+    defaultName: 'Firstname Lastname';
+    defaultEmail: 'user@domain.ext'.
+
 FileStream stdout cr; nextPutAll: 'Starting services...'; cr; flush.
 
 CCEDeployAgent start.
