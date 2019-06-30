@@ -3,11 +3,12 @@
 		 },
 	"instance" : {
 		"browserModels" : "MS 6/20/2019 13:51",
+		"currentDefaultBrowserClass" : "SS 6/29/2019 18:36",
 		"currentSelection" : "MS 6/20/2019 14:02",
 		"currentSelection:" : "MS 6/20/2019 15:03",
 		"initialize" : "MS 6/20/2019 14:33",
 		"start" : "SS 6/23/2019 15:00",
-		"step" : "SS 6/26/2019 09:10",
+		"step" : "SS 6/29/2019 18:34",
 		"stepTime" : "SS 6/19/2019 11:42",
-		"stop" : "MS 6/20/2019 16:04",
+		"stop" : "SS 6/29/2019 18:34",
 		"update:" : "MS 6/20/2019 15:09" } }

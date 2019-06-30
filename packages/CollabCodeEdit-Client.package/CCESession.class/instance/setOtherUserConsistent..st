@@ -1,4 +1,4 @@
-services
+collaborator managment
 setOtherUserConsistent: anOrderedDictionary
 	| identifier isConsistent | 
 	

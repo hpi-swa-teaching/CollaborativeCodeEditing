@@ -1,4 +1,5 @@
 as yet unclassified
 step
-	CCEBrowser allInstances do: [:model | model addDependent: self].
+	self currentDefaultBrowserClass allInstances do: [:browser | 
+		browser addDependent: self].
 	
