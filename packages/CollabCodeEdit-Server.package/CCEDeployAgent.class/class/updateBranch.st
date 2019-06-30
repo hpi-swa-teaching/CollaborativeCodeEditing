@@ -1,3 +1,3 @@
 constants
 updateBranch
-	^ (self environmentVariable: 'CCE_DEPLOY_BRANCH') ifNil: [ 'master' ]
+	^ (self environmentVariable: 'CCE_DEPLOY_BRANCH') ifNil: [ 'develop' ]
