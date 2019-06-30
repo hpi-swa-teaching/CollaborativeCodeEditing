@@ -10,4 +10,5 @@ serverMessageTypes
 			#ackLeaveSessionWith: -> #ackLeaveSessionWith: .
 			#ackLeaveSessionWithError: -> #ackLeaveSessionWithError: .
 			#deleteUser: -> #deleteUser: .
-			#receiveEdit: -> #receiveEdit:}
+			#receiveEdit: -> #receiveEdit: . 
+			#ackHeartbeat -> #ackHeartbeat }

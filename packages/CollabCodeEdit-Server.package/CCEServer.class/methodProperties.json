@@ -9,7 +9,7 @@
 		"start" : "PB 6/16/2019 20:57" },
 	"instance" : {
 		"CCEcreateSessionWith:from:" : "AW 6/29/2019 23:38",
-		"CCEheartbeat:from:" : "SS 6/30/2019 20:08",
+		"CCEheartbeat:from:" : "SS 6/30/2019 22:21",
 		"CCEjoinSession:from:" : "AW 6/24/2019 15:05",
 		"CCEleaveSessionWith:from:" : "AW 6/29/2019 23:38",
 		"CCEsendEdit:from:" : "AW 6/29/2019 23:32",
@@ -26,7 +26,7 @@
 		"onError:from:" : "PB 5/5/2019 21:54",
 		"onMessage:from:" : "MS 6/12/2019 15:39",
 		"onRequest:" : "SS 6/20/2019 14:04",
-		"registerServices" : "PB 6/16/2019 18:15",
+		"registerServices" : "SS 6/30/2019 22:00",
 		"server" : "6/5/2019 14:10:54",
 		"server:" : "AW 6/1/2019 23:56",
 		"sessions" : "PB 5/5/2019 21:06",
