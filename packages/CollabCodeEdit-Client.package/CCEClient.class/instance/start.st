@@ -1,3 +1,4 @@
 startup
 start
-	self startConnectionTo: CCEClient defaultServerURI
+	self startConnectionTo: CCEClient defaultServerURI.
+	self startHeartBeat.

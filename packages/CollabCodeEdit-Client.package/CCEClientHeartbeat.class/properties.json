@@ -1,17 +1,14 @@
 {
 	"category" : "CollabCodeEdit-Client",
 	"classinstvars" : [
-		"instance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"socket",
-		"owner",
-		"connected",
-		"heartbeat" ],
-	"name" : "CCEClient",
+		"client" ],
+	"name" : "CCEClientHeartbeat",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Morph",
 	"type" : "normal" }

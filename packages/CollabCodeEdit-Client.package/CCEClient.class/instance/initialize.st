@@ -1,3 +1,4 @@
 initialize-release
 initialize 
-	self connected: false
+	self connected: false;
+		heartbeat: CCEClientHeartbeat new

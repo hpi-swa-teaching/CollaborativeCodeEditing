@@ -1,0 +1,16 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client",
+		"cceClientHeartbeat",
+		"networkInterface" ],
+	"name" : "CCEClientHeartbeatTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

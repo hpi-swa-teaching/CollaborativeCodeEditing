@@ -9,6 +9,7 @@
 		"start" : "PB 6/16/2019 20:57" },
 	"instance" : {
 		"CCEcreateSessionWith:from:" : "AW 6/29/2019 23:38",
+		"CCEheartbeat:from:" : "SS 6/30/2019 20:08",
 		"CCEjoinSession:from:" : "AW 6/24/2019 15:05",
 		"CCEleaveSessionWith:from:" : "AW 6/29/2019 23:38",
 		"CCEsendEdit:from:" : "AW 6/29/2019 23:32",

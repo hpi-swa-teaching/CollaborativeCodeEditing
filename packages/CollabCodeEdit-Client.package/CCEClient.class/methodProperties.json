@@ -4,11 +4,13 @@
 		"defaultServerURI" : "SS 6/19/2019 09:42",
 		"start" : "PB 5/5/2019 22:33" },
 	"instance" : {
-		"breakdown" : "AW 6/1/2019 22:39",
+		"breakdown" : "SS 6/30/2019 19:50",
 		"connected" : "ST 5/22/2019 18:04",
 		"connected:" : "AW 6/1/2019 22:32",
 		"createSession" : "AD 6/16/2019 15:53",
-		"initialize" : "AW 6/1/2019 22:39",
+		"heartbeat" : "SS 6/30/2019 19:48",
+		"heartbeat:" : "SS 6/30/2019 19:48",
+		"initialize" : "SS 6/30/2019 19:47",
 		"joinSession:" : "AD 6/16/2019 15:53",
 		"owner" : "ST 5/18/2019 18:32",
 		"owner:" : "AW 6/1/2019 22:33",
@@ -16,6 +18,6 @@
 		"sendMessage:" : "AW 6/29/2019 22:57",
 		"socket" : "PB 5/5/2019 19:57",
 		"socket:" : "AW 6/1/2019 22:38",
-		"start" : "AW 6/1/2019 22:45",
+		"start" : "SS 6/30/2019 19:45",
 		"startConnectionTo:" : "AD 6/15/2019 16:13",
 		"startTestClientToLocalhost" : "AW 6/1/2019 22:46" } }
