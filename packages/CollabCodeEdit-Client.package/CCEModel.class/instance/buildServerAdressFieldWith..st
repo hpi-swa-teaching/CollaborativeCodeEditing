@@ -1,7 +1,7 @@
 building
 buildServerAdressFieldWith: aBuilder
 	^ aBuilder pluggableTextSpec new 
-		model: self client;
+		model: self client ui;
 		editText: #serverURI:;
 		getText: #serverURI;
 		frame:  (LayoutFrame new

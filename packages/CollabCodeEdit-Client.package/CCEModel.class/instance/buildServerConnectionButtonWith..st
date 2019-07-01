@@ -1,9 +1,10 @@
 building
 buildServerConnectionButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new 
-			model: self client;
-			label: CCEModel serverConnectButtonLabel;
-			action: #start;
+			model: self client ui;
+			label: #statusAction;
+			changeLabelWhen: #statusAction:;
+			action: #toggleClientConnection;
 			enabled: true;
 			frame:  (LayoutFrame new
 					topFraction: 0.90;

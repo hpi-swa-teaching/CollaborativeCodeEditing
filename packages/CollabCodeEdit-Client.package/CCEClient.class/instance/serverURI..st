@@ -1,3 +1,3 @@
 accessing
 serverURI: aString
-	serverURI := aString asString
+	serverURI := aString
