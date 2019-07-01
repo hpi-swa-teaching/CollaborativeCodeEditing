@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
 		"client",
-		"clientSingleton" ],
-	"name" : "CCEClientTest",
+		"cceClientHeartbeat",
+		"networkInterface" ],
+	"name" : "CCEClientHeartbeatEngineTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

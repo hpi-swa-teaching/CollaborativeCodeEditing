@@ -4,4 +4,5 @@ startConnectionTo: aURIString
   	self socket
 		onMessage: [ :data | self owner receive: data ];
 		fork.
+	self startHeartbeatEngine.
 	self connected: true

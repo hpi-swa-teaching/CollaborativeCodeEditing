@@ -6,4 +6,5 @@ clientMsgTypes
 			#setConsistent:from: -> #setConsistent:from: .
 			#leaveSessionWith:from: -> #leaveSessionWith:from: .
 			#sendMulticastToSession:from: -> #sendMulticastToSession:from: .
-			#sendEdit:from: -> #sendEdit:from: }
+			#sendEdit:from: -> #sendEdit:from: .
+			#heartbeat:from: -> #heartbeat:from: }
