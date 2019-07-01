@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CCEProtocolHeartbeatTest",
+	"pools" : [
+		 ],
+	"super" : "CCEProtocolTestServerside",
+	"type" : "normal" }

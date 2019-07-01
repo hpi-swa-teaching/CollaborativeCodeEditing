@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"changesDict" ],
+		"scope" ],
 	"name" : "CCESessionMock",
 	"pools" : [
 		 ],
-	"super" : "CCESession",
+	"super" : "CCEMock",
 	"type" : "normal" }

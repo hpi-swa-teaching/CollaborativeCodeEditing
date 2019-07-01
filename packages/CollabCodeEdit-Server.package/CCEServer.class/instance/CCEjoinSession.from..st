@@ -10,4 +10,4 @@ CCEjoinSession: anOrderedDictionary from: aClient
 			:session |	 
 			session handleNewUser: aClient withIdentifier: (anOrderedDictionary at: #id) ]
 		ifAbsent: [
-			aClient sendMsg: CCEMessage ackJoinSessionTokenNotFound ]
+			aClient sendMessage: CCEMessage ackJoinSessionTokenNotFound ]

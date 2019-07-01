@@ -2,6 +2,7 @@ tests
 testSetClearSessionShouldFillSessionAndSetStatusToCleanRemoteSession
 	| expectedScope expectedChecksum | 
 	
+	self flag: #CCE. "external dependency"
 	expectedScope := #('Signals') .
 	expectedChecksum := 42.
 	

@@ -1,6 +1,10 @@
 accessing
 updateSelectionWith: aBrowser
-	self categorySelection: aBrowser selectedSystemCategoryName;
+
+	self 
+	  categorySelection: aBrowser selectedSystemCategoryName;
 		classSelection: aBrowser selectedClassName;
 		methodSelection: aBrowser selectedMessageName.
-	self client sendMsg: (CCEMessage changeSelectionWith: self createSelectionPayload)
+		
+	Transcript show: self methodSelection.
+	self client sendMessage: (CCEMessage changeSelectionWith: self createSelectionPayload)

@@ -1,0 +1,3 @@
+request handling
+sendAckHeartbeat: aCCERemoteClient
+	aCCERemoteClient sendMessage: CCEMessage ackHeartbeat

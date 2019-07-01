@@ -3,5 +3,6 @@ publishSession
 	| message | 
 	
 	message := CCEMessage createSessionWith: self createSessionPayload.	
-	self client sendMsg: message.
-	self status setToNoRemoteSession
+	self client sendMessage: message.
+	self status setToNoRemoteSession.
+	self packageManager listenForChangesInScope: self scope for: CCEClient default

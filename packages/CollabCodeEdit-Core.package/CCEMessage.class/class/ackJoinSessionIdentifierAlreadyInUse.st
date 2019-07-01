@@ -1,4 +1,4 @@
 server-Message creation
 ackJoinSessionIdentifierAlreadyInUse
-	^ self new: (CCEMessage serverMsgTypes at: #ackJoinSessionWithError:) 
+	^ self new: (CCEMessage serverMessageTypes at: #ackJoinSessionWithError:) 
 			with: { #error -> 'Identifier is already in use' }

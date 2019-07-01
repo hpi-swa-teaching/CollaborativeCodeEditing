@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"connectAction" : "SS 7/1/2019 10:31",
+		"connectedColor" : "SS 7/1/2019 14:37",
+		"disconnectAction" : "SS 7/1/2019 11:04",
+		"notConnectedColor" : "SS 7/1/2019 14:37" },
+	"instance" : {
+		"client" : "SS 7/1/2019 10:23",
+		"client:" : "SS 7/1/2019 10:23",
+		"serverURI" : "SS 7/1/2019 14:36",
+		"serverURI:" : "SS 7/1/2019 10:49",
+		"setToConnected" : "SS 7/1/2019 14:38",
+		"setToDisconnected" : "SS 7/1/2019 14:47",
+		"statusAction" : "SS 7/1/2019 11:00",
+		"statusAction:" : "SS 7/1/2019 10:33",
+		"statusColor" : "SS 7/1/2019 14:38",
+		"statusColor:" : "SS 7/1/2019 10:33",
+		"toggleClientConnection" : "SS 7/1/2019 10:26" } }

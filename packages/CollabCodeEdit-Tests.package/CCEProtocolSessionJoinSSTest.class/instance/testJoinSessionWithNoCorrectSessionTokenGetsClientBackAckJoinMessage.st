@@ -10,4 +10,4 @@ testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage
 	
 	server onMessage: joinSessionMessage serialize from: client2.
 	
-	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackJoinSessionWithError:))
+	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMessageTypes at: #ackJoinSessionWithError:))

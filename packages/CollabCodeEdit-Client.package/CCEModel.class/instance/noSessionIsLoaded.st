@@ -1,3 +1,3 @@
 as yet unclassified
 noSessionIsLoaded
-	^ self session getStatus = CCESessionStatus noRemoteSession.
+	^ self session getStatus = CCESessionStatus noRemoteSession

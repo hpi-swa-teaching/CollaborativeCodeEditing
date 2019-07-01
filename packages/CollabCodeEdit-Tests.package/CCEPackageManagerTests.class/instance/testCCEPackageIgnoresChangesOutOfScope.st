@@ -1,4 +1,6 @@
 tests
 testCCEPackageIgnoresChangesOutOfScope
-	CCEPackageManager default listenForChangesOnScope: #() for: session.
-	self executeWithTemporaryTestMethod: [	self assert: session changesDict isEmpty ]
+	packageManager scope: #().
+	self 
+		compileTestMethod;
+		assert: client hasNoMessage

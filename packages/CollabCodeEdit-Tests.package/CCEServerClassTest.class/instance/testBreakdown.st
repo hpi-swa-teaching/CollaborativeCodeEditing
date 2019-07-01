@@ -3,7 +3,7 @@ testBreakdown
 	CCEServer
 		breakdown;
 		start.
-	CCEServer currentInstance ifNil: [ self fail ].
+	self deny: CCEServer currentInstance isNil.
 	
 	CCEServer breakdown.
-	CCEServer currentInstance ifNotNil: [ self fail ]
+	self assert: CCEServer currentInstance isNil

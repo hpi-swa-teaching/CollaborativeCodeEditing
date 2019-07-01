@@ -1,7 +1,5 @@
 change-capturing
-methodRemoved: anEvent	
-	| class |
-	
-	class := anEvent itemClass.
-	(self isInScope: class)
-		ifTrue: [ self session broadcastRemovedMethod: anEvent itemSelector in: class ]
+methodRemoved: anEvent
+	self sendEditIfNotToBeIgnored: 
+		(CCEMethodRemovedEdit 
+			newWith: anEvent itemSelector in: anEvent itemClass)

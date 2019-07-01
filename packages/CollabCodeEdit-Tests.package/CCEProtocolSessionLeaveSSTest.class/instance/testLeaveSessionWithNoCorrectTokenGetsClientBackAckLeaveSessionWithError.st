@@ -9,4 +9,4 @@ testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError
 	
 	server onMessage: leaveSessionMessage serialize from: client1.
 	
-	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMsgTypes at: #ackLeaveSessionWithError:))
+	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMessageTypes at: #ackLeaveSessionWithError:))
