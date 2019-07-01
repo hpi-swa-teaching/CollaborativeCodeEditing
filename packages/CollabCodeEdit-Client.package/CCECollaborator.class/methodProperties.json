@@ -8,7 +8,13 @@
 		"=" : "SS 6/17/2019 18:58",
 		"consistencyState" : "MS 6/2/2019 23:04",
 		"consistencyState:" : "SS 6/20/2019 13:47",
+		"currentSelection" : "MS 6/29/2019 08:03",
+		"currentSelection:" : "MS 6/29/2019 07:58",
+		"currentSelectionAsDictionary" : "MS 6/29/2019 08:03",
+		"currentSelectionAsDictionary:" : "MS 7/1/2019 15:58",
 		"identifier" : "MS 6/2/2019 23:04",
 		"identifier:" : "SS 6/20/2019 13:47",
 		"initialize" : "SS 6/2/2019 21:16",
-		"printOn:" : "SS 6/20/2019 13:47" } }
+		"printCollaboratorsInfoOn:" : "SS 7/1/2019 16:27",
+		"printCollaboratorsSelectionOn:" : "SS 7/1/2019 16:27",
+		"printOn:" : "SS 7/1/2019 16:27" } }

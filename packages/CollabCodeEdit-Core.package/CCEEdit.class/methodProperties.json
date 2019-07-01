@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"editTypes" : "AD 6/15/2019 15:26",
 		"newWith:in:" : "AW 6/23/2019 15:44" },
 	"instance" : {
 		"apply" : "AW 6/22/2019 23:57",
@@ -8,5 +9,11 @@
 		"classToEdit" : "AW 6/22/2019 23:31",
 		"editContent" : "AD 6/15/2019 15:20",
 		"editContent:" : "AD 6/15/2019 15:20",
+		"editType" : "AD 6/15/2019 15:20",
+		"editType:" : "AW 6/16/2019 15:57",
 		"mayBeAppliedIn:" : "AW 6/23/2019 17:50",
-		"securelyApplyIn:" : "AD 6/24/2019 11:16" } }
+		"methodOrClassIdentifier" : "AD 6/15/2019 15:20",
+		"methodOrClassIdentifier:" : "AD 6/15/2019 15:20",
+		"securelyApplyIn:" : "AD 6/24/2019 11:16",
+		"timestamp" : "AD 6/15/2019 15:20",
+		"timestamp:" : "AD 6/15/2019 15:20" } }

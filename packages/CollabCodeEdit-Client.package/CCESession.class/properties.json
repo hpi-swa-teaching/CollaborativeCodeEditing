@@ -13,6 +13,7 @@
 		"collaborators",
 		"status",
 		"imageAccount",
+		"selectionListener",
 		"packageManager" ],
 	"name" : "CCESession",
 	"pools" : [

@@ -1,0 +1,18 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"categorySelection",
+		"classSelection",
+		"methodSelection",
+		"imageAccount",
+		"client" ],
+	"name" : "CCESelection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

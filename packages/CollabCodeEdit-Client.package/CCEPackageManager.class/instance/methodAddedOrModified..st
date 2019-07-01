@@ -1,4 +1,4 @@
-change-capturing
+as yet unclassified
 methodAddedOrModified: anEvent		
 	self sendEditIfNotToBeIgnored: 
 		(CCEMethodAddedOrModifiedEdit 

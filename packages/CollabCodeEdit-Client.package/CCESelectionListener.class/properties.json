@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentSelection" ],
+	"name" : "CCESelectionListener",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

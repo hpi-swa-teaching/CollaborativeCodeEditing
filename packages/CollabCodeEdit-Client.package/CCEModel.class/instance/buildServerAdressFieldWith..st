@@ -1,4 +1,4 @@
-building
+as yet unclassified
 buildServerAdressFieldWith: aBuilder
 	^ aBuilder pluggableTextSpec new 
 		model: self client ui;

@@ -1,0 +1,3 @@
+accessing
+currentDefaultBrowserClass
+	 ^ SystemBrowser default

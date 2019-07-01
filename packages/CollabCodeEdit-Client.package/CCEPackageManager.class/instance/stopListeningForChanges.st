@@ -1,3 +1,3 @@
-change-capturing
+as yet unclassified
 stopListeningForChanges
 	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self

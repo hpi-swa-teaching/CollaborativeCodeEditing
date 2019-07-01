@@ -4,5 +4,6 @@ reset
 		scope: nil;
 		token: nil;
 		removeAllCollaborators.
-	self status reset.
-	self packageManager stopListeningForChanges
+	self packageManager stopListeningForChanges.
+	self status setToNoRemoteSession.
+	self deactivateSelectionListener

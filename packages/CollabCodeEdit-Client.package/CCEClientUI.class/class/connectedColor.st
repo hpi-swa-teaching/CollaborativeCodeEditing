@@ -1,3 +1,3 @@
-labels
+as yet unclassified
 connectedColor
 	^ Color green

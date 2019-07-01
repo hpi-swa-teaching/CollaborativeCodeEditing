@@ -1,6 +1,7 @@
 initialize-release
 initialize
 	super initialize.
+	SystemBrowser default: CCEBrowser.
 	self createSessionModel: CCECreateSessionModel new;
 		account: CCEAccount default;
 		joinSessionModel: CCEJoinSessionModel new;

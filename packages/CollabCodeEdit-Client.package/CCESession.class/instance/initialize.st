@@ -1,3 +1,3 @@
-initialize-release
+as yet unclassified
 initialize
 	self packageManager: CCEPackageManager default

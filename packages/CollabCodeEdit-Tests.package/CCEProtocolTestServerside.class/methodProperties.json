@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "SS 6/20/2019 14:15",
-		"subClassSpecificSetUp" : "SS 6/10/2019 19:12",
-		"tearDown" : "AW 6/1/2019 23:28" } }
+		"subClassSpecificSetUp" : "MS 7/1/2019 16:28",
+		"subClassSpecificTearDown" : "SS 6/23/2019 15:56",
+		"tearDown" : "MS 7/1/2019 16:29" } }

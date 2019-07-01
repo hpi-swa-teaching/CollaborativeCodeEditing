@@ -1,4 +1,4 @@
-services
+session-managment
 ackJoinSession: anOrderedDictionary
 	| remoteSessionScope remoteSessionHash remoteCollaborators remoteSessionToken |
 	
@@ -18,5 +18,6 @@ ackJoinSession: anOrderedDictionary
 		ifFalse: [			
 			self setDirtySessionWith: remoteSessionScope and: remoteSessionHash.
 			self setConsistencyOfCollaborator: (self imageAccount humanReadableName) to: false.
-			self client sendMessage: (CCEMessage setConsistent: false) ]
+			self client sendMessage: (CCEMessage setConsistent: false) ].
 	
+	self activateSelectionListener

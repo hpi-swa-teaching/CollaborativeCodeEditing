@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"consistencyState",
-		"identifier" ],
+		"identifier",
+		"currentSelection",
+		"currentSelectionAsDictionary" ],
 	"name" : "CCECollaborator",
 	"pools" : [
 		 ],

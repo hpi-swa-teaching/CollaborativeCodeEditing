@@ -8,6 +8,7 @@
 		"serverPort" : "PB 6/26/2019 12:23",
 		"start" : "PB 6/16/2019 20:57" },
 	"instance" : {
+		"CCEchangeSelection:from:" : "MS 7/1/2019 16:23",
 		"CCEcreateSessionWith:from:" : "AW 6/29/2019 23:38",
 		"CCEheartbeat:from:" : "SS 7/1/2019 09:09",
 		"CCEjoinSession:from:" : "AW 6/24/2019 15:05",

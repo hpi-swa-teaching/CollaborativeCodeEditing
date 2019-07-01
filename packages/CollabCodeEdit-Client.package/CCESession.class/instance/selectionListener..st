@@ -1,0 +1,3 @@
+accessing
+selectionListener: aCCESelectionListener
+	selectionListener := aCCESelectionListener

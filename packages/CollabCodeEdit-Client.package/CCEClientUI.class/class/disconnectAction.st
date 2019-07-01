@@ -1,3 +1,3 @@
-labels
+as yet unclassified
 disconnectAction
 	^  'Disconnect'

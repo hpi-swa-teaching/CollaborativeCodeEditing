@@ -1,0 +1,18 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cceSelection",
+		"browser",
+		"changeSelectionPayload",
+		"remoteSelection",
+		"remoteId" ],
+	"name" : "CCEProtocolSelectionCSTest",
+	"pools" : [
+		 ],
+	"super" : "CCEProtocolTestClientside",
+	"type" : "normal" }
