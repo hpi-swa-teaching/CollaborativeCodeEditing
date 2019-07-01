@@ -1,4 +1,4 @@
 request handling
 CCEheartbeat: anOrderedDictionary from: aCCERemoteClient
-	aCCERemoteClient sendMessage: CCEMessage ackHeartbeat.
-	Transcript show: 'heartbeat from: ', aCCERemoteClient; cr
+	" this delay solves the problem, that the server imediatly drops the connection when the message arrives after estblishing the connection"
+	self futureSend: #sendAckHeartbeat: at: 5000 args: ( Array newFrom: { aCCERemoteClient } )
