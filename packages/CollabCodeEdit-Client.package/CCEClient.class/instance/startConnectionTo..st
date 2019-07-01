@@ -10,5 +10,5 @@ startConnectionTo: aURIString
 				onMessage: [ :data | self owner receive: data ];
 				fork.
 			self connected: true.
+      self startHeartbeatEngine.
 			self ui setToConnected ].
-  	

@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"clientSingleton" ],
-	"name" : "CCEClientTest",
+		 ],
+	"name" : "CCEProtocolHeartbeatTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "CCEProtocolTestServerside",
 	"type" : "normal" }
