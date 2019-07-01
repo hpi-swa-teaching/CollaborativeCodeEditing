@@ -1,4 +1,3 @@
 accessing
-methodSelection: anObject
-
-	methodSelection := anObject.
+methodSelection: aString
+	methodSelection := aString

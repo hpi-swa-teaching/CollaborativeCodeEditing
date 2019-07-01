@@ -1,3 +1,3 @@
 accessing
-imageAccount: anObject
-	imageAccount := anObject
+imageAccount: aCCEAccount
+	imageAccount := aCCEAccount

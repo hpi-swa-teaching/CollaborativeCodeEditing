@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"subClassSpecificSetUp" : "MS 7/1/2019 11:02",
+		"generateChangeSelectionPayload" : "MS 7/1/2019 16:35",
+		"subClassSpecificSetUp" : "MS 7/1/2019 16:25",
 		"subClassSpecificTearDown" : "SS 6/23/2019 15:39",
-		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "MS 6/30/2019 14:03",
-		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "MS 6/30/2019 14:22",
-		"testUpdateSelectionTriggersChangeSelectionMessage" : "SS 6/23/2019 15:44" } }
+		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "MS 7/1/2019 16:33",
+		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "MS 7/1/2019 16:33",
+		"testUpdateSelectionTriggersChangeSelectionMessage" : "MS 7/1/2019 16:26" } }

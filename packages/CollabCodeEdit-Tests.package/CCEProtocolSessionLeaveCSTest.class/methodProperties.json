@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"subClassSpecificSetUp" : "SS 6/3/2019 11:54",
-		"subClassSpecificTearDown" : "SS 6/23/2019 15:39",
+		"subClassSpecificSetUp" : "MS 7/1/2019 16:27",
+		"subClassSpecificTearDown" : "MS 7/1/2019 16:27",
 		"testAckLeaveSessionClearsSessionInformation" : "SS 6/19/2019 12:02",
 		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "SS 6/19/2019 12:03",
 		"testAckLeaveSessionResetSession" : "SS 6/19/2019 12:03",

@@ -7,11 +7,6 @@ subClassSpecificSetUp
 	remoteSelection := CCESelection new categorySelection: #testCategory; classSelection: #testClass; methodSelection: #testMethod.
 	remoteId := 'testId'.
 	
-	changeSelectionPayload := OrderedDictionary newFrom: {
-		#id -> remoteId  . 
-		#selection -> (OrderedDictionary newFrom: {
-			#categorySelection -> remoteSelection categorySelection .
-			#classSelection -> remoteSelection classSelection .
-			#methodSelection -> remoteSelection methodSelection }) }.
+	changeSelectionPayload := self generateChangeSelectionPayload.
 	
-	session collaborators at: remoteId put: ( CCECollaborator new identifier: remoteId; consistencyState: CCECollaborator isConsistentString ).
+	session collaborators at: remoteId put: ( CCECollaborator new identifier: remoteId; consistencyState: CCECollaborator isConsistentString )

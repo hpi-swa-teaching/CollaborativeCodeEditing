@@ -1,5 +1,3 @@
-as yet unclassified
+printing
 printOn: aStream
-	aStream nextPutAll: self classSelection asString;
-		nextPutAll: '>>';
-		nextPutAll: self methodSelection
+	aStream nextPutAll: self classSelection asString, '>>', self methodSelection

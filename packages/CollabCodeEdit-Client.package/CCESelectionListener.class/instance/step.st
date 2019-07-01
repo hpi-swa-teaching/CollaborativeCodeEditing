@@ -1,5 +1,4 @@
-as yet unclassified
+stepping
 step
 	self currentDefaultBrowserClass allInstances do: [:browser | 
-		browser addDependent: self].
-	
+		browser addDependent: self]

@@ -1,4 +1,3 @@
-as yet unclassified
+accessing
 currentSelection: aCCESelection
 	currentSelection := aCCESelection
-	

@@ -4,5 +4,3 @@ tearDown
 	networkInterface2 clear.
 	networkInterface3 clear.
 	self subClassSpecificTearDown
-	
-		

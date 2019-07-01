@@ -1,4 +1,3 @@
 accessing
-categorySelection: anObject
-
-	categorySelection := anObject.
+categorySelection: aString
+	categorySelection := aString

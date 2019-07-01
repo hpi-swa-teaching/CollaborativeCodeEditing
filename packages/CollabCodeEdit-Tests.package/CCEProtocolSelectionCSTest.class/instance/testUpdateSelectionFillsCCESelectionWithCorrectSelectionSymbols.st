@@ -14,5 +14,4 @@ testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols
 	
 	self assert: (  (networkInterface singleMessage payload at: #selection) = (expectedMessage payload at: #selection) ).
 	
-	networkInterface clear.
-	
+	networkInterface clear

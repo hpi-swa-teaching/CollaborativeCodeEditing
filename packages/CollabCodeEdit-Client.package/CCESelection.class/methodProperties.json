@@ -2,17 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"=" : "SS 6/23/2019 16:04",
-		"categorySelection" : "MS 6/20/2019 15:07",
-		"categorySelection:" : "MS 6/20/2019 15:07",
-		"classSelection" : "MS 6/20/2019 15:07",
-		"classSelection:" : "MS 6/20/2019 15:07",
+		"=" : "MS 7/1/2019 16:01",
+		"categorySelection" : "MS 7/1/2019 16:02",
+		"categorySelection:" : "MS 7/1/2019 16:01",
+		"classSelection" : "MS 7/1/2019 16:02",
+		"classSelection:" : "MS 7/1/2019 16:02",
 		"client" : "MS 6/20/2019 15:53",
-		"client:" : "MS 6/20/2019 15:53",
+		"client:" : "MS 7/1/2019 16:02",
 		"createSelectionPayload" : "MS 6/28/2019 09:05",
 		"imageAccount" : "MS 6/20/2019 15:50",
-		"imageAccount:" : "MS 6/20/2019 15:50",
-		"methodSelection" : "MS 6/20/2019 15:07",
-		"methodSelection:" : "MS 6/20/2019 15:07",
-		"printOn:" : "SS 6/23/2019 16:25",
-		"updateSelectionWith:" : "MS 6/28/2019 08:51" } }
+		"imageAccount:" : "MS 7/1/2019 16:03",
+		"methodSelection" : "MS 7/1/2019 16:03",
+		"methodSelection:" : "MS 7/1/2019 16:03",
+		"printOn:" : "MS 7/1/2019 16:05",
+		"updateSelectionWith:" : "MS 7/1/2019 16:03" } }

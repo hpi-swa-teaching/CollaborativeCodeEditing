@@ -9,4 +9,4 @@ printOn: aStream
 		nextPutAll: '>>';
 		nextPutAll: (self currentSelectionAsDictionary at: #classSelection) asString;
 		nextPutAll: '>>';
-		nextPutAll: (self currentSelectionAsDictionary at: #methodSelection) asString.
+		nextPutAll: (self currentSelectionAsDictionary at: #methodSelection) asString

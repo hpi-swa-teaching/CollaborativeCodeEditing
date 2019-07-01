@@ -1,3 +1,3 @@
 accessing
-selectionListener: anObject
-	selectionListener := anObject
+selectionListener: aCCESelectionListener
+	selectionListener := aCCESelectionListener

@@ -1,5 +1,4 @@
-as yet unclassified
+stepping
 update: anObject 
-	
 	(anObject isKindOf: Browser) ifFalse: [^ self].
-	self currentSelection updateSelectionWith: anObject.
+	self currentSelection updateSelectionWith: anObject

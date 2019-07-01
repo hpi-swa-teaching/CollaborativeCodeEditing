@@ -1,3 +1,3 @@
 accessing
-currentSelectionAsDictionary: anObject
-	currentSelectionAsDictionary := anObject
+currentSelectionAsDictionary: anOrderedDictionary
+	currentSelectionAsDictionary := anOrderedDictionary
