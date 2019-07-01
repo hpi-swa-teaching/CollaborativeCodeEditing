@@ -1,3 +1,3 @@
 request handling
 CCEchangeSelection: anOrderedDictionary from: aClient
-	aClient session broadcastMsg: (CCEMessage changeSelectionBroadcastWith: anOrderedDictionary)
+	aClient session broadcastMessage: (CCEMessage changeSelectionBroadcastWith: anOrderedDictionary)

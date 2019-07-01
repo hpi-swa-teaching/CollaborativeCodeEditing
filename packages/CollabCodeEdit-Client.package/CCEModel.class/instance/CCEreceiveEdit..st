@@ -1,3 +1,3 @@
 requests backend
-CCEreceiveEdit: aCCEEdit
-	aCCEEdit securelyApplyIn: self session
+CCEreceiveEdit: anOrderedDictionary
+	(anOrderedDictionary at: #edit) securelyApplyIn: self session
