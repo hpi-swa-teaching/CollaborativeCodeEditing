@@ -8,7 +8,10 @@
 	"instvars" : [
 		"socket",
 		"owner",
-		"connected" ],
+		"connected",
+		"serverURI",
+		"ui",
+		"heartbeat" ],
 	"name" : "CCEClient",
 	"pools" : [
 		 ],

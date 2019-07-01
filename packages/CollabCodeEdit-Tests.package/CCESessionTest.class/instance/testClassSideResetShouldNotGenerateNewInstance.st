@@ -1,6 +1,5 @@
 test singleton
 testClassSideResetShouldNotGenerateNewInstance
-	
 	| cceSessionBevoreReset | 
 	
 	cceSessionBevoreReset := CCESession default.

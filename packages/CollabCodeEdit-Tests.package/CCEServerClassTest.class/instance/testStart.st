@@ -8,5 +8,5 @@ testStart
 		self assert: server equals: CCEServer currentInstance.
 
 		server := CCEServer start.
-		server ifNil: [ self fail ].
+		self deny: server isNil.
 		self assert: CCEServer equals: server class ]

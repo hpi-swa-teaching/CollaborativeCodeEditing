@@ -1,3 +1,4 @@
 running
 setUp
-	^ client := CCEClient default
+	clientSingleton := CCEClient default.
+	client := CCEClient new

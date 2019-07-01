@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client" ],
+	"name" : "CCEClientHeartbeatEngine",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -10,6 +10,7 @@
 		"server",
 		"testIdentifier",
 		"account",
+		"clientMock",
 		"testCollaborator" ],
 	"name" : "CCESessionTest",
 	"pools" : [

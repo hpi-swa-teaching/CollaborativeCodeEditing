@@ -1,0 +1,17 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"serverURI",
+		"statusColor",
+		"statusAction",
+		"client" ],
+	"name" : "CCEClientUI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

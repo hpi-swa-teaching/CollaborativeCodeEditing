@@ -1,0 +1,26 @@
+version: "3"
+services:
+  staging:
+    build: server
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - CCE_AGENT_PORT=${CCE_STAGING_AGENT_PORT}
+      - CCE_DEPLOY_BRANCH=develop
+      - CCE_SERVER_PORT=${CCE_STAGING_SERVER_PORT}
+    ports:
+      - ${CCE_STAGING_AGENT_PORT}:${CCE_STAGING_AGENT_PORT}
+      - ${CCE_STAGING_SERVER_PORT}:${CCE_STAGING_SERVER_PORT}
+  production:
+    build: server
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - CCE_AGENT_PORT=${CCE_PROD_AGENT_PORT}
+      - CCE_DEPLOY_BRANCH=master
+      - CCE_SERVER_PORT=${CCE_PROD_SERVER_PORT}
+    ports:
+      - ${CCE_PROD_AGENT_PORT}:${CCE_PROD_AGENT_PORT}
+      - ${CCE_PROD_SERVER_PORT}:${CCE_PROD_SERVER_PORT}

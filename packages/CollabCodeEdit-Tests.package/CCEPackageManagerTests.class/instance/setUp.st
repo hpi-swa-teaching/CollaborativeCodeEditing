@@ -1,5 +1,5 @@
 running
 setUp
-	packageManager := CCEPackageManager default.
-	testClass := Environment default classNamed: 'CCETestDummy'.
-	session := CCESessionMock new
+	super setUp.
+	client := CCEClientMock new.
+	packageManager listenForChangesInScope: self sessionScope for: client

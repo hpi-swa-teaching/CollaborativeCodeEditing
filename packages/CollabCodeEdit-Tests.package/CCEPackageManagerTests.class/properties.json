@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"packageManager",
-		"testClass",
-		"session" ],
+		"client" ],
 	"name" : "CCEPackageManagerTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "CCESystemChangeTests",
 	"type" : "normal" }

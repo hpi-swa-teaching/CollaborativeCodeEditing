@@ -1,0 +1,16 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client",
+		"clientUI",
+		"clientUi" ],
+	"name" : "CCEClientUITest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

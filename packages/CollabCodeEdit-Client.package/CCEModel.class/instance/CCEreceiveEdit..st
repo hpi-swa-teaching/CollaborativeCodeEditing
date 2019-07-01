@@ -1,3 +1,3 @@
 requests backend
 CCEreceiveEdit: aCCEEdit
-	self flag: #CCE
+	aCCEEdit securelyApplyIn: self session
