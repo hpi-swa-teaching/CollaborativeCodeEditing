@@ -1,3 +1,3 @@
 accessing
 statusAction
-	^ statusAction ifNil: [ CCEClientUI connectAction ]
+	^ statusAction ifNil: [ statusAction := CCEClientUI connectAction ]

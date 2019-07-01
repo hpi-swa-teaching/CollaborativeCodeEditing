@@ -1,3 +1,3 @@
 accessing
 serverURI
-	^ serverURI ifNil: [ CCEClient defaultServerURI ]
+	^ serverURI ifNil: [ serverURI := CCEClient defaultServerURI ]
