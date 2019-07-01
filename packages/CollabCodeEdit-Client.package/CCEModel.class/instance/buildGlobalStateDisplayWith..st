@@ -1,3 +1,5 @@
 building
 buildGlobalStateDisplayWith: aBuilder
-	^ OrderedCollection newFrom:{ self buildGlobalStateAccountDisplayWith: aBuilder}
+	^ OrderedCollection newFrom:{ 
+		self buildServerConnectionButtonWith: aBuilder . 
+		self buildGlobalStateAccountDisplayWith: aBuilder }
