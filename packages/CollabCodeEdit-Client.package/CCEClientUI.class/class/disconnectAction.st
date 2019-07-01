@@ -1,3 +1,3 @@
 labels
 disconnectAction
-	^  'Disconnect from server'
+	^  'Disconnect'
