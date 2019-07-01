@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"subClassSpecificSetUp" : "MS 6/30/2019 14:04",
+		"subClassSpecificSetUp" : "MS 7/1/2019 11:02",
 		"subClassSpecificTearDown" : "SS 6/23/2019 15:39",
 		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "MS 6/30/2019 14:03",
 		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "MS 6/30/2019 14:22",

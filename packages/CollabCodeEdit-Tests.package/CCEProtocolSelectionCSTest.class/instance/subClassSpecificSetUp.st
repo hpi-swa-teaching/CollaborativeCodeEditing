@@ -1,10 +1,8 @@
 running
 subClassSpecificSetUp
 	cceSelection := CCESelection new client: client; imageAccount: imageAccount.
-	browser := Browser new
-		selectCategoryForClass: CCESelection; 
-		selectClass: #CCESelection;
-		selectMessageNamed: #categorySelection.
+	
+	browser := Browser new setClass: CCESelection selector: #categorySelection.
 	
 	remoteSelection := CCESelection new categorySelection: #testCategory; classSelection: #testClass; methodSelection: #testMethod.
 	remoteId := 'testId'.
