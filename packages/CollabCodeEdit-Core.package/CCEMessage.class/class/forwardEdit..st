@@ -1,4 +1,4 @@
 server-Message creation
 forwardEdit: aCCEEdit
 	^ self new: (CCEMessage serverMessageTypes at: #receiveEdit:) 
-			with: aCCEEdit
+			with: (OrderedDictionary newFrom: { #edit -> aCCEEdit })
