@@ -1,4 +1,4 @@
 server-Message creation
 changeSelectionBroadcastWith: anOrderedDictionary
-	^ self new: (CCEMessage serverMsgTypes at: #changeSelection:) 
+	^ self new: (CCEMessage serverMessageTypes at: #changeSelection:) 
 			with: anOrderedDictionary

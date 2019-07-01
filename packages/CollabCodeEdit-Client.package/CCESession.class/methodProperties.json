@@ -4,7 +4,7 @@
 		"reset" : "AW 6/1/2019 23:06" },
 	"instance" : {
 		"ackCreateSession:" : "AW 6/29/2019 16:01",
-		"ackJoinSession:" : "AW 6/24/2019 15:05",
+		"ackJoinSession:" : "AW 7/1/2019 16:51",
 		"ackLeaveSession:" : "SS 5/30/2019 20:36",
 		"activateSelectionListener" : "SS 6/23/2019 15:24",
 		"addCollaborator:withKey:" : "SS 6/2/2019 21:33",
@@ -37,7 +37,7 @@
 		"removeCollaborator:" : "SS 6/20/2019 13:52",
 		"requestJoinSessionWith:" : "AW 6/24/2019 15:05",
 		"requestLeaveSession" : "AD 6/16/2019 15:53",
-		"reset" : "AW 6/29/2019 22:12",
+		"reset" : "AW 7/1/2019 16:57",
 		"scope" : "SS 6/2/2019 15:08",
 		"scope:" : "AW 6/1/2019 23:02",
 		"selectionListener" : "MS 6/20/2019 15:59",
