@@ -1,3 +1,3 @@
 accessing
 classToEdit
-	^ Smalltalk classNamed: self classIdentifier. "edasdadaw"
+	^ Smalltalk classNamed: self classIdentifier. " a great hello"

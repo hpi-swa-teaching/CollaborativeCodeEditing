@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AD 6/24/2019 11:16",
+	"commentStamp" : "AW 7/1/2019 20:19",
 	"instvars" : [
 		"classIdentifier",
-		"editContent" ],
+		"editContent",
+		"editID" ],
 	"name" : "CCEEdit",
 	"pools" : [
 		 ],

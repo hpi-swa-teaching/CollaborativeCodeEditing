@@ -8,6 +8,7 @@ startConnectionTo: aURIString
 		ifFalse: [ 
 			self socket
 				onMessage: [ :data | self owner receive: data ];
+				onClose: [ :data | self handleClosingWith: data ];
 				fork.
 			self connected: true.
       self startHeartbeatEngine.

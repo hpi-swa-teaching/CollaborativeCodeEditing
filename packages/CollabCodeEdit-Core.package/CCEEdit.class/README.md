@@ -3,9 +3,13 @@ I am an edit transferred to or from another one by the CCE-Suite. I hold all the
 Instance Variables
 	classIdentifier:	Symbol
 	editContent:		Object
+	editId:						Int
 
 classIdentifier
 	- The name of the edited class.
 
 editContent
 	- An abstract variable holding the Information necessary for applying myself. It is specified by the subclasses.
+	
+editId
+	- A randomly generated number identifying the edit.
