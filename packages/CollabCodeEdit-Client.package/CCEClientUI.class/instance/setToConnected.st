@@ -1,4 +1,4 @@
 client
 setToConnected
-	self statusAction: CCEClientUI disconnectAction.
-	self statusColor: Color green.
+	self statusAction: CCEClientUI disconnectAction;
+		statusColor: CCEClientUI connectedColor
