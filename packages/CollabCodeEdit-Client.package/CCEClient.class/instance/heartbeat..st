@@ -1,3 +1,3 @@
 accessing
-heartbeat: aCCEClientheartbeat
-	 heartbeat := aCCEClientheartbeat
+heartbeat: aCCEClientHeartbeatEngine
+	 heartbeat := aCCEClientHeartbeatEngine

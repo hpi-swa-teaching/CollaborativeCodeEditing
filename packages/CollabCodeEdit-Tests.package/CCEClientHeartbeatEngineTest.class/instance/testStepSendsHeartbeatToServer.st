@@ -1,5 +1,5 @@
 as yet unclassified
-testStepSendsHeartBeatToServer
+testStepSendsHeartbeatToServer
 	self assert: networkInterface messages isEmpty.
 	
 	cceClientHeartbeat step.

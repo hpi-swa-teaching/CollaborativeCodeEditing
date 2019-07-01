@@ -1,4 +1,4 @@
 initialize-release
 initialize 
 	self connected: false;
-		heartbeat: ( CCEClientHeartbeat new client: self; setUp )
+		heartbeat: ( CCEClientHeartbeatEngine new client: self; setUp )

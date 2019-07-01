@@ -9,7 +9,7 @@
 		"client",
 		"cceClientHeartbeat",
 		"networkInterface" ],
-	"name" : "CCEClientHeartbeatTest",
+	"name" : "CCEClientHeartbeatEngineTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
