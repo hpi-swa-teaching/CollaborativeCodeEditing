@@ -1,18 +1,16 @@
 {
 	"category" : "CollabCodeEdit-Client",
 	"classinstvars" : [
-		"instance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"socket",
-		"owner",
-		"connected",
 		"serverURI",
-		"ui",
-		"heartbeat" ],
-	"name" : "CCEClient",
+		"statusColor",
+		"statusAction",
+		"client" ],
+	"name" : "CCEClientUI",
 	"pools" : [
 		 ],
 	"super" : "Object",
