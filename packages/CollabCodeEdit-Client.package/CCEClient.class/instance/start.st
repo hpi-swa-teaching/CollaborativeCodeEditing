@@ -1,3 +1,3 @@
 startup
 start
-	self startConnectionTo: CCEClient defaultServerURI
+	self startConnectionTo: self serverURI
