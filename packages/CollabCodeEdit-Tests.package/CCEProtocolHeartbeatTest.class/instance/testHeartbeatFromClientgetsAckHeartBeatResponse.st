@@ -5,7 +5,5 @@ testHeartbeatFromClientgetsAckHeartBeatResponse
 	heartbeatMessage := CCEMessage heartbeat.
 	
 	server onMessage: ( heartbeatMessage serialize ) from: client1.
+	self futureSend: #assertMessageHasBeenSent at: 5500 args: #().
 	
-	self assert: ( networkInterface1 hasMessageOfType: #ackHeartbeat ).
-	
-	networkInterface1 clear

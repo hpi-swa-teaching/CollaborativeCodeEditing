@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testHeartbeatFromClientgetsAckHeartBeatResponse" : "SS 6/30/2019 21:59" } }
+		"assertMessageHasBeenSent" : "SS 7/1/2019 09:18",
+		"testHeartbeatFromClientgetsAckHeartBeatResponse" : "SS 7/1/2019 09:17" } }
