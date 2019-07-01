@@ -20,4 +20,5 @@ ackJoinSession: anOrderedDictionary
 			self setConsistencyOfCollaborator: (self imageAccount humanReadableName) to: false.
 			self client sendMessage: (CCEMessage setConsistent: false) ].
 	
-	self activateSelectionListener
+	self activateSelectionListener.
+	self packageManager listenForChangesInScope: self scope for: self client
