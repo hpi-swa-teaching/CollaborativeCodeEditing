@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "SS 7/7/2019 11:09",
+		"testBuildCCEClassAddedEdit" : "SS 7/7/2019 11:25",
+		"testBuildCCEClassCommentedEdit" : "SS 7/7/2019 11:43",
+		"testBuildCCEClassDefinitionModifiedEdit" : "SS 7/7/2019 11:51",
+		"testBuildCCEClassRecategorizedEdit" : "SS 7/7/2019 12:06",
+		"testBuildCCEClassRemovedEdit" : "SS 7/7/2019 12:19",
+		"testBuildCCEClassRenamedEdit" : "SS 7/7/2019 12:17",
+		"testBuildEditFromUnhandledChangeEventRaisesError" : "SS 7/7/2019 11:42" } }

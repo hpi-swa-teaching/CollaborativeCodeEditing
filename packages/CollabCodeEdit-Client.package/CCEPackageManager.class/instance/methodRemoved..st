@@ -1,4 +1,4 @@
-change-capturing
+capturing methods
 methodRemoved: anEvent
 	self sendEditIfNotToBeIgnored: 
 		(CCEMethodRemovedEdit 

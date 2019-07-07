@@ -1,4 +1,4 @@
-change-capturing
+capturing methods
 listenForMethodChanges
 	SystemChangeNotifier uniqueInstance 
 		notify: self ofSystemChangesOfItem: #method change: #Added 
