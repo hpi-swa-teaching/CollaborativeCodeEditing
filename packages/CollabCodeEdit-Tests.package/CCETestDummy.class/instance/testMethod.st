@@ -1,3 +1,0 @@
-testCategory
-testMethod
-	^42
