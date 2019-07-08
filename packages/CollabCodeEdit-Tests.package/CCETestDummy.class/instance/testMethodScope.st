@@ -1,0 +1,3 @@
+testCategory
+testMethodScope
+	^ 42
