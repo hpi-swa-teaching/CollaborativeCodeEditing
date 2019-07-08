@@ -1,3 +1,4 @@
-as yet unclassified
+class edits
 buildClassCommentedEditFrom: anEvent
-	^  CCEClassCommentedEdit newWith: anEvent item
+	^  (CCEClassCommentedEdit newWith: anEvent item) 
+		package: (PackageOrganizer default packageOfClass: anEvent item)

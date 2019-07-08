@@ -1,4 +1,4 @@
 tests
 testClassToEditIsClassNamedClassIdentifier
-	self assert: (CCEEdit new classIdentifier: testClass name) classToEdit 
+	self assert: (CCEMethodEdit new classIdentifier: testClass name) classToEdit 
 				equals: testClass

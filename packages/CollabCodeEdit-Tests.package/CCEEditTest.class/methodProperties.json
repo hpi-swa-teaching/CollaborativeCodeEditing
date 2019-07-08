@@ -4,7 +4,7 @@
 	"instance" : {
 		"testAddedMethodWillBeApplied" : "AW 6/23/2019 11:01",
 		"testApplyIsSubclassResponsibility" : "AW 6/22/2019 23:48",
-		"testClassToEditIsClassNamedClassIdentifier" : "AW 6/23/2019 11:02",
+		"testClassToEditIsClassNamedClassIdentifier" : "SS 7/8/2019 09:12",
 		"testEditOutOfScopeWontBeApplied" : "AW 6/29/2019 22:27",
 		"testRecategorizedEditWillBeApplied" : "AW 6/23/2019 11:22",
 		"testRemovedMethodCanBeRemoved" : "AW 6/23/2019 15:49" } }

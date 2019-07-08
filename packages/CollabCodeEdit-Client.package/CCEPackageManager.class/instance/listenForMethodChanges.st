@@ -2,10 +2,10 @@ capturing methods
 listenForMethodChanges
 	SystemChangeNotifier uniqueInstance 
 		notify: self ofSystemChangesOfItem: #method change: #Added 
-			using: #methodAddedOrModified:;
+			using: #methodEdited:;
 		notify: self ofSystemChangesOfItem: #method change: #Modified 
-			using: #methodAddedOrModified:;
+			using: #methodEdited:;
 		notify: self ofSystemChangesOfItem: #method change: #Recategorized 
-			using: #methodMoved:;
+			using: #methodEdited:;
 		notify: self ofSystemChangesOfItem: #method change: #Removed 
-			using: #methodRemoved:
+			using: #methodEdited:

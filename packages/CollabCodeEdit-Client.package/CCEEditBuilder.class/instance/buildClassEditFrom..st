@@ -1,5 +1,5 @@
-as yet unclassified
-buildEditFrom: anEvent
+class edits
+buildClassEditFrom: anEvent
 	(anEvent isKindOf: AddedEvent) ifTrue: [ ^  self buildClassAddedEditFrom: anEvent ].
 	(anEvent isKindOf: CommentedEvent) ifTrue: [ ^  self buildClassCommentedEditFrom: anEvent ].
 	(anEvent isKindOf: ModifiedClassDefinitionEvent) ifTrue: [ ^  self buildClassDefinitionModifiedEditFrom: anEvent ].

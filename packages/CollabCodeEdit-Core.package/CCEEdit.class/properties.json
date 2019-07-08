@@ -7,7 +7,8 @@
 	"commentStamp" : "AW 7/1/2019 20:19",
 	"instvars" : [
 		"editContent",
-		"editID" ],
+		"editID",
+		"package" ],
 	"name" : "CCEEdit",
 	"pools" : [
 		 ],

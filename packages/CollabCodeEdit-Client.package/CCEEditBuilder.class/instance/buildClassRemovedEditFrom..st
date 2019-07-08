@@ -1,3 +1,4 @@
-as yet unclassified
+class edits
 buildClassRemovedEditFrom: anEvent
-	^ CCEClassRemovedEdit newWith: anEvent item
+	^ (CCEClassRemovedEdit newWith: anEvent item) 
+		package: (PackageOrganizer default packageOfClass: anEvent item)

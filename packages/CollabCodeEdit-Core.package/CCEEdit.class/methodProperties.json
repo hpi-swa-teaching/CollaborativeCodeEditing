@@ -2,9 +2,8 @@
 	"class" : {
 		"newWith:" : "SS 7/7/2019 11:31" },
 	"instance" : {
-		"=" : "AW 7/1/2019 20:57",
+		"=" : "SS 7/8/2019 09:16",
 		"apply" : "AW 6/22/2019 23:57",
-		"classToEdit" : "SS 7/1/2019 21:26",
 		"editContent" : "AD 6/15/2019 15:20",
 		"editContent:" : "AD 6/15/2019 15:20",
 		"editID" : "AW 7/1/2019 20:18",
@@ -13,7 +12,6 @@
 		"editType:" : "AW 6/16/2019 15:57",
 		"initialize" : "AW 7/1/2019 20:21",
 		"mayBeAppliedIn:" : "AW 6/23/2019 17:50",
-		"securelyApplyIn:" : "SS 7/1/2019 21:42",
-		"testMethod" : "SS 7/1/2019 21:29",
-		"timestamp" : "AD 6/15/2019 15:20",
-		"timestamp:" : "AD 6/15/2019 15:20" } }
+		"package" : "SS 7/8/2019 09:30",
+		"package:" : "SS 7/8/2019 09:30",
+		"securelyApplyIn:" : "SS 7/1/2019 21:42" } }

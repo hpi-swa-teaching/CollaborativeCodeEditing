@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildClassAddedEditFrom:" : "SS 7/7/2019 11:31",
-		"buildClassCommentedEditFrom:" : "SS 7/7/2019 11:44",
-		"buildClassDefinitionModifiedEditFrom:" : "SS 7/7/2019 11:56",
-		"buildClassRecategorizedEditFrom:" : "SS 7/7/2019 12:11",
-		"buildClassRemovedEditFrom:" : "SS 7/7/2019 12:19",
-		"buildClassRenamedEditFrom:" : "SS 7/7/2019 12:12",
-		"buildEditFrom:" : "SS 7/7/2019 12:18" } }
+		"buildClassAddedEditFrom:" : "SS 7/8/2019 10:15",
+		"buildClassCommentedEditFrom:" : "SS 7/8/2019 10:16",
+		"buildClassDefinitionModifiedEditFrom:" : "SS 7/8/2019 10:16",
+		"buildClassEditFrom:" : "SS 7/8/2019 09:45",
+		"buildClassRecategorizedEditFrom:" : "SS 7/8/2019 10:17",
+		"buildClassRemovedEditFrom:" : "SS 7/8/2019 10:17",
+		"buildClassRenamedEditFrom:" : "SS 7/8/2019 10:17",
+		"buildMethodEditFrom:" : "SS 7/8/2019 10:08",
+		"buildMethodModifiedOrAddedEditFrom:" : "SS 7/8/2019 10:33",
+		"buildMethodRecategorizedEditFrom:" : "SS 7/8/2019 10:51",
+		"buildMethodRemovedEditFrom:" : "SS 7/8/2019 10:44" } }
