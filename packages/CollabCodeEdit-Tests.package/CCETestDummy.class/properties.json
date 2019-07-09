@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"test" ],
 	"name" : "CCETestDummy",
 	"pools" : [
 		 ],
