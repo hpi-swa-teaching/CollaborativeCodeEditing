@@ -11,4 +11,4 @@ setUp
 		classVarNames: '' 
 		poolDictionaries: '' 
 		category: 'CollabCodeEdit-Tests' 
-		comment: ''
+		comment: 'TestComment'

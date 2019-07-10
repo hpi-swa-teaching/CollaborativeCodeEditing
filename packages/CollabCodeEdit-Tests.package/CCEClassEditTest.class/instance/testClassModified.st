@@ -1,4 +1,4 @@
-running
+tests
 testClassModified
 	| newlyDefinedClass |
 	
@@ -9,10 +9,10 @@ testClassModified
 		apply.
 	
 	newlyDefinedClass := Smalltalk classNamed: testClassName.
-	self deny: (newlyDefinedClass isNil).
+	self deny: (newlyDefinedClass isObsolete).
 	
 	self assert: newlyDefinedClass superclass equals: testClassDefinition superclass.
-	self assert: newlyDefinedClass instVarString equals: testClassDefinition instVarNames.
+	self assert: newlyDefinedClass instanceVariablesString equals: testClassDefinition instVarNames.
 	self assert: newlyDefinedClass classVariablesString equals: testClassDefinition classVarNames.
 	self assert: newlyDefinedClass sharedPoolsString equals: testClassDefinition poolDictionaries.
 	self assert: newlyDefinedClass category equals: testClassDefinition category.

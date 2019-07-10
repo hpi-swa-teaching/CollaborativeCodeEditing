@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "TestCaseGeneratedClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

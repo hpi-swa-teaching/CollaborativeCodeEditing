@@ -1,4 +1,4 @@
-running
+helper
 addNewClassFromTestClassDefinition
 	CCEClassModifiedEdit new 
 		editContent: testClassDefinition;
