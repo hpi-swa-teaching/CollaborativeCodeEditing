@@ -1,4 +1,4 @@
-tests
+apply tests
 testRemovedMethodCanBeRemoved
 	self compileTestMethod.
 	self assert: (testClass canUnderstand: testMethod).
