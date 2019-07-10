@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"apply" : "SS 7/10/2019 10:15" } }
+		"apply" : "SS 7/10/2019 10:17",
+		"applyCommentFrom:" : "SS 7/10/2019 10:23",
+		"applySmalltalkClassDefinitionFrom:" : "SS 7/10/2019 10:21" } }
