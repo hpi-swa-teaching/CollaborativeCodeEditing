@@ -2,14 +2,14 @@ capturing classes
 listenForClassChanges
 	SystemChangeNotifier uniqueInstance 
 		notify: self ofSystemChangesOfItem: #class change: #Added 
-			using: #classEdited:;
+			using: #classModified:;
 		notify: self ofSystemChangesOfItem: #class change: #Modified 
-			using: #classEdited:;
+			using: #classModified:;
 		notify: self ofSystemChangesOfItem: #class change: #Commented 
-			using: #classEdited:;
+			using: #classModified:;
 		notify: self ofSystemChangesOfItem: #class change: #Renamed 
-			using: #classEdited:;
+			using: #classRenamed:;
 		notify: self ofSystemChangesOfItem: #class change: #Recategorized 
-			using: #classEdited:;
+			using: #classModified:;
 		notify: self ofSystemChangesOfItem: #class change: #Removed 
-			using: #classEdited:
+			using: #classRemoved:

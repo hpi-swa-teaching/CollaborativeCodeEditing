@@ -1,3 +1,3 @@
 as yet unclassified
 mayBeApplied: aCCEEdit
-	^ self packageManager isInScope: aCCEEdit classToEdit
+	^ self packageManager isInScope: aCCEEdit

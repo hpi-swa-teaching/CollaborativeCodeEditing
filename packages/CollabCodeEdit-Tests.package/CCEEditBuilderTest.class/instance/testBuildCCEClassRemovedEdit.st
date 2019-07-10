@@ -3,7 +3,7 @@ testBuildCCEClassRemovedEdit
 	| event edit |
 	
 	event := RemovedEvent item: CCETestDummy kind: RemovedEvent classKind.
-	edit := builder buildClassEditFrom: event.	
+	edit := builder buildClassRemovedEditFrom: event.	
 
 	self assert: edit editContent equals: CCETestDummy.
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.

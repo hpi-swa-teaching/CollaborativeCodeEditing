@@ -1,4 +1,4 @@
-capturing classes
+change-capturing
 listenForChanges
 	self 
 		stopListeningForChanges;

@@ -4,12 +4,11 @@ testBuildCCEClassDefinitionModifiedEdit
 	
 	event := ModifiedClassDefinitionEvent classDefinitionChangedFrom: CCETestDummy to: CCEModel.
 	
-	edit := builder buildClassEditFrom: event.
+	edit := builder buildClassModifiedEditFrom: event.
 	
-	self assert: (edit editContent at: #newClass) equals: CCEModel.
-	self assert: (edit editContent at: #oldClass) equals: CCETestDummy.
+	self assert: (edit editContent equalsClass: CCEModel).
 	self assert: (PackageOrganizer default packageOfClass: CCEModel) equals: edit package.
-	self assert: (edit isKindOf: CCEClassDefinitionModifiedEdit)
+	self assert: (edit isKindOf: CCEClassModifiedEdit)
 	
 	
 	

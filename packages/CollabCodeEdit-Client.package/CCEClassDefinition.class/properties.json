@@ -1,0 +1,20 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"superclass",
+		"subclass",
+		"instVarNames",
+		"classVarNames",
+		"poolDictionaries",
+		"category",
+		"comment" ],
+	"name" : "CCEClassDefinition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
