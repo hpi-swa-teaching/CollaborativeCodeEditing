@@ -2,6 +2,7 @@ tests
 testIsInScope
 	| editMethod editClass |
 	
+	CCETestDummy compile: #testMethodScope.
 	editMethod := CCEEditBuilder new buildMethodModifiedOrAddedEditFrom: 
 		(ModifiedEvent 
 			method: (CCETestDummy compiledMethodAt: #testMethodScope) 

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 6/29/2019 22:30",
+		"setUp" : "AW 7/14/2019 15:47",
 		"tearDown" : "AW 6/29/2019 22:16",
 		"testCCEPackageGetsNotfifiedOnNewMessage" : "AW 6/29/2019 22:16",
 		"testCCEPackageGetsNotfifiedOnRecategorization" : "AW 6/29/2019 22:17",
@@ -11,5 +11,5 @@
 		"testCCEPackageManagerIsSingelton" : "SS 6/2/2019 22:27",
 		"testHashchangesAfterMetaClassInformationChange" : "AW 6/11/2019 18:27",
 		"testIgnoredEditsAreIgnored" : "AD 6/24/2019 11:15",
-		"testIsInScope" : "SS 7/10/2019 10:03",
+		"testIsInScope" : "AW 7/14/2019 15:48",
 		"testStopIgnoringEdit" : "AD 6/24/2019 11:21" } }

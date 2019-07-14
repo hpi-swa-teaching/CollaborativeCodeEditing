@@ -7,7 +7,7 @@ testClassRemoved
 	newlyCreatedClass := Smalltalk classNamed: testClassName.
 	
 	
-	(CCEClassRemovedEdit newWith: newlyCreatedClass) apply.
+	(CCEClassRemovedEdit newWith: newlyCreatedClass name) apply.
 	
 	self assert: newlyCreatedClass isObsolete.
 	
