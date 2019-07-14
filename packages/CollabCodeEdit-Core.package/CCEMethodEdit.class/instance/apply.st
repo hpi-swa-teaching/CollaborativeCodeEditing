@@ -1,3 +1,3 @@
 accessing
 apply
-	^  SubclassResponsibility
+	self subclassResponsibility
