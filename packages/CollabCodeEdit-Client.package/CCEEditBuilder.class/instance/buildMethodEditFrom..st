@@ -1,4 +1,4 @@
-method edits
+edit selector
 buildMethodEditFrom: anEvent
 	(anEvent isKindOf: ModifiedEvent) ifTrue: [  ^ self buildMethodModifiedOrAddedEditFrom: anEvent ].
 	(anEvent isKindOf: AddedEvent) ifTrue: [  ^ self buildMethodModifiedOrAddedEditFrom: anEvent ].

@@ -1,7 +1,4 @@
 requests backend
 testAckCreateSessionFillsSessionWithServersideGeneratedToken
-	| ackCreateSessionMessage |
-	ackCreateSessionMessage := CCEMessage ackCreateSession: #testToken.
-	
-	model receive: ackCreateSessionMessage serialize.
+	model receive: (CCEMessage ackCreateSession: #testToken) serialize.
 	self assert: session token equals: #testToken

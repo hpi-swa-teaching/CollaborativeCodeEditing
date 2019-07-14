@@ -1,10 +1,6 @@
 selection managment
 activateSelectionListener
-	| cceSelection |
-	
-	cceSelection := CCESelection new
-		imageAccount: self imageAccount;
-		client: self client.
-
-	self selectionListener currentSelection: cceSelection;
-		start.
+	self selectionListener currentSelection: 
+			(CCESelection new localAccount: self localAccount;
+				client: self client);
+		start

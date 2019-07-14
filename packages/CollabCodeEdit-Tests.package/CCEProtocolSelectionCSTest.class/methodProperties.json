@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"generateChangeSelectionPayload" : "MS 7/1/2019 16:35",
-		"subClassSpecificSetUp" : "MS 7/1/2019 16:25",
+		"subClassSpecificSetUp" : "AD 7/14/2019 20:50",
 		"subClassSpecificTearDown" : "SS 6/23/2019 15:39",
 		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "MS 7/1/2019 16:33",
 		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "MS 7/1/2019 16:33",
-		"testUpdateSelectionTriggersChangeSelectionMessage" : "MS 7/1/2019 16:26" } }
+		"testUpdateSelectionTriggersChangeSelectionMessage" : "AD 7/14/2019 22:22" } }

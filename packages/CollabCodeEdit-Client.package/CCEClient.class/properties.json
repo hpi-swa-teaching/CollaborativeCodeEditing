@@ -7,11 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"socket",
-		"owner",
 		"connected",
 		"serverURI",
 		"ui",
-		"heartbeat" ],
+		"heartbeatEngine",
+		"activeUI" ],
 	"name" : "CCEClient",
 	"pools" : [
 		 ],

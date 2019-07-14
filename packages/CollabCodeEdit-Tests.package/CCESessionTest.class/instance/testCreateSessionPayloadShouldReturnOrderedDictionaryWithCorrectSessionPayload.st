@@ -9,6 +9,6 @@ testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload
 	
 	session scope: #('Signals').
 	session checksum: 12345.
-	session imageAccount humanReadableName: 'SS'.
+	session localAccount humanReadableName: 'SS'.
 	
 	self assert: expectedPayload equals: session createSessionPayload

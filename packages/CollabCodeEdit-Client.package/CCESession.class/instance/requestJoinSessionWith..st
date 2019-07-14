@@ -1,8 +1,5 @@
 request-sending
 requestJoinSessionWith: aTokenString
-	| message | 
-	
-	message := CCEMessage joinSession: aTokenString withIdentifier: CCEAccount default humanReadableName.	
-	self client sendMessage: message.
-	
+	self client sendMessage: 
+		(CCEMessage joinSession: aTokenString withIdentifier: CCEAccount default humanReadableName).
 	self status setToNoRemoteSession

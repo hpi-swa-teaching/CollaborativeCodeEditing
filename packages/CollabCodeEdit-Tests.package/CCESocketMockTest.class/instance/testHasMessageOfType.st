@@ -1,9 +1,4 @@
 tests
 testHasMessageOfType
-	| testMessage | 
-	
-	testMessage := CCEMessage ackJoinSession.
-	
-	socketMock send: testMessage serialize.
-	
+	socketMock send: (CCEMessage ackJoinSession) serialize.
 	self assert: (socketMock hasMessageOfType: (CCEMessage serverMessageTypes at: #ackJoinSession:))

@@ -1,6 +1,5 @@
 accessing
 updateSelectionWith: aBrowser
-
 	self 
 	  categorySelection: aBrowser selectedSystemCategoryName;
 		classSelection: aBrowser selectedClassName;

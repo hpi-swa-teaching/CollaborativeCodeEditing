@@ -7,7 +7,7 @@ startConnectionTo: aURIString
 			self ui setToDisconnected ] 
 		ifFalse: [ 
 			self socket
-				onMessage: [ :data | self owner receive: data ];
+				onMessage: [ :data | self activeUI receive: data ];
 				onClose: [ :data | self handleClosingWith: data ];
 				fork.
 			self connected: true.

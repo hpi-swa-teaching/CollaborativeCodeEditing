@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 6/24/2019 14:45",
+		"setUp" : "AD 7/14/2019 20:50",
 		"tearDown" : "AW 7/1/2019 16:52",
-		"testAckCreateSessionFillsSessionTokenAndSetsStatusToCleanRemoteSession" : "SS 5/30/2019 12:40",
+		"testAckCreateSessionFillsSessionTokenAndSetsStatusToCleanRemoteSession" : "AD 7/14/2019 21:45",
 		"testAddCollaboratorFromAccount" : "SS 6/20/2019 14:18",
 		"testAddCollaboratorFromPayload" : "SS 6/20/2019 14:18",
 		"testAddCollaboratorFromPayloadAtOtherJoinedSession" : "SS 6/17/2019 18:56",
@@ -14,7 +14,7 @@
 		"testClassSideResetShouldNotGenerateNewInstance" : "AW 6/23/2019 11:57",
 		"testCollaboratorsLazyInitialisation" : "SS 6/2/2019 20:32",
 		"testCollaboratorsListReturnsAnArrayOfCCECollaborators" : "SS 6/2/2019 21:37",
-		"testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload" : "SS 6/20/2019 14:20",
+		"testCreateSessionPayloadShouldReturnOrderedDictionaryWithCorrectSessionPayload" : "AD 7/14/2019 20:50",
 		"testDefaultShouldAlwaysReturnTheSameInstance" : "AW 6/1/2019 23:30",
 		"testFillSessionWithShouldFillSessionWithScopeAndChecksum" : "AW 6/1/2019 23:31",
 		"testGetStatus" : "AW 6/18/2019 10:48",

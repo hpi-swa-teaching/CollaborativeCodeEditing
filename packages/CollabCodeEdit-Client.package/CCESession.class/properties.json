@@ -12,9 +12,9 @@
 		"client",
 		"collaborators",
 		"status",
-		"imageAccount",
 		"selectionListener",
-		"packageManager" ],
+		"packageManager",
+		"localAccount" ],
 	"name" : "CCESession",
 	"pools" : [
 		 ],

@@ -9,8 +9,8 @@
 		"categorySelection",
 		"classSelection",
 		"methodSelection",
-		"imageAccount",
-		"client" ],
+		"client",
+		"localAccount" ],
 	"name" : "CCESelection",
 	"pools" : [
 		 ],

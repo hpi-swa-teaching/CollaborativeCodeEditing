@@ -1,5 +1,5 @@
 constants
-clientMsgTypes
+clientMessageTypes
 	^ OrderedDictionary newFrom: {
 			#createSessionWith:from: -> #createSessionWith:from: .
 			#joinSession:from: -> #joinSession:from: .

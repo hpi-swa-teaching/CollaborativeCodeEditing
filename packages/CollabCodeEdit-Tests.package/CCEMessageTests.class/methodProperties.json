@@ -3,5 +3,5 @@
 		 },
 	"instance" : {
 		"testCCEModelUnderstandsAllCCEMessageActionTypesForClient" : "AW 6/29/2019 23:34",
-		"testCCEServerUnderstandsAllCCEMessageActionTypesForServer" : "AW 6/1/2019 23:18",
+		"testCCEServerUnderstandsAllCCEMessageActionTypesForServer" : "AD 7/14/2019 22:22",
 		"testNewWithCreatesMessageObjectWithTypeAndPayload" : "AW 6/1/2019 23:18" } }

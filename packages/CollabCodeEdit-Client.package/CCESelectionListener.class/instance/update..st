@@ -1,4 +1,4 @@
 stepping
-update: anObject 
-	(anObject isKindOf: Browser) ifFalse: [^ self].
-	self currentSelection updateSelectionWith: anObject
+update: aBrowser 
+	(aBrowser isKindOf: Browser) ifFalse: [^ self].
+	self currentSelection updateSelectionWith: aBrowser

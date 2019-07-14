@@ -1,13 +1,16 @@
 initialize-release
 initialize
 	super initialize.
-	SystemBrowser default: CCEBrowser.
 	self createSessionModel: CCECreateSessionModel new;
 		account: CCEAccount default;
 		joinSessionModel: CCEJoinSessionModel new;
 		leaveSessionModel: CCELeaveSessionModel new;
-		client: (CCEClient default owner: self);
-		session: (CCESession default client: self client).
+		client: (CCEClient default 
+				activeUI: self;
+				yourself);
+		session: (CCESession default 
+				client: self client;
+				yourself).
 	self session 
 		addStatusSubscriber: self;
-		imageAccount: self account
+		localAccount: self account

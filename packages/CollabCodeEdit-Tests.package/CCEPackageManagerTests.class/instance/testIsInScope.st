@@ -9,7 +9,7 @@ testIsInScope
 			selector: #testMethodScope 
 			class: CCETestDummy).
 		
-	editClass := CCEEditBuilder new buildClassModifiedEditFrom:
+	editClass := CCEEditBuilder new buildClassModifiedOrAddedEditFrom:
 		(AddedEvent item: CCEModel kind: AbstractEvent classKind).
 	
 	self assert: (packageManager isInScope: editMethod).

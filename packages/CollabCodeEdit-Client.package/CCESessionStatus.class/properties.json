@@ -10,5 +10,5 @@
 	"name" : "CCESessionStatus",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

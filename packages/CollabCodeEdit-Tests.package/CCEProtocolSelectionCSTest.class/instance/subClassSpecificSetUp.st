@@ -1,6 +1,6 @@
 running
 subClassSpecificSetUp
-	cceSelection := CCESelection new client: client; imageAccount: imageAccount.
+	cceSelection := CCESelection new client: client; localAccount: imageAccount.
 	
 	browser := Browser new setClass: CCESelection selector: #categorySelection.
 	
