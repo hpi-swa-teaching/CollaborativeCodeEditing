@@ -10,6 +10,3 @@ testBuildCCEMethodRemovedEdit
 	self assert: edit editContent equals: methodSelector.
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.
 	self assert: (edit isKindOf: CCEMethodRemovedEdit)
-	
-	
-	

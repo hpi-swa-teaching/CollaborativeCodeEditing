@@ -1,4 +1,4 @@
-as yet unclassified
+change-capturing
 listenForChangesInScope: aStringArray for: aCCEClient
 	self
 		scope: aStringArray;

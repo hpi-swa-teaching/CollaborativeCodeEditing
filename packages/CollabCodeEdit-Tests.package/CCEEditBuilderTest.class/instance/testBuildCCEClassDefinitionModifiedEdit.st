@@ -9,6 +9,3 @@ testBuildCCEClassDefinitionModifiedEdit
 	self assert: (edit editContent equalsClass: CCEModel).
 	self assert: (PackageOrganizer default packageOfClass: CCEModel) equals: edit package.
 	self assert: (edit isKindOf: CCEClassModifiedEdit)
-	
-	
-	

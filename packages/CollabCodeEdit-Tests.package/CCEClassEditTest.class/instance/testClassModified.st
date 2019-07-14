@@ -16,7 +16,4 @@ testClassModified
 	self assert: newlyDefinedClass classVariablesString equals: testClassDefinition classVarNames.
 	self assert: newlyDefinedClass sharedPoolsString equals: testClassDefinition poolDictionaries.
 	self assert: newlyDefinedClass category equals: testClassDefinition category.
-	self assert: newlyDefinedClass comment equals: testClassDefinition comment.
-	
-
-	
+	self assert: newlyDefinedClass comment equals: testClassDefinition comment

@@ -1,6 +1,5 @@
 tests
 testClassRemoved
-	
 	| newlyCreatedClass | 
 	
 	self addNewClassFromTestClassDefinition.
@@ -12,4 +11,3 @@ testClassRemoved
 	self assert: newlyCreatedClass isObsolete.
 	
 	(newlyCreatedClass isObsolete) ifFalse: [ newlyCreatedClass removeFromSystem ]
-	

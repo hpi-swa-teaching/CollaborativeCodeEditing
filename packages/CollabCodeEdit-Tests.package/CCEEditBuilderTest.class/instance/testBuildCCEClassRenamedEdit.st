@@ -11,6 +11,3 @@ testBuildCCEClassRenamedEdit
 	self assert: edit newName equals: 'CCETestDummy'.
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.
 	self assert: (edit isKindOf: CCEClassRenamedEdit)
-	
-	
-	

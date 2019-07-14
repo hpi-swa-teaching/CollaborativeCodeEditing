@@ -8,6 +8,3 @@ testBuildCCEClassRemovedEdit
 	self assert: edit editContent equals: CCETestDummy name.
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.
 	self assert: (edit isKindOf: CCEClassRemovedEdit)
-	
-	
-	

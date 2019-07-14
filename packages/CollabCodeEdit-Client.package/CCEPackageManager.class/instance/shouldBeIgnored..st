@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 shouldBeIgnored: aCCEEdit
 	^ self ignorableEdits includes: aCCEEdit

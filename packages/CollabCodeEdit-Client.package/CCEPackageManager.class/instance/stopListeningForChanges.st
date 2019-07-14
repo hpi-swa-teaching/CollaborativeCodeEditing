@@ -1,3 +1,3 @@
-as yet unclassified
+edit ignoring
 stopListeningForChanges
 	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self

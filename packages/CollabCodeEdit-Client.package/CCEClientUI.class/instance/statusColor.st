@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 statusColor
 	^ statusColor ifNil: [ statusColor := CCEClientUI notConnectedColor ]

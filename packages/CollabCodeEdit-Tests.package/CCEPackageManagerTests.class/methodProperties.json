@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 7/14/2019 15:47",
+		"setUp" : "AD 7/14/2019 16:18",
 		"tearDown" : "AW 6/29/2019 22:16",
 		"testCCEPackageGetsNotfifiedOnNewMessage" : "AW 6/29/2019 22:16",
 		"testCCEPackageGetsNotfifiedOnRecategorization" : "AW 6/29/2019 22:17",

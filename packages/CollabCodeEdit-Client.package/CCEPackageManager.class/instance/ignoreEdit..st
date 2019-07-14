@@ -1,3 +1,3 @@
-as yet unclassified
+edit ignoring
 ignoreEdit: aCCEEdit
 	self ignorableEdits add: aCCEEdit

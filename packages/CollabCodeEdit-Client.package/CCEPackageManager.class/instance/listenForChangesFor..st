@@ -1,4 +1,4 @@
-as yet unclassified
+change-capturing
 listenForChangesFor: aCCESession
 	self
 		session: aCCESession;

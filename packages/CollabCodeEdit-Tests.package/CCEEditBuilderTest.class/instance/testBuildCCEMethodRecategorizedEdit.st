@@ -11,6 +11,3 @@ testBuildCCEMethodRecategorizedEdit
 	self assert: edit category equals: 'newCategory'.
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.
 	self assert: (edit isKindOf: CCEMethodRecategorizedEdit)
-	
-	
-	

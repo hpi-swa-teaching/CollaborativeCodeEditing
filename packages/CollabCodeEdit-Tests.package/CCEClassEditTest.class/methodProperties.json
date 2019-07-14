@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addNewClassFromTestClassDefinition" : "SS 7/10/2019 22:04",
+		"addNewClassFromTestClassDefinition" : "AD 7/14/2019 16:26",
 		"breakdown" : "SS 7/10/2019 21:46",
 		"setUp" : "SS 7/10/2019 22:50",
-		"testClassModified" : "SS 7/10/2019 22:46",
-		"testClassRemoved" : "AW 7/14/2019 15:36",
+		"testClassModified" : "AD 7/14/2019 16:25",
+		"testClassRemoved" : "AD 7/14/2019 16:25",
 		"testClassRenamed" : "SS 7/10/2019 22:09" } }

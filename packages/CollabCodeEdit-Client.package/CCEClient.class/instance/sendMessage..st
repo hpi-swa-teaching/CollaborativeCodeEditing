@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 sendMessage: aCCEMessage
 	self send: aCCEMessage serialize
