@@ -12,4 +12,3 @@ buildClassDefinitionFrom: anEvent
 		poolDictionaries: class sharedPoolsString 
 		category: class category 
 		comment: class comment
-		
