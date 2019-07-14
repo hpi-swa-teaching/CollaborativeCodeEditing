@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 statusAction
 	^ statusAction ifNil: [ statusAction := CCEClientUI connectAction ]

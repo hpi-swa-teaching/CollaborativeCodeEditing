@@ -1,4 +1,6 @@
-I'm a class, which is used for tests as a dummy class, which may be changed without risk.
+I am a dummy class used during testing.
+
+I may be changed without any impact on any tests. However, I may not be deleted.
 
 Instance Variables
-	- I'm to cool for such things.
+	Are irrelevant.

@@ -10,5 +10,5 @@
 	"name" : "CCEMethodRecategorizedEdit",
 	"pools" : [
 		 ],
-	"super" : "CCEEdit",
+	"super" : "CCEMethodEdit",
 	"type" : "normal" }

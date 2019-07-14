@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildServerConnectionButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new 
 			model: self client ui;

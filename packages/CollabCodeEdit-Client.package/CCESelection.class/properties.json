@@ -1,10 +1,10 @@
 {
 	"category" : "CollabCodeEdit-Client",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "SS 7/7/2019 09:48",
 	"instvars" : [
 		"categorySelection",
 		"classSelection",

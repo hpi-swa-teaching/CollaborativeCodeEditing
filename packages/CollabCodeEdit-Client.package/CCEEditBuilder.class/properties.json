@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CCEEditBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

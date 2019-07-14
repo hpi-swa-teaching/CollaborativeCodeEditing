@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AW 7/14/2019 15:42",
+		"tearDown" : "AW 7/14/2019 15:42",
+		"testBuildCCEClassAddedEdit" : "AD 7/14/2019 16:23",
+		"testBuildCCEClassCommentedEdit" : "AD 7/14/2019 16:23",
+		"testBuildCCEClassDefinition" : "SS 7/10/2019 10:07",
+		"testBuildCCEClassDefinitionModifiedEdit" : "AD 7/14/2019 16:23",
+		"testBuildCCEClassRecategorizedEdit" : "AD 7/14/2019 16:22",
+		"testBuildCCEClassRemovedEdit" : "AD 7/14/2019 16:22",
+		"testBuildCCEClassRenamedEdit" : "AD 7/14/2019 16:22",
+		"testBuildCCEMethodAddedEdit" : "AD 7/14/2019 16:20",
+		"testBuildCCEMethodModifiedEdit" : "AD 7/14/2019 16:19",
+		"testBuildCCEMethodRecategorizedEdit" : "AD 7/14/2019 17:13",
+		"testBuildCCEMethodRemovedEdit" : "AD 7/14/2019 16:51",
+		"testBuildMethodEditFromUnhandledChangeEventRaisesError" : "SS 7/8/2019 09:48" } }

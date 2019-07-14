@@ -10,5 +10,5 @@
 	"name" : "CCEMethodRemovedEdit",
 	"pools" : [
 		 ],
-	"super" : "CCEEdit",
+	"super" : "CCEMethodEdit",
 	"type" : "normal" }

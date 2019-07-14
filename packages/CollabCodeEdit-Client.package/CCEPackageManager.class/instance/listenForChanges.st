@@ -2,4 +2,5 @@ change-capturing
 listenForChanges
 	self 
 		stopListeningForChanges;
-		listenForMethodChanges
+		listenForMethodChanges;
+		listenForClassChanges

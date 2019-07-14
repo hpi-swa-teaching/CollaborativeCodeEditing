@@ -1,3 +1,3 @@
 testing
-isInScope: aClass
-	^ self listClassesOfScope includes: aClass
+isInScope: anEdit
+	^  self scope includes: anEdit package name

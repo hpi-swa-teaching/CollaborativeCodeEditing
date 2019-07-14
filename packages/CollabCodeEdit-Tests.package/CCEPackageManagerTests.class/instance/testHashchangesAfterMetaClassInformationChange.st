@@ -5,7 +5,7 @@ testHashchangesAfterMetaClassInformationChange
 	originalComment := testClass comment.
 	[ hashBeforeChange := packageManager hashPackages: self sessionScope.
 	
-		testClass comment: 'This comment was changed by packageManagerTest'.
+		testClass comment: originalComment, 'This comment was changed by packageManagerTest'.
 		hashAfterChange := packageManager hashPackages: self sessionScope.
 	
 		self deny: hashBeforeChange = hashAfterChange ]

@@ -1,3 +1,0 @@
-accessing
-testMethod
-	"hello armin"

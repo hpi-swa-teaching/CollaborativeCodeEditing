@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 packageManager: aCCEPackageManager
 	packageManager := aCCEPackageManager

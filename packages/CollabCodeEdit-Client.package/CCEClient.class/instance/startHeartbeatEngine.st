@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 startHeartbeatEngine
-	self heartbeat start.
+	self heartbeat start
