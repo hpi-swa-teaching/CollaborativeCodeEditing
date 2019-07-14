@@ -8,5 +8,3 @@ superclass: aClass subclass: aSymbol instVarNames: instVarString classVarNames: 
 		poolDictionaries: poolDictString;
 		category: categoryString;
 		comment: commentString
-		
-		

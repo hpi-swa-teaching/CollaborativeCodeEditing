@@ -7,4 +7,3 @@ applySmalltalkClassDefinitionFrom: aCCEClassDefinition
 		classVariableNames: aCCEClassDefinition classVarNames
 		poolDictionaries: aCCEClassDefinition poolDictionaries
 		category: aCCEClassDefinition category
-		

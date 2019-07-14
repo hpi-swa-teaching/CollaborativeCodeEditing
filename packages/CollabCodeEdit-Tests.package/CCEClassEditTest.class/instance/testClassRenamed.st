@@ -5,13 +5,15 @@ testClassRenamed
 	newName := 'TestGeneratedClass2'.	
 	self addNewClassFromTestClassDefinition.
 	
-	CCEClassRenamedEdit new
+	[ CCEClassRenamedEdit new
 		renamedClass: (Smalltalk classNamed: testClassName);
 		newName: newName;
 		oldName: testClassName;
-		apply.
-		
+		apply.	
 	self deny: ((Smalltalk classNamed: newName) isNil).
-	self assert: ((Smalltalk classNamed: testClassName) isNil).
+	self assert: ((Smalltalk classNamed: testClassName) isNil) ] 
+      	ensure: [ (Smalltalk classNamed: newName) removeFromSystem ]
 	
-	(Smalltalk classNamed: newName) ifNotNil: [ :class | class removeFromSystem ]
+	
+	
+	

@@ -3,7 +3,8 @@ testBuildCCEMethodRecategorizedEdit
 	| event edit methodSelector |
 	
 	methodSelector := #testMethod.
-	event := (RecategorizedEvent method: (CCETestDummy compiledMethodAt: methodSelector) selector: methodSelector protocol: 'newCategory' class: CCETestDummy).
+	event := (RecategorizedEvent method: (CCETestDummy compiledMethodAt: methodSelector) 
+		selector: methodSelector protocol: 'newCategory' class: CCETestDummy).
 	
 	edit := builder buildMethodEditFrom: event.
 	

@@ -3,7 +3,8 @@ testBuildCCEMethodRemovedEdit
 	| event edit methodSelector |
 	
 	methodSelector := #testMethod.
-	event := RemovedEvent method: (CCETestDummy compiledMethodAt: methodSelector) selector: methodSelector class: CCETestDummy.
+	event := RemovedEvent method: (CCETestDummy compiledMethodAt: methodSelector) 
+		selector: methodSelector class: CCETestDummy.
 	
 	edit := builder buildMethodEditFrom: event.
 	
