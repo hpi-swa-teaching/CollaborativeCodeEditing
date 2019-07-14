@@ -1,3 +1,3 @@
 accessing
-package: aString
-	package := aString
+package: aPackageInfo
+	package := aPackageInfo
