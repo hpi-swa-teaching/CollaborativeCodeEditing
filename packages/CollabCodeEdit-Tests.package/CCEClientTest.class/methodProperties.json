@@ -3,5 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "SS 6/30/2019 20:21",
-		"testClientHasHeartBeatAndHimselfRegistered" : "AD 7/14/2019 18:29",
+		"testClientHasHeartBeatAndHimselfRegistered" : "AD 7/14/2019 22:43",
 		"testDefaultShouldAlwaysReturnTheSameInstance" : "SS 6/30/2019 20:20" } }
