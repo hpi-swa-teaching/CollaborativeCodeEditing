@@ -1,3 +1,3 @@
 as yet unclassified
 apply
-	(Smalltalk classNamed: self editContent name) removeFromSystem
+	(Smalltalk classNamed: self editContent) removeFromSystem
