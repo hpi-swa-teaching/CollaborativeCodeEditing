@@ -1,4 +1,6 @@
 stepping
-update: aBrowser 
-	(aBrowser isKindOf: Browser) ifFalse: [^ self].
-	self currentSelection updateSelectionWith: aBrowser
+update: aBrowserOrClass
+	(aBrowserOrClass isKindOf: Browser) ifTrue: 
+		[ self currentSelection updateSelectionWith: aBrowserOrClass ].
+	aBrowserOrClass = self currentDefaultBrowserClass ifTrue:
+		[ self registerNewBrowser ]
