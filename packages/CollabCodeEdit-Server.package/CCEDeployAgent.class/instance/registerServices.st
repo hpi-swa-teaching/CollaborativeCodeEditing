@@ -1,8 +1,8 @@
 startup
 registerServices
 	self
-		registerStatusService;
-		registerDeployService;
-		registerRestartService;
-		registerStopService;
-		registerUpdateService
+		registerServiceAt: '/' action: [ :req | self handleStatus: req ];
+		registerServiceAt: '/deploy' action: [ :req | self handleDeploy: req ];
+		registerServiceAt: '/restart' action: [ :req | self handleRestart: req ];
+		registerServiceAt: '/stop' action: [ :req | self handleStop: req ];
+		registerServiceAt: '/update' action: [ :req | self handleUpdate: req ]

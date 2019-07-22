@@ -1,4 +1,4 @@
-request handling
+actions
 checkCCEOnline
 	^ CCEServer currentInstance
 		ifNil: [ 'The server is currently down.' ]
