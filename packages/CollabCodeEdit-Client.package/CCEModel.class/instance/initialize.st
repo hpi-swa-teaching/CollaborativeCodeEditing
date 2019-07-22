@@ -4,9 +4,7 @@ initialize
 	
 	SystemBrowser default: CCEBrowser.
 	
-	self createSessionModel: CCECreateSessionModel new;		
-		joinSessionModel: CCEJoinSessionModel new;
-		leaveSessionModel: CCELeaveSessionModel new;
+	self createSessionModel: CCECreateSessionModel new;	
 		account: CCEAccount default;
 		client: CCEClient default;
 		session: CCESession default;

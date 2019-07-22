@@ -1,4 +1,4 @@
 actions
 actionLeaveSession
-	self leaveSessionModel parentModel: self.
-	^ ToolBuilder open: self leaveSessionModel
+	(UIManager getDefault confirm: 'Do you really want to leave the session?')
+		ifTrue: [ self leaveSession ]
