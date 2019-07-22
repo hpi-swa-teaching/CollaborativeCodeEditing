@@ -8,7 +8,8 @@
 	"instvars" : [
 		"client",
 		"clientUI",
-		"clientUi" ],
+		"clientUi",
+		"session" ],
 	"name" : "CCEClientUITest",
 	"pools" : [
 		 ],
