@@ -16,6 +16,8 @@
 		"breakdown" : "PB 6/16/2019 14:26",
 		"checkCCEOnline" : "PB 6/24/2019 12:52",
 		"deployCCE" : "PB 6/16/2019 21:23",
+		"deployCCECommit:" : "PB 7/22/2019 23:39",
+		"prepareGitUpdateWorkingCopy" : "PB 7/22/2019 22:30",
 		"registerDeployService" : "PB 6/24/2019 12:49",
 		"registerRestartService" : "PB 6/24/2019 12:49",
 		"registerServices" : "PB 6/24/2019 12:51",
@@ -27,4 +29,5 @@
 		"server:" : "PB 6/16/2019 14:22",
 		"start" : "PB 6/24/2019 12:52",
 		"stopCCE" : "PB 6/16/2019 21:39",
-		"updateCCE" : "PB 6/30/2019 22:01" } }
+		"updateCCE" : "PB 7/22/2019 22:31",
+		"updateCCEToCommit:" : "PB 7/22/2019 22:33" } }
