@@ -4,4 +4,4 @@ testBuildCreateSessionButtonAsEnabled
 	
 	spec := model buildCreateSessionButtonWith: toolbuilder.
 	self assert: (spec isKindOf: ToolBuilderSpec).
-	self assert: (model perform: spec enabled)
+	self deny: (model perform: spec enabled)

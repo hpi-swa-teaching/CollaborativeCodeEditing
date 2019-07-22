@@ -10,4 +10,6 @@ initialize
 		session: (CCESession default client: self client).
 	self session 
 		addStatusSubscriber: self;
-		imageAccount: self account
+		imageAccount: self account.
+	self client 
+		addStatusSubscriber: self

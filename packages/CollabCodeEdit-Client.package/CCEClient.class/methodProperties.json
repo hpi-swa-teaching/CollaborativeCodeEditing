@@ -4,9 +4,10 @@
 		"defaultServerURI" : "AD 7/14/2019 14:24",
 		"start" : "PB 5/5/2019 22:33" },
 	"instance" : {
+		"addStatusSubscriber:" : "SS 7/22/2019 10:36",
 		"breakdown" : "SS 7/1/2019 11:27",
 		"connected" : "ST 5/22/2019 18:04",
-		"connected:" : "SS 7/1/2019 10:41",
+		"connected:" : "SS 7/22/2019 10:35",
 		"createSession" : "AD 6/16/2019 15:53",
 		"handleClosingWith:" : "SS 7/1/2019 21:21",
 		"heartbeat" : "SS 6/30/2019 20:31",
