@@ -1,4 +1,4 @@
-method edits
+method edit
 buildMethodModifiedOrAddedEditFrom: anEvent
 	^  (CCEMethodAddedOrModifiedEdit 
 			newWith: anEvent item getSource in: anEvent itemClass)

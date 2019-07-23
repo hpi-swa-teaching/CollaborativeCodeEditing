@@ -6,7 +6,7 @@ testBuildCCEMethodRecategorizedEdit
 	event := (RecategorizedEvent method: (CCETestDummy compiledMethodAt: methodSelector) 
 		selector: methodSelector protocol: 'newCategory' class: CCETestDummy).
 	
-	edit := builder buildMethodEditFrom: event.
+	edit := CCEEditBuilder buildMethodEditFrom: event.
 	
 	self assert: edit method equals: methodSelector.
 	self assert: edit category equals: 'newCategory'.

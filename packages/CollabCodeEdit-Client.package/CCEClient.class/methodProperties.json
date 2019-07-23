@@ -5,8 +5,8 @@
 		"start" : "PB 5/5/2019 22:33" },
 	"instance" : {
 		"ackJoinSession:" : "AD 7/14/2019 22:18",
-		"activeUI" : "AD 7/14/2019 18:31",
-		"activeUI:" : "AD 7/14/2019 18:31",
+		"activeUI" : "AD 7/22/2019 15:12",
+		"activeUI:" : "AD 7/22/2019 15:14",
 		"breakdown" : "SS 7/1/2019 11:27",
 		"connected" : "ST 5/22/2019 18:04",
 		"connected:" : "SS 7/1/2019 10:41",
@@ -26,5 +26,5 @@
 		"startHeartbeatEngine" : "AD 7/14/2019 18:29",
 		"startTestClientToLocalhost" : "SS 6/30/2019 20:39",
 		"stopHeartbeatEngine" : "AD 7/14/2019 18:29",
-		"ui" : "SS 7/1/2019 10:24",
-		"ui:" : "SS 7/1/2019 10:24" } }
+		"ui" : "AD 7/22/2019 15:11",
+		"ui:" : "AD 7/22/2019 15:14" } }

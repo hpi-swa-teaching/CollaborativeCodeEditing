@@ -1,3 +1,3 @@
 capturing classes
 classModified: anEvent
-	self sendEditIfNotToBeIgnored: (CCEEditBuilder new buildClassModifiedOrAddedEditFrom: anEvent)
+	self sendEditIfNotToBeIgnored: (CCEEditBuilder buildClassModifiedOrAddedEditFrom: anEvent)

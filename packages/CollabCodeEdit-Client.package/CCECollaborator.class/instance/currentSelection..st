@@ -1,3 +1,3 @@
 accessing
-currentSelection: aCCSelection
-	currentSelection := aCCSelection
+currentSelection: aCCESelection
+	currentSelection := aCCESelection
