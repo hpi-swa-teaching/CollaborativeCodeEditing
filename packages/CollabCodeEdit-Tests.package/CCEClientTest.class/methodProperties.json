@@ -5,4 +5,5 @@
 		"setUp" : "SS 6/30/2019 20:21",
 		"testClientDefaultUriIsServerIP" : "AD 7/14/2019 23:42",
 		"testClientHasHeartBeatAndHimselfRegistered" : "AD 7/14/2019 22:43",
-		"testDefaultShouldAlwaysReturnTheSameInstance" : "SS 6/30/2019 20:20" } }
+		"testDefaultShouldAlwaysReturnTheSameInstance" : "SS 6/30/2019 20:20",
+		"testclientHeartbeatEngineIsCreatedIfUnset" : "AD 7/23/2019 14:27" } }
