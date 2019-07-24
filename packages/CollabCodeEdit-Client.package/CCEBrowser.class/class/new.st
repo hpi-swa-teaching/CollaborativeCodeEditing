@@ -2,9 +2,7 @@ instance creation
 new
 	| newInstance |
 	
-	newInstance := self basicNew 
-			initialize;
-			systemOrganizer: SystemOrganization.
+	newInstance := self basicNew initialize.
 			
 	self changed.
 	^ newInstance

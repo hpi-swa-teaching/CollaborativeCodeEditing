@@ -1,4 +1,4 @@
-overwrite
+accessing
 editSelection: aSelection
 	"Set the editSelection as requested"
 

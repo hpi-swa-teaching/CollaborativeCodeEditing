@@ -1,4 +1,4 @@
-accessing
+updating
 updateSelectionWith: aBrowser
 	self 
 	  categorySelection: aBrowser selectedSystemCategoryName;

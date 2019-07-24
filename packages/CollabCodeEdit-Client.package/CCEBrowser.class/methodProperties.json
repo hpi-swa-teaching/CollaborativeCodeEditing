@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"initialize" : "AW 7/18/2019 16:08",
-		"new" : "AW 7/18/2019 16:48" },
+		"initialize" : "AW 7/24/2019 16:27",
+		"new" : "AW 7/24/2019 16:29" },
 	"instance" : {
-		"editSelection:" : "SS 7/1/2019 21:12" } }
+		"editSelection:" : "SS 7/1/2019 21:12",
+		"initialize" : "AW 7/24/2019 16:29" } }
