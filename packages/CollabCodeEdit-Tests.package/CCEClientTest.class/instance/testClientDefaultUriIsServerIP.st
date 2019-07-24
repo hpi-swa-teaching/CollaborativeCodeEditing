@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testClientDefaultUriIsServerIP
 	self assert: CCEClient defaultServerURI = CCEServer serverIPForTest

@@ -5,7 +5,7 @@ testBuildCCEMethodAddedEdit
 	methodText := (CCETestDummy compiledMethodAt: #testMethod) getSource.
 	event := AddedEvent method: (CCETestDummy compiledMethodAt: #testMethod) class: CCETestDummy.
 	
-	edit := builder buildMethodEditFrom: event.
+	edit := CCEEditBuilder buildMethodEditFrom: event.
 	
 	self assert: edit editContent equals: methodText.
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.

@@ -4,7 +4,7 @@ testBuildCCEClassRenamedEdit
 	
 	event := RenamedEvent class: CCETestDummy category: 'CollabCodeEdit-Tests' oldName: 'CCETestDummy1' newName: 'CCETestDummy'.
 	
-	edit := builder buildClassRenamedEditFrom: event.	
+	edit := CCEEditBuilder buildClassRenamedEditFrom: event.	
 
 	self assert: edit renamedClass equals: CCETestDummy.
 	self assert: edit oldName equals: 'CCETestDummy1'.

@@ -1,5 +1,5 @@
-class edits
+class edit
 buildClassModifiedOrAddedEditFrom: anEvent
 	^  CCEClassModifiedEdit new
-		editContent: (self buildClassDefinitionFrom: anEvent);
+		editContent: (CCEEditBuilder buildClassDefinitionFrom: anEvent);
 		package: (PackageOrganizer default packageOfClass: anEvent item)

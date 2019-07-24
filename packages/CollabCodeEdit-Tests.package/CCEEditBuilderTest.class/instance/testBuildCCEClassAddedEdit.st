@@ -4,7 +4,7 @@ testBuildCCEClassAddedEdit
 	
 	event := AddedEvent item: CCETestDummy kind: AddedEvent classKind.
 	
-	edit := builder buildClassModifiedOrAddedEditFrom: event.
+	edit := CCEEditBuilder buildClassModifiedOrAddedEditFrom: event.
 	
 	self assert: (edit editContent equalsClass: CCETestDummy).
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.

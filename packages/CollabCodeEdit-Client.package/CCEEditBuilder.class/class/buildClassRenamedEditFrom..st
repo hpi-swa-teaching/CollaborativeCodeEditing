@@ -1,4 +1,4 @@
-class edits
+class edit
 buildClassRenamedEditFrom: anEvent
 	^ CCEClassRenamedEdit new
 		oldName: anEvent oldName;

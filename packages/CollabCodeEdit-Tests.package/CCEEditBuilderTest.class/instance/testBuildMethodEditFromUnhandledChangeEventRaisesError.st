@@ -4,4 +4,4 @@ testBuildMethodEditFromUnhandledChangeEventRaisesError
 	
 	event := AbstractEvent item: CCETestDummy kind: CommentedEvent changeKind.
 	
-	self should: [ builder buildMethodEditFrom: event ] raise: Error
+	self should: [ CCEEditBuilder buildMethodEditFrom: event ] raise: Error

@@ -4,7 +4,7 @@ testBuildCCEClassRecategorizedEdit
 	
 	event := RecategorizedEvent class: CCETestDummy category: CCETestDummy category oldCategory: 'CollabCodeEdit-Tests'.
 	
-	edit := builder buildClassModifiedOrAddedEditFrom: event.
+	edit := CCEEditBuilder buildClassModifiedOrAddedEditFrom: event.
 	
 	self assert: (edit editContent equalsClass: CCETestDummy).
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.

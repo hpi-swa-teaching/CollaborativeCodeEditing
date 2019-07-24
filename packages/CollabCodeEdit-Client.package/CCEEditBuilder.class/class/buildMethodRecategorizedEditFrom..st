@@ -1,4 +1,4 @@
-method edits
+method edit
 buildMethodRecategorizedEditFrom: anEvent
 	^  (CCEMethodRecategorizedEdit 
 			newWith: anEvent itemSelector to: anEvent itemProtocol in: anEvent itemClass)

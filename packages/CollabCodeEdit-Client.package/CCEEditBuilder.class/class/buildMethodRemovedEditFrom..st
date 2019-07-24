@@ -1,4 +1,4 @@
-method edits
+method edit
 buildMethodRemovedEditFrom: anEvent
 	^  (CCEMethodRemovedEdit 
 			newWith: anEvent itemSelector in: anEvent itemClass)
