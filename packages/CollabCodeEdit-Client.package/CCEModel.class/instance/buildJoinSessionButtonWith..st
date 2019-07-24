@@ -2,7 +2,7 @@ building
 buildJoinSessionButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new 
 			model: self;
-			label: CCEModel joinButtonLabel;
+			label: self class joinButtonLabel;
 			action: #actionJoinSession;
 			enabled: #noSessionIsLoaded;
 			frame:  (LayoutFrame new

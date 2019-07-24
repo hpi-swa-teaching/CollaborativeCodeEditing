@@ -9,27 +9,27 @@ To keep the connection with the server open I am in control of the CCEHeartbeatE
 
 
 Instance Variables
-	activeUI:		<Object>
-	connected:		<Object>
-	heartbeatEngine:		<Object>
-	serverURI:		<Object>
-	socket:		<Object>
-	ui:		<Object>
+	activeUI:		aCCEModel
+	connected:		aBoolean
+	heartbeatEngine:		aCCEHeartbeatEngine
+	serverURI:		aString
+	socket:		aWebSocket
+	ui:		aCCEClientUI
 
 activeUI
-	- xxxxx
+	- The model as aforementioned
 
 connected
-	- xxxxx
+	- Wether I'm connected to a Server
 
 heartbeatEngine
-	- xxxxx
+	- My heartbeatEngine as aforementioned
 
 serverURI
-	- xxxxx
+	- The URI of the Server I'm connected to or to which I will connect when asked
 
 socket
-	- xxxxx
+	- The socket which handels the connection to the server
 
 ui
-	- xxxxx
+	- Represents information about my to the UI

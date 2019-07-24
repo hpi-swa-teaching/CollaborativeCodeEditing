@@ -1,4 +1,4 @@
 accessing
 setToConnected
-	self statusAction: CCEClientUI disconnectAction;
-		statusColor: CCEClientUI connectedColor
+	self statusAction: self class disconnectAction;
+		statusColor: self class connectedColor

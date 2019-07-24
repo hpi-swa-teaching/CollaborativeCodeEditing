@@ -2,7 +2,7 @@ building
 buildCreateSessionButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new 
 		model: self;
-		label: CCEModel createButtonLabel;
+		label: self class createButtonLabel;
 		action: #actionCreateSession;
 		enabled: #noSessionIsLoaded;
 		frame:  (LayoutFrame new

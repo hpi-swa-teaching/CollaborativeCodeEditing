@@ -1,4 +1,4 @@
 setting
 setToCleanRemoteSession
-	self name: CCESessionStatus cleanRemoteSession.
+	self name: self class cleanRemoteSession.
 	self changed: self

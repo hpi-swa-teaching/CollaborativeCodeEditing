@@ -2,7 +2,8 @@ classedit tests
 testBuildCCEClassDefinition
 	| cceClassDefinition |
 	
-	cceClassDefinition := CCEEditBuilder buildClassDefinitionFrom: (ModifiedClassDefinitionEvent item: CCETestDummy kind: AbstractEvent classKind).
+	cceClassDefinition := CCEEditBuilder buildClassDefinitionFrom: 
+		(ModifiedClassDefinitionEvent item: CCETestDummy kind: AbstractEvent classKind).
 	
 	self assert: CCETestDummy superclass equals: cceClassDefinition superclass.
 	self assert: CCETestDummy name asSymbol equals: cceClassDefinition subclass.

@@ -1,4 +1,4 @@
-accessing
+printing
 printCollaboratorsInfoOn: aStream
 	aStream
 		nextPutAll: self identifier;

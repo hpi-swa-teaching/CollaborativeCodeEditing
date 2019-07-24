@@ -1,4 +1,4 @@
-accessing
+printing
 printCollaboratorsSelectionOn: aStream
 	(self currentSelectionAsDictionary at: #categorySelection) asString ifNotNil: [ :categorySelection |
 		aStream nextPutAll: categorySelection ].

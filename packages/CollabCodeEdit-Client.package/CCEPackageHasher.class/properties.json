@@ -1,0 +1,17 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packageHash",
+		"classHash",
+		"methodsWithHashes",
+		"classesWithHashes" ],
+	"name" : "CCEPackageHasher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

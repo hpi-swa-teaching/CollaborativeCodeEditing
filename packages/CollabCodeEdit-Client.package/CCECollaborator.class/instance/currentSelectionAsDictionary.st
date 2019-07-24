@@ -1,6 +1,5 @@
 accessing
 currentSelectionAsDictionary
-	^ currentSelectionAsDictionary ifNil: [currentSelection := OrderedDictionary newFrom: {
-		#categorySelection -> nil .
-		#classSelection -> nil .
-		#methodSelection -> nil } ]
+	^ currentSelectionAsDictionary ifNil: [ self currentSelection: 
+			(OrderedDictionary newFrom: 
+				{ #categorySelection -> nil . #classSelection -> nil . #methodSelection -> nil }) ]

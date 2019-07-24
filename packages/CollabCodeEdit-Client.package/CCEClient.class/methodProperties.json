@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"default" : "ST 5/18/2019 19:52",
+		"default" : "AW 7/24/2019 17:30",
 		"defaultServerURI" : "SS 7/1/2019 15:14",
 		"start" : "PB 5/5/2019 22:33" },
 	"instance" : {
@@ -10,11 +10,11 @@
 		"breakdown" : "SS 7/1/2019 11:27",
 		"connected" : "ST 5/22/2019 18:04",
 		"connected:" : "SS 7/1/2019 10:41",
-		"createSession" : "AD 6/16/2019 15:53",
 		"handleClosingWith:" : "SS 7/1/2019 21:21",
+		"handleFailedConnecting" : "AW 7/24/2019 19:05",
 		"heartbeatEngine" : "AD 7/23/2019 14:30",
 		"heartbeatEngine:" : "AD 7/14/2019 18:29",
-		"initialize" : "AD 7/14/2019 18:44",
+		"initialize" : "AW 7/24/2019 21:41",
 		"send:" : "SS 7/1/2019 20:49",
 		"sendMessage:" : "SS 7/1/2019 18:17",
 		"serverURI" : "SS 7/1/2019 10:40",
@@ -22,7 +22,8 @@
 		"socket" : "PB 5/5/2019 19:57",
 		"socket:" : "AW 6/1/2019 22:38",
 		"start" : "SS 7/1/2019 09:58",
-		"startConnectionTo:" : "AD 7/14/2019 18:31",
+		"startConnection" : "AW 7/24/2019 19:07",
+		"startConnectionTo:" : "AW 7/24/2019 19:07",
 		"startHeartbeatEngine" : "AD 7/14/2019 18:29",
 		"startTestClientToLocalhost" : "SS 6/30/2019 20:39",
 		"stopHeartbeatEngine" : "AD 7/14/2019 18:29",

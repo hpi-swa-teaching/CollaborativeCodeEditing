@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"default" : "ST 5/18/2019 17:53",
+		"default" : "AW 7/24/2019 21:05",
 		"instance" : "ST 5/18/2019 17:56",
 		"instance:" : "AW 6/1/2019 22:51" },
 	"instance" : {
@@ -9,9 +9,6 @@
 		"buildPackageDictionaryForSession:" : "5/22/2019 14:33:46",
 		"calculateHashOfMethodSourceCode:" : "AW 6/1/2019 22:53",
 		"classEdited:" : "AD 7/23/2019 13:54",
-		"classModified:" : "AD 7/23/2019 13:52",
-		"classRemoved:" : "AD 7/23/2019 13:52",
-		"classRenamed:" : "AD 7/23/2019 13:53",
 		"client" : "AW 6/29/2019 16:09",
 		"client:" : "AW 6/29/2019 16:11",
 		"hashPackages:" : "5/22/2019 14:33:46",
@@ -25,14 +22,15 @@
 		"listClassesOfScope" : "AW 6/29/2019 16:13",
 		"listMethodsOfClass:" : "AW 6/1/2019 22:52",
 		"listenForChanges" : "SS 7/8/2019 13:11",
-		"listenForChangesFor:" : "AW 6/23/2019 17:59",
 		"listenForChangesInScope:for:" : "AW 6/29/2019 16:14",
-		"listenForClassChanges" : "AD 7/14/2019 17:25",
-		"listenForMethodChanges" : "SS 7/8/2019 10:11",
+		"listenForClassChanges" : "AW 7/24/2019 20:42",
+		"listenForMethodChanges" : "AW 7/24/2019 20:40",
 		"methodEdited:" : "AD 7/23/2019 13:55",
 		"scope" : "AW 6/29/2019 16:12",
 		"scope:" : "AW 6/29/2019 16:13",
 		"sendEditIfNotToBeIgnored:" : "SS 7/8/2019 11:50",
 		"shouldBeIgnored:" : "AW 6/23/2019 18:35",
 		"stopIgnoringEdit:" : "AD 6/24/2019 11:15",
-		"stopListeningForChanges" : "AW 6/29/2019 16:15" } }
+		"stopListeningForChanges" : "AW 6/29/2019 16:15",
+		"supportedClassChanges" : "AW 7/24/2019 20:41",
+		"supportedMethodChanges" : "AW 7/24/2019 20:39" } }
