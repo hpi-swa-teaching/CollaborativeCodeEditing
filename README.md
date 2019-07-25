@@ -1,8 +1,28 @@
 # Collaborative Code Editing [![Build Status](https://travis-ci.org/hpi-swa-teaching/CollaborativeCodeEditing.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/CollaborativeCodeEditing)
 
-Group 6
+> Group 6
 
-## Deployment
+## Local Development
+
+## Client
+
+You can start the collaborative code editing client by clicking the `Collaborative Coding` button in the `Apps` menu.
+
+## Server
+
+You can start the application server in your local image by running:
+```smalltalk
+CCEServer breakdown start
+``` 
+
+Additionally, the project has a separate deployment agent (see below) that can also be launched locally:
+```smalltalk
+CCEDeployAgent breakdown start
+```
+
+## (Remote) Deployment
+
+### Set Up
 
 The server can easily be deployed to a Digital Ocean droplet. To create one, run:
 ```sh
@@ -24,13 +44,30 @@ docker-compose up -d
 
 *Note: The Squeak version used in the build is specified in `server/lib.sh`. If necessary, it should be updated there.*
 
-You can view the ip adress of the host you just deployed to using:
+You can view the IP address of the host you just deployed to using:
 ```sh
 docker-machine ip swt-cce
 ```
+
+The corresponding ports, the application binds to, are defined in the `.env` file.
+They can also be customized using the respective environment variables in your deployment.
 
 And finally, the host can be shut down and destroyed:
 ```sh
 docker-machine stop swt-cce
 docker-machine rm swt-cce
 ```
+
+### Deployment Agent
+
+To facilitate continuous integration and deployment, the server package provides a separate REST API that allows remote control and monitoring of the application server.
+
+Currently, the deployment agent supports the following routes (all methods are allowed):
+
+- `/` - Answers a status page
+- `/restart` - (Re-)starts the application server
+- `/stop` - Stops the application server
+- `/update` - Updates the server to the latest git commit from the branch specified in `CCEDeployAgent class>>updateBranch` (or by setting `CCE_DEPLOY_BRANCH` in the environment)
+- `/update/:commitHash` - Updates the server to the specified commit
+- `/deploy` - Stops, updates & restarts the application server (see `/update`)
+- `/deploy/:commitHash` - Stops, updates & restarts the application server to the specified commit (see `/update/:commitHash`)
