@@ -8,4 +8,4 @@ clientMsgTypes
 			#sendMulticastToSession:from: -> #sendMulticastToSession:from: .
 			#sendEdit:from: -> #sendEdit:from: .
 			#heartbeat:from: -> #heartbeat:from: .
-			#changeSelection:from: -> #changeSelection:from:}
+			#changeSelection:from: -> #changeSelection:from: }
