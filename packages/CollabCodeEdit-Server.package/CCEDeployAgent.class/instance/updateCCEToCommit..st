@@ -1,8 +1,8 @@
 actions
-updateCCE
+updateCCEToCommit: aHash
 	| workingCopy |
 
 	workingCopy := self prepareGitUpdateWorkingCopy.
 	workingCopy
-		loadVersion: workingCopy baseVersion
+		loadVersion: (workingCopy repository versionAt: aHash)
 		interactive: false

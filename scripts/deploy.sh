@@ -11,7 +11,7 @@ deploy() {
   local api_url=$2
 
   echo "Deploying to \"${environment}\"..."
-  call_privileged_api ${CCE_AGENT_USER} ${CCE_AGENT_PASSWORD} "${api_url}/deploy"
+  call_privileged_api ${CCE_AGENT_USER} ${CCE_AGENT_PASSWORD} "${api_url}/deploy/${TRAVIS_COMMIT}"
 }
 
 main() {
