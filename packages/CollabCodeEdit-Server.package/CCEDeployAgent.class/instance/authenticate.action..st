@@ -1,7 +1,7 @@
 helpers
 authenticate: aWebRequest action: aBlock
-	self server 
+	self server
 		authenticate: aWebRequest
 		realm: self class authRealm
-		methods: #(digest basic) 
+		methods: #(digest basic)
 		do: aBlock
