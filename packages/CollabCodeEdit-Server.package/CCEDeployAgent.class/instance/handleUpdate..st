@@ -1,13 +1,13 @@
 request handling
 handleUpdate: aWebRequest
 	self authenticate: aWebRequest action: [
-		| tokens |
-		
-		tokens := self getURLTokensFrom: aWebRequest limit: 2.
-		
-		tokens ifNil: [ ^ self ].
-		tokens size > 1
-			ifTrue: [ self updateCCEToCommit: tokens last ]
-			ifFalse: [ self updateCCE ].
-
-		aWebRequest send200Response: 'Update completed.' ]
+		self parseURL: aWebRequest with: {
+			1 -> [ :tokens |
+				self updateCCE.
+				aWebRequest send200Response:
+					'Update from ' , self class updateBranch , ' completed.' ] .
+			2 -> [ :tokens |
+				self updateCCEToCommit: tokens last.
+				aWebRequest send200Response:
+					'Update from ' , tokens last , ' completed.' ]
+		} ]

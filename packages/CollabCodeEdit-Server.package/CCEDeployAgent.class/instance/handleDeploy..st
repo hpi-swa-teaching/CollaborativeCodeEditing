@@ -1,13 +1,13 @@
 request handling
 handleDeploy: aWebRequest
 	self authenticate: aWebRequest action: [
-		| tokens |
-		
-		tokens := self getURLTokensFrom: aWebRequest limit: 2.
-		
-		tokens ifNil: [ ^ self ].
-		tokens size > 1
-			ifTrue: [ self deployCCECommit: tokens last ]
-			ifFalse: [ self deployCCE ].
-
-		aWebRequest send200Response: 'Deployed successfully.' ]
+		self parseURL: aWebRequest with: {
+			1 -> [ :tokens |
+				self deployCCE.
+				aWebRequest send200Response:
+					'Deployed ' , self class updateBranch , ' successfully.' ] .
+			2 -> [ :tokens |
+				self deployCCECommit: tokens last.
+				aWebRequest send200Response:
+					'Deployed ' , tokens last , ' successfully.' ]
+		} ]
