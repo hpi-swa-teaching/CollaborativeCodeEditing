@@ -1,5 +1,5 @@
 client-Message creation
 changeSelectionWith: anOrderedDictionary
 	^ self
-		new: (CCEMessage clientMsgTypes at: #changeSelection:from:) 
+		new: (CCEMessage clientMessageTypes at: #changeSelection:from:) 
 		with: anOrderedDictionary

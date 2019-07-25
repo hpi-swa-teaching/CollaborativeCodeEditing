@@ -1,5 +1,5 @@
 client-Message creation
 heartbeat
 	^ self
-		new: (CCEMessage clientMsgTypes at: #heartbeat:from:) 
+		new: (CCEMessage clientMessageTypes at: #heartbeat:from:) 
 		with: nil

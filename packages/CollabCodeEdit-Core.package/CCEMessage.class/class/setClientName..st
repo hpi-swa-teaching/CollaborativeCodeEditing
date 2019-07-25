@@ -1,5 +1,5 @@
 client-Message creation
 setClientName: aString
 	^ self
-		new: (CCEMessage clientMsgTypes at: #setClientName:from) 
+		new: (CCEMessage clientMessageTypes at: #setClientName:from) 
 		with: { #id -> aString }
