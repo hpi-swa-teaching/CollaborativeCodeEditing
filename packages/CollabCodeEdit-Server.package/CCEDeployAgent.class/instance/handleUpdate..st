@@ -5,9 +5,9 @@ handleUpdate: aWebRequest
 			1 -> [ :tokens |
 				self updateCCE.
 				aWebRequest send200Response:
-					'Update from ' , self class updateBranch , ' completed.' ] .
+					'Update from ', self class updateBranch, ' completed.' ] .
 			2 -> [ :tokens |
 				self updateCCEToCommit: tokens last.
 				aWebRequest send200Response:
-					'Update from ' , tokens last , ' completed.' ]
+					'Update from ', tokens last, ' completed.' ]
 		} ]
