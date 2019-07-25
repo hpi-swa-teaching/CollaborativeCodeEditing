@@ -1,5 +1,5 @@
 session-managment
 createSessionWithScope: aStringArray
 	self scope: aStringArray.
-	self checksum: (CCEPackageManager default hashPackages: aStringArray).
+	self checksum: (CCEPackageHasher hashPackages: aStringArray).
 	self publishSession

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"subClassSpecificSetUp" : "MS 7/1/2019 16:26",
+		"subClassSpecificSetUp" : "AW 7/25/2019 22:05",
 		"subClassSpecificTearDown" : "MS 7/1/2019 16:26",
 		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "AD 7/14/2019 21:49",
 		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount" : "AD 7/14/2019 21:49",
@@ -10,5 +10,5 @@
 		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "AD 7/14/2019 21:50",
 		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "AD 7/14/2019 21:51",
 		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 6/3/2019 11:46",
-		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "SS 6/3/2019 11:46",
-		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 6/20/2019 14:09" } }
+		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "AW 7/25/2019 22:06",
+		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "AW 7/25/2019 22:06" } }

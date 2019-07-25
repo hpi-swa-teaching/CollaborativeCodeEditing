@@ -4,7 +4,7 @@
 	"instance" : {
 		"subClassSpecificSetUp" : "SS 6/17/2019 19:29",
 		"subClassSpecificTearDown" : "MS 7/1/2019 16:27",
-		"testAckJoinSessionCleanStateFillsSessionWithCorrectChecksumAndScope" : "SS 6/19/2019 12:01",
+		"testAckJoinSessionCleanStateFillsSessionWithCorrectChecksumAndScope" : "AW 7/25/2019 22:07",
 		"testAckJoinSessionCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsClear" : "SS 6/20/2019 14:10",
 		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "SS 6/19/2019 12:01",
 		"testAckJoinSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 6/19/2019 12:01",
