@@ -5,6 +5,6 @@ handleErrorsFor: aWebRequest action: aBlock
 		
 		 (err startsWith: 'GitObjectNotFoundError')
 			ifTrue: [
-				aWebRequest send400Response: 'The specified Git object does not exist.' ]
+				aWebRequest send404Response: 'The specified Git object does not exist.' ]
 			ifFalse: [
 				aWebRequest send500Response: 'The operation failed due to a server error.' ] ]
