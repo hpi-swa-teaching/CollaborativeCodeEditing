@@ -1,9 +1,9 @@
 helpers
 handleErrorsFor: aWebRequest action: aBlock
-	[ aBlock value: aWebRequest ] ifError: [ :err :receiver |
-		Transcript show: err.
+	[ aBlock value: aWebRequest ] ifError: [ :error :receiver |
+		Transcript show: error.
 		
-		 (err startsWith: 'GitObjectNotFoundError')
+		 (error startsWith: 'GitObjectNotFoundError')
 			ifTrue: [
 				aWebRequest send404Response: 'The specified Git object does not exist.' ]
 			ifFalse: [

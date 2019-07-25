@@ -1,4 +1,4 @@
 startup
 registerServiceAt: aRouteName action: aBlock
-	self server addService: aRouteName action: [ :req |
-		self handleErrorsFor: req action: aBlock ]
+	self server addService: aRouteName action: [ :request |
+		self handleErrorsFor: request action: aBlock ]
