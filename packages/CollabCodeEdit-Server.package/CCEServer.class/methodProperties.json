@@ -9,7 +9,7 @@
 		"start" : "PB 6/16/2019 20:57" },
 	"instance" : {
 		"CCEchangeSelection:from:" : "PB 7/25/2019 13:21",
-		"CCEcreateSessionWith:from:" : "PB 7/25/2019 13:21",
+		"CCEcreateSessionWith:from:" : "PB 7/25/2019 21:36",
 		"CCEheartbeat:from:" : "PB 7/25/2019 19:58",
 		"CCEjoinSession:from:" : "PB 7/25/2019 19:59",
 		"CCEleaveSessionWith:from:" : "PB 7/25/2019 20:14",
@@ -19,7 +19,7 @@
 		"CCEsetConsistent:from:" : "PB 7/25/2019 13:25",
 		"breakdown" : "PB 6/16/2019 18:19",
 		"createSessionToken" : "AW 6/4/2019 10:40",
-		"createSessionWith:" : "PB 7/25/2019 15:37",
+		"createSessionWith:andCreator:" : "PB 7/25/2019 21:35",
 		"destroySession:" : "PB 5/5/2019 21:25",
 		"initialize" : "PB 7/25/2019 13:27",
 		"onClose:" : "PB 7/25/2019 13:38",
