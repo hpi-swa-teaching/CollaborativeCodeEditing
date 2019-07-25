@@ -1,9 +1,7 @@
-I represent a CCEEdit, where a method is removed.
+I am an edit in a method.
 
-Instance Variables
-	editContent: Symbol
-	
-editContent
-	- The selector of the method removed.
-	
-	
+I indicate that a method was recategorized.
+
+In my editContent dictionary I hold the selector of the removed method.
+
+For more details see the comment of CCEEdit.

@@ -1,9 +1,16 @@
-I am an edit transferred to or from another one by the CCE-Suite. I hold all the information necessary to apply myself. I am an abstract class.
+I am an edit that was created by some client, to be applied by some other client.
+
+I hold all the information necessary to apply myself, and I'm the one responsible to applying myself.
+
+I am an abstract class.
+Since there are different kinds of edits my subclasses need to overwrite my apply method.
+Some of my subclasses might need more information than others.
+Instead of adding variables to the class they should add fields to the editContent, so that all CCEEdits share the same API.
 
 Instance Variables
-	classIdentifier:	Symbol
-	editContent:		Object
-	editId:						Int
+	classIdentifier:		aSymbol
+	editContent:		anItem
+	editId:				anInt
 
 classIdentifier
 	- The name of the edited class.

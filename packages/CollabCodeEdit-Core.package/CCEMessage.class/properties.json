@@ -1,11 +1,10 @@
 {
 	"category" : "CollabCodeEdit-Core",
 	"classinstvars" : [
-		"clientMsgTypes",
-		"serverMsgTypes" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "AD 7/25/2019 22:33",
 	"instvars" : [
 		"type",
 		"payload" ],

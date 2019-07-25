@@ -1,9 +1,7 @@
-I represent a CCEEdit, where a method is recategorized.
+I am an edit in a method.
 
-Instance Variables
-	editContent: OrderedDictionary
-	
-editContent
-	- A dictionary holding the new category (at self categorySymbol) and the method which is recategorized (at self methodSymbol). Those two may be used like standard instance variables 
-	
-	
+I indicate that a method was recategorized.
+
+In my editContent dictionary I hold the new category (at self categorySymbol) and the method which was recategorized (at self methodSymbol).
+
+For more details see the comment of CCEEdit.
