@@ -1,3 +1,0 @@
-accessing
-methodsWithHashes: anOrderedDictionary
-	methodsWithHashes := anOrderedDictionary

@@ -4,12 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AD 7/25/2019 13:03",
+	"commentStamp" : "AW 7/25/2019 21:47",
 	"instvars" : [
-		"packageHash",
-		"classHash",
-		"methodsWithHashes",
-		"classesWithHashes" ],
+		 ],
 	"name" : "CCEPackageHasher",
 	"pools" : [
 		 ],

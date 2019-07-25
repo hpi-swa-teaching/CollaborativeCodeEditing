@@ -1,16 +1,12 @@
 {
 	"class" : {
-		 },
+		"calculateHashOfMethodSourceCode:" : "AW 7/25/2019 21:45",
+		"hashClass:" : "AW 7/25/2019 21:45",
+		"hashClassesForPackage:" : "AW 7/25/2019 21:46",
+		"hashMethodsForClass:" : "AW 7/25/2019 21:46",
+		"hashPackagesForSession:" : "AW 7/25/2019 21:46",
+		"listAvailablePackages" : "AW 7/25/2019 21:45",
+		"listClassesOfPackage:" : "AW 7/25/2019 21:45",
+		"listMethodsOfClass:" : "AW 7/25/2019 21:45" },
 	"instance" : {
-		"addMethod:with:" : "AW 7/24/2019 20:12",
-		"buildClassDictionaryForPackage:" : "AW 7/24/2019 20:24",
-		"buildMethodDictionaryForClass:" : "AW 7/24/2019 20:14",
-		"calculateHashOfMethodSourceCode:" : "AW 7/24/2019 20:04",
-		"classHash" : "AW 7/24/2019 20:03",
-		"classHash:" : "AW 7/24/2019 20:07",
-		"classesWithHashes" : "AW 7/24/2019 20:18",
-		"classesWithHashes:" : "AW 7/24/2019 20:18",
-		"methodsWithHashes" : "AW 7/24/2019 20:08",
-		"methodsWithHashes:" : "AW 7/24/2019 20:09",
-		"packageHash" : "AW 7/24/2019 20:03",
-		"packageHash:" : "AW 7/24/2019 20:07" } }
+		 } }
