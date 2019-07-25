@@ -10,4 +10,4 @@ joinSession: anOrderedDictionary
 		token: (anOrderedDictionary at: #token);
 		joinSessionWith: remoteSessionScope and: remoteSessionHash;
 		activateSelectionListener.
-	self packageManager listenForChangesInScope: self scope for: self client
+	self editManager listenForChangesInScope: self scope for: self client

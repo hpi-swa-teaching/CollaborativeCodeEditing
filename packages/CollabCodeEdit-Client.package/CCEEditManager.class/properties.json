@@ -1,7 +1,7 @@
 {
 	"category" : "CollabCodeEdit-Client",
 	"classinstvars" : [
-		"instance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "AD 7/25/2019 13:02",
@@ -9,7 +9,7 @@
 		"client",
 		"ignorableEdits",
 		"scope" ],
-	"name" : "CCEPackageManager",
+	"name" : "CCEEditManager",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -13,7 +13,7 @@
 		"collaborators",
 		"status",
 		"selectionListener",
-		"packageManager",
+		"editManager",
 		"localAccount" ],
 	"name" : "CCESession",
 	"pools" : [
