@@ -1,11 +1,7 @@
 actions
-CCEjoinSession: anOrderedDictionary from: aCCERemoteClient
-	| sessionToken |
-
-	sessionToken := anOrderedDictionary at: #token.
-	
+CCEjoinSession: anOrderedDictionary from: aCCERemoteClient	
 	sessions
-		at: sessionToken
+		at: (anOrderedDictionary at: #token)
 		ifPresent: [ :session | session
 			handleNewUser: aCCERemoteClient
 			withIdentifier: (anOrderedDictionary at: #id) ]
