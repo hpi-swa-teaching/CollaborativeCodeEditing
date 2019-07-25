@@ -13,7 +13,7 @@
 		"CCEackCreateSessionWithError:" : "ST 5/25/2019 13:31",
 		"CCEackHeartbeat:" : "SS 7/1/2019 09:10",
 		"CCEackJoinSession:" : "SS 6/5/2019 20:56",
-		"CCEackJoinSessionWithError:" : "SS 7/22/2019 12:49",
+		"CCEackJoinSessionWithError:" : "MS 7/25/2019 10:35",
 		"CCEackLeaveSessionWith:" : "SS 5/31/2019 06:31",
 		"CCEackLeaveSessionWithError:" : "MS 5/27/2019 16:28",
 		"CCEchangeSelection:" : "MS 7/1/2019 16:00",
@@ -45,7 +45,7 @@
 		"buttonWithLabel:" : "ST 5/25/2019 17:12",
 		"client" : "ST 5/25/2019 14:25",
 		"client:" : "AD 5/27/2019 19:14",
-		"clientSetUp" : "SS 7/22/2019 11:11",
+		"clientSetUp" : "MS 7/25/2019 10:35",
 		"createSessionModel" : "ST 5/9/2019 14:29",
 		"createSessionModel:" : "AD 5/27/2019 19:15",
 		"createSessionWith:" : "SS 6/20/2019 13:48",
@@ -63,4 +63,4 @@
 		"sessionIsLoaded" : "AW 6/23/2019 16:56",
 		"sessionSetUp" : "SS 7/22/2019 11:12",
 		"setClientName:" : "AW 6/24/2019 15:05",
-		"update:" : "SS 7/22/2019 10:37" } }
+		"update:" : "MS 7/25/2019 10:36" } }

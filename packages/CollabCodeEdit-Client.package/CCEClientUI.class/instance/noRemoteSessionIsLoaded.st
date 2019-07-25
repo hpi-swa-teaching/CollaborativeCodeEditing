@@ -1,3 +1,3 @@
 user interaction
 noRemoteSessionIsLoaded
-	^  self session getStatus == CCESessionStatus noRemoteSession
+	^  self session getStatus = CCESessionStatus noRemoteSession
