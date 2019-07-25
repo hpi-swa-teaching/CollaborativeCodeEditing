@@ -7,8 +7,6 @@ It is important that I am mindful, and don't just broadcast all changes of the c
 First, sending changes in other packages would be an information leak.
 Second, when a different collaborator sends an edit, and that edit is applied, I shouldn't send the same edit out again. That would break things, and that would be bad.
 
-I have a second main task: I build hashes out of packages, which can be used to compare the initial state of packages between different collaborators.
-
 Instance Variables
 	client:		aCCEClient
 	ignorableEdits:		anOrderedCollection

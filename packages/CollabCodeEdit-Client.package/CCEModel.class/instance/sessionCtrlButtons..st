@@ -1,3 +1,3 @@
 accessing
-sessionCtrlButtons: anObject
-	sessionCtrlButtons := anObject
+sessionCtrlButtons: anOrderedCollection
+	sessionCtrlButtons := anOrderedCollection
