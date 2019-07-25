@@ -1,9 +1,12 @@
 client management
-handleNewUser: aClient withIdentifier: aString	
-	(self clients anySatisfy: [:client | client identifier asString = aString])
-		ifTrue: [^(aClient sendMessage: CCEMessage ackJoinSessionIdentifierAlreadyInUse)].
-	
-	aClient identifier: aString.
-	self broadcastMessage: (CCEMessage newUser: aClient identifier).	
-	aClient sendMessage: (CCEMessage ackJoinSessionWith: self ackJoinSessionPayload).
-	self addClient: aClient
+handleNewUser: aCCERemoteClient withIdentifier: aString	
+	(self clients anySatisfy: [ :client | client identifier asString = aString ])
+		ifTrue: [ ^ aCCERemoteClient
+			sendMessage: CCEMessage ackJoinSessionIdentifierAlreadyInUse ].
+
+	aCCERemoteClient
+		identifier: aString;
+		sendMessage: (CCEMessage ackJoinSessionWith: self ackJoinSessionPayload).
+	self
+		broadcastMessage: (CCEMessage newUser: aCCERemoteClient identifier);
+		addClient: aCCERemoteClient

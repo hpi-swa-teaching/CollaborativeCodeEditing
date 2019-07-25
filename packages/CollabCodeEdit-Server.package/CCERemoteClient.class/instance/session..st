@@ -1,3 +1,3 @@
 accessing
-session: aSession
-	session := aSession
+session: aCCERemoteSession
+	session := aCCERemoteSession

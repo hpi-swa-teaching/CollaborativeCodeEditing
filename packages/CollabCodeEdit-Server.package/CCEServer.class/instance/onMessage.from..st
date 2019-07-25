@@ -1,12 +1,12 @@
-event handling
-onMessage: someData from: aClient
+request handling
+onMessage: someData from: aCCERemoteClient
 	| message |
 	
-	message := [ (CCEMessage deserialize: someData) ] ifError: [
-		Transcript cr; show: 'Invalid message: ', someData.
-		^ self ].
-	Transcript show: 'server receive: ', message serialize asString; cr.
+	message := [ (CCEMessage deserialize: someData) ]
+		ifError: [ :err :receiver | ^ self onError: err from: aCCERemoteClient ].
 	
-	[self perform: ((CCEMessage prefix , message type) asSymbol) with: (message payload) with: aClient]
-			ifError: [ :ex :rcvr |
-					Transcript cr; show: 'Error handling message: ', ex.]
+	[ self
+		perform: (CCEMessage prefix , message type) asSymbol
+		with: message payload
+		with: aCCERemoteClient ]
+		ifError: [ :err :receiver | ^ self onError: err from: aCCERemoteClient ]

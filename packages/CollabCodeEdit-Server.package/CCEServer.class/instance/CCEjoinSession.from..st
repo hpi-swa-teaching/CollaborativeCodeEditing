@@ -1,13 +1,13 @@
-request handling
-CCEjoinSession: anOrderedDictionary from: aClient
+actions
+CCEjoinSession: anOrderedDictionary from: aCCERemoteClient
 	| sessionToken |
 
 	sessionToken := anOrderedDictionary at: #token.
 	
 	sessions
 		at: sessionToken
-		ifPresent: [ 
-			:session |	 
-			session handleNewUser: aClient withIdentifier: (anOrderedDictionary at: #id) ]
-		ifAbsent: [
-			aClient sendMessage: CCEMessage ackJoinSessionTokenNotFound ]
+		ifPresent: [ :session | session
+			handleNewUser: aCCERemoteClient
+			withIdentifier: (anOrderedDictionary at: #id) ]
+		ifAbsent: [ aCCERemoteClient
+			sendMessage: CCEMessage ackJoinSessionTokenNotFound ]

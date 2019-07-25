@@ -1,3 +1,4 @@
 sending
-broadcast: someData
-	self clientsMutex critical: [ self clients do: [ :client | client send: someData ] ]
+broadcast: anObject
+	self clientsMutex critical: [ self clients
+		do: [ :client | client send: anObject ] ]

@@ -1,4 +1,3 @@
 startup
 registerServices
-	self server addService: '/' action: [ :aRequest |
-		self onRequest: aRequest ]
+	self server addService: '/' action: [ :aRequest | self onRequest: aRequest ]

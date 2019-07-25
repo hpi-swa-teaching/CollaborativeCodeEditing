@@ -1,4 +1,3 @@
-event handling
-onClose: aSocket
-	Transcript cr; show: 'Closing ', aSocket.
-	self removeClient: aSocket
+request handling
+onClose: aCCERemoteClient
+	self removeClient: aCCERemoteClient
