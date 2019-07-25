@@ -1,6 +1,6 @@
 request handling
-onMessage: someData from: aCCERemoteClient
+onMessage: aString from: aCCERemoteClient
 	self
-		performMessage: ([ (CCEMessage deserialize: someData) ]
-			ifError: [ :err :receiver | ^ self onError: err from: aCCERemoteClient ])
+		performMessage: ([ (CCEMessage deserialize: aString) ]
+			ifError: [ :error :receiver | ^ self onError: error from: aCCERemoteClient ])
 		from: aCCERemoteClient

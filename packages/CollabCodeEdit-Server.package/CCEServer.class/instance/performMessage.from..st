@@ -4,4 +4,4 @@ performMessage: aCCEMessage from: aCCERemoteClient
 		perform: (CCEMessage prefix , aCCEMessage type) asSymbol
 		with: aCCEMessage payload
 		with: aCCERemoteClient ]
-		ifError: [ :err :receiver | ^ self onError: err from: aCCERemoteClient ]
+		ifError: [ :error :receiver | ^ self onError: error from: aCCERemoteClient ]
