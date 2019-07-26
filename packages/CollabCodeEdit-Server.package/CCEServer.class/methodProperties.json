@@ -22,7 +22,7 @@
 		"createSessionWith:andCreator:" : "PB 7/25/2019 21:35",
 		"destroySession:" : "PB 5/5/2019 21:25",
 		"initialize" : "PB 7/25/2019 13:27",
-		"onClose:" : "PB 7/25/2019 13:38",
+		"onClose:" : "PB 7/26/2019 08:52",
 		"onError:from:" : "PB 7/25/2019 13:38",
 		"onMessage:from:" : "PB 7/25/2019 20:04",
 		"onRequest:" : "PB 7/25/2019 20:01",
