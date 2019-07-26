@@ -1,7 +1,7 @@
 building
 buildServerConnectionButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new 
-			model: self client ui;
+			model: self client clientUI;
 			label: #statusAction;
 			changeLabelWhen: #statusAction:;
 			action: #toggleClientConnection;

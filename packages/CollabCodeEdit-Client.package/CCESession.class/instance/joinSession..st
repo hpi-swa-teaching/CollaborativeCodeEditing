@@ -1,13 +1,9 @@
 session-managment
 joinSession: anOrderedDictionary
-	| remoteSessionScope remoteSessionHash |
-	
-	remoteSessionScope := (anOrderedDictionary at: #scope) asArray.
-	remoteSessionHash := anOrderedDictionary at: #checksum.
-	
 	self 
 		createCollaboratorsListFrom: (anOrderedDictionary at: #collaborators);
 		token: (anOrderedDictionary at: #token);
-		joinSessionWith: remoteSessionScope and: remoteSessionHash;
+		joinSessionWith: (anOrderedDictionary at: #scope) asArray 
+			and: (anOrderedDictionary at: #checksum);
 		activateSelectionListener.
 	self editManager listenForChangesInScope: self scope for: self client

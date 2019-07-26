@@ -1,4 +1,4 @@
 startup
 handleClosingWith: anObject
-	self ui setToDisconnected.
+	self clientUI setToDisconnected.
 	Transcript show: 'closing socket: ', anObject

@@ -9,14 +9,14 @@ To keep the connection with the server open I am in control of the CCEHeartbeatE
 
 
 Instance Variables
-	activeUI:		aCCEModel
+	model:		aCCEModel
 	connected:		aBoolean
 	heartbeatEngine:		aCCEHeartbeatEngine
 	serverURI:		aString
 	socket:		aWebSocket
-	ui:		aCCEClientUI
+	clientUI:		aCCEClientUI
 
-activeUI
+model
 	- The model as aforementioned
 
 connected
@@ -31,5 +31,5 @@ serverURI
 socket
 	- The socket which handels the connection to the server
 
-ui
+clientUI
 	- Represents information about my to the UI

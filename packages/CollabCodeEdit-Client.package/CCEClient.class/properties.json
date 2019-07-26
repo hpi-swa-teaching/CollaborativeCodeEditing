@@ -4,14 +4,14 @@
 		"instance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AW 7/24/2019 18:44",
+	"commentStamp" : "AW 7/26/2019 15:39",
 	"instvars" : [
 		"socket",
 		"connected",
 		"serverURI",
-		"ui",
 		"heartbeatEngine",
-		"activeUI" ],
+		"clientUI",
+		"model" ],
 	"name" : "CCEClient",
 	"pools" : [
 		 ],

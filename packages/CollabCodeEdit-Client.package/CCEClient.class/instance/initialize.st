@@ -1,7 +1,7 @@
 initialize-release
 initialize 
 	self 
-		ui: (CCEClientUI new 
+		clientUI: (CCEClientUI new 
 			client: self; 
 			serverURI: self class defaultServerURI;
 			yourself);

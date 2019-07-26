@@ -6,7 +6,7 @@ initialize
 		joinSessionModel: CCEJoinSessionModel new;
 		leaveSessionModel: CCELeaveSessionModel new;
 		client: (CCEClient default 
-				activeUI: self;
+				model: self;
 				yourself);
 		session: (CCESession default 
 				client: self client;
