@@ -3,5 +3,5 @@ requestJoinSessionWith: aTokenString
 	self client sendMessage: 
 		(CCEMessage 
 			joinSession: aTokenString 
-			withIdentifier: CCEAccount new humanReadableName).
+			withIdentifier: self localAccount humanReadableName).
 	self status setToNoRemoteSession
