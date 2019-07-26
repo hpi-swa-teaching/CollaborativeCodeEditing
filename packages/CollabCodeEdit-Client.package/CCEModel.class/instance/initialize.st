@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	SystemBrowser default: CCEBrowser.
 	self createSessionModel: CCECreateSessionModel new;
-		account: CCEAccount default;
+		account: CCEAccount new;
 		joinSessionModel: CCEJoinSessionModel new;
 		leaveSessionModel: CCELeaveSessionModel new;
 		client: (CCEClient default owner: self);

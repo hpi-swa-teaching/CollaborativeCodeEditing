@@ -11,6 +11,6 @@ testNewModelInstanceIsInitializedCorrectly
 	self assert: (CCESession default) equals: modelTemp session. 
 	self assert: CCEClient default owner equals: modelTemp.
 	self assert: (CCESession default status dependents includes: modelTemp).
-	self assert: (CCEAccount default) equals: modelTemp account.
+	self assert: (modelTemp account isKindOf: CCEAccount).
 	self assert: (modelTemp session imageAccount) equals: modelTemp account
 	
