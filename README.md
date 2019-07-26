@@ -2,7 +2,11 @@
 
 > Group 6
 
-## Local Development
+## (Local) Development
+
+All code should adhere to our [style guide](https://docs.google.com/document/d/11PfOTymUnovjca5ExAI6-6-cC16f6q5mQ8juo9Wn13I/edit?usp=sharing).
+
+If something does not seem to work, try consulting our [FAQ](https://docs.google.com/document/d/1lXzYKoR7LiMkkjJhhem9VC7O6nKe4I4-cIUyLseF06U/edit?usp=sharing).
 
 ## Client
 
