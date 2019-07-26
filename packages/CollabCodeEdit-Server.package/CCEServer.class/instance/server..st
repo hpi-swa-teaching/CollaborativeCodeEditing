@@ -1,3 +1,3 @@
 accessing
-server: aServer
-	server := aServer
+server: aWebServer
+	server := aWebServer

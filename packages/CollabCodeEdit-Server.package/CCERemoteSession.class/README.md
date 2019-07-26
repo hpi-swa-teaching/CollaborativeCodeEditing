@@ -1,6 +1,6 @@
-I am a ClientManager that represent an editing session.
+I am a ClientManager that represents an editing session.
 
-In that I am very similar to the CCESession in CollabCodeEdit-Client.
+In that, I am very similar to the CCESession in CollabCodeEdit-Client.
 However, my main task is to communicate things to my members.
 Collaborators of a session are represented as CCERemoteClients.
 
@@ -12,10 +12,10 @@ Instance Variables
 	token:		aSymbol
 
 initialChecksum
-	- Checksum of packages from session creator. Used to send to other clients
+	- A checksum of packages from session creator. Used to send to other clients.
 
 scope
-	- Packets relevant to the checksum
+	- Packets relevant to the checksum.
 
 token
-	- Access token for this session
+	- Access token for this session.

@@ -1,18 +1,13 @@
-event handling
-onRequest: aRequest
-	| socket |
+request handling
+onRequest: aWebRequest
+	| remoteClient |
 
-	socket := CCERemoteClient newFromSocket: aRequest asWebSocket.
-	socket timeout: CCEServer defaultTimeOut.
+	remoteClient := CCERemoteClient newFromSocket: aWebRequest asWebSocket.
+	remoteClient
+		timeout: self class defaultTimeOut;
+		onMessage: [ :data | self onMessage: data from: remoteClient ];
+		onClose: [ self onClose: remoteClient ];
+		onError: [ :error | self onError: error from: remoteClient ].
 
-	Transcript cr; show: 'New ', socket.
-
-	socket onMessage: [ :data | self onMessage: data from: socket ].
-	socket onClose: [ self onClose: socket ].
-	socket onError:[ :ex | self onError: ex from: socket ].
-
-	self addClient: socket.
-
-	"We don't need to #fork here, in fact we shouldn't since it ensures
-	that shutting down WebServer shuts down any WebSockets, too."
-	socket run
+	self addClient: remoteClient.
+	remoteClient run

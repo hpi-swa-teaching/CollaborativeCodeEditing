@@ -1,3 +1,3 @@
-request handling
-CCEsetClientName: anOrderedDictionary from: aClient
-	aClient identifier: (anOrderedDictionary at: #id)
+actions
+CCEsetClientName: anOrderedDictionary from: aCCERemoteClient
+	aCCERemoteClient identifier: (anOrderedDictionary at: #id)
