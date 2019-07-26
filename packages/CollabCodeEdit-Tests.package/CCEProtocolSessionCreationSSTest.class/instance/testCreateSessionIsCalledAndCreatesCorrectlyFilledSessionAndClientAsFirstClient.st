@@ -1,11 +1,9 @@
 testing
 testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient
-	| createSessionMessage createdSession | 
-	
-	createSessionMessage := CCEMessage createSessionWith: testSessionCreationPayload.
-	server onMessage: createSessionMessage serialize from: client1.
-	
-	server sessions values do: [:session | createdSession := session].
+	| createdSession | 
+
+	server onMessage: ( CCEMessage createSessionWith: testSessionCreationPayload) serialize from: client1.
+	createdSession := server sessions values last.
 	
 	self deny: createdSession isNil.
 	self assert: testPackages equals: createdSession scope.

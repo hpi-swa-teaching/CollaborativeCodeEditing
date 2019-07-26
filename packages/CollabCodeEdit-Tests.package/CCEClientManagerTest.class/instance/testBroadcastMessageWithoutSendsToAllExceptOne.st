@@ -2,9 +2,9 @@ tests
 testBroadcastMessageWithoutSendsToAllExceptOne
 	| aCCEMessage |
 	
-	aCCEMessage := CCEMessage new.
-	aCCEMessage type: 'TEST_TYPE';
-					payload: 'TEST_PAYLOAD'.
+	aCCEMessage := CCEMessage new type: 'TEST_TYPE';
+		payload: 'TEST_PAYLOAD'; 
+		yourself.
 									
 	clientManager broadcastMessage: aCCEMessage without: clients first.
 	

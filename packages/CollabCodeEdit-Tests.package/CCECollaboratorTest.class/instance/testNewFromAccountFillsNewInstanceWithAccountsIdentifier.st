@@ -1,6 +1,9 @@
 tests
 testNewFromAccountFillsNewInstanceWithAccountsIdentifier
-	| createdCCECollaborator | 
+	| createdCCECollaborator account| 
+	
+	account := CCEAccount new.
+	account humanReadableName: 'testName'.
 	
 	createdCCECollaborator := CCECollaborator newFromAccount: account.
 	self assert: (createdCCECollaborator isKindOf: CCECollaborator).

@@ -1,12 +1,7 @@
 requests backend
-testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton
-	| ackMessage testAckSessionPayload |
-	
+testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton	
 	model buildButtonsWith: ToolBuilder new.
-	
-	ackMessage := CCEMessage ackLeaveSessionWith: testAckSessionPayload.
-	
-	model receive: ackMessage serialize.
+	model receive: (CCEMessage ackLeaveSessionWith: nil) serialize.
 	
 	self assert: (model perform: (model buttonWithLabel: CCEModel createButtonLabel) enabled).
 	self assert: (model perform: (model buttonWithLabel: CCEModel joinButtonLabel) enabled).

@@ -2,7 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 7/25/2019 22:07",
-		"subClassSpecificSetUp" : "MS 7/1/2019 16:28",
-		"subClassSpecificTearDown" : "SS 6/23/2019 15:56",
-		"tearDown" : "MS 7/1/2019 16:29" } }
+		"setUp" : "AD 7/26/2019 20:54",
+		"tearDown" : "AD 7/26/2019 16:51" } }

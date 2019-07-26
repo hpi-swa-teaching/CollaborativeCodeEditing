@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"collaborator",
-		"account" ],
+		 ],
 	"name" : "CCECollaboratorTest",
 	"pools" : [
 		 ],

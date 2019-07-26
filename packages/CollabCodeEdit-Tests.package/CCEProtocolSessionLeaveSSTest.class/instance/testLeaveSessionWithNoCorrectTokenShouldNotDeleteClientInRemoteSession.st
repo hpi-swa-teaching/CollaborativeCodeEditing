@@ -9,4 +9,4 @@ testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession
 	
 	server onMessage: leaveSessionMessage serialize from: client1.
 	
-	self deny: (0 = (server sessions at: token) clients size)
+	self deny: ( ( server sessions at: token ) clients isEmpty )

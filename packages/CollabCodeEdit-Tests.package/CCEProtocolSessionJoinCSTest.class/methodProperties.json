@@ -2,14 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"subClassSpecificSetUp" : "SS 6/17/2019 19:29",
-		"subClassSpecificTearDown" : "MS 7/1/2019 16:27",
-		"testAckJoinSessionCleanStateFillsSessionWithCorrectChecksumAndScope" : "AW 7/25/2019 22:07",
-		"testAckJoinSessionCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsClear" : "SS 6/20/2019 14:10",
-		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "SS 6/19/2019 12:01",
-		"testAckJoinSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "SS 6/19/2019 12:01",
-		"testAckJoinSessionNoCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsClear" : "SS 6/20/2019 14:11",
-		"testAckJoinSessionNoCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsNotClear" : "SS 6/20/2019 14:11",
-		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirtyRemoteSession" : "SS 6/19/2019 12:01",
-		"testJoinSessionSetsStatusToNoRemoteSession" : "SS 6/3/2019 11:48",
-		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "PB 7/26/2019 22:23" } }
+		"setUp" : "AD 7/27/2019 00:24",
+		"testAckJoinSessionCleanStateFillsSessionWithCorrectChecksumAndScope" : "AD 7/26/2019 20:15",
+		"testAckJoinSessionCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsClear" : "AD 7/26/2019 22:17",
+		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "AD 7/26/2019 20:15",
+		"testAckJoinSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "AD 7/26/2019 20:15",
+		"testAckJoinSessionNoCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsClear" : "AD 7/26/2019 20:31",
+		"testAckJoinSessionNoCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsNotClear" : "AD 7/26/2019 20:46",
+		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirtyRemoteSession" : "AD 7/26/2019 20:16",
+		"testJoinSessionSetsStatusToNoRemoteSession" : "AD 7/26/2019 20:16",
+		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "AD 7/26/2019 23:25" } }

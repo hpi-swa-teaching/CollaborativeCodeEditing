@@ -1,8 +1,9 @@
 classedit tests
-testBuildCCEClassRecategorizedEdit
+continueCCEClassAddedOrCommentedTestFrom: anEvent
 	| edit |
-
-	edit := builder buildClassEditFrom: (RecategorizedEvent class: CCETestDummy category: CCETestDummy category oldCategory: 'CollabCodeEdit-Tests').
+	
+	edit := builder buildClassEditFrom: anEvent.
+	
 	self assert: (edit editContent equalsClass: CCETestDummy).
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.
 	self assert: (edit isKindOf: CCEClassModifiedEdit)

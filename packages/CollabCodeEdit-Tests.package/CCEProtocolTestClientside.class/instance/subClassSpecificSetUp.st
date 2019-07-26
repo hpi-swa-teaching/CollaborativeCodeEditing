@@ -1,3 +1,0 @@
-running
-subClassSpecificSetUp
-	^ self subclassResponsibility

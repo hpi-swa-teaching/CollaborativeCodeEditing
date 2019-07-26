@@ -1,16 +1,12 @@
 requests ui
 testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload
-	| expectedPayload expectedMessage | 	
-	
-	expectedPayload := OrderedDictionary newFrom: {
-		#scope -> testPackages .
-		#checksum -> (CCEPackageHasher hashPackages: testPackages) .
-		#id -> imageAccount humanReadableName }.
-		
-	expectedMessage := CCEMessage createSessionWith: expectedPayload.
-	
-	model createSessionWith: testPackages.	
-	
-	self assert: (networkInterface hasMessage: expectedMessage serialize).
-	
+	model createSessionWith: testPackages.
+
+	self assert: (networkInterface hasMessage: 
+		( CCEMessage createSessionWith: 
+			( OrderedDictionary newFrom: {
+				#scope -> testPackages .
+				#checksum -> (CCEPackageHasher hashPackages: testPackages) .
+				#id -> imageAccount humanReadableName }) )
+		serialize ).
 	networkInterface clear
