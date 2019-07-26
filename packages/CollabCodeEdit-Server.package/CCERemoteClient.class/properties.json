@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AD 7/25/2019 20:46",
+	"commentStamp" : "PB 7/26/2019 15:08",
 	"instvars" : [
-		"socket",
-		"session",
 		"identifier",
-		"isConsistent" ],
+		"isConsistent",
+		"session",
+		"socket" ],
 	"name" : "CCERemoteClient",
 	"pools" : [
 		 ],

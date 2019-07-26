@@ -1,4 +1,4 @@
 client management
-handleDeleteUser: aClient
-	self removeClient: aClient.
-	self broadcastMessage: (CCEMessage deleteUser: aClient identifier)
+handleDeleteUser: aCCERemoteClient
+	self removeClient: aCCERemoteClient.
+	self broadcastMessage: (CCEMessage deleteUser: aCCERemoteClient identifier)

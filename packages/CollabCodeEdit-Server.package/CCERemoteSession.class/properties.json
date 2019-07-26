@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AD 7/25/2019 19:33",
+	"commentStamp" : "PB 7/26/2019 15:02",
 	"instvars" : [
-		"token",
+		"initialChecksum",
 		"scope",
-		"initialChecksum" ],
+		"token" ],
 	"name" : "CCERemoteSession",
 	"pools" : [
 		 ],

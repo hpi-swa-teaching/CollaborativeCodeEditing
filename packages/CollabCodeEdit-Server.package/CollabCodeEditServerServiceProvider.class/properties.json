@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PB 7/26/2019 15:03",
+	"commentStamp" : "AD 7/25/2019 20:37",
 	"instvars" : [
-		"clients",
-		"clientsMutex" ],
-	"name" : "CCEClientManager",
+		 ],
+	"name" : "CollabCodeEditServerServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ServiceProvider",
 	"type" : "normal" }

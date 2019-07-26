@@ -1,4 +1,5 @@
 client management
-addCreator: aRemoteClient
-	self addClient: aRemoteClient.
-	aRemoteClient isConsistent: true
+addCreator: aCCERemoteClient
+	self addClient: aCCERemoteClient.
+
+	aCCERemoteClient isConsistent: true

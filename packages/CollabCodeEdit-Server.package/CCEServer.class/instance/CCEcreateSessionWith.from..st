@@ -1,8 +1,8 @@
 request handling
-CCEcreateSessionWith: anOrderedDictionary from: aClient
-	aClient 
+CCEcreateSessionWith: anOrderedDictionary from: aCCERemoteClient
+	aCCERemoteClient 
 		identifier: (anOrderedDictionary at: #id);
 		sendMessage: (CCEMessage ackCreateSession:
-			((self createSessionWith: anOrderedDictionary) 
-				addCreator: aClient;
-				token))
+		self createSessionWith: anOrderedDictionary
+		    andCreator: aCCERemoteClient)
+			    token.

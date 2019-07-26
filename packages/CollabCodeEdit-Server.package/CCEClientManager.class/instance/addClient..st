@@ -1,3 +1,4 @@
 client management
-addClient: aClient
-	self clientsMutex critical: [ self clients add: aClient ]
+addClient: aCCERemoteClient
+	self clientsMutex critical: [ self clients
+		add: aCCERemoteClient ]
