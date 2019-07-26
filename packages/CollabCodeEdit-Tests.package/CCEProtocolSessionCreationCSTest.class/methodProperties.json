@@ -7,6 +7,6 @@
 		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "AD 7/26/2019 15:55",
 		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "AD 7/26/2019 15:54",
 		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "AD 7/26/2019 15:54",
-		"testCreateSessionSetsStatusToNoRemoteSession" : "SS 6/3/2019 11:46",
-		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "SS 6/3/2019 11:46",
-		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "SS 6/20/2019 14:09" } }
+		"testCreateSessionSetsStatusToNoRemoteSession" : "AD 7/26/2019 17:37",
+		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "AD 7/26/2019 17:36",
+		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "AD 7/26/2019 17:34" } }
