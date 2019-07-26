@@ -26,7 +26,6 @@
 		"actionCreateSession" : "AW 7/25/2019 21:49",
 		"actionJoinSession" : "AD 5/27/2019 19:14",
 		"actionLeaveSession" : "SS 5/27/2019 17:49",
-		"actionServerConnect" : "SS 7/1/2019 09:47",
 		"buildButtonsWith:" : "ST 5/19/2019 12:16",
 		"buildChildrenWith:" : "AD 5/27/2019 19:44",
 		"buildCreateSessionButtonWith:" : "AW 7/24/2019 21:19",
@@ -56,11 +55,11 @@
 		"leaveSessionModel" : "SS 5/27/2019 17:43",
 		"leaveSessionModel:" : "SS 5/27/2019 17:43",
 		"noSessionIsLoaded" : "AW 6/29/2019 22:59",
-		"receive:" : "AW 7/26/2019 14:59",
+		"receive:" : "AW 7/26/2019 15:44",
 		"session" : "AD 7/14/2019 19:18",
 		"session:" : "AD 7/14/2019 19:18",
 		"sessionCtrlButtons" : "ST 5/25/2019 17:16",
 		"sessionCtrlButtons:" : "AD 7/25/2019 14:28",
 		"sessionIsLoaded" : "AW 6/23/2019 16:56",
 		"setClientName:" : "AD 7/14/2019 19:19",
-		"update:" : "AW 6/15/2019 16:18" } }
+		"update:" : "AW 7/26/2019 15:45" } }
