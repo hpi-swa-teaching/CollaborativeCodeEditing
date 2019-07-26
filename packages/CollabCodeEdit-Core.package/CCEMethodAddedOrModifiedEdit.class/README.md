@@ -1,9 +1,7 @@
-I represent a CCEEdit, where a method is added or changed.
+I am an edit in a method.
 
-Instance Variables
-	editContent: Text
-	
-editContent
-	- The source code of the changed method
-	
-	
+I indicate that a class was modified or added
+
+In my editContent, I carry the source code of the changed method.
+
+For more details, see the comment of CCEEdit.

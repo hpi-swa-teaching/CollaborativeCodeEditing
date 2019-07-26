@@ -1,3 +1,4 @@
 request handling
 sendAckHeartbeat: aCCERemoteClient
-	aCCERemoteClient sendMessage: CCEMessage ackHeartbeat
+	(self clients includes: aCCERemoteClient) ifTrue: [
+		aCCERemoteClient sendMessage: CCEMessage ackHeartbeat ]

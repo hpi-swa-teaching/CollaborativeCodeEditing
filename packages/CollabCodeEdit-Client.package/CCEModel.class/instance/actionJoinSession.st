@@ -1,4 +1,4 @@
 actions
 actionJoinSession
-	self joinSessionModel parentModel: self.
-	^ ToolBuilder open: self joinSessionModel
+	(UIManager getDefault request: 'Please insert valid session token')
+		ifNotEmpty: [ :sessionToken | self joinSessionWith: sessionToken ]

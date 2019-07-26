@@ -3,4 +3,4 @@ testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession
 	server CCEcreateSessionWith: testSessionCreationPayload from: client1.
 	server onMessage: (CCEMessage leaveSessionWith: client1 session token) serialize from: client1.
 	
-	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMessageTypes at: #ackLeaveSessionWith:))
+	self assert: (networkInterface1 hasMessageOfType: #ackLeaveSessionWith:)

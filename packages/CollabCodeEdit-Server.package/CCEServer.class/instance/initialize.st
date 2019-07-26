@@ -2,4 +2,4 @@ initialize-release
 initialize
 	super initialize.
 	
-	self sessions: Dictionary new.
+	self sessions: Dictionary new

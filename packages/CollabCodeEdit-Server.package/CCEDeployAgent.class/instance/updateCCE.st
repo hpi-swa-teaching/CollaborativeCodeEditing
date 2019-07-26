@@ -1,16 +1,8 @@
-request handling
+actions
 updateCCE
 	| workingCopy |
 
-	workingCopy := SquotWorkingCopy new.
+	workingCopy := self prepareGitUpdateWorkingCopy.
 	workingCopy
-		store: SquotImageStore new;
-		repository: (SquitRepository
-			onDirectory: FileSystem memory / 'CollaborativeCodeEditing').
-
-	workingCopy repository cloneFrom: self class updateRepository.
-
-	workingCopy
-		loadedHistorian: (workingCopy repository historianNamed:
-			'origin/', self class updateBranch);
-		loadVersion: workingCopy baseVersion interactive: false 
+		loadVersion: workingCopy baseVersion
+		interactive: false

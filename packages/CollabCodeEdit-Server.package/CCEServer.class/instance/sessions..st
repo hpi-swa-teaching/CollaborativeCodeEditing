@@ -1,3 +1,3 @@
 accessing
-sessions: anObject
-	sessions := anObject
+sessions: aDictionary
+	sessions := aDictionary

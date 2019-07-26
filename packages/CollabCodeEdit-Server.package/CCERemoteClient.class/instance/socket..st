@@ -1,3 +1,3 @@
 accessing
-socket: aSocket
-	socket := aSocket
+socket: aWebSocket
+	socket := aWebSocket

@@ -11,6 +11,8 @@ setUp
 	imageAccount := CCEAccount new humanReadableName: 'SS'.
 	
 	model client: client.
+	model client addStatusSubscriber: model.
+	model client connected: true.
 	model session: session. 
 	model session addStatusSubscriber: model.
 	session client: model client.

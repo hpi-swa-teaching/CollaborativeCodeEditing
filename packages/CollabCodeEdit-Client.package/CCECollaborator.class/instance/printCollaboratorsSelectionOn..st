@@ -1,8 +1,8 @@
 accessing
 printCollaboratorsSelectionOn: aStream
-	(self currentSelectionAsDictionary at: #categorySelection) asString ifNotNil: [ :categorySelection |
-		aStream nextPutAll: categorySelection ].
-	 (self currentSelectionAsDictionary at: #classSelection) asString ifNotNil: [ :classSelection | 
-		aStream nextPutAll: '>>' , classSelection ].
-	(self currentSelectionAsDictionary at: #methodSelection) asString ifNotNil: [ :methodSelection | 
-		aStream nextPutAll: '>>', methodSelection ]
+	(self currentSelectionAsDictionary at: #categorySelection) ifNotNil: [ :categorySelection |
+		aStream nextPutAll: categorySelection asString ].
+	 (self currentSelectionAsDictionary at: #classSelection) ifNotNil: [ :classSelection | 
+		aStream nextPutAll: '>>' , classSelection asString ].
+	(self currentSelectionAsDictionary at: #methodSelection) ifNotNil: [ :methodSelection | 
+		aStream nextPutAll: '>>', methodSelection asString ]

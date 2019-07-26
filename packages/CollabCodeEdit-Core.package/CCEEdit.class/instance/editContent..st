@@ -1,3 +1,3 @@
 accessing
-editContent: anObject
-	editContent := anObject
+editContent: anItem
+	editContent := anItem

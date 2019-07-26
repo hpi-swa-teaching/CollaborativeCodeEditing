@@ -1,0 +1,1 @@
+I am the base class responsible for the button in the world menu.

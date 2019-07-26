@@ -4,7 +4,7 @@ buildJoinSessionButtonWith: aBuilder
 			model: self;
 			label: CCEModel joinButtonLabel;
 			action: #actionJoinSession;
-			enabled: #noSessionIsLoaded;
+			enabled: #serverConnectionAndNoRemoteSession;
 			frame:  (LayoutFrame new
 					topFraction: 0;
 					bottomFraction: 0.1;

@@ -1,3 +1,4 @@
-request handling
-CCEsendEdit: aCCEEdit from: aClient
-	aClient sendMessageToSession: (CCEMessage forwardEdit: aCCEEdit)
+actions
+CCEsendEdit: aCCEEdit from: aCCERemoteClient
+	aCCERemoteClient sendMessageToSession:
+		(CCEMessage forwardEdit: aCCEEdit)

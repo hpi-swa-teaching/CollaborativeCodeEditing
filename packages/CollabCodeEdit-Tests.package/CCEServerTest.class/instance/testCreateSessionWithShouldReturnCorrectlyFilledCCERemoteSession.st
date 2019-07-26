@@ -5,7 +5,9 @@ testCreateSessionWithShouldReturnCorrectlyFilledCCERemoteSession
 	expectedChecksum  :=  testPayload at: #checksum.
 	expectedScope := testPayload at: #scope.
 	
-	createdRemoteSession := server createSessionWith: testPayload.
+	createdRemoteSession := server
+		createSessionWith: testPayload
+		andCreator: CCERemoteClient new.
 	
 	self assert: expectedChecksum equals: createdRemoteSession initialChecksum.
 	self assert: expectedScope equals: createdRemoteSession scope.
