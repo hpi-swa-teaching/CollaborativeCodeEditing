@@ -1,4 +1,5 @@
 comparing
 hash
-	^ ( self categorySelection hash + self classSelection hash + self methodSelection hash)
-		hashMultiply
+	^ ((self categorySelection hash 
+		bitXor: self classSelection hash) 
+		bitXor: self methodSelection hash)

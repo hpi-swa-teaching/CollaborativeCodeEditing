@@ -1,8 +1,8 @@
 hashing
 hashClass: aClass
-		^ ((self hashMethodsForClass: aClass)
-			+ aClass instVarNames hash
-			+ aClass comment hash
-			+ aClass classVariablesString hash
-			+ aClass sharedPoolsString hash
-			+ aClass category hash) hashMultiply
+		^ ((((((self hashMethodsForClass: aClass)
+			bitXor: aClass instVarNames hash)
+			bitXor: aClass comment hash)
+			bitXor: aClass classVariablesString hash)
+			bitXor: aClass sharedPoolsString hash)
+			bitXor: aClass category hash) hashMultiply

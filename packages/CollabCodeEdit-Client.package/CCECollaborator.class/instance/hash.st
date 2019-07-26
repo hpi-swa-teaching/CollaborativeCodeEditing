@@ -1,3 +1,3 @@
 comparing
 hash
-	^ (self consistencyState hash + self identifier hash) hashMultiply
+	^ self consistencyState hash bitXor: self identifier hash
