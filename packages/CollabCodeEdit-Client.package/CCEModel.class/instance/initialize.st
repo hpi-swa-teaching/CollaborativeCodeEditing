@@ -5,7 +5,7 @@ initialize
 	SystemBrowser default: CCEBrowser.
 	
 	self createSessionModel: CCECreateSessionModel new;	
-		account: CCEAccount default;
+		account: CCEAccount new;
 		client: CCEClient default;
 		session: CCESession default;
 		sessionSetUp;
