@@ -8,5 +8,6 @@ buildNextButton: aBuilder
 			topFraction: 0.9;
 			bottomFraction: 1;
 			leftFraction: 0;
-			rightFraction: 1);
+			rightFraction: 1;
+			yourself);
 		yourself

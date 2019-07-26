@@ -11,5 +11,6 @@ buildPackagesList: aBuilder
 			topFraction: 0;
 			bottomFraction: 0.9;
 			leftFraction: 0;
-			rightFraction: 1);
+			rightFraction: 1;
+			yourself);
 		yourself

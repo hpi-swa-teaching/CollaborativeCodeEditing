@@ -1,3 +1,3 @@
 accessing
 collaborators
-	^ collaborators ifNil: [ collaborators := OrderedDictionary new ]
+	^ collaborators ifNil: [ self collaborators: OrderedDictionary new ]

@@ -10,4 +10,5 @@ buildLeaveSessionButtonWith: aBuilder
 			bottomFraction: 0.1;
 			leftFraction: 0.66;
 			rightFraction: 1;
-			yourself)
+			yourself);
+		yourself

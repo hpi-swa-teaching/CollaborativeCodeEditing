@@ -10,4 +10,5 @@ buildJoinSessionButtonWith: aBuilder
 			bottomFraction: 0.1;
 			leftFraction: 0.33;
 			rightFraction: 0.66;
-			yourself)
+			yourself);
+		yourself

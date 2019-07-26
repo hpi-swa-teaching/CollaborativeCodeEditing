@@ -8,4 +8,5 @@ buildSessionCollaboratorsDisplayWith: aBuilder
 			bottomFraction: 0.6;
 			leftFraction: 0;
 			rightFraction: 1;
-			yourself)
+			yourself);
+		yourself

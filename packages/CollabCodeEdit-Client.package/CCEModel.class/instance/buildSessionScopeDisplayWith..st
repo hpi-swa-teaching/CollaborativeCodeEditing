@@ -8,4 +8,5 @@ buildSessionScopeDisplayWith: aBuilder
 			bottomFraction: 0.4;
 			leftFraction: 0;
 			rightFraction: 1;
-			yourself)
+			yourself);
+		yourself

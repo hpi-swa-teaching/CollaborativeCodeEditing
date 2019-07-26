@@ -10,4 +10,5 @@ buildCreateSessionButtonWith: aBuilder
 			bottomFraction: 0.1;
 			leftFraction: 0;
 			rightFraction: 0.33;
-			yourself)
+			yourself);
+		yourself
