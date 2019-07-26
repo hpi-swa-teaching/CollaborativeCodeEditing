@@ -1,4 +1,6 @@
 running
 setUp
 	client := CCEClient new.
-	clientUI := client clientUI.
+	clientUI := client ui.
+	session := CCESession new.
+	clientUI session: session.

@@ -9,7 +9,8 @@
 		"serverURI",
 		"statusColor",
 		"statusAction",
-		"client" ],
+		"client",
+		"session" ],
 	"name" : "CCEClientUI",
 	"pools" : [
 		 ],

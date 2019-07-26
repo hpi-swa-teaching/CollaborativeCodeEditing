@@ -1,3 +1,0 @@
-accessing
-joinSessionModel: aCCEJoinSessionModel
-	joinSessionModel := aCCEJoinSessionModel

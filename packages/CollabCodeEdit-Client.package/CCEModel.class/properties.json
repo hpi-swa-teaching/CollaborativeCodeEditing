@@ -7,11 +7,9 @@
 	"commentStamp" : "AD 7/25/2019 14:29",
 	"instvars" : [
 		"createSessionModel",
-		"joinSessionModel",
 		"session",
 		"client",
 		"sessionCtrlButtons",
-		"leaveSessionModel",
 		"account" ],
 	"name" : "CCEModel",
 	"pools" : [

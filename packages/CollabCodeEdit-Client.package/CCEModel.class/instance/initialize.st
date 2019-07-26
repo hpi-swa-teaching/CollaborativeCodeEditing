@@ -1,16 +1,11 @@
 initialize-release
 initialize
 	super initialize.
-	self createSessionModel: CCECreateSessionModel new;
+	
+	self 
+	    createSessionModel: CCECreateSessionModel new;	
 		account: CCEAccount new;
-		joinSessionModel: CCEJoinSessionModel new;
-		leaveSessionModel: CCELeaveSessionModel new;
-		client: (CCEClient default 
-				model: self;
-				yourself);
-		session: (CCESession default 
-				client: self client;
-				yourself).
-	self session 
-		addStatusSubscriber: self;
-		localAccount: self account
+		client: CCEClient default;
+		session: CCESession default;
+		sessionSetUp;
+		clientSetUp

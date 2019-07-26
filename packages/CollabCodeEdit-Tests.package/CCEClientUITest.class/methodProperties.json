@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 7/26/2019 15:37",
+		"setUp" : "SS 7/22/2019 11:03",
+		"testNoRemoteSessionIsLoaded" : "SS 7/22/2019 11:13",
 		"testServerURIDefaultsToDefaultServerURI" : "SS 7/1/2019 11:00",
 		"testSettingServerURISetsServerURIInClient" : "SS 7/1/2019 10:55" } }

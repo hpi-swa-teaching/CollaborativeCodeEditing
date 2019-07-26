@@ -12,6 +12,8 @@ setUp
 	client socket: networkInterface.
 	
 	model client: client.
+	model client addStatusSubscriber: model.
+	model client connected: true.
 	model session: session. 
 	model account: imageAccount.
 	model session addStatusSubscriber: model.

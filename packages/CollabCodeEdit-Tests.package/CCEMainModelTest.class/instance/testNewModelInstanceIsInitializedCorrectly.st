@@ -5,8 +5,6 @@ testNewModelInstanceIsInitializedCorrectly
 	modelTemp := CCEModel new.
 	
 	self assert: (modelTemp createSessionModel isKindOf: CCECreateSessionModel).
-	self assert: (modelTemp joinSessionModel isKindOf: CCEJoinSessionModel).
-	self assert: (modelTemp leaveSessionModel isKindOf: CCELeaveSessionModel).
 	self assert: (CCEClient default) equals: modelTemp client.
 	self assert: (CCESession default) equals: modelTemp session. 
 	self assert: CCEClient default model equals: modelTemp.

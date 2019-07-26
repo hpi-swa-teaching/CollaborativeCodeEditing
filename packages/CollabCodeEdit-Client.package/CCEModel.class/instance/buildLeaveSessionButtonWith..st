@@ -4,7 +4,7 @@ buildLeaveSessionButtonWith: aBuilder
 		model: self;
 		label: self class leaveButtonLabel;
 		action: #actionLeaveSession;
-		enabled: #sessionIsLoaded;
+		enabled: #serverConnectionAndRemoteSession;
 		frame:  (LayoutFrame new
 				topFraction: 0;
 				bottomFraction: 0.1;
