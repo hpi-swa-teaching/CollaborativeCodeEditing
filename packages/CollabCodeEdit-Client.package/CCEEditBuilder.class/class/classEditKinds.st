@@ -6,4 +6,4 @@ classEditKinds
 			RecategorizedEvent -> #buildClassModifiedOrAddedEditFrom: .
 			CommentedEvent	-> #buildClassModifiedOrAddedEditFrom: .
 			RemovedEvent	-> #buildClassRemovedEditFrom: .
-			RenamedEvent -> #buildClassRenamedEditFrom:}
+			RenamedEvent -> #buildClassRenamedEditFrom: }

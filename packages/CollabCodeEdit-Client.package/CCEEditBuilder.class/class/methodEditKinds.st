@@ -4,4 +4,4 @@ methodEditKinds
 			ModifiedEvent -> #buildMethodModifiedOrAddedEditFrom: .
 			AddedEvent -> #buildMethodModifiedOrAddedEditFrom: .
 			RemovedEvent -> #buildMethodRemovedEditFrom: .
-			RecategorizedEvent -> #buildMethodRecategorizedEditFrom:}
+			RecategorizedEvent -> #buildMethodRecategorizedEditFrom: }

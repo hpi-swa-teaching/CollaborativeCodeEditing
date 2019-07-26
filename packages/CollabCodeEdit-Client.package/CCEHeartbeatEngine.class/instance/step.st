@@ -1,3 +1,3 @@
 stepping and presenter
 step
-	self client sendMessage: CCEMessage heartbeatEngine.
+	self client sendMessage: CCEMessage heartbeatEngine

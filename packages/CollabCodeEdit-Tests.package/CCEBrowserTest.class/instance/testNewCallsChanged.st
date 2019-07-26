@@ -7,4 +7,3 @@ testNewCallsChanged
 	
 	self assert: (browser isKindOf: Browser).
 	self assert: updatedBy equals: CCEBrowser
-	

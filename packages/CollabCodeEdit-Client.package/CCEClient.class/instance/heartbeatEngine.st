@@ -1,3 +1,7 @@
 accessing
 heartbeatEngine
-	 ^ heartbeatEngine ifNil: [ CCEHeartbeatEngine new client: self; setUp ]
+	 ^ heartbeatEngine ifNil: [ 
+			CCEHeartbeatEngine new 
+				client: self;
+				setUp;
+				yourself ]

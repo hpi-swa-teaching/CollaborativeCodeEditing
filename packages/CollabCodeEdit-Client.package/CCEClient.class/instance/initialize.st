@@ -1,12 +1,12 @@
 initialize-release
 initialize 
 	self 
-		ui: ( CCEClientUI new 
+		ui: (CCEClientUI new 
 			client: self; 
 			serverURI: self class defaultServerURI;
-			yourself );
+			yourself);
 		connected: false;
-		heartbeatEngine: ( CCEHeartbeatEngine new 
+		heartbeatEngine: (CCEHeartbeatEngine new 
 			client: self; 
 			setUp; 
 			yourself)
