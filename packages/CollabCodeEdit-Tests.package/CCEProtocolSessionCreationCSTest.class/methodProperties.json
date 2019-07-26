@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "AD 7/26/2019 15:53",
-		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount" : "AD 7/26/2019 15:53",
-		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "AD 7/26/2019 15:55",
+		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount" : "AD 7/26/2019 18:14",
+		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "AD 7/26/2019 18:15",
 		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "AD 7/26/2019 15:54",
 		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "AD 7/26/2019 15:54",
 		"testCreateSessionSetsStatusToNoRemoteSession" : "AD 7/26/2019 17:37",

@@ -9,9 +9,9 @@ setUp
 	
 	testAckJoinSessionPayload := OrderedDictionary newFrom: {
 			#scope->testPackages .
-			#checksum-> testChecksum .
+			#checksum-> (CCEPackageManager default hashPackages: testPackages).
 			#collaborators -> testPayloadCollaboratorsList .
-			#token -> testToken}.
+			#token -> #testToken}.
 	
 	testCollaboratorsList := OrderedDictionary newFrom: {
 		'aKey' -> (CCECollaborator new identifier: 'aKey'; consistencyState: CCECollaborator isConsistentString) .
