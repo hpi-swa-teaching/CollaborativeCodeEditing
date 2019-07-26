@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AW 7/1/2019 20:19",
+	"commentStamp" : "PB 7/26/2019 14:59",
 	"instvars" : [
 		"editContent",
-		"editID",
 		"package" ],
 	"name" : "CCEEdit",
 	"pools" : [

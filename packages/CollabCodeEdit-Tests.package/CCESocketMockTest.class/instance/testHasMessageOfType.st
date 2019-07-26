@@ -6,4 +6,4 @@ testHasMessageOfType
 	
 	socketMock send: testMessage serialize.
 	
-	self assert: (socketMock hasMessageOfType: (CCEMessage serverMessageTypes at: #ackJoinSession:))
+	self assert: (socketMock hasMessageOfType: #ackJoinSession:)
