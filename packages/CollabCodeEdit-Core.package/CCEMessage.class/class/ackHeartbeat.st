@@ -1,4 +1,5 @@
 server-Message creation
 ackHeartbeat
-	^ self new: (CCEMessage serverMessageTypes at: #ackHeartbeat:) 
-			with: ( OrderedDictionary new ).
+	^ self
+		new: #ackHeartbeat:
+		with: nil

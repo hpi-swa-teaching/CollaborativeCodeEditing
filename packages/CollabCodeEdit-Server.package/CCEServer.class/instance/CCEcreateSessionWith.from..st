@@ -1,10 +1,11 @@
-request handling
-CCEcreateSessionWith: anOrderedDictionary from: aClient
+actions
+CCEcreateSessionWith: anOrderedDictionary from: aCCERemoteClient
 	| sessionToken |
 
-	aClient identifier: (anOrderedDictionary at: #id).
-	sessionToken := (self createSessionWith: anOrderedDictionary)
-		addCreator: aClient;
-		token.  
+	aCCERemoteClient identifier: (anOrderedDictionary at: #id).
+	sessionToken := (self
+		createSessionWith: anOrderedDictionary
+		andCreator: aCCERemoteClient)
+			token.
 
-	aClient sendMessage: (CCEMessage ackCreateSession: sessionToken)
+	aCCERemoteClient sendMessage: (CCEMessage ackCreateSession: sessionToken)

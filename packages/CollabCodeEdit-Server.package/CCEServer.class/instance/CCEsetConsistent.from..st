@@ -1,4 +1,6 @@
-request handling
-CCEsetConsistent: anOrderedDictionary from: aClient
-	aClient session broadcastMessage: (CCEMessage setOtherUser: (aClient identifier) consistent:
-		(anOrderedDictionary at: #isConsistent))
+actions
+CCEsetConsistent: anOrderedDictionary from: aCCERemoteClient
+	aCCERemoteClient session broadcastMessage:
+		(CCEMessage
+			setOtherUser: aCCERemoteClient identifier
+			consistent: (anOrderedDictionary at: #isConsistent))

@@ -17,7 +17,7 @@ testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPay
 		
 	server onMessage: joinSessionMessage serialize from: client2.
 	
-	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMessageTypes at: #ackJoinSession:)).
+	self assert: (networkInterface2 hasMessageOfType: #ackJoinSession:).
 	
 	self assert: (IdentityDictionary newFrom: expectedPayload)
 		 equals: (networkInterface2 messages at: expectedMessage serialize) payload

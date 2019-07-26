@@ -7,4 +7,4 @@
 		"subClassSpecificTearDown" : "SS 6/23/2019 15:39",
 		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "MS 7/1/2019 16:33",
 		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "MS 7/1/2019 16:33",
-		"testUpdateSelectionTriggersChangeSelectionMessage" : "MS 7/1/2019 16:26" } }
+		"testUpdateSelectionTriggersChangeSelectionMessage" : "PB 7/26/2019 08:57" } }
