@@ -71,3 +71,5 @@ Currently, the deployment agent supports the following routes (all methods are a
 - `/update/:commitHash` - Updates the server to the specified commit
 - `/deploy` - Stops, updates & restarts the application server (see `/update`)
 - `/deploy/:commitHash` - Stops, updates & restarts the application server to the specified commit (see `/update/:commitHash`)
+
+The user name and password required for API interactions can also be configured over the environment (using e.g. the `.env` file).
