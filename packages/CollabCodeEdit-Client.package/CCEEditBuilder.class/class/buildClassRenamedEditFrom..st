@@ -4,4 +4,5 @@ buildClassRenamedEditFrom: anEvent
 		oldName: anEvent oldName;
 		newName: anEvent newName;
 		renamedClass: anEvent item;
-		package: (PackageOrganizer default packageOfClass: anEvent item)
+		package: (PackageOrganizer default packageOfClass: anEvent item);
+		yourself

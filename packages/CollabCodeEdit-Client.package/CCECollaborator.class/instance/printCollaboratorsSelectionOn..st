@@ -5,4 +5,4 @@ printCollaboratorsSelectionOn: aStream
 	(self currentSelectionAsDictionary at: #classSelection) asString 
 		ifNotNil: [ :classSelection | aStream nextPutAll: '>>' , classSelection ].
 	(self currentSelectionAsDictionary at: #methodSelection) asString 
-		ifNotNil: [ :methodSelection |	aStream nextPutAll: '>>', methodSelection ]
+		ifNotNil: [ :methodSelection | aStream nextPutAll: '>>', methodSelection ]

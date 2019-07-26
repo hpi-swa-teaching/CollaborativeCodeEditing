@@ -1,6 +1,7 @@
 services
 reset
-	self checksum: nil;
+	self
+		checksum: nil;
 		scope: nil;
 		token: nil;
 		removeAllCollaborators.

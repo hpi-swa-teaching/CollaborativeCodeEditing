@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	
 	self 
-	    createSessionModel: CCECreateSessionModel new;	
+		createSessionModel: CCECreateSessionModel new;	
 		account: CCEAccount new;
 		client: CCEClient default;
 		session: CCESession default;

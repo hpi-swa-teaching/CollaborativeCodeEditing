@@ -4,5 +4,5 @@ buildWith: aBuilder
 		model: self;
 		label: CCECreateSessionModel defaultLabel;
 		extent: CCECreateSessionModel defaultExtent;
-		children: { self buildPackagesList: aBuilder . self buildNextButton: aBuilder};
+		children: { self buildPackagesList: aBuilder . self buildNextButton: aBuilder };
 		yourself)

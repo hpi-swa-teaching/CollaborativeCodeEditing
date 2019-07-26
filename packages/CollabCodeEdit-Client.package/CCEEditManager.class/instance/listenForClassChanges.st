@@ -3,4 +3,4 @@ listenForClassChanges
 	self supportedClassChanges do: [ :changeKind |
 		SystemChangeNotifier uniqueInstance 
 			notify: self ofSystemChangesOfItem: #class change: changeKind 
-				using: #classEdited:]
+				using: #classEdited: ]

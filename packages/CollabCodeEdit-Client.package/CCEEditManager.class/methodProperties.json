@@ -12,7 +12,7 @@
 		"isInScope:" : "SS 7/8/2019 11:52",
 		"listenForChanges" : "SS 7/8/2019 13:11",
 		"listenForChangesInScope:for:" : "AW 6/29/2019 16:14",
-		"listenForClassChanges" : "AW 7/24/2019 20:42",
+		"listenForClassChanges" : "PB 7/26/2019 21:50",
 		"listenForMethodChanges" : "AW 7/26/2019 13:49",
 		"methodEdited:" : "AD 7/23/2019 13:55",
 		"scope" : "AW 6/29/2019 16:12",
@@ -21,5 +21,5 @@
 		"shouldBeIgnored:" : "AW 6/23/2019 18:35",
 		"stopIgnoringEdit:" : "AD 6/24/2019 11:15",
 		"stopListeningForChanges" : "AW 6/29/2019 16:15",
-		"supportedClassChanges" : "AW 7/24/2019 20:41",
-		"supportedMethodChanges" : "AW 7/24/2019 20:39" } }
+		"supportedClassChanges" : "PB 7/26/2019 21:51",
+		"supportedMethodChanges" : "PB 7/26/2019 21:51" } }

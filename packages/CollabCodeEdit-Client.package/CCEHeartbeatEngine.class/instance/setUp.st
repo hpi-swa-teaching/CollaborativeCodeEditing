@@ -1,3 +1,6 @@
 setup
 setUp
-	self visible: false; openInWorld; stopStepping
+	self
+		visible: false;
+		openInWorld;
+		stopStepping

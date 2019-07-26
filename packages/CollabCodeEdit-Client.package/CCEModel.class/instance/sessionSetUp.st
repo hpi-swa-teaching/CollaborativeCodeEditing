@@ -1,6 +1,7 @@
 initialize-release
 sessionSetUp
-	self session 
+	self
+		session 
 		client: self client;
 		addStatusSubscriber: self;
 		addStatusSubscriber: self client clientUI;

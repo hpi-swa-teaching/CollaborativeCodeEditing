@@ -5,7 +5,7 @@ buildButtonsWith: aBuilder
 	buttons := OrderedCollection newFrom: { 
 		self buildCreateSessionButtonWith: aBuilder .
 		self buildJoinSessionButtonWith: aBuilder .
-		self buildLeaveSessionButtonWith: aBuilder}.
+		self buildLeaveSessionButtonWith: aBuilder }.
 			
 	self sessionCtrlButtons: buttons clone.
 	

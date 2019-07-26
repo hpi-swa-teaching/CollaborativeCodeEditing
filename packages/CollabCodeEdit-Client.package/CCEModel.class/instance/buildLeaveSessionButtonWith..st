@@ -5,9 +5,9 @@ buildLeaveSessionButtonWith: aBuilder
 		label: self class leaveButtonLabel;
 		action: #actionLeaveSession;
 		enabled: #serverConnectionAndRemoteSession;
-		frame:  (LayoutFrame new
-				topFraction: 0;
-				bottomFraction: 0.1;
-				leftFraction: 0.66;
-				rightFraction: 1;
-				yourself)
+		frame: (LayoutFrame new
+			topFraction: 0;
+			bottomFraction: 0.1;
+			leftFraction: 0.66;
+			rightFraction: 1;
+			yourself)

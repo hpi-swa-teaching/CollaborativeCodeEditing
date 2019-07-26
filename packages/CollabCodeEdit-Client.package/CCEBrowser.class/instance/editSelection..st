@@ -1,5 +1,6 @@
 accessing
 editSelection: aSelection
 	editSelection := aSelection.
-	self changed: #editSelection;
-	changed: self
+	self
+		changed: #editSelection;
+		changed

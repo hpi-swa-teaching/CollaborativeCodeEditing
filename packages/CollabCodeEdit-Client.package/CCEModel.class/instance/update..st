@@ -1,5 +1,5 @@
 updating
 update: aStatus
-	self 
-	    changed: #serverConnectionAndNoRemoteSession;
-	    changed: #serverConnectionAndRemoteSession
+	self
+		changed: #serverConnectionAndNoRemoteSession;
+		changed: #serverConnectionAndRemoteSession

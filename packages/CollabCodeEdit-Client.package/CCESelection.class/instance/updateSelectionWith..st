@@ -5,4 +5,5 @@ updateSelectionWith: aBrowser
 		classSelection: aBrowser selectedClassName;
 		methodSelection: aBrowser selectedMessageName.
 		
-	self client sendMessage: (CCEMessage changeSelectionWith: self createSelectionPayload)
+	self client sendMessage: (CCEMessage changeSelectionWith:
+		self createSelectionPayload)
