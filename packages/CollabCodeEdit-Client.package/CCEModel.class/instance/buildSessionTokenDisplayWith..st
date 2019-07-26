@@ -9,4 +9,5 @@ buildSessionTokenDisplayWith: aBuilder
 			bottomFraction: 0.15;
 			leftFraction: 0;
 			rightFraction: 1;
-			yourself)
+			yourself);
+		yourself

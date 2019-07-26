@@ -9,4 +9,5 @@ buildGlobalStateAccountDisplayWith: aBuilder
 			bottomFraction: 1;
 			leftFraction: 0;
 			rightFraction: 1;
-			yourself)
+			yourself);
+		yourself

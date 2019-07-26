@@ -10,4 +10,5 @@ buildServerAdressFieldWith: aBuilder
 			bottomFraction: 0.95;
 			leftFraction: 0.33;
 			rightFraction: 1;
-			yourself)
+			yourself);
+		yourself
