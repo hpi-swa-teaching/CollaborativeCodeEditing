@@ -12,7 +12,7 @@ testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession
 	
 	server onMessage: setConsistentMessage serialize from: client2.
 	
-	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMessageTypes at: #setOtherUserConsistent:)).
+	self assert: (networkInterface1 hasMessageOfType: #setOtherUserConsistent:).
 	
 	networkInterface1 clear.
 	networkInterface2 clear.
@@ -21,5 +21,5 @@ testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession
 	
 	server onMessage: setConsistentMessage serialize from: client3.
 	
-	self assert: (networkInterface1 hasMessageOfType: (CCEMessage serverMessageTypes at: #setOtherUserConsistent:)).
-	self assert: (networkInterface2 hasMessageOfType: (CCEMessage serverMessageTypes at: #setOtherUserConsistent:))
+	self assert: (networkInterface1 hasMessageOfType: #setOtherUserConsistent:).
+	self assert: (networkInterface2 hasMessageOfType: #setOtherUserConsistent:)
