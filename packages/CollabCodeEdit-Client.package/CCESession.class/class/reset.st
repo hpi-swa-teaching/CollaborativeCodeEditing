@@ -1,5 +1,5 @@
 instance creation
 reset
-	instance reset
+	instance := self new
 	
 	

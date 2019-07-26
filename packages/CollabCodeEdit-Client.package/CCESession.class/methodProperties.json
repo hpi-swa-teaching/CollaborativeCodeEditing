@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"default" : "PB 7/26/2019 22:10",
-		"reset" : "AW 6/1/2019 23:06" },
+		"reset" : "PB 7/26/2019 22:23" },
 	"instance" : {
 		"activateSelectionListener" : "PB 7/26/2019 22:03",
 		"addCollaborator:withKey:" : "PB 7/26/2019 22:03",
