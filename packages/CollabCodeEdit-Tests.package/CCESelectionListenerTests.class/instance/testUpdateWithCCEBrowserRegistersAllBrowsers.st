@@ -1,4 +1,10 @@
 tests
 testUpdateWithCCEBrowserRegistersAllBrowsers
-	selectionListener update: CCEBrowser
+	| browser |
 	
+	browser := CCEBrowser new.
+	
+	selectionListener 
+		currentSelection: CCESelectionMock new;
+		update: browser.
+	self assert: (selectionListener currentSelection hasMessage: browser)

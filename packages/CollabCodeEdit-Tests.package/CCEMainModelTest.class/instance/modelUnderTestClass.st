@@ -1,3 +1,3 @@
 running
 modelUnderTestClass
-	^ CCEModel new class
+	^ CCEModel
