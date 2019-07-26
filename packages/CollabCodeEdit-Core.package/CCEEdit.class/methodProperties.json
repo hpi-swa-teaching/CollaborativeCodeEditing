@@ -1,16 +1,12 @@
 {
 	"class" : {
-		"newWith:" : "SS 7/7/2019 11:31" },
+		"newWith:" : "PB 7/26/2019 14:28" },
 	"instance" : {
 		"=" : "SS 7/8/2019 09:16",
 		"apply" : "AW 6/22/2019 23:57",
 		"editContent" : "AD 6/15/2019 15:20",
-		"editContent:" : "AD 6/15/2019 15:20",
-		"editID" : "AW 7/1/2019 20:18",
-		"editID:" : "AW 7/1/2019 20:21",
-		"editType" : "AD 6/15/2019 15:20",
-		"editType:" : "AW 6/16/2019 15:57",
-		"initialize" : "AW 7/1/2019 20:21",
+		"editContent:" : "PB 7/25/2019 18:17",
+		"hash" : "PB 7/26/2019 14:28",
 		"mayBeAppliedIn:" : "AW 6/23/2019 17:50",
 		"package" : "SS 7/8/2019 09:30",
 		"package:" : "AD 7/14/2019 17:42",

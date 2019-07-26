@@ -1,3 +1,5 @@
 server-Message creation
 ackJoinSessionWith: anOrderedDictionary
-	^ self new: (CCEMessage serverMessageTypes at: #ackJoinSession:) with: anOrderedDictionary
+	^ self
+		new: #ackJoinSession:
+		with: anOrderedDictionary
