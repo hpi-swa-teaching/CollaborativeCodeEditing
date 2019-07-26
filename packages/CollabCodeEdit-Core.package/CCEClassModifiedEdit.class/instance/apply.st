@@ -1,4 +1,5 @@
 applying
 apply
-	self applySmalltalkClassDefinitionFrom: self editContent;
+	self
+		applySmalltalkClassDefinitionFrom: self editContent;
 		applyCommentFrom: self editContent

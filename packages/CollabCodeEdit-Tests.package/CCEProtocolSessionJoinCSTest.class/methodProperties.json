@@ -12,4 +12,4 @@
 		"testAckJoinSessionNoCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsNotClear" : "SS 6/20/2019 14:11",
 		"testAckJoinSessionNoCleanStateSendsSetConsistentFalseToServerAndSetsStatusToDirtyRemoteSession" : "SS 6/19/2019 12:01",
 		"testJoinSessionSetsStatusToNoRemoteSession" : "SS 6/3/2019 11:48",
-		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "MS 6/14/2019 09:13" } }
+		"testJoinSessionShouldSendAJoinSessionMessageWithCorrectToken" : "SS 7/21/2019 18:30" } }

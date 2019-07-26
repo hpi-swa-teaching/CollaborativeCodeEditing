@@ -4,8 +4,8 @@
 	"instance" : {
 		"subClassSpecificSetUp" : "SS 6/10/2019 19:13",
 		"subClassSpecificTearDown" : "SS 6/23/2019 15:55",
-		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "AW 6/29/2019 23:35",
-		"testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser" : "AW 6/29/2019 23:35",
+		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "PB 7/26/2019 08:59",
+		"testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser" : "PB 7/26/2019 08:59",
 		"testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession" : "SS 6/10/2019 19:14",
-		"testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError" : "AW 6/29/2019 23:35",
+		"testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError" : "PB 7/26/2019 08:59",
 		"testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession" : "SS 6/10/2019 19:14" } }
