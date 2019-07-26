@@ -1,9 +1,10 @@
 running
 setUp
+	sessionScope := #( 'CollabCodeEdit-Tests' ).
 	packageManager := CCEPackageManager new.
 	session := CCESession new.
 	session 
-		scope: self sessionScope;
+		scope: sessionScope;
 		client: CCEClientMock new.
 	testClass :=  CCETestDummy.
 	testMethod := #testMethodNotify

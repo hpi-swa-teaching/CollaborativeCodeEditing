@@ -25,5 +25,5 @@
 		"testSetClearSessionShouldFillSessionAndSetStatusToCleanRemoteSession" : "AW 6/18/2019 10:46",
 		"testSetConsistencyStateOfCollaborator" : "SS 6/22/2019 15:09",
 		"testSetDirtySessionShouldFillSessionAndSetStatusToDirtyRemoteSession" : "AW 6/1/2019 23:07",
-		"testSetSelectionOfCollaborator" : "MS 7/1/2019 16:32",
+		"testSetSelectionOfCollaborator" : "AD 7/26/2019 20:59",
 		"testStatusIsOfTypeCCESessionStatus" : "SS 5/29/2019 23:04" } }
