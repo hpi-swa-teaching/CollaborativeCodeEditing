@@ -1,4 +1,6 @@
-event handling
-onClose: aSocket
-	Transcript cr; show: 'Closing ', aSocket.
-	self removeClient: aSocket
+request handling
+onClose: aCCERemoteClient
+	aCCERemoteClient session ifNotNil: [ :session | session
+		removeClient: aCCERemoteClient ].
+
+	self removeClient: aCCERemoteClient

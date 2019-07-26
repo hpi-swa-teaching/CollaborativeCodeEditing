@@ -4,14 +4,17 @@
 		"instance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "AD 7/25/2019 14:18",
 	"instvars" : [
 		"scope",
 		"checksum",
 		"token",
 		"client",
 		"collaborators",
-		"status" ],
+		"status",
+		"selectionListener",
+		"editManager",
+		"localAccount" ],
 	"name" : "CCESession",
 	"pools" : [
 		 ],

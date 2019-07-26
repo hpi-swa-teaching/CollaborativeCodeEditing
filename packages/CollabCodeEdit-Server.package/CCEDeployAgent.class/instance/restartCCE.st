@@ -1,0 +1,3 @@
+actions
+restartCCE
+	CCEServer restart

@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PB 7/26/2019 14:46",
+	"instvars" : [
+		 ],
+	"name" : "CCEMethodAddedOrModifiedEdit",
+	"pools" : [
+		 ],
+	"super" : "CCEMethodEdit",
+	"type" : "normal" }

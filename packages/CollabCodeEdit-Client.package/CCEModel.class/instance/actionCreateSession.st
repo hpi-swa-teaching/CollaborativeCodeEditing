@@ -1,7 +1,8 @@
 actions
 actionCreateSession
-	self createSessionModel 
-		packagesList: CCEPackageManager new listAvailablePackages;
+	self
+		createSessionModel 
+		packagesList: CCEPackageHasher listAvailablePackages;
 		parentModel: self.
 	^ ToolBuilder open: self createSessionModel
 	

@@ -1,3 +1,4 @@
 initialize-release
 initialize
-	TheWorldMenu registerOpenCommand: {CCEModel defaultApplicationLabel. {self. #open}}
+	TheWorldMenu registerOpenCommand: {
+		CCEModel defaultApplicationLabel . { self . #open }}

@@ -1,3 +1,4 @@
+initialize-release
 initialize
-initialize
+	super initialize.
 	self messages: OrderedDictionary new

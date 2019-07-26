@@ -1,0 +1,18 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SS 7/7/2019 09:48",
+	"instvars" : [
+		"categorySelection",
+		"classSelection",
+		"methodSelection",
+		"client",
+		"localAccount" ],
+	"name" : "CCESelection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

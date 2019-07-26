@@ -1,14 +1,8 @@
 tests
 testSetDirtySessionShouldFillSessionAndSetStatusToDirtyRemoteSession
-	| expectedScope expectedChecksum | 
-	
-	expectedScope := #('Signals') .
-	expectedChecksum := 42.
-	
 	session reset.
+	session setDirtySessionWith: #('Signals') and: 42.
 	
-	session setDirtySessionWith: expectedScope and: 42.
-	
-	self assert: expectedScope equals: session scope.
-	self assert: expectedChecksum equals: session checksum.
+	self assert: #('Signals') equals: session scope.
+	self assert: 42 equals: session checksum.
 	self assert: (session status name) equals: CCESessionStatus dirtyRemoteSession

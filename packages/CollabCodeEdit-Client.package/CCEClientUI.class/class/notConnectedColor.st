@@ -1,0 +1,3 @@
+constants
+notConnectedColor
+	^  Color orange

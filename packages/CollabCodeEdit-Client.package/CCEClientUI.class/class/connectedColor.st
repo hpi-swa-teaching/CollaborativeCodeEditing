@@ -1,0 +1,3 @@
+constants
+connectedColor
+	^ Color green

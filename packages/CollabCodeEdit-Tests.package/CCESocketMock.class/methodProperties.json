@@ -2,13 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"clear" : "AW 6/1/2019 23:31",
 		"close" : "AW 6/1/2019 23:31",
-		"hasMessage:" : "AW 6/1/2019 23:32",
-		"hasMessageOfType:" : "AW 6/1/2019 23:32",
-		"initialize" : "AW 6/1/2019 23:32",
-		"messageOfType:" : "AW 6/1/2019 23:33",
-		"messages" : "ST 5/25/2019 17:40",
-		"messages:" : "AW 6/1/2019 23:33",
+		"hasMessage:" : "AW 6/29/2019 23:39",
+		"hasMessageOfType:" : "AW 6/23/2019 11:50",
+		"initialize" : "AD 7/26/2019 17:23",
 		"send:" : "SS 5/27/2019 15:29",
 		"singleMessage" : "AW 6/1/2019 23:34" } }

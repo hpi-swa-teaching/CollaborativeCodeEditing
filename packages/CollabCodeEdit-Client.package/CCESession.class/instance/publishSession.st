@@ -1,7 +1,5 @@
 request-sending
 publishSession
-	| message | 
-	
-	message := CCEMessage createSessionWith: self createSessionPayload.	
-	self client sendMsg: message.
-	self status setToNoRemoteSession
+	self client sendMessage: (CCEMessage createSessionWith: self createSessionPayload).
+	self status setToNoRemoteSession.
+	self editManager listenForChangesInScope: self scope for: self client

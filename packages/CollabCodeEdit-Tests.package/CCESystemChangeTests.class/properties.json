@@ -1,0 +1,18 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sessionScope",
+		"packageManager",
+		"testClass",
+		"testMethod",
+		"session" ],
+	"name" : "CCESystemChangeTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"connectAction" : "SS 7/1/2019 10:31",
+		"connectedColor" : "SS 7/1/2019 14:37",
+		"disconnectAction" : "SS 7/1/2019 11:04",
+		"notConnectedColor" : "SS 7/1/2019 14:37" },
+	"instance" : {
+		"client" : "SS 7/1/2019 10:23",
+		"client:" : "SS 7/1/2019 10:23",
+		"noRemoteSessionIsLoaded" : "MS 7/25/2019 10:31",
+		"serverURI" : "SS 7/1/2019 14:36",
+		"serverURI:" : "SS 7/1/2019 10:49",
+		"session" : "SS 7/22/2019 11:03",
+		"session:" : "SS 7/22/2019 11:04",
+		"setToConnected" : "PB 7/26/2019 21:48",
+		"setToDisconnected" : "PB 7/26/2019 21:48",
+		"statusAction" : "AW 7/24/2019 21:18",
+		"statusAction:" : "SS 7/1/2019 10:33",
+		"statusColor" : "AW 7/24/2019 21:19",
+		"statusColor:" : "SS 7/1/2019 10:33",
+		"toggleClientConnection" : "PB 7/26/2019 21:49",
+		"update:" : "SS 7/22/2019 11:07" } }

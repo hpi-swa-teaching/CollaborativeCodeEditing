@@ -8,16 +8,15 @@ setUp
 	
 	client socket: networkInterface.
 	
+	imageAccount := CCEAccount new humanReadableName: 'SS'.
+	
 	model client: client.
+	model client addStatusSubscriber: model.
+	model client connected: true.
 	model session: session. 
 	model session addStatusSubscriber: model.
 	session client: model client.
+	model account: imageAccount.
+	session localAccount: model account.
 	
-	testPackages := #('Signals').
-	testToken := #testToken.
-	testSessionPayload := OrderedDictionary newFrom: {
-		#scope -> testPackages . 
-		#checksum -> (CCEPackageManager default hashPackages: testPackages)}.
-		
-	testAckSessionPayload := OrderedDictionary newFrom: {
-		#token -> #testToken}
+	testPackages := #('Traits')

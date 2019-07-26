@@ -1,0 +1,3 @@
+accessing
+currentSelectionAsDictionary: anOrderedDictionary
+	currentSelectionAsDictionary := anOrderedDictionary

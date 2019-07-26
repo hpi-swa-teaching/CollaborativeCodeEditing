@@ -1,0 +1,15 @@
+{
+	"category" : "CollabCodeEdit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testClassName",
+		"testClassDefinition" ],
+	"name" : "CCEClassEditTest",
+	"pools" : [
+		 ],
+	"super" : "CCESystemChangeTests",
+	"type" : "normal" }

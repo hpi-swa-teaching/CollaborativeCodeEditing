@@ -1,0 +1,3 @@
+edit ignoring
+stopListeningForChanges
+	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self

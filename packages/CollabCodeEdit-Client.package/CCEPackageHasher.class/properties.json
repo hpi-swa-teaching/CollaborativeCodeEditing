@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AW 7/25/2019 21:47",
+	"instvars" : [
+		 ],
+	"name" : "CCEPackageHasher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

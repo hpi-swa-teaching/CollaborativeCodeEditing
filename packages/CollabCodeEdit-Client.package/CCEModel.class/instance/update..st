@@ -1,4 +1,5 @@
-requests backend
+updating
 update: aStatus
-	self changed: #noSessionIsLoaded.
-	self changed: #sessionIsLoaded
+	self
+		changed: #serverConnectionAndNoRemoteSession;
+		changed: #serverConnectionAndRemoteSession

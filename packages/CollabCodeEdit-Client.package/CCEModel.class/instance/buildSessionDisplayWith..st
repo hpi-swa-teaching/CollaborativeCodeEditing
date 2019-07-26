@@ -1,6 +1,6 @@
 building
 buildSessionDisplayWith: aBuilder
-	^ OrderedCollection newFrom:{ 
+	^ OrderedCollection newFrom: { 
 		self buildSessionScopeDisplayWith: aBuilder .
 		self buildSessionCollaboratorsDisplayWith: aBuilder .
-		self buildSessionTokenDisplayWith: aBuilder}
+		self buildSessionTokenDisplayWith: aBuilder }

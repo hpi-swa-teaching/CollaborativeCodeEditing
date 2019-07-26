@@ -1,3 +1,3 @@
 accessing
-initialChecksum: anObject
-	initialChecksum := anObject
+initialChecksum: aNumber
+	initialChecksum := aNumber

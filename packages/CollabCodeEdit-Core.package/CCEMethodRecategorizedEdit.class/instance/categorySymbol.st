@@ -1,0 +1,3 @@
+constants
+categorySymbol
+	^ #category

@@ -1,4 +1,4 @@
 accessing
 humanReadableName
 	^ humanReadableName ifNil: [ 
-		humanReadableName := Utilities authorInitials]
+		humanReadableName := Utilities authorInitials ]

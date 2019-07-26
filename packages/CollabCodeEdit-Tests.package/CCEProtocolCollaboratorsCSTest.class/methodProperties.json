@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testNewUserAddsCollaboratorToListWithCorrectIdentifier" : "AD 7/26/2019 22:15",
+		"testSetOtherUserConsistentUpdatesTheConsistencyStateOfTheCollaborator" : "AD 7/26/2019 21:33",
+		"testUserConsistencyStateIsUndefinedAfterAdding" : "AD 7/26/2019 21:29" } }

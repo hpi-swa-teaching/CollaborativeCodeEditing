@@ -1,14 +1,13 @@
 {
 	"category" : "CollabCodeEdit-Core",
 	"classinstvars" : [
-		"clientMsgTypes",
-		"serverMsgTypes" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PB 7/26/2019 14:52",
 	"instvars" : [
-		"type",
-		"payload" ],
+		"payload",
+		"type" ],
 	"name" : "CCEMessage",
 	"pools" : [
 		 ],

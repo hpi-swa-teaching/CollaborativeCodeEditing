@@ -1,4 +1,5 @@
 server-Message creation
 ackCreateSession: aSessionToken
-	^ self new: (CCEMessage serverMsgTypes at: #ackCreateSession:) 
-			with: { #token -> aSessionToken }
+	^ self
+		new: #ackCreateSession:
+		with: { #token -> aSessionToken }

@@ -1,0 +1,17 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AD 7/22/2019 15:42",
+	"instvars" : [
+		"consistencyState",
+		"identifier",
+		"currentSelection",
+		"currentSelectionAsDictionary" ],
+	"name" : "CCECollaborator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

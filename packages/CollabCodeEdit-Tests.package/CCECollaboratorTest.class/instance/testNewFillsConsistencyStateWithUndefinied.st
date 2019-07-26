@@ -1,0 +1,3 @@
+tests
+testNewFillsConsistencyStateWithUndefinied
+	self assert: CCECollaborator isUndefinedString equals: (CCECollaborator new) consistencyState

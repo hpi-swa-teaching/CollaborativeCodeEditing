@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"isConsistentString" : "SS 6/2/2019 19:59",
+		"isNotConsistentString" : "SS 6/2/2019 19:59",
+		"isUndefinedString" : "SS 6/2/2019 20:00",
+		"newFromAccount:" : "SS 6/2/2019 20:08" },
+	"instance" : {
+		"=" : "SS 6/17/2019 18:58",
+		"consistencyState" : "MS 6/2/2019 23:04",
+		"consistencyState:" : "SS 6/20/2019 13:47",
+		"currentSelection" : "MS 6/29/2019 08:03",
+		"currentSelection:" : "AD 7/22/2019 15:37",
+		"currentSelectionAsDictionary" : "PB 7/26/2019 21:50",
+		"currentSelectionAsDictionary:" : "MS 7/1/2019 15:58",
+		"hash" : "AW 7/26/2019 16:18",
+		"identifier" : "MS 6/2/2019 23:04",
+		"identifier:" : "SS 6/20/2019 13:47",
+		"initialize" : "AW 7/24/2019 21:19",
+		"printCollaboratorsInfoOn:" : "SS 7/1/2019 16:27",
+		"printCollaboratorsSelectionOn:" : "PB 7/26/2019 21:50",
+		"printOn:" : "PB 7/26/2019 21:50" } }

@@ -1,3 +1,3 @@
 default
 defaultApplicationExtent
-	^ 300@500
+	^ 300 @ 500

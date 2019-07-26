@@ -1,3 +1,0 @@
-accessing
-leaveSessionModel
-	^ leaveSessionModel

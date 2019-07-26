@@ -1,0 +1,3 @@
+requests backend
+CCEchangeSelection: anOrderedDictionary
+	self session changeSelectionWith: anOrderedDictionary

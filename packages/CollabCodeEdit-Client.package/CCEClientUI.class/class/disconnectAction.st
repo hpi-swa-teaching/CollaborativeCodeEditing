@@ -1,0 +1,3 @@
+constants
+disconnectAction
+	^  'Disconnect'

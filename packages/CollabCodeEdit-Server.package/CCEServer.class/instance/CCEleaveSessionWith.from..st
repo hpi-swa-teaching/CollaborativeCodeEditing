@@ -1,10 +1,10 @@
-request handling
-CCEleaveSessionWith: anOrderedDictionary from: aClient
-	
-	((anOrderedDictionary at: #token) = aClient session token) 
+actions
+CCEleaveSessionWith: anOrderedDictionary from: aCCERemoteClient
+	((anOrderedDictionary at: #token) = aCCERemoteClient session token) 
 		ifTrue: [
-			aClient session removeClient: aClient. 	
-			aClient sendMsg: (CCEMessage ackLeaveSessionWith: anOrderedDictionary) ]
+			aCCERemoteClient session handleDeleteUser: aCCERemoteClient.	
+			aCCERemoteClient sendMessage:
+				(CCEMessage ackLeaveSessionWith: anOrderedDictionary) ]
 		ifFalse: [
-			aClient sendMsg: (CCEMessage ackLeaveSessionWithError: {#error -> 'Invalid session token'}) ]
-	
+			aCCERemoteClient sendMessage:
+				(CCEMessage ackLeaveSessionWithError: { #error -> 'Invalid session token' }) ]

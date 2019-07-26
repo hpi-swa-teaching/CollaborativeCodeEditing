@@ -1,3 +1,3 @@
 sending
-send: someData
-	self socket send: someData
+send: aString
+	self socket send: aString

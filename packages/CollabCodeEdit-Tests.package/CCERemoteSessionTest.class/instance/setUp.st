@@ -1,3 +1,3 @@
 running
 setUp
-	remoteSession := CCERemoteSession new
+	remoteSession := CCERemoteSession new scope: #('Morphic'); initialChecksum: 12345; yourself

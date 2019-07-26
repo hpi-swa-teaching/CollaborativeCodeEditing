@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"generateChangeSelectionPayload" : "MS 7/1/2019 16:35",
+		"setUp" : "AD 7/27/2019 00:22",
+		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "AD 7/26/2019 22:16",
+		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "AD 7/26/2019 22:16",
+		"testUpdateSelectionTriggersChangeSelectionMessage" : "AD 7/26/2019 23:24" } }

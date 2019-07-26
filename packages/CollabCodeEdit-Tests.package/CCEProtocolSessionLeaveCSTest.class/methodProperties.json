@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAckLeaveSessionClearsSessionInformation" : "AD 7/26/2019 17:14",
+		"testAckLeaveSessionEnablesCreateSessionAndJoinSessionButtonAndDisablesLeaveSessionButton" : "AD 7/26/2019 17:15",
+		"testAckLeaveSessionSetStatusToNoRemoteSession" : "AD 7/26/2019 17:15",
+		"testDeleteUserInModelRemovesCollaboratorInSession" : "AD 7/26/2019 17:04",
+		"testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus" : "AD 7/26/2019 22:25" } }

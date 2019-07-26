@@ -7,14 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"session",
-		"server",
 		"model",
 		"client",
 		"networkInterface",
 		"testPackages",
-		"testSessionPayload",
-		"testAckSessionPayload",
-		"testToken" ],
+		"imageAccount" ],
 	"name" : "CCEProtocolTestClientside",
 	"pools" : [
 		 ],

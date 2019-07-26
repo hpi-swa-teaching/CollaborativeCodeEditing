@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "AW 7/26/2019 23:07",
 	"instvars" : [
 		"packagesList",
+		"parentModel",
 		"selectedPackagesList" ],
 	"name" : "CCECreateSessionModel",
 	"pools" : [
 		 ],
-	"super" : "CCEChildModel",
+	"super" : "Model",
 	"type" : "normal" }

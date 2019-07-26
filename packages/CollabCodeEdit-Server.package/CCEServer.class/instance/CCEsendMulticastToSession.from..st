@@ -1,3 +1,4 @@
-request handling
-CCEsendMulticastToSession: anOrderedDictionary from: aClient
-	aClient sendMsgToSession: (CCEMessage forwardEditMessage: anOrderedDictionary)
+actions
+CCEsendMulticastToSession: anOrderedDictionary from: aCCERemoteClient
+	aCCERemoteClient sendMessageToSession:
+		(CCEMessage forwardEdit: anOrderedDictionary)

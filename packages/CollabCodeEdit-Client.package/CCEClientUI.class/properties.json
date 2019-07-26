@@ -1,0 +1,18 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AW 7/24/2019 18:38",
+	"instvars" : [
+		"serverURI",
+		"statusColor",
+		"statusAction",
+		"client",
+		"session" ],
+	"name" : "CCEClientUI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
 constants
 leaveButtonLabel
-	^ 'leave Session'
+	^ 'Leave Session'

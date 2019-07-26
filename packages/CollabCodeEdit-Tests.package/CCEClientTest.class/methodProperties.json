@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AW 6/1/2019 23:17",
-		"testDefaultShouldAlwaysReturnTheSameInstance" : "AW 6/1/2019 23:18" } }
+		"setUp" : "SS 6/30/2019 20:21",
+		"testClientDefaultUriIsServerIP" : "AD 7/14/2019 23:42",
+		"testClientHasHeartBeatAndHimselfRegistered" : "AW 7/26/2019 14:24",
+		"testDefaultShouldAlwaysReturnTheSameInstance" : "SS 6/30/2019 20:20",
+		"testclientHeartbeatEngineIsCreatedIfUnset" : "AW 7/26/2019 14:26" } }
