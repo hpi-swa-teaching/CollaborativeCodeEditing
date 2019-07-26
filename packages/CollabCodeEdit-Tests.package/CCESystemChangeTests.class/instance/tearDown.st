@@ -1,3 +1,3 @@
 running
 tearDown
-	testClass removeSelector: testMethod
+	[ testClass removeSelector: testMethod ] ifError: [ ]

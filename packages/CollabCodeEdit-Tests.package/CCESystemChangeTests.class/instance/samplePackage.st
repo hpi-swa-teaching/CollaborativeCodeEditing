@@ -1,3 +1,3 @@
 accessing
-testPackage
+samplePackage
 	^ 	'CollabCodeEdit-Tests'
