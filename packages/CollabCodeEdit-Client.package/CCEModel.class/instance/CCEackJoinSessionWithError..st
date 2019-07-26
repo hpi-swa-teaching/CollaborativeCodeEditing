@@ -1,2 +1,2 @@
 requests backend
-CCEackJoinSessionWithError: aString
+CCEackJoinSessionWithError: anOrderedDictionary

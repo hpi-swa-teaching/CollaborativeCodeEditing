@@ -1,3 +1,0 @@
-defaults
-defaultLabel
-	^ 'Join Session'

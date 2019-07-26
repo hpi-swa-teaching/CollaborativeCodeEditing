@@ -5,7 +5,7 @@ buildServerConnectionButtonWith: aBuilder
 			label: #statusAction;
 			changeLabelWhen: #statusAction:;
 			action: #toggleClientConnection;
-			enabled: true;
+			enabled: #noRemoteSessionIsLoaded;
 			frame:  (LayoutFrame new
 					topFraction: 0.90;
 					bottomFraction: 0.95;

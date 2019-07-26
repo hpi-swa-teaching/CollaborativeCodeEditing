@@ -1,3 +1,0 @@
-constants
-labelLeaveButton	
-	^ 'Leave'
