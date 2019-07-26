@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"session",
-		"server",
-		"testIdentifier",
-		"account",
 		"clientMock",
+		"session",
+		"account",
+		"testIdentifier",
 		"testCollaborator" ],
 	"name" : "CCESessionTest",
 	"pools" : [

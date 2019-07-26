@@ -12,6 +12,6 @@ testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols
 			#methodSelection -> cceSelection methodSelection}) } ).
 	
 	
-	self assert: (  (networkInterface singleMessage payload at: #selection) = (expectedMessage payload at: #selection) ).
+	self assert: (  ( networkInterface singleMessage payload at: #selection) = ( expectedMessage payload at: #selection ) ).
 	
 	networkInterface clear

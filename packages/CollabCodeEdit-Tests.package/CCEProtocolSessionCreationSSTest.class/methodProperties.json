@@ -3,4 +3,4 @@
 		 },
 	"instance" : {
 		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "AW 6/29/2019 23:35",
-		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "AD 7/26/2019 17:25" } }
+		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "AD 7/26/2019 22:01" } }

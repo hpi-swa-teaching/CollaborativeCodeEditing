@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "AW 6/29/2019 23:35",
+		"testLeaveSessionWithCorrectTokenGetsClientBackAckLeaveSession" : "AD 7/26/2019 22:25",
 		"testLeaveSessionWithCorrectTokenGetsClientsBackDeleteUser" : "AW 6/29/2019 23:35",
-		"testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession" : "SS 6/10/2019 19:14",
+		"testLeaveSessionWithCorrectTokenShouldDeleteClientInRemoteSession" : "AD 7/26/2019 22:24",
 		"testLeaveSessionWithNoCorrectTokenGetsClientBackAckLeaveSessionWithError" : "AW 6/29/2019 23:35",
 		"testLeaveSessionWithNoCorrectTokenShouldNotDeleteClientInRemoteSession" : "AD 7/26/2019 20:58" } }

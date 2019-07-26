@@ -1,16 +1,16 @@
 tests backend
 testNewModelInstanceIsInitializedCorrectly
-	| modelTemp | 
+	| temporaryModel | 
 	
-	modelTemp := CCEModel new.
+	temporaryModel := CCEModel new.
 	
-	self assert: (modelTemp createSessionModel isKindOf: CCECreateSessionModel).
-	self assert: (modelTemp joinSessionModel isKindOf: CCEJoinSessionModel).
-	self assert: (modelTemp leaveSessionModel isKindOf: CCELeaveSessionModel).
-	self assert: (CCEClient default) equals: modelTemp client.
-	self assert: (CCESession default) equals: modelTemp session. 
-	self assert: CCEClient default owner equals: modelTemp.
-	self assert: (CCESession default status dependents includes: modelTemp).
-	self assert: (CCEAccount default) equals: modelTemp account.
-	self assert: (modelTemp session imageAccount) equals: modelTemp account
+	self assert: ( temporaryModel createSessionModel isKindOf: CCECreateSessionModel ).
+	self assert: ( temporaryModel joinSessionModel isKindOf: CCEJoinSessionModel ).
+	self assert: ( temporaryModel leaveSessionModel isKindOf: CCELeaveSessionModel ).
+	self assert: ( CCEClient default ) equals: temporaryModel client.
+	self assert: ( CCESession default ) equals: temporaryModel session. 
+	self assert: CCEClient default owner equals: temporaryModel.
+	self assert: ( CCESession default status dependents includes: temporaryModel ).
+	self assert: ( CCEAccount default ) equals: temporaryModel account.
+	self assert: ( temporaryModel session imageAccount) equals: temporaryModel account
 	

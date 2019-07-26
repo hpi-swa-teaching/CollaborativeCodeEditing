@@ -6,6 +6,5 @@ testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChang
 	statusBeforeLeaveAction := session getStatus.
 	
 	model leaveSession.
-	
 	self assert: (networkInterface hasMessage: (CCEMessage leaveSessionWith: 'aTestToken') serialize).
 	self assert: (statusBeforeLeaveAction = session getStatus)
