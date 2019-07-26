@@ -9,9 +9,7 @@ The methods triggered by these requests are in the category "requests backend", 
 Instance Variables
 	account:		aCCEAccout
 	client:		aCCEClient
-	createSessionModel:		<Object>
-	joinSessionModel:		<Object>
-	leaveSessionModel:		<Object>
+	createSessionModel:		aCCECreateSessionModel
 	session:		aCCESession
 	sessionCtrlButtons:		anOrderedCollection
 
@@ -22,13 +20,7 @@ client
 	- Client used to send and receive messages
 
 createSessionModel
-	- xxxxx
-
-joinSessionModel
-	- xxxxx
-
-leaveSessionModel
-	- xxxxx
+	- Model of the dialog, which appears when creating a session
 
 session
 	- Currently active session
