@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	self packageManager: CCEPackageManager default
+	self editManager: CCEEditManager new

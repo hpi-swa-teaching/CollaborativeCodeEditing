@@ -1,9 +1,10 @@
 services
 reset
-	self checksum: nil;
+	self
+		checksum: nil;
 		scope: nil;
 		token: nil;
 		removeAllCollaborators.
-	self packageManager stopListeningForChanges.
+	self editManager stopListeningForChanges.
 	self status setToNoRemoteSession.
 	self deactivateSelectionListener

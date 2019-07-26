@@ -1,9 +1,10 @@
 initialize-release
 sessionSetUp
-	self session 
+	self
+		session 
 		client: self client;
 		addStatusSubscriber: self;
-		addStatusSubscriber: self client ui;
-		imageAccount: self account.
+		addStatusSubscriber: self client clientUI;
+		localAccount: self account.
 		
 	self session status setToNoRemoteSession

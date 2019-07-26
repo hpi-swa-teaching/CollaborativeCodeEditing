@@ -1,4 +1,5 @@
 tests
 testClientHasHeartBeatAndHimselfRegistered
-	self assert: ( client heartbeat isKindOf: CCEClientHeartbeatEngine ).
-	self assert: client equals: client heartbeat client.
+	self 
+		assert: (client heartbeatEngine isKindOf: CCEHeartbeatEngine);
+		assert: client equals: client heartbeatEngine client

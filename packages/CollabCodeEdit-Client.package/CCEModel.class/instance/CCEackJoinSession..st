@@ -1,3 +1,3 @@
 requests backend
 CCEackJoinSession: anOrderedDictionary
-	self session ackJoinSession: anOrderedDictionary
+	self session joinSession: anOrderedDictionary

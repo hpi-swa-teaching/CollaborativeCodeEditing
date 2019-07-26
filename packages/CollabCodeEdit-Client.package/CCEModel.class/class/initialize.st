@@ -1,3 +1,4 @@
 initialize
 initialize
-	TheWorldMenu registerOpenCommand: {self defaultApplicationLabel. {CollaborativeCodeEditing. #open}}
+	TheWorldMenu registerOpenCommand: {
+		self defaultApplicationLabel . { CollaborativeCodeEditing . #open }}

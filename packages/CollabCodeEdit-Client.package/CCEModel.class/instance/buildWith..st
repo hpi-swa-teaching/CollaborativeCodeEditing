@@ -1,9 +1,8 @@
 building
 buildWith: aBuilder
-
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
-		label: CCEModel defaultApplicationLabel;
-		extent: CCEModel defaultApplicationExtent;
+		label: self class defaultApplicationLabel;
+		extent: self class defaultApplicationExtent;
 		children: (self buildChildrenWith: aBuilder);
 		yourself)

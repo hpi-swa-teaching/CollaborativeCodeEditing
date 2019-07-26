@@ -1,3 +1,3 @@
 accessing
 buttonWithLabel: aString
-	self sessionCtrlButtons do: [:button | button label == aString ifTrue: [^ button]].
+	^ self sessionCtrlButtons detect: [ :button | button label == aString ]

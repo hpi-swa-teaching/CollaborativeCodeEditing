@@ -9,5 +9,4 @@ testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload
 				#checksum -> (CCEPackageManager default hashPackages: testPackages) .
 				#id -> imageAccount humanReadableName }) )
 		serialize ).
-	
 	networkInterface clear

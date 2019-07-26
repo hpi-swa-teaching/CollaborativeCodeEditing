@@ -17,6 +17,10 @@ setUp
 	model session addStatusSubscriber: model.
 	session client: model client.
 	model account: imageAccount.
-	session imageAccount: model account.
+	session localAccount: model account.
 	
-	testPackages := #('Traits')
+	testPackages := #('Traits').
+	testToken := #testToken.
+	testChecksum := CCEPackageHasher hashPackages: testPackages.
+		
+	self subClassSpecificSetUp

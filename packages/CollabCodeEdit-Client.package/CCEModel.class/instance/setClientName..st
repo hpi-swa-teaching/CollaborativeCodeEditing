@@ -1,5 +1,3 @@
 requests ui
 setClientName: aString
-	| message |
-	message := CCEMessage setClientName: aString.
-	self client sendMessage: message
+	self client sendMessage: (CCEMessage setClientName: aString)

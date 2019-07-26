@@ -1,3 +1,3 @@
 requests backend
 CCEackLeaveSessionWith: anOrderedDictionary
-	self session ackLeaveSession: anOrderedDictionary
+	self session leaveSession: anOrderedDictionary

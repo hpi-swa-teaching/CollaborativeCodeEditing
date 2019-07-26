@@ -1,3 +1,0 @@
-accessing
-browserModels
-	^ Browser allInstances.

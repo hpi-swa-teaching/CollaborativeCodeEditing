@@ -1,0 +1,14 @@
+{
+	"category" : "CollabCodeEdit-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AD 7/22/2019 16:01",
+	"instvars" : [
+		"client" ],
+	"name" : "CCEHeartbeatEngine",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

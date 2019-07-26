@@ -1,7 +1,7 @@
 running
 setUp
 	sessionScope := #( 'CollabCodeEdit-Tests' ).
-	packageManager := CCEPackageManager new.
+	packageManager := CCEEditManager new.
 	session := CCESession new.
 	session 
 		scope: sessionScope;

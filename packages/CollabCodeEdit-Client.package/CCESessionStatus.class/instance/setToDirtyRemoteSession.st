@@ -1,4 +1,4 @@
 setting
 setToDirtyRemoteSession
-	self name: CCESessionStatus dirtyRemoteSession.
+	self name: self class dirtyRemoteSession.
 	self changed: self

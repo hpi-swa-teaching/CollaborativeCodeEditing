@@ -2,12 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"browserModels" : "MS 7/1/2019 16:07",
 		"currentDefaultBrowserClass" : "SS 6/29/2019 18:36",
 		"currentSelection" : "MS 6/20/2019 14:02",
 		"currentSelection:" : "MS 7/1/2019 16:08",
-		"start" : "SS 6/23/2019 15:00",
-		"step" : "MS 7/1/2019 16:09",
-		"stepTime" : "SS 6/19/2019 11:42",
-		"stop" : "MS 6/30/2019 14:42",
-		"update:" : "MS 7/1/2019 16:07" } }
+		"initialize" : "AW 7/24/2019 21:00",
+		"registerNewBrowser" : "PB 7/26/2019 22:02",
+		"stop" : "AW 7/24/2019 21:23",
+		"update:" : "PB 7/26/2019 22:03" } }
