@@ -10,11 +10,11 @@ All code in it should adhere to our [style guide](https://docs.google.com/docume
 
 If something does not seem to work, try consulting our [FAQ](https://docs.google.com/document/d/1lXzYKoR7LiMkkjJhhem9VC7O6nKe4I4-cIUyLseF06U/edit?usp=sharing).
 
-## Client
+### Client
 
 You can start the collaborative code editing client by clicking the `Collaborative Coding` button in the `Apps` menu.
 
-## Server
+### Server
 
 You can start the application server in your local image by running:
 ```smalltalk
