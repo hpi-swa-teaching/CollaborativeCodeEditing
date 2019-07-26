@@ -22,7 +22,7 @@
 		"testClientDependencyInjectionWithModelInitialization" : "AW 6/1/2019 23:21",
 		"testCreateSessionOpensNewWindowWithCCECreateSessionAsModel" : "SS 5/27/2019 17:10",
 		"testModelUnderstandsButtonsActions" : "SS 5/30/2019 12:24",
-		"testNewModelInstanceIsInitializedCorrectly" : "SS 7/22/2019 12:52",
+		"testNewModelInstanceIsInitializedCorrectly" : "AD 7/26/2019 23:23",
 		"testNoSessionLoadedAndNoServerConnectionEstablished" : "MS 7/25/2019 10:51",
 		"testNoSessionLoadedAndServerConnectionEstablished" : "MS 7/25/2019 10:51",
 		"testSessionCtrlButtonsAreSetAfterBuildingButtons" : "AW 6/1/2019 23:21",

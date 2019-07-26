@@ -6,4 +6,4 @@ testCreateSessionPayload
 	self assert: ( remoteSession createSessionPayload = (OrderedDictionary newFrom: {
 		#scope -> remoteSession scope.
 		#checksum -> remoteSession initialChecksum.
-		#collaborators -> remoteSession createCollaboratorsListWithConsistencys }) )
+		#collaborators -> remoteSession createCollaboratorsListWithConsistencies }) )

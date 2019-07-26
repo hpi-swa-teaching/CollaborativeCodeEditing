@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"testJoinSessionAddsClientToSessionClients" : "AD 7/26/2019 22:21",
-		"testJoinSessionFromClientWithIdentifierAlreadyInUseGetsErrorMessageBack" : "AD 7/26/2019 21:50",
+		"testJoinSessionFromClientWithIdentifierAlreadyInUseGetsErrorMessageBack" : "AD 7/26/2019 23:27",
 		"testJoinSessionNotAddsClientToSessionClientsWithWrongSessionToken" : "AD 7/26/2019 22:21",
 		"testJoinSessionWithCorrectSessionTokenGetsClientBackAckJoinMessageWithCorrectPayload" : "AW 6/29/2019 23:35",
-		"testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession" : "AD 7/26/2019 22:27",
+		"testJoinSessionWithCorrectSessionTokenSendsNewUserToOtherClientsInSession" : "AD 7/26/2019 23:27",
 		"testJoinSessionWithNoCorrectSessionTokenGetsClientBackAckJoinMessage" : "AD 7/26/2019 22:21" } }

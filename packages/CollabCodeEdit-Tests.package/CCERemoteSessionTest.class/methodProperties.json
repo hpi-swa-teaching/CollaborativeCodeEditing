@@ -5,5 +5,5 @@
 		"setUp" : "AD 7/26/2019 20:53",
 		"testAddClientShouldSetSelfAsClientsSession" : "SS 6/3/2019 10:26",
 		"testAddCreatorShouldAddClientToSessionAndSetIsConsistentToTrue" : "AD 7/26/2019 19:08",
-		"testCreateCollaboratorsList" : "AD 7/26/2019 20:55",
-		"testCreateSessionPayload" : "AD 7/26/2019 20:55" } }
+		"testCreateCollaboratorsList" : "AD 7/26/2019 23:27",
+		"testCreateSessionPayload" : "AD 7/26/2019 23:28" } }
