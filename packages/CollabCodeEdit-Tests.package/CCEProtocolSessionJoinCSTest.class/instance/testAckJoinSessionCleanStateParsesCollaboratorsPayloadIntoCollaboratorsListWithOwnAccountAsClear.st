@@ -1,20 +1,12 @@
 requests backend
 testAckJoinSessionCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsClear
-	| ackJoinSessionMessage expectedCollaboratorsList createdCollaboratorsList |
-	
-	ackJoinSessionMessage := CCEMessage ackJoinSessionWith: testAckJoinSessionPayload.
-	expectedCollaboratorsList := testCollaboratorsList.
-	expectedCollaboratorsList at: imageAccount humanReadableName put: (CCECollaborator newFromAccount: imageAccount).
+	| localAccountInSession |
+
+	model receive: (CCEMessage ackJoinSessionWith: testAckJoinSessionPayload) serialize.
+	session collaborators do: [ :collaborator | self assert: (collaborator isKindOf: CCECollaborator) ].
 		
-	model receive: ackJoinSessionMessage serialize.
+	localAccountInSession := (session collaborators detect: 
+			[ :collaborator | collaborator identifier = imageAccount humanReadableName ]).
 	
-	createdCollaboratorsList := session collaborators.
-	expectedCollaboratorsList keys do: [ :key |
-		 self assert: ((createdCollaboratorsList at: key) isKindOf: CCECollaborator) ].
-	self assert: (createdCollaboratorsList anySatisfy: [ :collaborator | 
-		(collaborator identifier = imageAccount humanReadableName) and:
-		 collaborator consistencyState  = CCECollaborator isConsistentString ]).
-	
-	session removeAllCollaborators.
-	
-	networkInterface clear
+	self assert: localAccountInSession notNil.
+	self assert: localAccountInSession consistencyState = CCECollaborator isConsistentString

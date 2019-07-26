@@ -1,16 +1,14 @@
 running
 setUp
 	super setUp.
-
-	testPayloadCollaboratorsList := OrderedCollection newFrom: {
-		OrderedDictionary newFrom: {#id->'aKey' . #isConsistent -> true} .
-		OrderedDictionary newFrom: {#id->'anotherKey' . #isConsistent -> false}.
-		OrderedDictionary newFrom: {#id->'athirdKey' . #isConsistent -> true}}.
 	
 	testAckJoinSessionPayload := OrderedDictionary newFrom: {
 			#scope->testPackages .
 			#checksum-> (CCEPackageManager default hashPackages: testPackages).
-			#collaborators -> testPayloadCollaboratorsList .
+			#collaborators -> ( OrderedCollection newFrom: {
+				OrderedDictionary newFrom: {#id->'aKey' . #isConsistent -> true} .
+				OrderedDictionary newFrom: {#id->'anotherKey' . #isConsistent -> false}.
+				OrderedDictionary newFrom: {#id->'athirdKey' . #isConsistent -> true}}) .
 			#token -> #testToken}.
 	
 	testCollaboratorsList := OrderedDictionary newFrom: {

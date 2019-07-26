@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "SS 6/20/2019 14:16",
+		"setUp" : "AD 7/26/2019 19:17",
 		"testAddClientShouldSetSelfAsClientsSession" : "SS 6/3/2019 10:26",
-		"testAddCreatorShouldAddClientToSessionAndSetIsConsistentToTrue" : "SS 6/3/2019 10:25",
-		"testCreateCollaboratorsList" : "SS 6/20/2019 14:17",
-		"testCreateSessionPayload" : "SS 6/20/2019 14:18" } }
+		"testAddCreatorShouldAddClientToSessionAndSetIsConsistentToTrue" : "AD 7/26/2019 19:08",
+		"testCreateCollaboratorsList" : "AD 7/26/2019 19:10",
+		"testCreateSessionPayload" : "AD 7/26/2019 19:12" } }

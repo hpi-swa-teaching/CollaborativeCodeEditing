@@ -15,8 +15,4 @@ testAckJoinSessionNoCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWit
 		:key | self assert: ((createdCollaboratorsList at: key) isKindOf: CCECollaborator) ].
 	self assert: (createdCollaboratorsList anySatisfy: [ :collaborator | 
 		(collaborator identifier = imageAccount humanReadableName) and:
-		 collaborator consistencyState  = CCECollaborator isNotConsistentString ]).
-	
-	session removeAllCollaborators.
-	
-	networkInterface clear
+		 collaborator consistencyState  = CCECollaborator isNotConsistentString ])

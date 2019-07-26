@@ -1,6 +1,3 @@
 running
 setUp
-	testScope := #('Morphic').
-	testChecksum := 12345.
-	
-	remoteSession := CCERemoteSession new scope: testScope; initialChecksum: testChecksum
+	remoteSession := CCERemoteSession new scope: #('Morphic'); initialChecksum: 12345

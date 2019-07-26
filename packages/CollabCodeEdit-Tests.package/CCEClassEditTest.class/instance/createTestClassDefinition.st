@@ -1,10 +1,9 @@
 running
 createTestClassDefinition
 	testClassName := 'TestCaseGeneratedClass'.
-	testClassSymbol := testClassName asSymbol.
 	testClassDefinition := CCEClassDefinition 
 		superclass: Object 
-		subclass: testClassSymbol
+		subclass: (testClassName asSymbol)
 		instVarNames: '' 
 		classVarNames: '' 
 		poolDictionaries: '' 
