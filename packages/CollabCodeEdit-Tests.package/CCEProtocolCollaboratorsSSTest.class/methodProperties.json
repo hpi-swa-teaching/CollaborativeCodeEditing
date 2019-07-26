@@ -2,5 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"subClassSpecificTearDown" : "SS 6/23/2019 15:55",
-		"testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession" : "PB 7/26/2019 09:00" } }
+		"testSetConsistentSendsSetOtherUserConsistentToOtherClientsInSession" : "AD 7/26/2019 23:24" } }

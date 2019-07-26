@@ -1,6 +1,3 @@
 tests
 testNewFillsConsistencyStateWithUndefinied
-	| createdCCECollaborator | 
-	
-	createdCCECollaborator := CCECollaborator new.
-	self assert: CCECollaborator isUndefinedString equals: createdCCECollaborator consistencyState
+	self assert: CCECollaborator isUndefinedString equals: (CCECollaborator new) consistencyState

@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"testAckJoinSessionPayload",
-		"testPayloadCollaboratorsList",
-		"testCollaboratorsList" ],
+		"testAckJoinSessionPayload" ],
 	"name" : "CCEProtocolSessionJoinCSTest",
 	"pools" : [
 		 ],

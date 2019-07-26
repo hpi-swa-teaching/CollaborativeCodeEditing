@@ -1,12 +1,3 @@
 methodedit tests
 testBuildCCEMethodModifiedEdit
-	| event edit methodText |
-	
-	methodText := (CCETestDummy compiledMethodAt: #testMethod) getSource.
-	event := ModifiedEvent method: (CCETestDummy compiledMethodAt: #testMethod) class: CCETestDummy.
-	
-	edit := CCEEditBuilder buildMethodEditFrom: event.
-	
-	self assert: edit editContent equals: methodText.
-	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.
-	self assert: (edit isKindOf: CCEMethodAddedOrModifiedEdit)
+	self continueCCEMethodAddedOrModifiedTestFrom: ( ModifiedEvent method: (CCETestDummy compiledMethodAt: #testMethod) class: CCETestDummy)

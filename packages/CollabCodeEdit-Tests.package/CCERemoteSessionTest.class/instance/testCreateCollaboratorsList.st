@@ -1,16 +1,9 @@
 tests
 testCreateCollaboratorsList	
-	| expectedList | 
+	remoteSession addClient: (CCERemoteClient new identifier: 'aKey'; isConsistent: true).
+	remoteSession addClient: (CCERemoteClient new identifier: 'anotherKey'; isConsistent: false).
 	
-	expectedList := OrderedCollection newFrom: {
-		OrderedDictionary newFrom: { #id -> 'aKey' . #isConsistent -> true }.
-		OrderedDictionary newFrom: { #id -> 'anotherKey' . #isConsistent -> false } }.
-	
-	remoteSession addClient: (CCERemoteClient new
-		identifier: 'aKey';
-		isConsistent: true).
-	remoteSession addClient: (CCERemoteClient new
-		identifier: 'anotherKey';
-		isConsistent: false).
-	
-	self assert: (expectedList = remoteSession createCollaboratorsListWithConsistencies)
+	self assert: (remoteSession createCollaboratorsListWithConsistencies =  
+		(OrderedCollection newFrom: {
+			OrderedDictionary newFrom: { #id -> 'aKey' . #isConsistent -> true }.
+			OrderedDictionary newFrom: { #id -> 'anotherKey' . #isConsistent -> false } }))

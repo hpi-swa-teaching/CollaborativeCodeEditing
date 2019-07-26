@@ -7,7 +7,7 @@ testSetSelectionOfCollaborator
 		#classSelection -> #testClass .
 		#methodSelection -> #testMethod}. 
 		
-	self assert: testCollaborator currentSelection = nil.
+	self assert: testCollaborator currentSelection isNil.
 	session addCollaboratorFromAccount: account.
 	session setSelectionOfCollaborator: testIdentifier to: newSelection.
 	self assert: (session collaborators at: testIdentifier) currentSelectionAsDictionary equals: newSelection

@@ -1,8 +1,5 @@
 requests backend
 testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount
-	| ackCreateSessionMessage |
-	ackCreateSessionMessage := CCEMessage ackCreateSession: #testToken.
+	model receive: (CCEMessage ackCreateSession: #testToken) serialize.
 	
-	model receive: ackCreateSessionMessage serialize.
-	
-	self assert: (session collaborators at: testIdentifier) identifier = imageAccount humanReadableName
+	self assert: (session collaborators at: imageAccount humanReadableName) identifier = imageAccount humanReadableName

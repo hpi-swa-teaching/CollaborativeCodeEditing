@@ -3,8 +3,7 @@
 		 },
 	"instance" : {
 		"generateChangeSelectionPayload" : "MS 7/1/2019 16:35",
-		"subClassSpecificSetUp" : "AD 7/14/2019 20:50",
-		"subClassSpecificTearDown" : "SS 6/23/2019 15:39",
-		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "MS 7/1/2019 16:33",
-		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "MS 7/1/2019 16:33",
-		"testUpdateSelectionTriggersChangeSelectionMessage" : "PB 7/26/2019 08:57" } }
+		"setUp" : "AD 7/27/2019 00:22",
+		"testChangeSelectionUpdatesSelectionInCollaboratorsList" : "AD 7/26/2019 22:16",
+		"testUpdateSelectionFillsCCESelectionWithCorrectSelectionSymbols" : "AD 7/26/2019 22:16",
+		"testUpdateSelectionTriggersChangeSelectionMessage" : "AD 7/26/2019 23:24" } }

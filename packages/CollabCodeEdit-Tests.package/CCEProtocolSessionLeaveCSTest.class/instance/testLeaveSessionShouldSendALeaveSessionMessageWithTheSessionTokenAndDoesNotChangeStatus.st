@@ -1,13 +1,10 @@
 requests ui
 testLeaveSessionShouldSendALeaveSessionMessageWithTheSessionTokenAndDoesNotChangeStatus
-	| expectedMessage statusBeforeLeaveAction | 	
-	
-	expectedMessage := CCEMessage leaveSessionWith: testToken.
-	model session token: testToken.
-	
+	| statusBeforeLeaveAction | 	
+
+	model session token: 'aTestToken'.
 	statusBeforeLeaveAction := session getStatus.
 	
 	model leaveSession.
-	
-	self assert: (networkInterface hasMessage: expectedMessage serialize).
+	self assert: (networkInterface hasMessage: (CCEMessage leaveSessionWith: 'aTestToken') serialize).
 	self assert: (statusBeforeLeaveAction = session getStatus)
