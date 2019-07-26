@@ -1,5 +1,6 @@
 running
-subClassSpecificSetUp
+setUp
+	super setUp.
 
 	testPayloadCollaboratorsList := OrderedCollection newFrom: {
 		OrderedDictionary newFrom: {#id->'aKey' . #isConsistent -> true} .

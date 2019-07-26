@@ -2,8 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"subClassSpecificSetUp" : "SS 6/22/2019 15:00",
-		"subClassSpecificTearDown" : "SS 6/23/2019 15:55",
-		"tearDown" : "SS 6/10/2019 19:12",
 		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "AW 6/29/2019 23:35",
 		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 6/10/2019 19:14" } }

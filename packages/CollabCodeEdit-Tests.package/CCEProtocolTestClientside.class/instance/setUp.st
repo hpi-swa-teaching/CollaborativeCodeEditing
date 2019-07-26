@@ -21,5 +21,3 @@ setUp
 	testPackages := #('Traits').
 	testToken := #testToken.
 	testChecksum := CCEPackageManager default hashPackages: testPackages.
-		
-	self subClassSpecificSetUp
