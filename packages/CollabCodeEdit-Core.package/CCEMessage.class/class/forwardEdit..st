@@ -1,5 +1,5 @@
 server-Message creation
 forwardEdit: aCCEEdit
 	^ self
-		new: (CCEMessage serverMessageTypes at: #receiveEdit:) 
+		new: #receiveEdit:
 		with: { #edit -> aCCEEdit }

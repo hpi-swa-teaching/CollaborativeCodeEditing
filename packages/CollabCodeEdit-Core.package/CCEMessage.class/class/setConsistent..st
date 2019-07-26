@@ -1,5 +1,5 @@
 client-Message creation
 setConsistent: aBoolean
 	^ self
-		new: (CCEMessage clientMessageTypes at: #setConsistent:from:) 
+		new: #setConsistent:from:
 		with: { #isConsistent -> aBoolean }

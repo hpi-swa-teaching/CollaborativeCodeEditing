@@ -1,5 +1,5 @@
 client-Message creation
 createSessionWith: anOrderedDictionary
 	^ self
-		new: (CCEMessage clientMessageTypes at: #createSessionWith:from:) 
+		new: #createSessionWith:from:
 		with: anOrderedDictionary

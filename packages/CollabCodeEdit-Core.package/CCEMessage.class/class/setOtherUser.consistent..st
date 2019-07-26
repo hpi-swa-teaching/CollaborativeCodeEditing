@@ -1,5 +1,5 @@
 server-Message creation
 setOtherUser: aString consistent: aBoolean
 	^ self
-		new: (CCEMessage serverMessageTypes at: #setOtherUserConsistent:) 
+		new: #setOtherUserConsistent:
 		with: { #id -> aString . #isConsistent -> aBoolean }

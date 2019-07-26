@@ -1,5 +1,5 @@
 server-Message creation
 ackJoinSession
 	^ self
-		new: (CCEMessage serverMessageTypes at: #ackJoinSession:)
+		new: #ackJoinSession:
 		with: nil

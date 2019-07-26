@@ -1,5 +1,5 @@
 server-Message creation
 ackJoinSession: aTokenString
 	^ self
-		new: (CCEMessage serverMessageTypes at: #ackJoinSession:)
+		new: #ackJoinSession:
 		with: { #token -> aTokenString }

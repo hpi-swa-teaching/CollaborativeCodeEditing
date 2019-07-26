@@ -8,6 +8,6 @@ testUpdateSelectionTriggersChangeSelectionMessage
 	
 	cceSelection updateSelectionWith: browser.
 	
-	self assert: ( networkInterface hasMessageOfType: ( CCEMessage clientMessageTypes at: #changeSelection:from: ) ).
+	self assert: (networkInterface hasMessageOfType: #changeSelection:from:).
 	
 	networkInterface clear

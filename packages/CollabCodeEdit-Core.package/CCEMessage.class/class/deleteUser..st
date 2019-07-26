@@ -1,5 +1,5 @@
 server-Message creation
 deleteUser: aString
 	^ CCEMessage
-		new: (CCEMessage serverMessageTypes at: #deleteUser:)
+		new: #deleteUser:
 		with: { #id -> aString }

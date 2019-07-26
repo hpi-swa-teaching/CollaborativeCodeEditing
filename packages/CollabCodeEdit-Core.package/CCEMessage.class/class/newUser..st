@@ -1,5 +1,5 @@
 server-Message creation
 newUser: aString
 	^ self
-		new: (CCEMessage serverMessageTypes at: #newUser:)
+		new: #newUser:
 		with: { #id -> aString }
