@@ -1,10 +1,8 @@
 requests backend
 testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect
-	| ackCreateSessionMessage createdCollaborator |
-	ackCreateSessionMessage := CCEMessage ackCreateSession: #testToken.
-	
-	model receive: ackCreateSessionMessage serialize.
-	
+	| createdCollaborator |
+
+	model receive:  (CCEMessage ackCreateSession: #testToken) serialize.
 	createdCollaborator := session collaborators at: testIdentifier.
 	
 	self assert: (createdCollaborator identifier = imageAccount humanReadableName).

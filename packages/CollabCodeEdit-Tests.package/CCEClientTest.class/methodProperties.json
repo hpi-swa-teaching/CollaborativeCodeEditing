@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "SS 6/30/2019 20:21",
-		"testClientHasHeartBeatAndHimselfRegistered" : "SS 7/1/2019 11:34",
-		"testDefaultShouldAlwaysReturnTheSameInstance" : "SS 6/30/2019 20:20" } }
+		"testClientDefaultUriIsServerIP" : "AD 7/14/2019 23:42",
+		"testClientHasHeartBeatAndHimselfRegistered" : "AW 7/26/2019 14:24",
+		"testDefaultShouldAlwaysReturnTheSameInstance" : "SS 6/30/2019 20:20",
+		"testclientHeartbeatEngineIsCreatedIfUnset" : "AW 7/26/2019 14:26" } }

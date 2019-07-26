@@ -7,6 +7,6 @@ testAckJoinSessionCleanStateFillsSessionWithCorrectChecksumAndScope
 	model receive: ackJoinSessionMessage serialize.
 	
 	self assert: testPackages equals: session scope.
-	self assert: (CCEPackageManager default hashPackages: testPackages) equals: session checksum. 	
+	self assert: (CCEPackageHasher hashPackages: testPackages) equals: session checksum. 	
 	
 	networkInterface clear

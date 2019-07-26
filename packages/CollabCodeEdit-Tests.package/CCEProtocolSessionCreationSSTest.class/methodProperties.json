@@ -6,4 +6,4 @@
 		"subClassSpecificTearDown" : "SS 6/23/2019 15:55",
 		"tearDown" : "SS 6/10/2019 19:12",
 		"testCreateSessionIsCalledAndClientGetsBackAckCreateSessionMessageWithSessionToken" : "PB 7/26/2019 09:00",
-		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "SS 6/10/2019 19:14" } }
+		"testCreateSessionIsCalledAndCreatesCorrectlyFilledSessionAndClientAsFirstClient" : "AW 7/25/2019 22:07" } }

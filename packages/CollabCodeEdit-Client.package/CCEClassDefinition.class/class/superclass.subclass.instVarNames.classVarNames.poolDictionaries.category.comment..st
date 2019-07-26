@@ -1,10 +1,10 @@
 instance creation
-superclass: aClass subclass: aSymbol instVarNames: instVarString classVarNames: classVarString poolDictionaries: poolDictString category: categoryString comment: commentString
+superclass: aClass subclass: aSymbol instVarNames: anInstanceVariableString classVarNames: aClassVariableString poolDictionaries: aPoolDictionaryString category: aCategoryString comment: aCommentString
 	^ self new
 		superclass: aClass;
 		subclass: aSymbol;
-		instVarNames: instVarString;
-		classVarNames: classVarString;
-		poolDictionaries: poolDictString;
-		category: categoryString;
-		comment: commentString
+		instVarNames: anInstanceVariableString;
+		classVarNames: aClassVariableString;
+		poolDictionaries: aPoolDictionaryString;
+		category: aCategoryString;
+		comment: aCommentString

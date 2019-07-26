@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"modelSetUp" : "SS 5/30/2019 12:26",
-		"modelUnderTestClass" : "SS 5/27/2019 16:50",
+		"modelUnderTestClass" : "AW 7/26/2019 20:18",
 		"testBuildButtonsReturnsCollectionOfThreeButtons" : "ST 5/15/2019 15:06",
 		"testBuildChildrenShouldBuildMoreThan3Buttons" : "ST 5/19/2019 12:15",
 		"testBuildCreateSessionButtonAsDisabled" : "MS 7/25/2019 10:41",
@@ -21,6 +21,7 @@
 		"testCleanRemoteSessionAndServerConnectionEstablished" : "MS 7/25/2019 10:49",
 		"testClientDependencyInjectionWithModelInitialization" : "AW 6/1/2019 23:21",
 		"testCreateSessionOpensNewWindowWithCCECreateSessionAsModel" : "SS 5/27/2019 17:10",
+		"testErrorOnErrorMessage" : "AW 7/26/2019 20:24",
 		"testModelUnderstandsButtonsActions" : "SS 5/30/2019 12:24",
 		"testNewModelInstanceIsInitializedCorrectly" : "SS 7/22/2019 12:52",
 		"testNoSessionLoadedAndNoServerConnectionEstablished" : "MS 7/25/2019 10:51",

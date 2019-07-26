@@ -1,3 +1,3 @@
 accessing
-status: anObject
-	status := anObject
+status: aCCESessionStatus
+	status := aCCESessionStatus

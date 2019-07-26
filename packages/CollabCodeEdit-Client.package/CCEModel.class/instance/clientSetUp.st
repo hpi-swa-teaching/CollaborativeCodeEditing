@@ -1,6 +1,7 @@
 initialize-release
 clientSetUp
-	self client 
+	self
+		client 
 		addStatusSubscriber: self;
-		owner: self.
-	self client ui session: self session
+		model: self.
+	self client clientUI session: self session

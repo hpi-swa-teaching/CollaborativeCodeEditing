@@ -1,8 +1,5 @@
 selection managment
 changeSelectionWith: anOrderedDictionary
-	| identifier selection | 
-	
-	identifier := ( anOrderedDictionary at: #id ).
-	selection := ( anOrderedDictionary at: #selection).
-	
-	self setSelectionOfCollaborator: identifier to: selection
+	self 
+		setSelectionOfCollaborator: (anOrderedDictionary at: #id) 
+		to: (anOrderedDictionary at: #selection)

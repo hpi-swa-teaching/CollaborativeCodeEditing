@@ -1,3 +1,3 @@
 instance creation
 default
-	^ instance ifNil: [ instance := self new]
+	^ instance ifNil: [ instance := self new ]

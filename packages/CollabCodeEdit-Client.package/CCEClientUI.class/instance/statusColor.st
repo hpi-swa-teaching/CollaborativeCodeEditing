@@ -1,3 +1,3 @@
 accessing
 statusColor
-	^ statusColor ifNil: [ statusColor := CCEClientUI notConnectedColor ]
+	^ statusColor ifNil: [ statusColor := self class notConnectedColor ]

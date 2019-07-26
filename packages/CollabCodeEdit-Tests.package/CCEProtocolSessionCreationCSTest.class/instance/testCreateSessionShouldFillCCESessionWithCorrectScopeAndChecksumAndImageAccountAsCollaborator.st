@@ -3,7 +3,7 @@ testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountA
 	| expectedScope expectedChecksum | 	
 	
 	expectedScope := testPackages.
-	expectedChecksum := CCEPackageManager default hashPackages: testPackages. 
+	expectedChecksum := CCEPackageHasher hashPackages: testPackages. 
 		
 	model createSessionWith: testPackages.	
 		

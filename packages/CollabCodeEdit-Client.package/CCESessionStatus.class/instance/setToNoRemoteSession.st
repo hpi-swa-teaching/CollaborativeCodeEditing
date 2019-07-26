@@ -1,4 +1,4 @@
 setting
 setToNoRemoteSession
-	self name: CCESessionStatus noRemoteSession.
+	self name: self class noRemoteSession.
 	self changed: self

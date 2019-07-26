@@ -5,4 +5,4 @@ createSelectionPayload
 			#categorySelection -> self categorySelection .
 			#classSelection -> self classSelection .
 			#methodSelection -> self methodSelection }) .
-		#id -> self imageAccount humanReadableName }
+		#id -> self localAccount humanReadableName }

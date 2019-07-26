@@ -7,5 +7,4 @@ setConsistencyOfCollaborator: aString to: aBoolean
 	aBoolean
 		ifTrue: [ collaborator consistencyState: CCECollaborator isConsistentString ]
 		ifFalse: [ collaborator consistencyState: CCECollaborator isNotConsistentString ].
-	
-	self updateCollaboratorsInUI
+	self changed: #collaboratorsList

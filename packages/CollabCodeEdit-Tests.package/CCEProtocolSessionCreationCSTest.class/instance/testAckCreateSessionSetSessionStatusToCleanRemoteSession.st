@@ -1,8 +1,4 @@
 requests backend
 testAckCreateSessionSetSessionStatusToCleanRemoteSession
-	| ackCreateSessionMessage |
-	
-	ackCreateSessionMessage := CCEMessage ackCreateSession: #testToken.
-	
-	model receive: ackCreateSessionMessage serialize.
+	model receive: (CCEMessage ackCreateSession: #testToken) serialize.
 	self assert: (CCESessionStatus cleanRemoteSession = session getStatus)

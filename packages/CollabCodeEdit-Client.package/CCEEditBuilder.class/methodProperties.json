@@ -1,13 +1,16 @@
 {
 	"class" : {
-		 },
+		"buildClassDefinitionFrom:" : "AD 7/23/2019 13:57",
+		"buildClassEditFrom:" : "AW 7/24/2019 19:38",
+		"buildClassModifiedOrAddedEditFrom:" : "PB 7/26/2019 22:07",
+		"buildClassRemovedEditFrom:" : "AD 7/23/2019 13:47",
+		"buildClassRenamedEditFrom:" : "PB 7/26/2019 22:07",
+		"buildEditFrom:accordingTo:" : "PB 7/26/2019 22:07",
+		"buildMethodEditFrom:" : "AW 7/24/2019 19:39",
+		"buildMethodModifiedOrAddedEditFrom:" : "PB 7/26/2019 22:08",
+		"buildMethodRecategorizedEditFrom:" : "PB 7/26/2019 22:08",
+		"buildMethodRemovedEditFrom:" : "PB 7/26/2019 22:08",
+		"classEditKinds" : "PB 7/26/2019 22:08",
+		"methodEditKinds" : "PB 7/26/2019 22:08" },
 	"instance" : {
-		"buildClassDefinitionFrom:" : "AD 7/14/2019 17:18",
-		"buildClassEditFrom:" : "AD 7/14/2019 17:29",
-		"buildClassModifiedEditFrom:" : "SS 7/10/2019 09:59",
-		"buildClassRemovedEditFrom:" : "AW 7/14/2019 15:11",
-		"buildClassRenamedEditFrom:" : "SS 7/8/2019 10:17",
-		"buildMethodEditFrom:" : "AD 7/14/2019 17:27",
-		"buildMethodModifiedOrAddedEditFrom:" : "SS 7/8/2019 10:33",
-		"buildMethodRecategorizedEditFrom:" : "SS 7/8/2019 10:51",
-		"buildMethodRemovedEditFrom:" : "SS 7/8/2019 10:44" } }
+		 } }

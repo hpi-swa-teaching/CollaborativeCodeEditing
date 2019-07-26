@@ -18,10 +18,10 @@ setUp
 	model account: imageAccount.
 	model session addStatusSubscriber: model.
 	session client: model client.
-	session imageAccount: model account.
+	session localAccount: model account.
 	
 	testPackages := #('Traits').
 	testToken := #testToken.
-	testChecksum := CCEPackageManager default hashPackages: testPackages.
+	testChecksum := CCEPackageHasher hashPackages: testPackages.
 		
 	self subClassSpecificSetUp

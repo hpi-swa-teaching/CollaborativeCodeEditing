@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStepSendsHeartbeatToServer
 	self assert: networkInterface messages isEmpty.
 	

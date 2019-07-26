@@ -1,3 +1,3 @@
 accessing
 stopHeartbeatEngine	
-	self heartbeat stop
+	self heartbeatEngine stop

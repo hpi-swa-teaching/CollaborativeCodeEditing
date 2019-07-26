@@ -1,4 +1,4 @@
 collaborator managment
 removeAllCollaborators
 	self collaborators removeAll.
-	self updateCollaboratorsInUI
+	self changed: #collaboratorsList

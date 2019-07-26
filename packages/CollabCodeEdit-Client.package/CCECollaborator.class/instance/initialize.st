@@ -1,3 +1,3 @@
+initialize-release
 initialize
-initialize
-	self consistencyState: CCECollaborator isUndefinedString
+	self consistencyState: self class isUndefinedString

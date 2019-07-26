@@ -1,3 +1,3 @@
 testing
 mayBeApplied: aCCEEdit
-	^ self packageManager isInScope: aCCEEdit
+	^ self editManager isInScope: aCCEEdit

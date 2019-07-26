@@ -1,6 +1,6 @@
 running
 setUp
-	packageManager := CCEPackageManager new.
+	packageManager := CCEEditManager new.
 	session := CCESession new.
 	session 
 		scope: self sessionScope;
