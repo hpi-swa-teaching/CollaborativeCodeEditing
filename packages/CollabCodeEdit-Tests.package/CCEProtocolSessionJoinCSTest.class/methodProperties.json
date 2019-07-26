@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AD 7/26/2019 20:56",
+		"setUp" : "AD 7/27/2019 00:24",
 		"testAckJoinSessionCleanStateFillsSessionWithCorrectChecksumAndScope" : "AD 7/26/2019 20:15",
 		"testAckJoinSessionCleanStateParsesCollaboratorsPayloadIntoCollaboratorsListWithOwnAccountAsClear" : "AD 7/26/2019 22:17",
 		"testAckJoinSessionCleanStateSendsSetConsistentTrueToServerAndSetsStatusToCleanRemoteSession" : "AD 7/26/2019 20:15",

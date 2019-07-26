@@ -4,7 +4,7 @@ testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsisten
 	
 	model receive: (CCEMessage ackCreateSession: #testToken) serialize.
 	
-	createdCollaborator := session collaborators at: localAccount humanReadableName.
+	createdCollaborator := session collaborators at: imageAccount humanReadableName.
 	
-	self assert: (createdCollaborator identifier = localAccount humanReadableName).
+	self assert: (createdCollaborator identifier = imageAccount humanReadableName).
 	self assert: CCECollaborator isConsistentString equals: createdCollaborator consistencyState

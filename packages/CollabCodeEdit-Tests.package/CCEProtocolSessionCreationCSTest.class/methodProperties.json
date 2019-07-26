@@ -4,9 +4,9 @@
 	"instance" : {
 		"testAckCreateSessionEnablesLeaveSessionButtonAndDisablesJoinAndCreateSessionButton" : "AD 7/26/2019 15:53",
 		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccount" : "AD 7/26/2019 18:14",
-		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "AD 7/26/2019 18:15",
+		"testAckCreateSessionFillsSessionWithFirstCollaboratorFromAccountAndSetsConsistencyStateCorrect" : "AD 7/27/2019 00:23",
 		"testAckCreateSessionFillsSessionWithServersideGeneratedToken" : "AD 7/26/2019 15:54",
 		"testAckCreateSessionSetSessionStatusToCleanRemoteSession" : "AD 7/26/2019 15:54",
 		"testCreateSessionSetsStatusToNoRemoteSession" : "AD 7/26/2019 17:37",
-		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "AD 7/26/2019 17:36",
-		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "AD 7/26/2019 22:17" } }
+		"testCreateSessionShouldFillCCESessionWithCorrectScopeAndChecksumAndImageAccountAsCollaborator" : "AD 7/27/2019 00:23",
+		"testCreateSessionShouldSendASessionCreationMessageWithCorrectPayload" : "AD 7/27/2019 00:24" } }

@@ -19,8 +19,4 @@ setUp
 	model account: imageAccount.
 	session localAccount: model account.
 	
-	testPackages := #('Traits').
-	testToken := #testToken.
-	testChecksum := CCEPackageHasher hashPackages: testPackages.
-		
-	self subClassSpecificSetUp
+	testPackages := #('Traits')

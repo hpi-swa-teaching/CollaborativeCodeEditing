@@ -2,7 +2,7 @@ running
 setUp
 	super setUp.
 	
-	cceSelection := CCESelection new client: client; imageAccount: imageAccount; yourself.
+	cceSelection := CCESelection new client: client; localAccount: imageAccount; yourself.
 	browser := Browser new setClass: CCESelection selector: #categorySelection.
 	remoteSelection := CCESelection new categorySelection: #testCategory; classSelection: #testClass; methodSelection: #testMethod.
 	remoteId := 'testId'.

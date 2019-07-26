@@ -2,7 +2,7 @@ classedit tests
 continueCCEClassAddedOrCommentedTestFrom: anEvent
 	| edit |
 	
-	edit := builder buildClassModifiedEditFrom: anEvent.
+	edit := builder buildClassEditFrom: anEvent.
 	
 	self assert: (edit editContent equalsClass: CCETestDummy).
 	self assert: (PackageOrganizer default packageOfClass: CCETestDummy) equals: edit package.
