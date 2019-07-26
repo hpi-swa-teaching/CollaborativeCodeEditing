@@ -2,7 +2,7 @@ I am the serverside representation of a connected client.
 
 Everything one wants to send to my client they send through me.
 Even though I receive all messages from my client I don't handle them.
-That is the tasak of the CCEServer, whom has registered himself beforehand.
+That is the task of the CCEServer, who has registered himself beforehand.
 
 I also have some information on my client.
 
@@ -14,13 +14,13 @@ Instance Variables
 	socket:		aWebSocket
 
 identifier
-	- Human readable identifier of user. Corresponds with CCECollaboratos identifier.
+	- Human readable identifier of the user. Corresponds with CCECollaborators identifier.
 
 isConsistent
-	- Wether or not my clients packages are up to date with the packages of the session
+	- Whether or not my client's packages are up to date with the packages of the session.
 
 session
-	- The session my client is in
+	- The session my client is in.
 
 socket
-	- The socket I can use to reach my client
+	- The socket I can use to reach my client.
