@@ -17,7 +17,7 @@
 		"testBuildSessionTokenDisplayWithCCESessionAsModel" : "AW 6/1/2019 23:21",
 		"testBuildWithReturnsWindow" : "AW 6/1/2019 23:21",
 		"testButtonWithLabelShouldReturnAPluggableButtonSpec" : "ST 5/25/2019 17:15",
-		"testClientDependencyInjectionWithModelInitialization" : "AW 6/1/2019 23:21",
+		"testClientDependencyInjectionWithModelInitialization" : "AD 7/26/2019 21:52",
 		"testCreateSessionOpensNewWindowWithCCECreateSessionAsModel" : "SS 5/27/2019 17:10",
 		"testJoinSessionOpensNewWindowWithCCEJoinSessionAsModel" : "SS 5/27/2019 17:09",
 		"testLeaveSessionOpensNewWindowWithCCELeaveSessionAsModel" : "SS 5/27/2019 17:11",

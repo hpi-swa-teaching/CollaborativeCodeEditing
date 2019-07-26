@@ -1,6 +1,5 @@
 running
 setUp
-	
 	model := CCEModel new.
 	session := CCESession new.
 	client := CCEClient new.
