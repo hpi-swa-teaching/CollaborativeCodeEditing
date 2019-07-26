@@ -7,7 +7,6 @@
 		"testBuildButtonsReturnsCollectionOfThreeButtons" : "ST 5/15/2019 15:06",
 		"testBuildChildrenShouldBuildMoreThan3Buttons" : "ST 5/19/2019 12:15",
 		"testBuildCreateSessionButtonAsDisabled" : "MS 7/25/2019 10:41",
-		"testBuildCreateSessionButtonAsEnabled" : "MS 7/25/2019 10:41",
 		"testBuildGlobalStateAccountDisplayWithCCEAccountAsModel" : "AD 6/5/2019 13:14",
 		"testBuildGlobalStateDisplayReturnsCollection" : "AD 6/5/2019 13:14",
 		"testBuildJoinSessionButtonAsDisabled" : "MS 7/25/2019 10:42",
