@@ -6,6 +6,6 @@ CCEcreateSessionWith: anOrderedDictionary from: aCCERemoteClient
 	sessionToken := (self
 		createSessionWith: anOrderedDictionary
 		andCreator: aCCERemoteClient)
-		token.
+			token.
 
 	aCCERemoteClient sendMessage: (CCEMessage ackCreateSession: sessionToken)
